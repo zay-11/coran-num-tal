@@ -1,0 +1,247 @@
+{
+  "source": "99",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 40,
+    "letter_count": 177,
+    "unique_letters": 25,
+    "abjad_total": 17395,
+    "abjad_reduced": 7,
+    "mod_19": 10,
+    "mod_8": 1,
+    "mod_7": 5,
+    "golden_abjad": 10751,
+    "golden_letters": 286,
+    "golden_words": 65,
+    "fib_word": 34,
+    "fib_letter": 144,
+    "fib_abjad": 17711,
+    "fib_word_ratio": 1.1764705882352942,
+    "fib_letter_ratio": 1.2291666666666667,
+    "fib_abjad_ratio": 0.9821579809158151
+  },
+  "signature": {
+    "center": 99,
+    "ring_inner": [
+      99,
+      1,
+      40,
+      177,
+      7,
+      10,
+      5,
+      1
+    ],
+    "ring_outer": [
+      65,
+      286,
+      10751,
+      34,
+      144,
+      17711,
+      2,
+      489
+    ],
+    "reference_number": 99,
+    "ayah_number": 1,
+    "range_number": 8,
+    "golden_bridge": [
+      65,
+      286,
+      10751
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "7105",
+    "65 286 1",
+    "991 34"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 99,
+    "inner_ring": [
+      99,
+      1,
+      40,
+      177,
+      7,
+      10,
+      5,
+      1
+    ],
+    "outer_ring": [
+      65,
+      286,
+      10751,
+      34,
+      144,
+      17711,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=17395"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 61,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 114,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 19,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 10,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 99,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 46.4,
+    "primary_turns": 10,
+    "secondary_turns": 5,
+    "center_code": "99 10751 7",
+    "ring_code": "65 286 34 144",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "7105"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم إذا زلزلت الأرض زلزالها وأخرجت الأرض أثقالها وقال الإنسان ما لها يومئذ تحدث أخبارها بأن ربك أوحى لها يومئذ يصدر الناس أشتاتا ليروا أعمالهم فمن يعمل مثقال ذرة خيرا يره ومن يعمل مثقال ذرة شرا يره",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ إِذا زُلزِلَتِ الأَرضُ زِلزالَها وَأَخرَجَتِ الأَرضُ أَثقالَها وَقالَ الإِنسٰنُ ما لَها يَومَئِذٍ تُحَدِّثُ أَخبارَها بِأَنَّ رَبَّكَ أَوحىٰ لَها يَومَئِذٍ يَصدُرُ النّاسُ أَشتاتًا لِيُرَوا أَعمٰلَهُم فَمَن يَعمَل مِثقالَ ذَرَّةٍ خَيرًا يَرَهُ وَمَن يَعمَل مِثقالَ ذَرَّةٍ شَرًّا يَرَهُ",
+    "sura_name_ar": "الزلزلة",
+    "sura_name_en": "The Earthquake",
+    "sura_translit": "Az-Zalzala",
+    "revelation_place": "Medinan"
+  }
+}

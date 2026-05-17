@@ -1,0 +1,247 @@
+{
+  "source": "86",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 65,
+    "letter_count": 273,
+    "unique_letters": 27,
+    "abjad_total": 17383,
+    "abjad_reduced": 4,
+    "mod_19": 17,
+    "mod_8": 1,
+    "mod_7": 2,
+    "golden_abjad": 10743,
+    "golden_letters": 442,
+    "golden_words": 105,
+    "fib_word": 55,
+    "fib_letter": 233,
+    "fib_abjad": 17711,
+    "fib_word_ratio": 1.1818181818181819,
+    "fib_letter_ratio": 1.1716738197424892,
+    "fib_abjad_ratio": 0.9814804358873017
+  },
+  "signature": {
+    "center": 86,
+    "ring_inner": [
+      86,
+      1,
+      65,
+      273,
+      4,
+      17,
+      2,
+      1
+    ],
+    "ring_outer": [
+      105,
+      442,
+      10743,
+      55,
+      233,
+      17711,
+      2,
+      489
+    ],
+    "reference_number": 86,
+    "ayah_number": 1,
+    "range_number": 17,
+    "golden_bridge": [
+      105,
+      442,
+      10743
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "4172",
+    "105 442 1",
+    "861 55"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 86,
+    "inner_ring": [
+      86,
+      1,
+      65,
+      273,
+      4,
+      17,
+      2,
+      1
+    ],
+    "outer_ring": [
+      105,
+      442,
+      10743,
+      55,
+      233,
+      17711,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=17383"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 99,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 19,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 17,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 86,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 75.4,
+    "primary_turns": 17,
+    "secondary_turns": 3,
+    "center_code": "86 10743 4",
+    "ring_code": "105 442 55 233",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "4172"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم والسماء والطارق وما أدراك ما الطارق النجم الثاقب إن كل نفس لما عليها حافظ فلينظر الإنسان مم خلق خلق من ماء دافق يخرج من بين الصلب والترائب إنه على رجعه لقادر يوم تبلى السرائر فما له من قوة ولا ناصر والسماء ذات الرجع والأرض ذات الصدع إنه لقول فصل وما هو بالهزل إنهم يكيدون كيدا وأكيد كيدا فمهل الكافرين أمهلهم رويدا",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَالسَّماءِ وَالطّارِقِ وَما أَدرىٰكَ مَا الطّارِقُ النَّجمُ الثّاقِبُ إِن كُلُّ نَفسٍ لَمّا عَلَيها حافِظٌ فَليَنظُرِ الإِنسٰنُ مِمَّ خُلِقَ خُلِقَ مِن ماءٍ دافِقٍ يَخرُجُ مِن بَينِ الصُّلبِ وَالتَّرائِبِ إِنَّهُ عَلىٰ رَجعِهِ لَقادِرٌ يَومَ تُبلَى السَّرائِرُ فَما لَهُ مِن قُوَّةٍ وَلا ناصِرٍ وَالسَّماءِ ذاتِ الرَّجعِ وَالأَرضِ ذاتِ الصَّدعِ إِنَّهُ لَقَولٌ فَصلٌ وَما هُوَ بِالهَزلِ إِنَّهُم يَكيدونَ كَيدًا وَأَكيدُ كَيدًا فَمَهِّلِ الكٰفِرينَ أَمهِلهُم رُوَيدًا",
+    "sura_name_ar": "الطارق",
+    "sura_name_en": "The Morning Star",
+    "sura_translit": "At-Taariq",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "source": "76",
+  "domain": {
+    "key": "sante",
+    "label": "Sante / Guerison / Regeneration",
+    "intent": "Apaisement, restauration, discipline du souffle et regeneration symbolique.",
+    "color": "emerald",
+    "geometry": "hexagone central avec anneau 7-19",
+    "references": [
+      "17:82",
+      "26:80",
+      "10:57",
+      "41:44"
+    ],
+    "divine_names": [
+      {
+        "label": "Shafi",
+        "arabic": "يا شافي",
+        "transliteration": "Ya Shafi",
+        "abjad": 402
+      },
+      {
+        "label": "Salam",
+        "arabic": "يا سلام",
+        "transliteration": "Ya Salam",
+        "abjad": 142
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hayy",
+        "arabic": "يا حي",
+        "transliteration": "Ya Hayy",
+        "abjad": 29
+      }
+    ],
+    "grabovoi_seed": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131"
+    ],
+    "anchor_numbers": [
+      7,
+      17,
+      19,
+      41,
+      57,
+      82,
+      99,
+      131,
+      391
+    ]
+  },
+  "metrics": {
+    "word_count": 247,
+    "letter_count": 1106,
+    "unique_letters": 29,
+    "abjad_total": 74318,
+    "abjad_reduced": 5,
+    "mod_19": 9,
+    "mod_8": 2,
+    "mod_7": 2,
+    "golden_abjad": 45931,
+    "golden_letters": 1790,
+    "golden_words": 400,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.0600858369098713,
+    "fib_letter_ratio": 1.1205673758865249,
+    "fib_abjad_ratio": 0.9905764745084972
+  },
+  "signature": {
+    "center": 76,
+    "ring_inner": [
+      76,
+      1,
+      247,
+      1106,
+      5,
+      9,
+      2,
+      2
+    ],
+    "ring_outer": [
+      400,
+      1790,
+      45931,
+      233,
+      987,
+      75025,
+      7,
+      391
+    ],
+    "reference_number": 76,
+    "ayah_number": 1,
+    "range_number": 31,
+    "golden_bridge": [
+      400,
+      1790,
+      45931
+    ]
+  },
+  "grabovoi_bridge": [
+    "918 794 818",
+    "519 714 819",
+    "786 391 131",
+    "592",
+    "400 1790 2",
+    "761 233"
+  ],
+  "talisman": {
+    "geometry": "hexagone central avec anneau 7-19",
+    "color": "emerald",
+    "center": 76,
+    "inner_ring": [
+      76,
+      1,
+      247,
+      1106,
+      5,
+      9,
+      2,
+      2
+    ],
+    "outer_ring": [
+      400,
+      1790,
+      45931,
+      233,
+      987,
+      75025,
+      7,
+      391
+    ],
+    "inscriptions": [
+      "يا شافي",
+      "يا سلام",
+      "يا لطيف",
+      "يا حي",
+      "phi=1.618034",
+      "abjad=74318"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "shafi",
+      "formula": "Ya Shafi",
+      "arabic": "يا شافي",
+      "abjad": 402,
+      "count": 123,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "salam",
+      "formula": "Ya Salam",
+      "arabic": "يا سلام",
+      "abjad": 142,
+      "count": 123,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 11,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "hayy",
+      "formula": "Ya Hayy",
+      "arabic": "يا حي",
+      "abjad": 29,
+      "count": 9,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 76,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 252.8,
+    "primary_turns": 9,
+    "secondary_turns": 3,
+    "center_code": "76 45931 5",
+    "ring_code": "400 1790 233 987",
+    "grabovoi_bridge": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131",
+      "592"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم هل أتى على الإنسان حين من الدهر لم يكن شيئا مذكورا إنا خلقنا الإنسان من نطفة أمشاج نبتليه فجعلناه سميعا بصيرا إنا هديناه السبيل إما شاكرا وإما كفورا إنا أعتدنا للكافرين سلاسل وأغلالا وسعيرا إن الأبرار يشربون من كأس كان مزاجها كافورا عينا يشرب بها عباد الله يفجرونها تفجيرا يوفون بالنذر ويخافون يوما كان شره مستطيرا ويطعمون الطعام على حبه مسكينا ويتيما وأسيرا إنما نطعمكم لوجه الله لا نريد منكم جزاء ولا شكورا إنا نخاف من ربنا يوما عبوسا قمطريرا فوقاهم الله شر ذلك اليوم ولقاهم نضرة وسرورا وجزاهم بما صبروا جنة وحريرا متكئين فيها على الأرائك لا يرون فيها شمسا ولا زمهريرا ودانية عليهم ظلالها وذللت قطوفها تذليلا ويطاف عليهم بآنية من فضة وأكواب كانت قواريرا قوارير من فضة قدروها تقديرا ويسقون فيها كأسا كان مزاجها زنجبيلا عينا فيها تسمى سلسبيلا ويطوف عليهم ولدان مخلدون إذا رأيتهم حسبتهم لؤلؤا منثورا وإذا رأيت ثم رأيت نعيما وملكا كبيرا عاليهم ثياب سندس خضر وإستبرق وحلوا أساور من فضة وسقاهم ربهم شرابا طهورا إن هذا كان لكم جزاء وكان سعيكم مشكورا إنا نحن نزلنا عليك القرآن تنزيلا فاصبر لحكم ربك ولا تطع منهم آثما أو كفورا واذكر اسم ربك بكرة وأصيلا ومن الليل فاسجد له وسبحه ليلا طويلا إن هؤلاء يحبون العاجلة ويذرون وراءهم يوما ثقيلا نحن خلقناهم وشددنا أسرهم وإذا شئنا بدلنا أمثالهم تبديلا إن هذه تذكرة فمن شاء اتخذ إلى ربه سبيلا وما تشاءون إلا أن يشاء الله إن الله كان عليما حكيما يدخل من يشاء في رحمته والظالمين أعد لهم عذابا أليما",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ هَل أَتىٰ عَلَى الإِنسٰنِ حينٌ مِنَ الدَّهرِ لَم يَكُن شَيـًٔا مَذكورًا إِنّا خَلَقنَا الإِنسٰنَ مِن نُطفَةٍ أَمشاجٍ نَبتَليهِ فَجَعَلنٰهُ سَميعًا بَصيرًا إِنّا هَدَينٰهُ السَّبيلَ إِمّا شاكِرًا وَإِمّا كَفورًا إِنّا أَعتَدنا لِلكٰفِرينَ سَلٰسِلَا۟ وَأَغلٰلًا وَسَعيرًا إِنَّ الأَبرارَ يَشرَبونَ مِن كَأسٍ كانَ مِزاجُها كافورًا عَينًا يَشرَبُ بِها عِبادُ اللَّهِ يُفَجِّرونَها تَفجيرًا يوفونَ بِالنَّذرِ وَيَخافونَ يَومًا كانَ شَرُّهُ مُستَطيرًا وَيُطعِمونَ الطَّعامَ عَلىٰ حُبِّهِ مِسكينًا وَيَتيمًا وَأَسيرًا إِنَّما نُطعِمُكُم لِوَجهِ اللَّهِ لا نُريدُ مِنكُم جَزاءً وَلا شُكورًا إِنّا نَخافُ مِن رَبِّنا يَومًا عَبوسًا قَمطَريرًا فَوَقىٰهُمُ اللَّهُ شَرَّ ذٰلِكَ اليَومِ وَلَقّىٰهُم نَضرَةً وَسُرورًا وَجَزىٰهُم بِما صَبَروا جَنَّةً وَحَريرًا مُتَّكِـٔينَ فيها عَلَى الأَرائِكِ لا يَرَونَ فيها شَمسًا وَلا زَمهَريرًا وَدانِيَةً عَلَيهِم ظِلٰلُها وَذُلِّلَت قُطوفُها تَذليلًا وَيُطافُ عَلَيهِم بِـٔانِيَةٍ مِن فِضَّةٍ وَأَكوابٍ كانَت قَواريرا۠ قَواريرَا۟ مِن فِضَّةٍ قَدَّروها تَقديرًا وَيُسقَونَ فيها كَأسًا كانَ مِزاجُها زَنجَبيلًا عَينًا فيها تُسَمّىٰ سَلسَبيلًا وَيَطوفُ عَلَيهِم وِلدٰنٌ مُخَلَّدونَ إِذا رَأَيتَهُم حَسِبتَهُم لُؤلُؤًا مَنثورًا وَإِذا رَأَيتَ ثَمَّ رَأَيتَ نَعيمًا وَمُلكًا كَبيرًا عٰلِيَهُم ثِيابُ سُندُسٍ خُضرٌ وَإِستَبرَقٌ وَحُلّوا أَساوِرَ مِن فِضَّةٍ وَسَقىٰهُم رَبُّهُم شَرابًا طَهورًا إِنَّ هٰذا كانَ لَكُم جَزاءً وَكانَ سَعيُكُم مَشكورًا إِنّا نَحنُ نَزَّلنا عَلَيكَ القُرءانَ تَنزيلًا فَاصبِر لِحُكمِ رَبِّكَ وَلا تُطِع مِنهُم ءاثِمًا أَو كَفورًا وَاذكُرِ اسمَ رَبِّكَ بُكرَةً وَأَصيلًا وَمِنَ الَّيلِ فَاسجُد لَهُ وَسَبِّحهُ لَيلًا طَويلًا إِنَّ هٰؤُلاءِ يُحِبّونَ العاجِلَةَ وَيَذَرونَ وَراءَهُم يَومًا ثَقيلًا نَحنُ خَلَقنٰهُم وَشَدَدنا أَسرَهُم وَإِذا شِئنا بَدَّلنا أَمثٰلَهُم تَبديلًا إِنَّ هٰذِهِ تَذكِرَةٌ فَمَن شاءَ اتَّخَذَ إِلىٰ رَبِّهِ سَبيلًا وَما تَشاءونَ إِلّا أَن يَشاءَ اللَّهُ إِنَّ اللَّهَ كانَ عَليمًا حَكيمًا يُدخِلُ مَن يَشاءُ فى رَحمَتِهِ وَالظّٰلِمينَ أَعَدَّ لَهُم عَذابًا أَليمًا",
+    "sura_name_ar": "الانسان",
+    "sura_name_en": "Man",
+    "sura_translit": "Al-Insaan",
+    "revelation_place": "Medinan"
+  }
+}

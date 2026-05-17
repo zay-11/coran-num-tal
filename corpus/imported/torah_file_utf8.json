@@ -1,0 +1,16 @@
+{
+  "corpus_id": "torah_file_utf8",
+  "name": "Torah File UTF8",
+  "scheme": "hebrew_gematria",
+  "description": "Import depuis fichier UTF-8",
+  "entries": [
+    {
+      "ref": "Gen1:1",
+      "text": "בראשית ברא אלהים"
+    },
+    {
+      "ref": "Gen1:2",
+      "text": "והארץ היתה תהו"
+    }
+  ]
+}

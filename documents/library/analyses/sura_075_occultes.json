@@ -1,0 +1,248 @@
+{
+  "source": "75",
+  "domain": {
+    "key": "occultes",
+    "label": "Asrar / Voiles / Perception du cache",
+    "intent": "Travail sur le sens voile, l'intuition, les synchronicites et le discernement invisible.",
+    "color": "midnight",
+    "geometry": "octogone noir + centre lunaire",
+    "references": [
+      "18:65",
+      "27:40",
+      "72:26-27",
+      "20:114"
+    ],
+    "divine_names": [
+      {
+        "label": "Batin",
+        "arabic": "يا باطن",
+        "transliteration": "Ya Batin",
+        "abjad": 73
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186"
+    ],
+    "anchor_numbers": [
+      18,
+      20,
+      27,
+      40,
+      65,
+      72,
+      114,
+      129,
+      186
+    ]
+  },
+  "metrics": {
+    "word_count": 168,
+    "letter_count": 695,
+    "unique_letters": 28,
+    "abjad_total": 49854,
+    "abjad_reduced": 3,
+    "mod_19": 17,
+    "mod_8": 7,
+    "mod_7": 7,
+    "golden_abjad": 30811,
+    "golden_letters": 1125,
+    "golden_words": 272,
+    "fib_word": 144,
+    "fib_letter": 610,
+    "fib_abjad": 46368,
+    "fib_word_ratio": 1.1666666666666667,
+    "fib_letter_ratio": 1.139344262295082,
+    "fib_abjad_ratio": 1.0751811594202898
+  },
+  "signature": {
+    "center": 75,
+    "ring_inner": [
+      75,
+      1,
+      168,
+      695,
+      3,
+      17,
+      7,
+      7
+    ],
+    "ring_outer": [
+      272,
+      1125,
+      30811,
+      144,
+      610,
+      46368,
+      18,
+      186
+    ],
+    "reference_number": 75,
+    "ayah_number": 1,
+    "range_number": 40,
+    "golden_bridge": [
+      272,
+      1125,
+      30811
+    ]
+  },
+  "grabovoi_bridge": [
+    "1840 7227",
+    "2740 651",
+    "786 129 186",
+    "3177",
+    "272 1125 7",
+    "751 144"
+  ],
+  "talisman": {
+    "geometry": "octogone noir + centre lunaire",
+    "color": "midnight",
+    "center": 75,
+    "inner_ring": [
+      75,
+      1,
+      168,
+      695,
+      3,
+      17,
+      7,
+      7
+    ],
+    "outer_ring": [
+      272,
+      1125,
+      30811,
+      144,
+      610,
+      46368,
+      18,
+      186
+    ],
+    "inscriptions": [
+      "يا باطن",
+      "يا لطيف",
+      "يا حكيم",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=49854"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "batin",
+      "formula": "Ya Batin",
+      "arabic": "يا باطن",
+      "abjad": 73,
+      "count": 123,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 123,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 33,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 17,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 75,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 178.6,
+    "primary_turns": 17,
+    "secondary_turns": 7,
+    "center_code": "75 30811 3",
+    "ring_code": "272 1125 144 610",
+    "grabovoi_bridge": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186",
+      "3177"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم لا أقسم بيوم القيامة ولا أقسم بالنفس اللوامة أيحسب الإنسان ألن نجمع عظامه بلى قادرين على أن نسوي بنانه بل يريد الإنسان ليفجر أمامه يسأل أيان يوم القيامة فإذا برق البصر وخسف القمر وجمع الشمس والقمر يقول الإنسان يومئذ أين المفر كلا لا وزر إلى ربك يومئذ المستقر ينبأ الإنسان يومئذ بما قدم وأخر بل الإنسان على نفسه بصيرة ولو ألقى معاذيره لا تحرك به لسانك لتعجل به إن علينا جمعه وقرآنه فإذا قرأناه فاتبع قرآنه ثم إن علينا بيانه كلا بل تحبون العاجلة وتذرون الآخرة وجوه يومئذ ناضرة إلى ربها ناظرة ووجوه يومئذ باسرة تظن أن يفعل بها فاقرة كلا إذا بلغت التراقي وقيل من راق وظن أنه الفراق والتفت الساق بالساق إلى ربك يومئذ المساق فلا صدق ولا صلى ولكن كذب وتولى ثم ذهب إلى أهله يتمطى أولى لك فأولى ثم أولى لك فأولى أيحسب الإنسان أن يترك سدى ألم يك نطفة من مني يمنى ثم كان علقة فخلق فسوى فجعل منه الزوجين الذكر والأنثى أليس ذلك بقادر على أن يحيي الموتى",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ لا أُقسِمُ بِيَومِ القِيٰمَةِ وَلا أُقسِمُ بِالنَّفسِ اللَّوّامَةِ أَيَحسَبُ الإِنسٰنُ أَلَّن نَجمَعَ عِظامَهُ بَلىٰ قٰدِرينَ عَلىٰ أَن نُسَوِّىَ بَنانَهُ بَل يُريدُ الإِنسٰنُ لِيَفجُرَ أَمامَهُ يَسـَٔلُ أَيّانَ يَومُ القِيٰمَةِ فَإِذا بَرِقَ البَصَرُ وَخَسَفَ القَمَرُ وَجُمِعَ الشَّمسُ وَالقَمَرُ يَقولُ الإِنسٰنُ يَومَئِذٍ أَينَ المَفَرُّ كَلّا لا وَزَرَ إِلىٰ رَبِّكَ يَومَئِذٍ المُستَقَرُّ يُنَبَّؤُا۟ الإِنسٰنُ يَومَئِذٍ بِما قَدَّمَ وَأَخَّرَ بَلِ الإِنسٰنُ عَلىٰ نَفسِهِ بَصيرَةٌ وَلَو أَلقىٰ مَعاذيرَهُ لا تُحَرِّك بِهِ لِسانَكَ لِتَعجَلَ بِهِ إِنَّ عَلَينا جَمعَهُ وَقُرءانَهُ فَإِذا قَرَأنٰهُ فَاتَّبِع قُرءانَهُ ثُمَّ إِنَّ عَلَينا بَيانَهُ كَلّا بَل تُحِبّونَ العاجِلَةَ وَتَذَرونَ الـٔاخِرَةَ وُجوهٌ يَومَئِذٍ ناضِرَةٌ إِلىٰ رَبِّها ناظِرَةٌ وَوُجوهٌ يَومَئِذٍ باسِرَةٌ تَظُنُّ أَن يُفعَلَ بِها فاقِرَةٌ كَلّا إِذا بَلَغَتِ التَّراقِىَ وَقيلَ مَن راقٍ وَظَنَّ أَنَّهُ الفِراقُ وَالتَفَّتِ السّاقُ بِالسّاقِ إِلىٰ رَبِّكَ يَومَئِذٍ المَساقُ فَلا صَدَّقَ وَلا صَلّىٰ وَلٰكِن كَذَّبَ وَتَوَلّىٰ ثُمَّ ذَهَبَ إِلىٰ أَهلِهِ يَتَمَطّىٰ أَولىٰ لَكَ فَأَولىٰ ثُمَّ أَولىٰ لَكَ فَأَولىٰ أَيَحسَبُ الإِنسٰنُ أَن يُترَكَ سُدًى أَلَم يَكُ نُطفَةً مِن مَنِىٍّ يُمنىٰ ثُمَّ كانَ عَلَقَةً فَخَلَقَ فَسَوّىٰ فَجَعَلَ مِنهُ الزَّوجَينِ الذَّكَرَ وَالأُنثىٰ أَلَيسَ ذٰلِكَ بِقٰدِرٍ عَلىٰ أَن يُحـِۧىَ المَوتىٰ",
+    "sura_name_ar": "القيامة",
+    "sura_name_en": "The Resurrection",
+    "sura_translit": "Al-Qiyaama",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "source": "77",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 185,
+    "letter_count": 860,
+    "unique_letters": 29,
+    "abjad_total": 72616,
+    "abjad_reduced": 4,
+    "mod_19": 17,
+    "mod_8": 4,
+    "mod_7": 3,
+    "golden_abjad": 44879,
+    "golden_letters": 1392,
+    "golden_words": 299,
+    "fib_word": 144,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.2847222222222223,
+    "fib_letter_ratio": 0.8713272543059777,
+    "fib_abjad_ratio": 0.967890703098967
+  },
+  "signature": {
+    "center": 77,
+    "ring_inner": [
+      77,
+      1,
+      185,
+      860,
+      4,
+      17,
+      3,
+      4
+    ],
+    "ring_outer": [
+      299,
+      1392,
+      44879,
+      144,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "reference_number": 77,
+    "ayah_number": 1,
+    "range_number": 50,
+    "golden_bridge": [
+      299,
+      1392,
+      44879
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "4173",
+    "299 1392 4",
+    "771 144"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 77,
+    "inner_ring": [
+      77,
+      1,
+      185,
+      860,
+      4,
+      17,
+      3,
+      4
+    ],
+    "outer_ring": [
+      299,
+      1392,
+      44879,
+      144,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=72616"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 21,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 17,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 77,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 195.3,
+    "primary_turns": 17,
+    "secondary_turns": 3,
+    "center_code": "77 44879 4",
+    "ring_code": "299 1392 144 987",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "4173"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم والمرسلات عرفا فالعاصفات عصفا والناشرات نشرا فالفارقات فرقا فالملقيات ذكرا عذرا أو نذرا إنما توعدون لواقع فإذا النجوم طمست وإذا السماء فرجت وإذا الجبال نسفت وإذا الرسل أقتت لأي يوم أجلت ليوم الفصل وما أدراك ما يوم الفصل ويل يومئذ للمكذبين ألم نهلك الأولين ثم نتبعهم الآخرين كذلك نفعل بالمجرمين ويل يومئذ للمكذبين ألم نخلقكم من ماء مهين فجعلناه في قرار مكين إلى قدر معلوم فقدرنا فنعم القادرون ويل يومئذ للمكذبين ألم نجعل الأرض كفاتا أحياء وأمواتا وجعلنا فيها رواسي شامخات وأسقيناكم ماء فراتا ويل يومئذ للمكذبين انطلقوا إلى ما كنتم به تكذبون انطلقوا إلى ظل ذي ثلاث شعب لا ظليل ولا يغني من اللهب إنها ترمي بشرر كالقصر كأنه جمالت صفر ويل يومئذ للمكذبين هذا يوم لا ينطقون ولا يؤذن لهم فيعتذرون ويل يومئذ للمكذبين هذا يوم الفصل جمعناكم والأولين فإن كان لكم كيد فكيدون ويل يومئذ للمكذبين إن المتقين في ظلال وعيون وفواكه مما يشتهون كلوا واشربوا هنيئا بما كنتم تعملون إنا كذلك نجزي المحسنين ويل يومئذ للمكذبين كلوا وتمتعوا قليلا إنكم مجرمون ويل يومئذ للمكذبين وإذا قيل لهم اركعوا لا يركعون ويل يومئذ للمكذبين فبأي حديث بعده يؤمنون",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَالمُرسَلٰتِ عُرفًا فَالعٰصِفٰتِ عَصفًا وَالنّٰشِرٰتِ نَشرًا فَالفٰرِقٰتِ فَرقًا فَالمُلقِيٰتِ ذِكرًا عُذرًا أَو نُذرًا إِنَّما توعَدونَ لَوٰقِعٌ فَإِذَا النُّجومُ طُمِسَت وَإِذَا السَّماءُ فُرِجَت وَإِذَا الجِبالُ نُسِفَت وَإِذَا الرُّسُلُ أُقِّتَت لِأَىِّ يَومٍ أُجِّلَت لِيَومِ الفَصلِ وَما أَدرىٰكَ ما يَومُ الفَصلِ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ أَلَم نُهلِكِ الأَوَّلينَ ثُمَّ نُتبِعُهُمُ الـٔاخِرينَ كَذٰلِكَ نَفعَلُ بِالمُجرِمينَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ أَلَم نَخلُقكُم مِن ماءٍ مَهينٍ فَجَعَلنٰهُ فى قَرارٍ مَكينٍ إِلىٰ قَدَرٍ مَعلومٍ فَقَدَرنا فَنِعمَ القٰدِرونَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ أَلَم نَجعَلِ الأَرضَ كِفاتًا أَحياءً وَأَموٰتًا وَجَعَلنا فيها رَوٰسِىَ شٰمِخٰتٍ وَأَسقَينٰكُم ماءً فُراتًا وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ انطَلِقوا إِلىٰ ما كُنتُم بِهِ تُكَذِّبونَ انطَلِقوا إِلىٰ ظِلٍّ ذى ثَلٰثِ شُعَبٍ لا ظَليلٍ وَلا يُغنى مِنَ اللَّهَبِ إِنَّها تَرمى بِشَرَرٍ كَالقَصرِ كَأَنَّهُ جِمٰلَتٌ صُفرٌ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ هٰذا يَومُ لا يَنطِقونَ وَلا يُؤذَنُ لَهُم فَيَعتَذِرونَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ هٰذا يَومُ الفَصلِ جَمَعنٰكُم وَالأَوَّلينَ فَإِن كانَ لَكُم كَيدٌ فَكيدونِ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ إِنَّ المُتَّقينَ فى ظِلٰلٍ وَعُيونٍ وَفَوٰكِهَ مِمّا يَشتَهونَ كُلوا وَاشرَبوا هَنيـًٔا بِما كُنتُم تَعمَلونَ إِنّا كَذٰلِكَ نَجزِى المُحسِنينَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ كُلوا وَتَمَتَّعوا قَليلًا إِنَّكُم مُجرِمونَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ وَإِذا قيلَ لَهُمُ اركَعوا لا يَركَعونَ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ فَبِأَىِّ حَديثٍ بَعدَهُ يُؤمِنونَ",
+    "sura_name_ar": "المرسلات",
+    "sura_name_en": "The Emissaries",
+    "sura_translit": "Al-Mursalaat",
+    "revelation_place": "Meccan"
+  }
+}

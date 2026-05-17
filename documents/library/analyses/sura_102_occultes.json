@@ -1,0 +1,248 @@
+{
+  "source": "102",
+  "domain": {
+    "key": "occultes",
+    "label": "Asrar / Voiles / Perception du cache",
+    "intent": "Travail sur le sens voile, l'intuition, les synchronicites et le discernement invisible.",
+    "color": "midnight",
+    "geometry": "octogone noir + centre lunaire",
+    "references": [
+      "18:65",
+      "27:40",
+      "72:26-27",
+      "20:114"
+    ],
+    "divine_names": [
+      {
+        "label": "Batin",
+        "arabic": "يا باطن",
+        "transliteration": "Ya Batin",
+        "abjad": 73
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186"
+    ],
+    "anchor_numbers": [
+      18,
+      20,
+      27,
+      40,
+      65,
+      72,
+      114,
+      129,
+      186
+    ]
+  },
+  "metrics": {
+    "word_count": 32,
+    "letter_count": 142,
+    "unique_letters": 20,
+    "abjad_total": 11163,
+    "abjad_reduced": 3,
+    "mod_19": 10,
+    "mod_8": 6,
+    "mod_7": 4,
+    "golden_abjad": 6899,
+    "golden_letters": 230,
+    "golden_words": 52,
+    "fib_word": 34,
+    "fib_letter": 144,
+    "fib_abjad": 10946,
+    "fib_word_ratio": 0.9411764705882353,
+    "fib_letter_ratio": 0.9861111111111112,
+    "fib_abjad_ratio": 1.0198245934587977
+  },
+  "signature": {
+    "center": 102,
+    "ring_inner": [
+      102,
+      1,
+      32,
+      142,
+      3,
+      10,
+      4,
+      6
+    ],
+    "ring_outer": [
+      52,
+      230,
+      6899,
+      34,
+      144,
+      10946,
+      18,
+      186
+    ],
+    "reference_number": 102,
+    "ayah_number": 1,
+    "range_number": 8,
+    "golden_bridge": [
+      52,
+      230,
+      6899
+    ]
+  },
+  "grabovoi_bridge": [
+    "1840 7227",
+    "2740 651",
+    "786 129 186",
+    "3104",
+    "52 230 6",
+    "1021 34"
+  ],
+  "talisman": {
+    "geometry": "octogone noir + centre lunaire",
+    "color": "midnight",
+    "center": 102,
+    "inner_ring": [
+      102,
+      1,
+      32,
+      142,
+      3,
+      10,
+      4,
+      6
+    ],
+    "outer_ring": [
+      52,
+      230,
+      6899,
+      34,
+      144,
+      10946,
+      18,
+      186
+    ],
+    "inscriptions": [
+      "يا باطن",
+      "يا لطيف",
+      "يا حكيم",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=11163"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "batin",
+      "formula": "Ya Batin",
+      "arabic": "يا باطن",
+      "abjad": 73,
+      "count": 55,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 89,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 19,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 10,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 102,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 38.3,
+    "primary_turns": 10,
+    "secondary_turns": 4,
+    "center_code": "102 6899 3",
+    "ring_code": "52 230 34 144",
+    "grabovoi_bridge": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186",
+      "3104"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم ألهاكم التكاثر حتى زرتم المقابر كلا سوف تعلمون ثم كلا سوف تعلمون كلا لو تعلمون علم اليقين لترون الجحيم ثم لترونها عين اليقين ثم لتسألن يومئذ عن النعيم",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ أَلهىٰكُمُ التَّكاثُرُ حَتّىٰ زُرتُمُ المَقابِرَ كَلّا سَوفَ تَعلَمونَ ثُمَّ كَلّا سَوفَ تَعلَمونَ كَلّا لَو تَعلَمونَ عِلمَ اليَقينِ لَتَرَوُنَّ الجَحيمَ ثُمَّ لَتَرَوُنَّها عَينَ اليَقينِ ثُمَّ لَتُسـَٔلُنَّ يَومَئِذٍ عَنِ النَّعيمِ",
+    "sura_name_ar": "التكاثر",
+    "sura_name_en": "Competition",
+    "sura_translit": "At-Takaathur",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "source": "64",
+  "domain": {
+    "key": "richesse",
+    "label": "Rizq / Richesse / Abondance",
+    "intent": "Ouverture des causes, fluidite materielle, baraka et expansion du rizq.",
+    "color": "gold",
+    "geometry": "etoile a 8 branches avec centre phi",
+    "references": [
+      "51:58",
+      "65:2-3",
+      "71:10-12",
+      "62:10",
+      "34:39"
+    ],
+    "divine_names": [
+      {
+        "label": "Razzaq",
+        "arabic": "يا رزاق",
+        "transliteration": "Ya Razzaq",
+        "abjad": 319
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Ghani",
+        "arabic": "يا غني",
+        "transliteration": "Ya Ghani",
+        "abjad": 1071
+      },
+      {
+        "label": "Mughni",
+        "arabic": "يا مغني",
+        "transliteration": "Ya Mughni",
+        "abjad": 1111
+      }
+    ],
+    "grabovoi_seed": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078"
+    ],
+    "anchor_numbers": [
+      19,
+      55,
+      56,
+      61,
+      76,
+      89,
+      99,
+      123,
+      319,
+      489,
+      618,
+      786
+    ]
+  },
+  "metrics": {
+    "word_count": 246,
+    "letter_count": 1110,
+    "unique_letters": 29,
+    "abjad_total": 79422,
+    "abjad_reduced": 6,
+    "mod_19": 2,
+    "mod_8": 6,
+    "mod_7": 1,
+    "golden_abjad": 49085,
+    "golden_letters": 1796,
+    "golden_words": 398,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.055793991416309,
+    "fib_letter_ratio": 1.1246200607902737,
+    "fib_abjad_ratio": 1.0586071309563478
+  },
+  "signature": {
+    "center": 64,
+    "ring_inner": [
+      64,
+      1,
+      246,
+      1110,
+      6,
+      2,
+      1,
+      6
+    ],
+    "ring_outer": [
+      398,
+      1796,
+      49085,
+      233,
+      987,
+      75025,
+      19,
+      786
+    ],
+    "reference_number": 64,
+    "ayah_number": 1,
+    "range_number": 18,
+    "golden_bridge": [
+      398,
+      1796,
+      49085
+    ]
+  },
+  "grabovoi_bridge": [
+    "123 55 89",
+    "786 489 618",
+    "6119 078",
+    "621",
+    "398 1796 6",
+    "641 233"
+  ],
+  "talisman": {
+    "geometry": "etoile a 8 branches avec centre phi",
+    "color": "gold",
+    "center": 64,
+    "inner_ring": [
+      64,
+      1,
+      246,
+      1110,
+      6,
+      2,
+      1,
+      6
+    ],
+    "outer_ring": [
+      398,
+      1796,
+      49085,
+      233,
+      987,
+      75025,
+      19,
+      786
+    ],
+    "inscriptions": [
+      "يا رزاق",
+      "يا فتاح",
+      "يا غني",
+      "يا مغني",
+      "phi=1.618034",
+      "abjad=79422"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "razzaq",
+      "formula": "Ya Razzaq",
+      "arabic": "يا رزاق",
+      "abjad": 319,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "ghani",
+      "formula": "Ya Ghani",
+      "arabic": "يا غني",
+      "abjad": 1071,
+      "count": 8,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "mughni",
+      "formula": "Ya Mughni",
+      "arabic": "يا مغني",
+      "abjad": 1111,
+      "count": 2,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 64,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 247.2,
+    "primary_turns": 7,
+    "secondary_turns": 3,
+    "center_code": "64 49085 6",
+    "ring_code": "398 1796 233 987",
+    "grabovoi_bridge": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078",
+      "621"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم يسبح لله ما في السماوات وما في الأرض له الملك وله الحمد وهو على كل شيء قدير هو الذي خلقكم فمنكم كافر ومنكم مؤمن والله بما تعملون بصير خلق السماوات والأرض بالحق وصوركم فأحسن صوركم وإليه المصير يعلم ما في السماوات والأرض ويعلم ما تسرون وما تعلنون والله عليم بذات الصدور ألم يأتكم نبأ الذين كفروا من قبل فذاقوا وبال أمرهم ولهم عذاب أليم ذلك بأنه كانت تأتيهم رسلهم بالبينات فقالوا أبشر يهدوننا فكفروا وتولوا واستغنى الله والله غني حميد زعم الذين كفروا أن لن يبعثوا قل بلى وربي لتبعثن ثم لتنبؤن بما عملتم وذلك على الله يسير فآمنوا بالله ورسوله والنور الذي أنزلنا والله بما تعملون خبير يوم يجمعكم ليوم الجمع ذلك يوم التغابن ومن يؤمن بالله ويعمل صالحا يكفر عنه سيئاته ويدخله جنات تجري من تحتها الأنهار خالدين فيها أبدا ذلك الفوز العظيم والذين كفروا وكذبوا بآياتنا أولئك أصحاب النار خالدين فيها وبئس المصير ما أصاب من مصيبة إلا بإذن الله ومن يؤمن بالله يهد قلبه والله بكل شيء عليم وأطيعوا الله وأطيعوا الرسول فإن توليتم فإنما على رسولنا البلاغ المبين الله لا إله إلا هو وعلى الله فليتوكل المؤمنون يا أيها الذين آمنوا إن من أزواجكم وأولادكم عدوا لكم فاحذروهم وإن تعفوا وتصفحوا وتغفروا فإن الله غفور رحيم إنما أموالكم وأولادكم فتنة والله عنده أجر عظيم فاتقوا الله ما استطعتم واسمعوا وأطيعوا وأنفقوا خيرا لأنفسكم ومن يوق شح نفسه فأولئك هم المفلحون إن تقرضوا الله قرضا حسنا يضاعفه لكم ويغفر لكم والله شكور حليم عالم الغيب والشهادة العزيز الحكيم",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ يُسَبِّحُ لِلَّهِ ما فِى السَّمٰوٰتِ وَما فِى الأَرضِ لَهُ المُلكُ وَلَهُ الحَمدُ وَهُوَ عَلىٰ كُلِّ شَىءٍ قَديرٌ هُوَ الَّذى خَلَقَكُم فَمِنكُم كافِرٌ وَمِنكُم مُؤمِنٌ وَاللَّهُ بِما تَعمَلونَ بَصيرٌ خَلَقَ السَّمٰوٰتِ وَالأَرضَ بِالحَقِّ وَصَوَّرَكُم فَأَحسَنَ صُوَرَكُم وَإِلَيهِ المَصيرُ يَعلَمُ ما فِى السَّمٰوٰتِ وَالأَرضِ وَيَعلَمُ ما تُسِرّونَ وَما تُعلِنونَ وَاللَّهُ عَليمٌ بِذاتِ الصُّدورِ أَلَم يَأتِكُم نَبَؤُا۟ الَّذينَ كَفَروا مِن قَبلُ فَذاقوا وَبالَ أَمرِهِم وَلَهُم عَذابٌ أَليمٌ ذٰلِكَ بِأَنَّهُ كانَت تَأتيهِم رُسُلُهُم بِالبَيِّنٰتِ فَقالوا أَبَشَرٌ يَهدونَنا فَكَفَروا وَتَوَلَّوا وَاستَغنَى اللَّهُ وَاللَّهُ غَنِىٌّ حَميدٌ زَعَمَ الَّذينَ كَفَروا أَن لَن يُبعَثوا قُل بَلىٰ وَرَبّى لَتُبعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِما عَمِلتُم وَذٰلِكَ عَلَى اللَّهِ يَسيرٌ فَـٔامِنوا بِاللَّهِ وَرَسولِهِ وَالنّورِ الَّذى أَنزَلنا وَاللَّهُ بِما تَعمَلونَ خَبيرٌ يَومَ يَجمَعُكُم لِيَومِ الجَمعِ ذٰلِكَ يَومُ التَّغابُنِ وَمَن يُؤمِن بِاللَّهِ وَيَعمَل صٰلِحًا يُكَفِّر عَنهُ سَيِّـٔاتِهِ وَيُدخِلهُ جَنّٰتٍ تَجرى مِن تَحتِهَا الأَنهٰرُ خٰلِدينَ فيها أَبَدًا ذٰلِكَ الفَوزُ العَظيمُ وَالَّذينَ كَفَروا وَكَذَّبوا بِـٔايٰتِنا أُولٰئِكَ أَصحٰبُ النّارِ خٰلِدينَ فيها وَبِئسَ المَصيرُ ما أَصابَ مِن مُصيبَةٍ إِلّا بِإِذنِ اللَّهِ وَمَن يُؤمِن بِاللَّهِ يَهدِ قَلبَهُ وَاللَّهُ بِكُلِّ شَىءٍ عَليمٌ وَأَطيعُوا اللَّهَ وَأَطيعُوا الرَّسولَ فَإِن تَوَلَّيتُم فَإِنَّما عَلىٰ رَسولِنَا البَلٰغُ المُبينُ اللَّهُ لا إِلٰهَ إِلّا هُوَ وَعَلَى اللَّهِ فَليَتَوَكَّلِ المُؤمِنونَ يٰأَيُّهَا الَّذينَ ءامَنوا إِنَّ مِن أَزوٰجِكُم وَأَولٰدِكُم عَدُوًّا لَكُم فَاحذَروهُم وَإِن تَعفوا وَتَصفَحوا وَتَغفِروا فَإِنَّ اللَّهَ غَفورٌ رَحيمٌ إِنَّما أَموٰلُكُم وَأَولٰدُكُم فِتنَةٌ وَاللَّهُ عِندَهُ أَجرٌ عَظيمٌ فَاتَّقُوا اللَّهَ مَا استَطَعتُم وَاسمَعوا وَأَطيعوا وَأَنفِقوا خَيرًا لِأَنفُسِكُم وَمَن يوقَ شُحَّ نَفسِهِ فَأُولٰئِكَ هُمُ المُفلِحونَ إِن تُقرِضُوا اللَّهَ قَرضًا حَسَنًا يُضٰعِفهُ لَكُم وَيَغفِر لَكُم وَاللَّهُ شَكورٌ حَليمٌ عٰلِمُ الغَيبِ وَالشَّهٰدَةِ العَزيزُ الحَكيمُ",
+    "sura_name_ar": "التغابن",
+    "sura_name_en": "Mutual Disillusion",
+    "sura_translit": "At-Taghaabun",
+    "revelation_place": "Medinan"
+  }
+}

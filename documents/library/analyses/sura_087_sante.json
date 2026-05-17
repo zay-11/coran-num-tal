@@ -1,0 +1,248 @@
+{
+  "source": "87",
+  "domain": {
+    "key": "sante",
+    "label": "Sante / Guerison / Regeneration",
+    "intent": "Apaisement, restauration, discipline du souffle et regeneration symbolique.",
+    "color": "emerald",
+    "geometry": "hexagone central avec anneau 7-19",
+    "references": [
+      "17:82",
+      "26:80",
+      "10:57",
+      "41:44"
+    ],
+    "divine_names": [
+      {
+        "label": "Shafi",
+        "arabic": "يا شافي",
+        "transliteration": "Ya Shafi",
+        "abjad": 402
+      },
+      {
+        "label": "Salam",
+        "arabic": "يا سلام",
+        "transliteration": "Ya Salam",
+        "abjad": 142
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hayy",
+        "arabic": "يا حي",
+        "transliteration": "Ya Hayy",
+        "abjad": 29
+      }
+    ],
+    "grabovoi_seed": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131"
+    ],
+    "anchor_numbers": [
+      7,
+      17,
+      19,
+      41,
+      57,
+      82,
+      99,
+      131,
+      391
+    ]
+  },
+  "metrics": {
+    "word_count": 76,
+    "letter_count": 315,
+    "unique_letters": 26,
+    "abjad_total": 26294,
+    "abjad_reduced": 5,
+    "mod_19": 17,
+    "mod_8": 3,
+    "mod_7": 6,
+    "golden_abjad": 16251,
+    "golden_letters": 510,
+    "golden_words": 123,
+    "fib_word": 89,
+    "fib_letter": 377,
+    "fib_abjad": 28657,
+    "fib_word_ratio": 0.8539325842696629,
+    "fib_letter_ratio": 0.8355437665782494,
+    "fib_abjad_ratio": 0.9175419618243361
+  },
+  "signature": {
+    "center": 87,
+    "ring_inner": [
+      87,
+      1,
+      76,
+      315,
+      5,
+      17,
+      6,
+      3
+    ],
+    "ring_outer": [
+      123,
+      510,
+      16251,
+      89,
+      377,
+      28657,
+      7,
+      391
+    ],
+    "reference_number": 87,
+    "ayah_number": 1,
+    "range_number": 19,
+    "golden_bridge": [
+      123,
+      510,
+      16251
+    ]
+  },
+  "grabovoi_bridge": [
+    "918 794 818",
+    "519 714 819",
+    "786 391 131",
+    "5176",
+    "123 510 3",
+    "871 89"
+  ],
+  "talisman": {
+    "geometry": "hexagone central avec anneau 7-19",
+    "color": "emerald",
+    "center": 87,
+    "inner_ring": [
+      87,
+      1,
+      76,
+      315,
+      5,
+      17,
+      6,
+      3
+    ],
+    "outer_ring": [
+      123,
+      510,
+      16251,
+      89,
+      377,
+      28657,
+      7,
+      391
+    ],
+    "inscriptions": [
+      "يا شافي",
+      "يا سلام",
+      "يا لطيف",
+      "يا حي",
+      "phi=1.618034",
+      "abjad=26294"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "shafi",
+      "formula": "Ya Shafi",
+      "arabic": "يا شافي",
+      "abjad": 402,
+      "count": 123,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "salam",
+      "formula": "Ya Salam",
+      "arabic": "يا سلام",
+      "abjad": 142,
+      "count": 123,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 21,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "hayy",
+      "formula": "Ya Hayy",
+      "arabic": "يا حي",
+      "abjad": 29,
+      "count": 17,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 87,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 86.5,
+    "primary_turns": 17,
+    "secondary_turns": 6,
+    "center_code": "87 16251 5",
+    "ring_code": "123 510 89 377",
+    "grabovoi_bridge": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131",
+      "5176"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم سبح اسم ربك الأعلى الذي خلق فسوى والذي قدر فهدى والذي أخرج المرعى فجعله غثاء أحوى سنقرئك فلا تنسى إلا ما شاء الله إنه يعلم الجهر وما يخفى ونيسرك لليسرى فذكر إن نفعت الذكرى سيذكر من يخشى ويتجنبها الأشقى الذي يصلى النار الكبرى ثم لا يموت فيها ولا يحيى قد أفلح من تزكى وذكر اسم ربه فصلى بل تؤثرون الحياة الدنيا والآخرة خير وأبقى إن هذا لفي الصحف الأولى صحف إبراهيم وموسى",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ سَبِّحِ اسمَ رَبِّكَ الأَعلَى الَّذى خَلَقَ فَسَوّىٰ وَالَّذى قَدَّرَ فَهَدىٰ وَالَّذى أَخرَجَ المَرعىٰ فَجَعَلَهُ غُثاءً أَحوىٰ سَنُقرِئُكَ فَلا تَنسىٰ إِلّا ما شاءَ اللَّهُ إِنَّهُ يَعلَمُ الجَهرَ وَما يَخفىٰ وَنُيَسِّرُكَ لِليُسرىٰ فَذَكِّر إِن نَفَعَتِ الذِّكرىٰ سَيَذَّكَّرُ مَن يَخشىٰ وَيَتَجَنَّبُهَا الأَشقَى الَّذى يَصلَى النّارَ الكُبرىٰ ثُمَّ لا يَموتُ فيها وَلا يَحيىٰ قَد أَفلَحَ مَن تَزَكّىٰ وَذَكَرَ اسمَ رَبِّهِ فَصَلّىٰ بَل تُؤثِرونَ الحَيوٰةَ الدُّنيا وَالـٔاخِرَةُ خَيرٌ وَأَبقىٰ إِنَّ هٰذا لَفِى الصُّحُفِ الأولىٰ صُحُفِ إِبرٰهيمَ وَموسىٰ",
+    "sura_name_ar": "الأعلى",
+    "sura_name_en": "The Most High",
+    "sura_translit": "Al-A'laa",
+    "revelation_place": "Meccan"
+  }
+}

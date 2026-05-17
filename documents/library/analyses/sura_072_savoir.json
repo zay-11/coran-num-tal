@@ -1,0 +1,247 @@
+{
+  "source": "72",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 290,
+    "letter_count": 1128,
+    "unique_letters": 29,
+    "abjad_total": 67378,
+    "abjad_reduced": 4,
+    "mod_19": 4,
+    "mod_8": 8,
+    "mod_7": 3,
+    "golden_abjad": 41642,
+    "golden_letters": 1825,
+    "golden_words": 469,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.2446351931330473,
+    "fib_letter_ratio": 1.1428571428571428,
+    "fib_abjad_ratio": 0.8980739753415529
+  },
+  "signature": {
+    "center": 72,
+    "ring_inner": [
+      72,
+      1,
+      290,
+      1128,
+      4,
+      4,
+      3,
+      8
+    ],
+    "ring_outer": [
+      469,
+      1825,
+      41642,
+      233,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "reference_number": 72,
+    "ayah_number": 1,
+    "range_number": 28,
+    "golden_bridge": [
+      469,
+      1825,
+      41642
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "443",
+    "469 1825 8",
+    "721 233"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 72,
+    "inner_ring": [
+      72,
+      1,
+      290,
+      1128,
+      4,
+      4,
+      3,
+      8
+    ],
+    "outer_ring": [
+      469,
+      1825,
+      41642,
+      233,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=67378"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 11,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 4,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 72,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 292.3,
+    "primary_turns": 7,
+    "secondary_turns": 3,
+    "center_code": "72 41642 4",
+    "ring_code": "469 1825 233 987",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "443"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم قل أوحي إلي أنه استمع نفر من الجن فقالوا إنا سمعنا قرآنا عجبا يهدي إلى الرشد فآمنا به ولن نشرك بربنا أحدا وأنه تعالى جد ربنا ما اتخذ صاحبة ولا ولدا وأنه كان يقول سفيهنا على الله شططا وأنا ظننا أن لن تقول الإنس والجن على الله كذبا وأنه كان رجال من الإنس يعوذون برجال من الجن فزادوهم رهقا وأنهم ظنوا كما ظننتم أن لن يبعث الله أحدا وأنا لمسنا السماء فوجدناها ملئت حرسا شديدا وشهبا وأنا كنا نقعد منها مقاعد للسمع فمن يستمع الآن يجد له شهابا رصدا وأنا لا ندري أشر أريد بمن في الأرض أم أراد بهم ربهم رشدا وأنا منا الصالحون ومنا دون ذلك كنا طرائق قددا وأنا ظننا أن لن نعجز الله في الأرض ولن نعجزه هربا وأنا لما سمعنا الهدى آمنا به فمن يؤمن بربه فلا يخاف بخسا ولا رهقا وأنا منا المسلمون ومنا القاسطون فمن أسلم فأولئك تحروا رشدا وأما القاسطون فكانوا لجهنم حطبا وأن لو استقاموا على الطريقة لأسقيناهم ماء غدقا لنفتنهم فيه ومن يعرض عن ذكر ربه يسلكه عذابا صعدا وأن المساجد لله فلا تدعوا مع الله أحدا وأنه لما قام عبد الله يدعوه كادوا يكونون عليه لبدا قل إنما أدعو ربي ولا أشرك به أحدا قل إني لا أملك لكم ضرا ولا رشدا قل إني لن يجيرني من الله أحد ولن أجد من دونه ملتحدا إلا بلاغا من الله ورسالاته ومن يعص الله ورسوله فإن له نار جهنم خالدين فيها أبدا حتى إذا رأوا ما يوعدون فسيعلمون من أضعف ناصرا وأقل عددا قل إن أدري أقريب ما توعدون أم يجعل له ربي أمدا عالم الغيب فلا يظهر على غيبه أحدا إلا من ارتضى من رسول فإنه يسلك من بين يديه ومن خلفه رصدا ليعلم أن قد أبلغوا رسالات ربهم وأحاط بما لديهم وأحصى كل شيء عددا",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ قُل أوحِىَ إِلَىَّ أَنَّهُ استَمَعَ نَفَرٌ مِنَ الجِنِّ فَقالوا إِنّا سَمِعنا قُرءانًا عَجَبًا يَهدى إِلَى الرُّشدِ فَـٔامَنّا بِهِ وَلَن نُشرِكَ بِرَبِّنا أَحَدًا وَأَنَّهُ تَعٰلىٰ جَدُّ رَبِّنا مَا اتَّخَذَ صٰحِبَةً وَلا وَلَدًا وَأَنَّهُ كانَ يَقولُ سَفيهُنا عَلَى اللَّهِ شَطَطًا وَأَنّا ظَنَنّا أَن لَن تَقولَ الإِنسُ وَالجِنُّ عَلَى اللَّهِ كَذِبًا وَأَنَّهُ كانَ رِجالٌ مِنَ الإِنسِ يَعوذونَ بِرِجالٍ مِنَ الجِنِّ فَزادوهُم رَهَقًا وَأَنَّهُم ظَنّوا كَما ظَنَنتُم أَن لَن يَبعَثَ اللَّهُ أَحَدًا وَأَنّا لَمَسنَا السَّماءَ فَوَجَدنٰها مُلِئَت حَرَسًا شَديدًا وَشُهُبًا وَأَنّا كُنّا نَقعُدُ مِنها مَقٰعِدَ لِلسَّمعِ فَمَن يَستَمِعِ الـٔانَ يَجِد لَهُ شِهابًا رَصَدًا وَأَنّا لا نَدرى أَشَرٌّ أُريدَ بِمَن فِى الأَرضِ أَم أَرادَ بِهِم رَبُّهُم رَشَدًا وَأَنّا مِنَّا الصّٰلِحونَ وَمِنّا دونَ ذٰلِكَ كُنّا طَرائِقَ قِدَدًا وَأَنّا ظَنَنّا أَن لَن نُعجِزَ اللَّهَ فِى الأَرضِ وَلَن نُعجِزَهُ هَرَبًا وَأَنّا لَمّا سَمِعنَا الهُدىٰ ءامَنّا بِهِ فَمَن يُؤمِن بِرَبِّهِ فَلا يَخافُ بَخسًا وَلا رَهَقًا وَأَنّا مِنَّا المُسلِمونَ وَمِنَّا القٰسِطونَ فَمَن أَسلَمَ فَأُولٰئِكَ تَحَرَّوا رَشَدًا وَأَمَّا القٰسِطونَ فَكانوا لِجَهَنَّمَ حَطَبًا وَأَلَّوِ استَقٰموا عَلَى الطَّريقَةِ لَأَسقَينٰهُم ماءً غَدَقًا لِنَفتِنَهُم فيهِ وَمَن يُعرِض عَن ذِكرِ رَبِّهِ يَسلُكهُ عَذابًا صَعَدًا وَأَنَّ المَسٰجِدَ لِلَّهِ فَلا تَدعوا مَعَ اللَّهِ أَحَدًا وَأَنَّهُ لَمّا قامَ عَبدُ اللَّهِ يَدعوهُ كادوا يَكونونَ عَلَيهِ لِبَدًا قُل إِنَّما أَدعوا رَبّى وَلا أُشرِكُ بِهِ أَحَدًا قُل إِنّى لا أَملِكُ لَكُم ضَرًّا وَلا رَشَدًا قُل إِنّى لَن يُجيرَنى مِنَ اللَّهِ أَحَدٌ وَلَن أَجِدَ مِن دونِهِ مُلتَحَدًا إِلّا بَلٰغًا مِنَ اللَّهِ وَرِسٰلٰتِهِ وَمَن يَعصِ اللَّهَ وَرَسولَهُ فَإِنَّ لَهُ نارَ جَهَنَّمَ خٰلِدينَ فيها أَبَدًا حَتّىٰ إِذا رَأَوا ما يوعَدونَ فَسَيَعلَمونَ مَن أَضعَفُ ناصِرًا وَأَقَلُّ عَدَدًا قُل إِن أَدرى أَقَريبٌ ما توعَدونَ أَم يَجعَلُ لَهُ رَبّى أَمَدًا عٰلِمُ الغَيبِ فَلا يُظهِرُ عَلىٰ غَيبِهِ أَحَدًا إِلّا مَنِ ارتَضىٰ مِن رَسولٍ فَإِنَّهُ يَسلُكُ مِن بَينِ يَدَيهِ وَمِن خَلفِهِ رَصَدًا لِيَعلَمَ أَن قَد أَبلَغوا رِسٰلٰتِ رَبِّهِم وَأَحاطَ بِما لَدَيهِم وَأَحصىٰ كُلَّ شَىءٍ عَدَدًا",
+    "sura_name_ar": "الجن",
+    "sura_name_en": "The Jinn",
+    "sura_translit": "Al-Jinn",
+    "revelation_place": "Meccan"
+  }
+}

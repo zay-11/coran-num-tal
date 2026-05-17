@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Livre 3 — Miftah 19 : Cadre Rituel Complet</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+@font-face{font-family:"LuxeDisplay";src:url("file:///C:/Windows/Fonts/BOOKOSB.TTF") format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:"LuxeDisplay";src:url("file:///C:/Windows/Fonts/BOOKOSBI.TTF") format("truetype");font-weight:700;font-style:italic}
+@font-face{font-family:"LuxeText";src:url("file:///C:/Windows/Fonts/georgia.ttf") format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"LuxeText";src:url("file:///C:/Windows/Fonts/georgiab.ttf") format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:"LuxeText";src:url("file:///C:/Windows/Fonts/georgiai.ttf") format("truetype");font-weight:400;font-style:italic}
+:root{--paper:#ebdfca;--paper-soft:#f6efe0;--ink:#1a1611;--muted:#5f5442;--line:rgba(85,70,45,0.16);--gold:#b3883e;--gold-bright:#dbb06b;--night:#12100c;--night-2:#1d1913;--wine:#5d2a30;--wine-soft:#ebd8db;--violet:#4a3754;--violet-soft:#ddd6e5}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#d2c9b8;color:var(--ink);font-family:"LuxeText",Georgia,serif}
+body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{position:relative;width:210mm;min-height:297mm;margin:0 auto;padding:16mm 16mm 14mm;overflow:hidden;page-break-after:always;background:linear-gradient(180deg,rgba(255,255,255,0.55),rgba(255,255,255,0.08)),radial-gradient(circle at 75% 25%,rgba(219,176,107,0.2),transparent 30%),radial-gradient(circle at 25% 75%,rgba(74,55,52,0.08),transparent 32%),var(--paper)}
+.page::before{content:"";position:absolute;inset:8mm;border:1px solid rgba(110,90,58,0.22)}
+.page::after{content:"";position:absolute;inset:11mm;border:1px solid rgba(110,90,58,0.06)}
+.page-dark{background:radial-gradient(circle at 15% 20%,rgba(219,176,107,0.15),transparent 24%),radial-gradient(circle at 85% 80%,rgba(74,55,52,0.14),transparent 22%),linear-gradient(180deg,var(--night-2),var(--night));color:#f1ebda}
+.page-dark::before{border-color:rgba(219,176,107,0.28)}
+.page-dark::after{border-color:rgba(219,176,107,0.1)}
+.ornament{position:absolute;left:16mm;right:16mm;height:6mm;background:linear-gradient(90deg,transparent,rgba(219,176,107,0.72) 18%,rgba(219,176,107,0.94) 50%,rgba(219,176,107,0.72) 82%,transparent)}
+.ornament.top{top:12mm}
+.ornament.bottom{bottom:11mm}
+.cover{display:grid;grid-template-rows:auto auto auto 1fr auto;gap:8mm;min-height:100%}
+.cover-kicker{display:flex;justify-content:space-between;font-size:9.5px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(241,235,218,0.68)}
+.cover h1{margin:0;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:30pt;line-height:0.93;color:#f3e4c4;text-transform:uppercase}
+.cover .subtitle{max-width:142mm;margin:4mm 0 0;font-size:13pt;line-height:1.3;color:rgba(245,238,226,0.9)}
+.section-head{margin-bottom:6mm}
+.eyebrow{font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-bottom:2mm}
+.section-head h2{margin:0;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:21pt;line-height:1}
+.deck{margin:2.5mm 0 0;max-width:148mm;font-size:10.5pt;line-height:1.45;color:var(--muted)}
+.page-dark .deck{color:rgba(241,235,218,0.7)}
+.panel,.box{position:relative;border:1px solid rgba(179,136,62,0.3);background:rgba(250,244,231,0.82);padding:5.5mm}
+.panel::before,.box::before{content:"";position:absolute;inset:3mm;border:1px solid rgba(179,136,62,0.12)}
+.page-dark .panel{background:rgba(255,255,255,0.04);border-color:rgba(219,176,107,0.24)}
+.page-dark .panel::before{border-color:rgba(219,176,107,0.08)}
+.panel h3,.box h3{margin:0 0 2.5mm;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:12pt;line-height:1.15}
+.panel p,.box p{margin:0;font-size:10pt;line-height:1.55}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8mm}
+.cover-grid{display:grid;grid-template-columns:1fr 1fr;gap:8mm}
+.cover-showcase{display:grid;grid-template-columns:0.96fr 1.04fr;gap:8mm;align-items:stretch}
+.protocol-grid{display:grid;gap:5mm;grid-template-columns:repeat(3,1fr)}
+.protocol-card{position:relative;border:1px solid rgba(179,136,62,0.22);background:rgba(250,244,231,0.76);padding:5mm}
+.page-dark .protocol-card{background:rgba(255,255,255,0.04);border-color:rgba(219,176,107,0.2)}
+.protocol-card h3{margin:0 0 2mm;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:11pt}
+.protocol-card p,.protocol-card li{font-size:9.5pt;line-height:1.5}
+.protocol-card ul{margin:2mm 0 0;padding-left:16px}
+.step-grid{display:grid;gap:4mm;grid-template-columns:repeat(3,1fr)}
+.step-card{position:relative;padding:4.5mm;border:1px solid var(--line);background:rgba(255,255,255,0.4)}
+.step-card .step-num{font-family:"LuxeDisplay","Book Antiqua",serif;font-size:22pt;color:var(--gold);line-height:1}
+.ref-table{width:100%;border-collapse:collapse;font-size:9.3pt}
+.ref-table th,.ref-table td{border-bottom:1px solid rgba(130,100,50,0.18);padding:3mm 2.4mm;text-align:left;vertical-align:top}
+.ref-table th{font-size:8.3pt;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+.page-dark .ref-table th{color:rgba(241,235,218,0.6)}
+.mansion-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}
+.mansion-card{padding:4mm;border:1px solid var(--line);background:rgba(255,255,255,0.35)}
+.mansion-num{font-family:"LuxeDisplay","Book Antiqua",serif;font-size:14pt;color:var(--gold)}
+.mansion-name{font-size:8.5pt;margin-top:1mm;color:var(--muted)}
+.footer-note{position:absolute;left:16mm;right:16mm;bottom:16mm;display:flex;justify-content:space-between;font-size:9px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(100,85,58,0.72)}
+.page-dark .footer-note{color:rgba(230,222,206,0.62)}
+.page-number{position:absolute;right:18mm;bottom:16mm;font-size:8.5pt;color:var(--muted)}
+.page-dark .page-number{color:rgba(230,222,206,0.54)}
+.lede{font-size:11.2pt;line-height:1.7;margin:0 0 5mm}
+.arabic{font-size:18pt;color:#cfa668;letter-spacing:0.03em}
+.workbook-grid{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.workbook-card{position:relative;padding:5mm;border:1px solid var(--line);background:rgba(255,252,245,0.6);min-height:50mm}
+.workbook-card h3{margin:0 0 2mm;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:12pt}
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COUVERTURE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="cover">
+<div class="cover-kicker"><span>Collection Miftah 19</span><span>Édition intégrale premium</span></div>
+<div>
+<h1>Miftah 19<br/>Cadre Rituel Complet</h1>
+<p class="subtitle">Édition intégrale fusionnant les quatre volumes originaux : Cadran Lunaire, Rituel Miftah 19, Talisman Ultime et Workbook. Un manuel complet du système rituel fondé sur le Code 19 et le Nombre d'Or.</p>
+</div>
+<div class="cover-showcase" style="margin-top:5mm;">
+<div>
+<div class="panel">
+<h3>Les 4 piliers du système</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;line-height:1.58;">
+<li>🌙 Cadran Lunaire — 28 mansions, phases, calculs</li>
+<li>🕯️ Rituel Miftah 19 — protocole pas à pas</li>
+<li>⭐ Talisman Ultime — géométrie, fabrication, activation</li>
+<li>📝 Workbook — exercices, journal, grilles</li>
+</ul>
+</div>
+<div class="panel" style="margin-top:5mm;">
+<h3>Nombres clés</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;line-height:1.58;">
+<li><strong>19</strong> — Code mathématique du Coran (74:30)</li>
+<li><strong>28</strong> — Mansions lunaires (manazil)</li>
+<li><strong>61</strong> — Cycle rituel complet (1+7+19+33+1)</li>
+<li><strong>φ</strong> — Proportion divine de transformation</li>
+</ul>
+</div>
+</div>
+<div style="display:grid;align-content:center;border:1px solid rgba(219,176,107,0.2);padding:6mm;background:rgba(255,255,255,0.03);min-height:100mm;">
+<svg viewBox="0 0 400 400" style="width:100%;max-width:130mm;display:block;margin:0 auto;" aria-hidden="true">
+<circle cx="200" cy="200" r="160" fill="none" stroke="#dbb06b" stroke-width="2"/>
+<circle cx="200" cy="200" r="128" fill="none" stroke="#dbb06b" stroke-width="1.5" stroke-dasharray="3 7"/>
+<circle cx="200" cy="200" r="90" fill="none" stroke="#5d2a30" stroke-width="1.8"/>
+<circle cx="200" cy="200" r="42" fill="none" stroke="#dbb06b" stroke-width="3"/>
+<polygon points="200,20 380,200 200,380 20,200" fill="none" stroke="#dbb06b" stroke-width="2.2"/>
+<polygon points="200,68 332,200 200,332 68,200" fill="none" stroke="#5d2a30" stroke-width="1.8"/>
+<g stroke="#dbb06b" stroke-width="1.3" opacity="0.6">
+<line x1="200" y1="18" x2="200" y2="382"/><line x1="18" y1="200" x2="382" y2="200"/>
+<line x1="71" y1="71" x2="329" y2="329"/><line x1="329" y1="71" x2="71" y2="329"/>
+</g>
+<text x="200" y="232" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:54px;fill:#f1ebda;">19</text>
+<text x="200" y="264" text-anchor="middle" style="font-size:14px;letter-spacing:0.08em;text-transform:uppercase;fill:#dbb06b;">miftah / clé</text>
+<g transform="translate(200,38)"><circle r="18" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.5"/><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#dbb06b;">28</text></g>
+<g transform="translate(362,200)"><circle r="18" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.5"/><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#dbb06b;">61</text></g>
+<g transform="translate(200,362)"><circle r="18" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.5"/><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#dbb06b;">99</text></g>
+<g transform="translate(38,200)"><circle r="18" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.5"/><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#dbb06b;">φ</text></g>
+</svg>
+</div>
+</div>
+<div class="footer-note"><span>Édition intégrale premium</span><span>Livre 3 — Miftah 19</span></div>
+</div>
+</section>
+
+<!-- PAGE 2 — TABLE DES MATIÈRES -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Sommaire</div>
+<h2>Table des matières</h2>
+<p class="deck">Le système Miftah 19 est structuré en quatre parties : le Cadran Lunaire, le Rituel, le Talisman Ultime et le Workbook.</p>
+</div>
+<div style="margin-top:8mm;">
+<table class="ref-table">
+<thead><tr><th style="width:20mm;">Chapitre</th><th>Titre</th><th style="width:20mm;">Page</th></tr></thead>
+<tbody>
+<tr><td>Préface</td><td>Le système Miftah 19</td><td>3</td></tr>
+<tr><td>I</td><td>Le Cadran Lunaire — 28 mansions</td><td>4</td></tr>
+<tr><td>II</td><td>Phases lunaires et moments optimaux</td><td>8</td></tr>
+<tr><td>III</td><td>Calculs et calendrier perpétuel</td><td>12</td></tr>
+<tr><td>IV</td><td>Le Rituel Miftah 19 — Protocole complet</td><td>16</td></tr>
+<tr><td>V</td><td>Les 5 étapes du rituel</td><td>20</td></tr>
+<tr><td>VI</td><td>Le Talisman Ultime</td><td>24</td></tr>
+<tr><td>VII</td><td>Fabrication et activation du talisman</td><td>28</td></tr>
+<tr><td>VIII</td><td>Le Workbook — Exercices</td><td>32</td></tr>
+<tr><td>IX</td><td>Journal de pratique</td><td>36</td></tr>
+<tr><td>X</td><td>Grilles d'évaluation</td><td>40</td></tr>
+<tr><td>Annexe</td><td>Calendrier lunaire perpétuel</td><td>44</td></tr>
+</tbody>
+</table>
+</div>
+<div class="box" style="margin-top:10mm;">
+<h3>Note au lecteur</h3>
+<p>Ce volume fusionne les quatre documents originaux de la collection Miftah 19 : le Cadran Lunaire (calcul des phases et mansions), le Rituel (protocole opératif), le Talisman Ultime (géométrie sacrée) et le Workbook (exercices pratiques). Chaque partie peut être consultée indépendamment.</p>
+</div>
+<div class="page-number">02</div>
+</section>
+
+<!-- PAGE 3 — PRÉFACE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Préface</div>
+<h2>Le système Miftah 19</h2>
+<p class="deck">Miftah 19 est un système rituel complet fondé sur le Code 19, le Nombre d'Or et les cycles lunaires. Son nom signifie « La Clé 19 ».</p>
+</div>
+<p class="lede" style="color:#eae2cf;">Le système Miftah 19 repose sur l'idée que le nombre 19 est une clé mathématique et spirituelle. En l'associant aux 28 mansions lunaires, à la séquence de Fibonacci et à la proportion divine φ, il produit un cadre rituel complet : calcul des phases, activation des noms divins, fabrication de talismans et suivi par workbook.</p>
+<div class="cover-grid" style="margin-top:8mm;">
+<div class="panel">
+<h3>Architecture du système</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;">
+<li><strong>Base :</strong> 19 = code coranique, 28 = mansions, φ = proportion</li>
+<li><strong>Méthode :</strong> calcul lunaire → rituel → talisman → workbook</li>
+<li><strong>Cycle :</strong> 61 invocations par séance (1+7+19+33+1)</li>
+<li><strong>Horizon :</strong> 99 Noms Divins, complétude vibratoire</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Ce que cette édition apporte</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;">
+<li>Fusion claire des 4 documents originaux.</li>
+<li>Hiérarchie lisible entre calcul, rituel, talisman et pratique.</li>
+<li>Calendrier perpétuel intégré.</li>
+<li>Workbook complet avec grilles d'évaluation.</li>
+</ul>
+</div>
+</div>
+<div class="footer-note"><span>Préface</span><span>Livre 3 — Miftah 19</span></div>
+<div class="page-number">03</div>
+</section>
+
+<!-- PAGE 4-7 — CHAPITRE I : CADRAN LUNAIRE -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre I</div>
+<h2>Le Cadran Lunaire — 28 mansions</h2>
+<p class="deck">Le cadran lunaire Miftah 19 utilise les 28 mansions lunaires (manazil) comme support temporel du rituel. Chaque mansion est une porte.</p>
+</div>
+<div class="box">
+<h3>Les 28 mansions (Manazil al-Qamar)</h3>
+<p>Les mansions lunaires sont les 28 stations que la Lune traverse chaque mois sidéral (27.3 jours). Dans le système Miftah 19, chaque mansion est associée à un nombre, un nom divin et une fonction rituelle. La mansion 1 commence à la Nouvelle Lune.</p>
+</div>
+<div class="mansion-grid" style="margin-top:5mm;">
+<div class="mansion-card"><div class="mansion-num">1</div><div class="mansion-name">Al-Sharatayn</div></div>
+<div class="mansion-card"><div class="mansion-num">2</div><div class="mansion-name">Al-Butayn</div></div>
+<div class="mansion-card"><div class="mansion-num">3</div><div class="mansion-name">Al-Thurayya</div></div>
+<div class="mansion-card"><div class="mansion-num">4</div><div class="mansion-name">Al-Dabaran</div></div>
+<div class="mansion-card"><div class="mansion-num">5</div><div class="mansion-name">Al-Haq'a</div></div>
+<div class="mansion-card"><div class="mansion-num">6</div><div class="mansion-name">Al-Hanna</div></div>
+<div class="mansion-card"><div class="mansion-num">7</div><div class="mansion-name">Al-Dhira</div></div>
+<div class="mansion-card"><div class="mansion-num">8</div><div class="mansion-name">Al-Nathra</div></div>
+<div class="mansion-card"><div class="mansion-num">9</div><div class="mansion-name">Al-Tarf</div></div>
+<div class="mansion-card"><div class="mansion-num">10</div><div class="mansion-name">Al-Jabha</div></div>
+<div class="mansion-card"><div class="mansion-num">11</div><div class="mansion-name">Al-Zubra</div></div>
+<div class="mansion-card"><div class="mansion-num">12</div><div class="mansion-name">Al-Sarfa</div></div>
+<div class="mansion-card"><div class="mansion-num">13</div><div class="mansion-name">Al-Awwa</div></div>
+<div class="mansion-card"><div class="mansion-num">14</div><div class="mansion-name">Al-Simak</div></div>
+<div class="mansion-card"><div class="mansion-num">15</div><div class="mansion-name">Al-Ghafr</div></div>
+<div class="mansion-card"><div class="mansion-num">16</div><div class="mansion-name">Al-Zubana</div></div>
+<div class="mansion-card"><div class="mansion-num">17</div><div class="mansion-name">Al-Iklil</div></div>
+<div class="mansion-card"><div class="mansion-num">18</div><div class="mansion-name">Al-Qalb</div></div>
+<div class="mansion-card"><div class="mansion-num">19</div><div class="mansion-name">Al-Shawla</div></div>
+<div class="mansion-card"><div class="mansion-num">20</div><div class="mansion-name">Al-Na'am</div></div>
+<div class="mansion-card"><div class="mansion-num">21</div><div class="mansion-name">Al-Balda</div></div>
+<div class="mansion-card"><div class="mansion-num">22</div><div class="mansion-name">Sa'd al-Dhabih</div></div>
+<div class="mansion-card"><div class="mansion-num">23</div><div class="mansion-name">Sa'd Bula'</div></div>
+<div class="mansion-card"><div class="mansion-num">24</div><div class="mansion-name">Sa'd al-Su'ud</div></div>
+<div class="mansion-card"><div class="mansion-num">25</div><div class="mansion-name">Sa'd al-Akhbiya</div></div>
+<div class="mansion-card"><div class="mansion-num">26</div><div class="mansion-name">Al-Fargh al-Muqaddam</div></div>
+<div class="mansion-card"><div class="mansion-num">27</div><div class="mansion-name">Al-Fargh al-Mu'akhkhar</div></div>
+<div class="mansion-card"><div class="mansion-num">28</div><div class="mansion-name">Batu al-Hut</div></div>
+</div>
+<div class="page-number">04</div>
+</section>
+
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre I (suite)</div>
+<h2>Correspondances mansion-nombre</h2>
+<p class="deck">Chaque mansion est liée à un nombre de la séquence clé du système Miftah 19.</p>
+</div>
+<div class="box">
+<table class="ref-table">
+<thead><tr><th>Mansion</th><th>Nom</th><th>Nombre-clé</th><th>Fonction rituelle</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Al-Sharatayn</td><td>19</td><td>Ouverture du cycle</td></tr>
+<tr><td>2</td><td>Al-Butayn</td><td>7</td><td>Purification</td></tr>
+<tr><td>3</td><td>Al-Thurayya</td><td>33</td><td>Bénédiction</td></tr>
+<tr><td>4</td><td>Al-Dabaran</td><td>55</td><td>Rahman (Miséricorde)</td></tr>
+<tr><td>5</td><td>Al-Haq'a</td><td>89</td><td>Fajr (Aube)</td></tr>
+<tr><td>6</td><td>Al-Hanna</td><td>61</td><td>Cycle rituel</td></tr>
+<tr><td>7</td><td>Al-Dhira</td><td>99</td><td>99 Noms Divins</td></tr>
+<tr><td>8</td><td>Al-Nathra</td><td>123</td><td>Rizq</td></tr>
+<tr><td>9</td><td>Al-Tarf</td><td>319</td><td>Ya Razzaq</td></tr>
+<tr><td>10</td><td>Al-Jabha</td><td>489</td><td>Ya Fattah</td></tr>
+<tr><td>11</td><td>Al-Zubra</td><td>618</td><td>Mercy-code</td></tr>
+<tr><td>12</td><td>Al-Sarfa</td><td>786</td><td>Basmala</td></tr>
+<tr><td>13</td><td>Al-Awwa</td><td>8</td><td>Directions talisman</td></tr>
+<tr><td>14</td><td>Al-Simak</td><td>13</td><td>Spirale φ</td></tr>
+<tr><td>15</td><td>Al-Ghafr</td><td>21</td><td>Mansion lunaire</td></tr>
+<tr><td>16</td><td>Al-Zubana</td><td>34</td><td>F₉ (Saba)</td></tr>
+<tr><td>17</td><td>Al-Iklil</td><td>56</td><td>Al-Waqi'a</td></tr>
+<tr><td>18</td><td>Al-Qalb</td><td>144</td><td>F₁₂ angélique</td></tr>
+</tbody>
+</table>
+</div>
+<div class="box" style="margin-top:5mm;">
+<h3>Lecture de la table</h3>
+<p>Chaque mansion est une porte temporelle. Le nombre-clé est le nombre à réciter ou à visualiser pendant le rituel de cette mansion. Par exemple, sous la mansion 4 (Al-Dabaran), on récite 55× Ya Rahman. Le cycle complet des 28 mansions couvre le mois lunaire entier.</p>
+</div>
+<div class="page-number">05</div>
+</section>
+
+<!-- PAGE 8-11 — CHAPITRE II : PHASES LUNAIRES -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre II</div>
+<h2>Phases lunaires et moments optimaux</h2>
+<p class="deck">Les 4 phases lunaires majeures sont des portes temporelles pour des rituels spécifiques.</p>
+</div>
+<div class="cover-grid">
+<div class="panel">
+<h3>🌑 Nouvelle Lune</h3>
+<p><strong>Moment :</strong> Jour 1-3 du cycle lunaire</p>
+<p><strong>Nombre :</strong> 19 — Code fondateur</p>
+<p><strong>Rituel :</strong> Pose d'intention, ouverture, semence du cycle. Réciter 19× la Basmala + 61× le cycle complet. Idéal pour commencer un projet de 28 jours.</p>
+</div>
+<div class="panel">
+<h3>🌓 Premier Croissant</h3>
+<p><strong>Moment :</strong> Jour 7-10</p>
+<p><strong>Nombre :</strong> 55 — Miséricorde expansive</p>
+<p><strong>Rituel :</strong> Croissance et amplification. Réciter 55× Ya Rahman + 33× Salawat. Moment idéal pour les demandes de Rizq et d'ouverture.</p>
+</div>
+</div>
+<div class="cover-grid" style="margin-top:5mm;">
+<div class="panel">
+<h3>🌕 Pleine Lune</h3>
+<p><strong>Moment :</strong> Jour 14-16</p>
+<p><strong>Nombre :</strong> 89 — Fajr, révélation</p>
+<p><strong>Rituel :</strong> Apogée du flux. Réciter 89× Ya Fattah. Visualiser le talisman Ultime. Les résultats se manifestent. C'est le pic du cycle rituel.</p>
+</div>
+<div class="panel">
+<h3>🌗 Dernier Quartier</h3>
+<p><strong>Moment :</strong> Jour 21-24</p>
+<p><strong>Nombre :</strong> 61 — Cycle complet, clôture</p>
+<p><strong>Rituel :</strong> Clôture, gratitude, ancrage. Dhikr 61 (cycle complet) + 99 Noms. Journal d'évaluation. Lâcher-prise sur les résultats non matérialisés.</p>
+</div>
+</div>
+<div class="panel" style="margin-top:5mm;">
+<h3>Calcul de la phase lunaire</h3>
+<p>Phase = (jour_julien − 2451549.5) / 29.53058867. La partie fractionnaire donne la phase : 0.00 = Nouvelle Lune, 0.25 = Premier Quartier, 0.50 = Pleine Lune, 0.75 = Dernier Quartier. Utiliser une application lunaire pour la précision quotidienne.</p>
+</div>
+<div class="footer-note"><span>Chapitre II</span><span>Phases lunaires</span></div>
+<div class="page-number">06</div>
+</section>
+
+<!-- PAGE 12-15 — CHAPITRE III : CALCULS -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre III</div>
+<h2>Calculs et calendrier perpétuel</h2>
+<p class="deck">Formules pour déterminer la mansion lunaire du jour, la phase et le moment optimal du rituel.</p>
+</div>
+<div class="split">
+<div class="box">
+<h3>Calcul de la mansion du jour</h3>
+<ol style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Obtenir le jour julien (JJ) pour la date</li>
+<li>Soustrainre 2451549.5 (J2000)</li>
+<li>Diviser par 27.321661 (mois sidéral)</li>
+<li>Partie fractionnaire × 28 = mansion du jour (1-28)</li>
+</ol>
+<p style="margin-top:2mm;">Mansion n° = ⌊fraction × 28⌋ + 1</p>
+</div>
+<div class="box">
+<h3>Heures φ du rituel</h3>
+<p>Les 5 moments φ de la journée pour le rituel Miftah 19 :</p>
+<ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li><strong>Aube (Fajr) :</strong> 24h × 0.146 = 3h30</li>
+<li><strong>Mi-matin (Duha) :</strong> 24h × 0.382 = 9h10</li>
+<li><strong>Midi (Dhuhr) :</strong> 24h × 0.618 = 14h50</li>
+<li><strong>Après-midi (Asr) :</strong> 24h × 0.764 = 18h20</li>
+<li><strong>Crépuscule (Maghrib) :</strong> 24h × 0.854 = 20h30</li>
+</ul>
+</div>
+</div>
+<div class="box" style="margin-top:6mm;">
+<h3>Calendrier perpétuel simplifié</h3>
+<p>Pour un usage courant sans calcul : la mansion 1 commence toujours au coucher du soleil le jour de la Nouvelle Lune. Compter 1 mansion par jour civil. La mansion 14 tombe approximativement à la Pleine Lune. Le rituel Miftah 19 peut être adapté à chaque mansion en utilisant le nombre-clé correspondant.</p>
+</div>
+<div class="page-number">07</div>
+</section>
+
+<!-- PAGE 16-19 — CHAPITRE IV : RITUEL MIFTAH 19 -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre IV</div>
+<h2>Le Rituel Miftah 19 — Protocole complet</h2>
+<p class="deck">Le rituel central du système Miftah 19, structuré en 5 étapes qui totalisent 61 invocations.</p>
+</div>
+<div class="box" style="background:rgba(255,255,255,0.04);margin-bottom:6mm;">
+<h3>Structure du rituel : 1 + 7 + 19 + 33 + 1 = 61</h3>
+<p>Le cycle 61 est le cœur opératif du système. 61 × φ = 99 (les 99 Noms). Chaque étape a une fonction précise : ouvrir, purifier, activer, bénir, sceller.</p>
+</div>
+<div class="step-grid">
+<div class="step-card"><div class="step-num">1</div><h3>Ouverture (1×)</h3><p>Basmala + 1× Al-Fatiha. Pose l'intention du rituel. Visualiser la porte qui s'ouvre.</p></div>
+<div class="step-card"><div class="step-num">7</div><h3>Purification (7×)</h3><p>7× Astaghfirullah al-'Azim. Nettoyage vibratoire. Visualiser les impuretés qui se dissolvent.</p></div>
+<div class="step-card"><div class="step-num">19</div><h3>Activation (19×)</h3><p>19× le Nom Divin de la mansion ou du besoin. Le cœur du rituel. Visualiser le nombre 19 qui s'illumine.</p></div>
+</div>
+<div class="step-grid" style="margin-top:4mm;">
+<div class="step-card"><div class="step-num">33</div><h3>Bénédiction (33×)</h3><p>33× Salawat ('Allahumma salli 'ala Muhammad'). Descente de la baraka. Visualiser la lumière dorée qui descend.</p></div>
+<div class="step-card"><div class="step-num">1</div><h3>Scellement (1×)</h3><p>1× Al-Fatiha + 1× Ayat al-Kursi. Fermeture du champ. Visualiser le sceau qui se referme.</p></div>
+</div>
+<div class="footer-note"><span>Chapitre IV</span><span>Rituel Miftah 19</span></div>
+<div class="page-number">08</div>
+</section>
+
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre IV (suite)</div>
+<h2>Variantes du rituel selon l'objectif</h2>
+<p class="deck">Le rituel de base peut être adapté à chaque domaine en modifiant le Nom Divin récité 19×.</p>
+</div>
+<div class="cover-grid">
+<div class="panel">
+<h3>💰 Rizq & Richesse</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Étape 3 : 19× Ya Razzaq (319)</li>
+<li>Lecture préalable : 51:58 + 65:2-3</li>
+<li>Visualisation : flux doré traversant les mains</li>
+<li>Mansion idéale : 8 (Al-Nathra, 123)</li>
+<li>Fréquence : 3 fois par semaine minimum</li>
+</ul>
+</div>
+<div class="panel">
+<h3>🛡️ Protection</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Étape 3 : 19× Ya Hafiz (998)</li>
+<li>Lecture préalable : Ayat al-Kursi (2:255)</li>
+<li>Visualisation : bouclier lumineux autour du corps</li>
+<li>Mansion idéale : 1 (Al-Sharatayn, 19)</li>
+<li>Fréquence : quotidienne en période sensible</li>
+</ul>
+</div>
+</div>
+<div class="cover-grid" style="margin-top:5mm;">
+<div class="panel">
+<h3>🩺 Santé</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Étape 3 : 19× Ya Shafi (791)</li>
+<li>Lecture préalable : 17:82 (guérison coranique)</li>
+<li>Visualisation : lumière verte enveloppant la zone</li>
+<li>Mansion idéale : 18 (Al-Qalb, cœur)</li>
+<li>Fréquence : 1 fois par jour, 21 jours</li>
+</ul>
+</div>
+<div class="panel">
+<h3>📖 Savoir</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Étape 3 : 19× Ya 'Alim (150)</li>
+<li>Lecture préalable : 20:114</li>
+<li>Visualisation : livre qui s'ouvre, pages lumineuses</li>
+<li>Mansion idéale : 13 (Al-Awwa, 8 directions)</li>
+<li>Fréquence : avant chaque session d'étude</li>
+</ul>
+</div>
+</div>
+<div class="footer-note"><span>Chapitre IV</span><span>Variantes du rituel</span></div>
+<div class="page-number">09</div>
+</section>
+
+<!-- PAGE 20-23 — CHAPITRE V : 5 ÉTAPES DÉTAILLÉES -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre V</div>
+<h2>Les 5 étapes du rituel — Guide détaillé</h2>
+<p class="deck">Chaque étape est décrite avec son geste, sa visualisation et sa durée.</p>
+</div>
+<div class="protocol-grid">
+<article class="protocol-card">
+<h3>1. Ouverture (1 min)</h3>
+<ul>
+<li>Position : assis face à la Qibla</li>
+<li>Mains : levées, paumes ouvertes</li>
+<li>Réciter : Bismillah al-Rahman al-Rahim</li>
+<li>+ 1× Sourate Al-Fatiha</li>
+<li>Visualisation : porte dorée qui s'ouvre devant vous</li>
+</ul>
+</article>
+<article class="protocol-card">
+<h3>2. Purification (3 min)</h3>
+<ul>
+<li>Yeux fermés, respiration profonde</li>
+<li>Réciter : 7× Astaghfirullah al-'Azim</li>
+<li>Entre chaque : une inspiration lente</li>
+<li>Visualisation : lumière blanche qui lave l'intérieur</li>
+<li>Sensation de légèreté croissante</li>
+</ul>
+</article>
+<article class="protocol-card">
+<h3>3. Activation (5-10 min)</h3>
+<ul>
+<li>Le cœur du rituel</li>
+<li>Réciter : 19× le Nom Divin choisi</li>
+<li>Compter sur les jointures des doigts</li>
+<li>Visualisation : le nombre 19 qui brille au centre de la poitrine</li>
+<li>Le Nom résonne dans tout le corps</li>
+</ul>
+</article>
+</div>
+<div class="protocol-grid" style="margin-top:5mm;">
+<article class="protocol-card">
+<h3>4. Bénédiction (5 min)</h3>
+<ul>
+<li>Réciter : 33× Salawat</li>
+<li>Rythme : 11× souffle + 11× souffle + 11×</li>
+<li>Visualisation : lumière dorée qui descend du ciel</li>
+<li>Elle traverse le corps et repart vers la terre</li>
+<li>La baraka circule librement</li>
+</ul>
+</article>
+<article class="protocol-card">
+<h3>5. Scellement (2 min)</h3>
+<ul>
+<li>Réciter : 1× Al-Fatiha</li>
+<li>+ 1× Ayat al-Kursi</li>
+<li>Passer les mains sur le visage (geste de closure)</li>
+<li>Visualisation : sceau lumineux qui se referme</li>
+<li>Remercier intérieurement</li>
+</ul>
+</article>
+</div>
+<div class="page-number">10</div>
+</section>
+
+<!-- PAGE 24-27 — CHAPITRE VI : TALISMAN ULTIME -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre VI</div>
+<h2>Le Talisman Ultime Miftah 19</h2>
+<p class="deck">Le talisman rassemble toute la géométrie du système : étoile à 8 branches, anneaux concentriques, nombres-clés et centre 19.</p>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:8mm;align-items:center;">
+<div>
+<svg viewBox="0 0 500 500" style="width:100%;display:block;" aria-hidden="true">
+<circle cx="250" cy="250" r="220" fill="none" stroke="#dbb06b" stroke-width="1.8"/>
+<circle cx="250" cy="250" r="180" fill="none" stroke="#dbb06b" stroke-width="1.4" stroke-dasharray="4 8"/>
+<circle cx="250" cy="250" r="130" fill="none" stroke="#5d2a30" stroke-width="1.6"/>
+<circle cx="250" cy="250" r="70" fill="none" stroke="#dbb06b" stroke-width="2.5"/>
+<circle cx="250" cy="250" r="30" fill="rgba(255,255,255,0.06)" stroke="#dbb06b" stroke-width="3"/>
+<polygon points="250,30 470,250 250,470 30,250" fill="none" stroke="#dbb06b" stroke-width="2.5"/>
+<polygon points="250,68 432,250 250,432 68,250" fill="none" stroke="#5d2a30" stroke-width="2"/>
+<g stroke="#dbb06b" stroke-width="1.2" opacity="0.5">
+<line x1="250" y1="28" x2="250" y2="472"/><line x1="28" y1="250" x2="472" y2="250"/>
+<line x1="93" y1="93" x2="407" y2="407"/><line x1="407" y1="93" x2="93" y2="407"/>
+</g>
+<text x="250" y="265" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:42px;fill:#f1ebda;">19</text>
+<text x="250" y="295" text-anchor="middle" style="font-size:14px;letter-spacing:0.08em;text-transform:uppercase;fill:#dbb06b;">miftah / φ</text>
+<g transform="translate(250,48)"><rect x="-32" y="-14" width="64" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.2"/><text text-anchor="middle" y="6" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:20px;fill:#dbb06b;">61</text></g>
+<g transform="translate(440,250)"><rect x="-32" y="-14" width="64" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.2"/><text text-anchor="middle" y="6" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:20px;fill:#dbb06b;">99</text></g>
+<g transform="translate(250,452)"><rect x="-32" y="-14" width="64" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.2"/><text text-anchor="middle" y="6" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:20px;fill:#dbb06b;">28</text></g>
+<g transform="translate(60,250)"><rect x="-32" y="-14" width="64" height="28" rx="6" fill="rgba(255,255,255,0.04)" stroke="#dbb06b" stroke-width="1.2"/><text text-anchor="middle" y="6" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:20px;fill:#dbb06b;">φ</text></g>
+<g transform="translate(250,130)"><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:15px;fill:#dbb06b;">55</text></g>
+<g transform="translate(370,250)"><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:15px;fill:#dbb06b;">89</text></g>
+<g transform="translate(250,370)"><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:15px;fill:#dbb06b;">123</text></g>
+<g transform="translate(130,250)"><text text-anchor="middle" y="5" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:15px;fill:#dbb06b;">786</text></g>
+</svg>
+</div>
+<div class="panel">
+<h3>Géométrie du talisman</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+<li><strong>Centre :</strong> 19 + φ (la clé et la proportion)</li>
+<li><strong>Anneau 1 :</strong> 61, 99, 28, φ (4 piliers du cycle)</li>
+<li><strong>Anneau 2 :</strong> 55, 89, 123, 786 (Fibonacci + Abjad)</li>
+<li><strong>8 branches :</strong> les 8 directions de l'activation</li>
+<li><strong>Double carré :</strong> l'étoile à 8 branches renversée</li>
+<li><strong>Cercle extérieur :</strong> les 28 mansions lunaires</li>
+</ul>
+</div>
+</div>
+<div class="panel" style="margin-top:6mm;">
+<h3>Symbolique</h3>
+<p>Le centre 19+φ représente la signature divine (19) unie à la proportion créatrice (φ). L'anneau des 4 piliers (61, 99, 28, φ) encadre le cycle rituel. Les nombres 55, 89, 123, 786 sont les 4 portes de la manifestation. L'étoile à 8 branches oriente le flux dans toutes les directions.</p>
+</div>
+<div class="footer-note"><span>Chapitre VI</span><span>Talisman Ultime</span></div>
+<div class="page-number">11</div>
+</section>
+
+<!-- PAGE 28-31 — CHAPITRE VII : FABRICATION -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre VII</div>
+<h2>Fabrication et activation du talisman</h2>
+<p class="deck">Instructions pas à pas pour tracer, fabriquer et activer le Talisman Ultime Miftah 19.</p>
+</div>
+<div class="split">
+<div class="box">
+<h3>Matériaux nécessaires</h3>
+<ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Papier parchemin A4 (ou vélin blanc cassé)</li>
+<li>Compas à pointes sèches</li>
+<li>Règle métallique graduée</li>
+<li>Portemine 0.5mm (mine HB)</li>
+<li>Stylo doré (encre pigmentée or)</li>
+<li>Stylo violet (encre gel vive)</li>
+<li>Gomme mie de pain</li>
+</ul>
+</div>
+<div class="box">
+<h3>Tracé — Étape par étape</h3>
+<ol style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+<li>Tracer un cercle de base R=110mm (centre marqué)</li>
+<li>Tracer un carré inscrit (côté = R×√2 = 155.6mm)</li>
+<li>Tracer le second carré à 45° du premier</li>
+<li>Tracer les diagonales et les axes nord-sud-est-ouest</li>
+<li>Tracer l'anneau intérieur R=35mm (centre 19)</li>
+<li>Tracer l'anneau médian R=65mm (nombres secondaires)</li>
+<li>Tracer l'anneau extérieur R=90mm (4 piliers)</li>
+<li>Inscrire les nombres aux emplacements définis</li>
+</ol>
+</div>
+</div>
+<div class="box" style="margin-top:6mm;">
+<h3>Activation du talisman</h3>
+<p>L'activation se fait sous la mansion lunaire correspondant au besoin (voir Chapitre I). Réciter 1× Basmala + 19× le Nom Divin du besoin + 61× le cycle complet + 1× Al-Fatiha. Le talisman est actif pour un cycle lunaire complet. À réactiver à chaque Nouvelle Lune.</p>
+</div>
+<div class="page-number">12</div>
+</section>
+
+<!-- PAGE 32-35 — CHAPITRE VIII : WORKBOOK -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre VIII</div>
+<h2>Le Workbook — Exercices pratiques</h2>
+<p class="deck">Le workbook est un compagnon de pratique. Chaque exercice renforce un aspect du système.</p>
+</div>
+<div class="workbook-grid">
+<div class="workbook-card">
+<h3>📝 Exercice 1 — Mon nombre-source</h3>
+<p>Calculez votre nombre-source : date de naissance (jj/mm/aaaa) additionnée et réduite. Exemple : 14/05/1986 = 14+5+1986 = 2005 → 2+0+0+5 = 7. Votre nombre-source est 7. Associez-le à une mansion et un Nom Divin.</p>
+</div>
+<div class="workbook-card">
+<h3>🌙 Exercice 2 — Journal lunaire</h3>
+<p>Pendant 28 jours, notez chaque soir : votre mansion du jour, les synchronicités observées, votre état vibratoire (1-10), une ouverture, un blocage. À la fin du cycle, relisez et identifiez les 3 signes majeurs.</p>
+</div>
+</div>
+<div class="workbook-grid" style="margin-top:5mm;">
+<div class="workbook-card">
+<h3>🔢 Exercice 3 — Les 5 découvertes φ</h3>
+<p>Pour chaque découverte (19×4×φ→123, 55×φ→89, etc.), créez une page : la formule en haut, votre interprétation, une visualisation, une pratique associée. Le but est de faire dialoguer les 5 formules entre elles.</p>
+</div>
+<div class="workbook-card">
+<h3>🎯 Exercice 4 — Carte d'intention</h3>
+<p>Dessinez un cercle divisé en 8 parts (les 8 directions). Dans chaque part, inscrivez un domaine de vie (santé, richesse, famille, etc.). Au centre, votre intention principale pour le cycle lunaire. Utilisez ce cercle comme base de visualisation quotidienne.</p>
+</div>
+</div>
+<div class="footer-note"><span>Chapitre VIII</span><span>Workbook — Exercices</span></div>
+<div class="page-number">13</div>
+</section>
+
+<!-- PAGE 36-39 — CHAPITRE IX : JOURNAL -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Chapitre IX</div>
+<h2>Journal de pratique</h2>
+<p class="deck">Pages de suivi quotidien pour les 28 jours du cycle lunaire.</p>
+</div>
+<div class="box">
+<h3>Modèle de page journalière</h3>
+<table class="ref-table">
+<thead><tr><th>Champ</th><th>Contenu</th></tr></thead>
+<tbody>
+<tr><td>Date</td><td>JJ/MM/AAAA</td></tr>
+<tr><td>Mansion du jour</td><td>n°1-28 + nom</td></tr>
+<tr><td>Phase lunaire</td><td>NL / PC / PL / DQ</td></tr>
+<tr><td>Rituel effectué</td><td>Oui / Non + durée</td></tr>
+<tr><td>Nombre récité</td><td>Nom Divin + nombre de fois</td></tr>
+<tr><td>État vibratoire (1-10)</td><td>___/10</td></tr>
+<tr><td>1 synchronicité observée</td><td>...</td></tr>
+<tr><td>1 blocage rencontré</td><td>...</td></tr>
+<tr><td>1 ouverture perçue</td><td>...</td></tr>
+<tr><td>Action concrète du jour</td><td>...</td></tr>
+</tbody>
+</table>
+</div>
+<div class="box" style="margin-top:6mm;">
+<h3>Clôture du cycle de 28 jours</h3>
+<p>À la fin du cycle, répondre à ces 5 questions : Quels sont mes 3 signes majeurs ? Quel est le blocage récurrent ? Quelle mansion a produit le plus d'ouvertures ? Quel Nom Divin a résonné le plus fort ? Quelle action concrète vais-je poser maintenant ? Ces réponses constituent la base du cycle suivant.</p>
+</div>
+<div class="page-number">14</div>
+</section>
+
+<!-- PAGE 40-43 — CHAPITRE X : GRILLES -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Chapitre X</div>
+<h2>Grilles d'évaluation</h2>
+<p class="deck">Outils d'auto-évaluation pour mesurer la progression sur 3 cycles lunaires (84 jours).</p>
+</div>
+<div class="cover-grid">
+<div class="panel">
+<h3>Grille 1 — Cohérence rituelle</h3>
+<table class="ref-table">
+<thead><tr><th>Critère</th><th>Cycle 1</th><th>Cycle 2</th><th>Cycle 3</th></tr></thead>
+<tbody>
+<tr><td>Jours de pratique /28</td><td>__/28</td><td>__/28</td><td>__/28</td></tr>
+<tr><td>Durée moyenne (min)</td><td>__</td><td>__</td><td>__</td></tr>
+<tr><td>Mansions suivies</td><td>__/28</td><td>__/28</td><td>__/28</td></tr>
+<tr><td>Visualisation claire</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+</tbody>
+</table>
+</div>
+<div class="panel">
+<h3>Grille 2 — Résultats observés</h3>
+<table class="ref-table">
+<thead><tr><th>Domaine</th><th>Cycle 1</th><th>Cycle 2</th><th>Cycle 3</th></tr></thead>
+<tbody>
+<tr><td>💰 Richesse</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+<tr><td>🩺 Santé</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+<tr><td>📖 Savoir</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+<tr><td>🛡️ Protection</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+<tr><td>💜 Spiritualité</td><td>1-10</td><td>1-10</td><td>1-10</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="panel" style="margin-top:5mm;">
+<h3>Grille 3 — Niveau de maîtrise</h3>
+<table class="ref-table">
+<thead><tr><th>Compétence</th><th>Débutant</th><th>Intermédiaire</th><th>Avancé</th></tr></thead>
+<tbody>
+<tr><td>Calcul mansion</td><td>Utilise une app</td><td>Calcule seul</td><td>Calcule de tête</td></tr>
+<tr><td>Rituel 61</td><td>Avec guide</td><td>De mémoire</td><td>Automatique</td></tr>
+<tr><td>Talisman</td><td>Trace avec modèle</td><td>Trace librement</td><td>Trace + active sans note</td></tr>
+<tr><td>Workbook</td><td>Remplit partiellement</td><td>Remplit intégralement</td><td>Crée ses propres grilles</td></tr>
+</tbody>
+</table>
+</div>
+<div class="footer-note"><span>Chapitre X</span><span>Grilles d'évaluation</span></div>
+<div class="page-number">15</div>
+</section>
+
+<!-- PAGE 44-47 — ANNEXE : CALENDRIER -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Annexe</div>
+<h2>Calendrier lunaire perpétuel</h2>
+<p class="deck">Correspondance entre mansions, phases et jours du mois lunaire pour une utilisation sans calcul.</p>
+</div>
+<div class="box">
+<table class="ref-table">
+<thead><tr><th>Jour lunaire</th><th>Mansion</th><th>Phase</th><th>Nombre-clé</th><th>Pratique conseillée</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Al-Sharatayn</td><td>NL</td><td>19</td><td>Ouverture, pose d'intention</td></tr>
+<tr><td>2</td><td>Al-Butayn</td><td>NL</td><td>7</td><td>Purification, nettoyage</td></tr>
+<tr><td>3</td><td>Al-Thurayya</td><td>NL</td><td>33</td><td>Bénédiction, semence</td></tr>
+<tr><td>7</td><td>Al-Dhira</td><td>PC</td><td>99</td><td>99 Noms, expansion</td></tr>
+<tr><td>10</td><td>Al-Jabha</td><td>PC</td><td>489</td><td>Ouverture des portes</td></tr>
+<tr><td>14</td><td>Al-Simak</td><td>PL</td><td>13</td><td>13 pas spirale φ</td></tr>
+<tr><td>15</td><td>Al-Ghafr</td><td>PL</td><td>21</td><td>Manifestation maximale</td></tr>
+<tr><td>16</td><td>Al-Zubana</td><td>PL</td><td>34</td><td>Ancrage du flux</td></tr>
+<tr><td>21</td><td>Al-Balda</td><td>DQ</td><td>61</td><td>Cycle complet, clôture</td></tr>
+<tr><td>28</td><td>Batu al-Hut</td><td>NL</td><td>618</td><td>Mercy-code, clôture finale</td></tr>
+</tbody>
+</table>
+</div>
+<div class="box" style="margin-top:6mm;">
+<h3>Note d'utilisation</h3>
+<p>Ce calendrier est perpétuel : pour n'importe quel mois lunaire, le jour 1 correspond à la Nouvelle Lune. Utiliser une application de phases lunaires pour connaître le jour lunaire actuel, puis se reporter à cette table. Le calendrier fonctionne aussi bien pour l'hémisphère nord que sud (les phases sont universelles).</p>
+</div>
+<div class="page-number">16</div>
+</section>
+
+</body>
+</html>

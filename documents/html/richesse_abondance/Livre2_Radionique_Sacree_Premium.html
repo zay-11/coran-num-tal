@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Livre 2 — Radionique Sacrée : Systèmes & Montages</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+@font-face {
+  font-family: "LuxeDisplay";
+  src: url("file:///C:/Windows/Fonts/BOOKOSB.TTF") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LuxeDisplay";
+  src: url("file:///C:/Windows/Fonts/BOOKOSBI.TTF") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "LuxeText";
+  src: url("file:///C:/Windows/Fonts/georgia.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LuxeText";
+  src: url("file:///C:/Windows/Fonts/georgiab.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LuxeText";
+  src: url("file:///C:/Windows/Fonts/georgiai.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+:root {
+  --paper: #eef0e8;
+  --paper-soft: #f7f9f4;
+  --ink: #16130f;
+  --muted: #5a5b4f;
+  --line: rgba(76,86,60,0.15);
+  --copper: #b87333;
+  --copper-bright: #d4883b;
+  --crystal: #8ab4c8;
+  --crystal-soft: #d4e4ed;
+  --forest: #2d5a4a;
+  --forest-soft: #d6e5db;
+  --night: #0f1411;
+  --night-2: #19231b;
+  --gold: #a8823d;
+}
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:#c8ccc2; color:var(--ink); font-family:"LuxeText",Georgia,serif; }
+body { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+.page { position:relative; width:210mm; min-height:297mm; margin:0 auto; padding:16mm 16mm 14mm; overflow:hidden; page-break-after:always;
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.08)),
+              radial-gradient(circle at 70% 20%, rgba(140,180,200,0.18), transparent 32%),
+              radial-gradient(circle at 30% 80%, rgba(184,115,51,0.10), transparent 30%),
+              var(--paper); }
+.page::before { content:""; position:absolute; inset:8mm; border:1px solid rgba(90,91,79,0.2); }
+.page::after { content:""; position:absolute; inset:11mm; border:1px solid rgba(90,91,79,0.06); }
+
+.page-dark { background: radial-gradient(circle at 20% 30%, rgba(184,115,51,0.14), transparent 28%),
+             radial-gradient(circle at 80% 70%, rgba(138,180,200,0.12), transparent 24%),
+             linear-gradient(180deg, var(--night-2), var(--night));
+  color:#eef0e8; }
+.page-dark::before { border-color:rgba(184,115,51,0.25); }
+.page-dark::after { border-color:rgba(184,115,51,0.1); }
+
+.ornament { position:absolute; left:16mm; right:16mm; height:6mm;
+  background: linear-gradient(90deg, transparent, rgba(184,115,51,0.7) 18%, rgba(184,115,51,0.92) 50%, rgba(184,115,51,0.7) 82%, transparent); }
+.ornament.top { top:12mm; }
+.ornament.bottom { bottom:11mm; }
+
+.cover { display:grid; grid-template-rows:auto auto auto 1fr auto; gap:8mm; min-height:100%; }
+.cover-kicker { display:flex; justify-content:space-between; font-size:9.5px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(238,240,232,0.7); }
+.cover h1 { margin:0; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:30pt; line-height:0.93; color:#f1e6cf; text-transform:uppercase; }
+.cover .subtitle { max-width:140mm; margin:4mm 0 0; font-size:13pt; line-height:1.3; color:rgba(245,240,231,0.9); }
+.cover-grid { display:grid; grid-template-columns:1fr 1fr; gap:8mm; }
+.cover-showcase { display:grid; grid-template-columns:1fr 1fr; gap:8mm; align-items:stretch; }
+.arabic { font-size:20pt; color:#dbb78b; letter-spacing:0.03em; }
+
+.section-head { margin-bottom:6mm; }
+.eyebrow { font-size:9px; letter-spacing:0.18em; text-transform:uppercase; color:var(--copper); margin-bottom:2mm; }
+.section-head h2 { margin:0; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:21pt; line-height:1; }
+.deck { margin:2.5mm 0 0; max-width:148mm; font-size:10.5pt; line-height:1.45; color:var(--muted); }
+.page-dark .eyebrow { color:var(--copper-bright); }
+.page-dark .deck { color:rgba(238,240,232,0.7); }
+
+.panel, .box { position:relative; border:1px solid rgba(184,115,51,0.28); background:rgba(250,252,246,0.82); padding:5.5mm; }
+.panel::before, .box::before { content:""; position:absolute; inset:3mm; border:1px solid rgba(184,115,51,0.12); }
+.page-dark .panel { background:rgba(255,255,255,0.04); border-color:rgba(184,115,51,0.25); }
+.page-dark .panel::before { border-color:rgba(184,115,51,0.08); }
+.panel h3, .box h3 { margin:0 0 2.5mm; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:12pt; line-height:1.15; }
+.panel p, .box p { margin:0; font-size:10pt; line-height:1.55; }
+
+.lede { font-size:11.2pt; line-height:1.7; margin:0 0 5mm; }
+
+.split { display:grid; grid-template-columns:1fr 1fr; gap:8mm; }
+
+.copper-highlight { background:rgba(184,115,51,0.7); color:#fff; padding:0.5mm 2mm; border-radius:2px; }
+
+.montage-grid { display:grid; gap:6mm; }
+.montage-card { position:relative; border:1px solid rgba(76,86,60,0.2); background:rgba(255,255,255,0.55); padding:5.5mm; }
+.montage-card h3 { margin:0 0 2mm; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:13pt; }
+.montage-card .schema-svg { width:100%; max-width:110mm; display:block; margin:0 auto; }
+
+.schema-card { position:relative; border:1px solid rgba(184,115,51,0.24); background:rgba(250,252,246,0.78); padding:5.5mm; }
+.schema-card h3 { margin:0 0 2.5mm; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:12pt; }
+
+.ref-table { width:100%; border-collapse:collapse; font-size:9.3pt; }
+.ref-table th,.ref-table td { border-bottom:1px solid rgba(100,110,80,0.18); padding:3mm 2.4mm; text-align:left; vertical-align:top; }
+.ref-table th { font-size:8.3pt; letter-spacing:0.12em; text-transform:uppercase; color:var(--muted); }
+.page-dark .ref-table th { color:rgba(238,240,232,0.6); }
+
+.footer-note { position:absolute; left:16mm; right:16mm; bottom:16mm; display:flex; justify-content:space-between; font-size:9px; letter-spacing:0.08em; text-transform:uppercase; color:rgba(100,105,85,0.72); }
+.page-dark .footer-note { color:rgba(230,234,220,0.62); }
+.page-number { position:absolute; right:18mm; bottom:16mm; font-size:8.5pt; color:var(--muted); }
+.page-dark .page-number { color:rgba(230,234,220,0.54); }
+
+.protocol-grid { display:grid; gap:5mm; grid-template-columns:repeat(3,1fr); }
+.protocol-card { position:relative; border:1px solid rgba(184,115,51,0.22); background:rgba(250,252,246,0.76); padding:5mm; }
+.page-dark .protocol-card { background:rgba(255,255,255,0.04); border-color:rgba(184,115,51,0.2); }
+.protocol-card h3 { margin:0 0 2mm; font-family:"LuxeDisplay","Book Antiqua",serif; font-size:11pt; }
+.protocol-card p, .protocol-card li { font-size:9.5pt; line-height:1.5; }
+.protocol-card ul { margin:2mm 0 0; padding-left:16px; }
+
+.material-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:3mm; }
+.material-chip { display:flex; align-items:center; justify-content:center; min-height:14mm; padding:0 3mm; background:rgba(255,255,255,0.5); border:1px solid var(--line); font-size:9pt; color:var(--forest); }
+
+.center-phi { font-family:"LuxeDisplay","Book Antiqua",serif; font-size:18pt; color:var(--copper); }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 1 — COUVERTURE -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="cover">
+    <div class="cover-kicker">
+      <span>Collection radionique sacrée</span>
+      <span>Edition intégrale premium</span>
+    </div>
+    <div>
+      <h1>Radionique Sacrée<br/>Systèmes & Montages</h1>
+      <p class="subtitle">Edition intégrale fusionnant les trois volumes : Radionique Sacrée, Radionique Amplifiée et Module Rizq Phi. Un traité complet des montages radioniques coraniques, du circuit élémentaire aux systèmes multicouches.</p>
+    </div>
+    <div class="cover-showcase" style="margin-top:5mm;">
+      <div>
+        <div class="panel">
+          <h3>Piliers du système</h3>
+          <ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;line-height:1.58;">
+            <li>Cuivre — conducteur et résonateur naturel</li>
+            <li>Quartz — mémoire et amplification vibratoire</li>
+            <li>Néodyme — polarisation directionnelle du flux</li>
+            <li>Toroïde — confinement et mise en boucle</li>
+            <li>Nombres φ — codage des fréquences</li>
+          </ul>
+        </div>
+        <div class="panel" style="margin-top:5mm;">
+          <h3>3 systèmes progressifs</h3>
+          <ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;line-height:1.58;">
+            <li>Montage de base : spirale cuivre + quartz</li>
+            <li>Système amplifié : 7 couches + aimants + toroïde</li>
+            <li>Module Rizq Phi : 3 noyaux textuels</li>
+          </ul>
+        </div>
+      </div>
+      <div style="display:grid;align-content:center;border:1px solid rgba(184,115,51,0.2);padding:5mm;background:rgba(255,255,255,0.03);min-height:100mm;">
+        <svg viewBox="0 0 400 400" style="width:100%;max-width:130mm;display:block;margin:0 auto;" aria-hidden="true">
+          <defs><radialGradient id="coreGlow" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#d4883b" stop-opacity="0.95"/><stop offset="100%" stop-color="#d4883b" stop-opacity="0.2"/></radialGradient></defs>
+          <circle cx="200" cy="200" r="160" fill="none" stroke="#b87333" stroke-width="2.5"/>
+          <circle cx="200" cy="200" r="120" fill="none" stroke="#8ab4c8" stroke-width="1.8" stroke-dasharray="5 8"/>
+          <circle cx="200" cy="200" r="72" fill="none" stroke="#b87333" stroke-width="2.2"/>
+          <circle cx="200" cy="200" r="38" fill="url(#coreGlow)" stroke="#b87333" stroke-width="2.8"/>
+          <text x="200" y="208" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:32px;fill:#eef0e8;">786</text>
+          <g stroke="#b87333" stroke-width="1.6" opacity="0.7">
+            <line x1="40" y1="200" x2="360" y2="200"/>
+            <line x1="200" y1="40" x2="200" y2="360"/>
+            <line x1="86.8" y1="86.8" x2="313.2" y2="313.2"/>
+            <line x1="313.2" y1="86.8" x2="86.8" y2="313.2"/>
+          </g>
+          <path d="M 200 38 Q 360 200 200 362" fill="none" stroke="#8ab4c8" stroke-width="2.4" stroke-dasharray="3 6" opacity="0.8"/>
+          <path d="M 200 38 Q 40 200 200 362" fill="none" stroke="#8ab4c8" stroke-width="2.4" stroke-dasharray="3 6" opacity="0.8"/>
+          <circle cx="200" cy="38" r="6" fill="#b87333"/><circle cx="360" cy="200" r="6" fill="#b87333"/>
+          <circle cx="200" cy="362" r="6" fill="#b87333"/><circle cx="40" cy="200" r="6" fill="#b87333"/>
+          <text x="200" y="24" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#b87333;">QUARTZ</text>
+          <text x="374" y="207" text-anchor="start" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#b87333;">CUIVRE</text>
+          <text x="200" y="375" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#b87333;">NEODYME</text>
+        </svg>
+      </div>
+    </div>
+    <div class="footer-note"><span>Edition intégrale premium</span><span>Livre 2 — Radionique Sacrée</span></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 2 — TABLE DES MATIÈRES -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Sommaire</div>
+    <h2>Table des matières</h2>
+    <p class="deck">Cet ouvrage couvre les trois niveaux de la radionique coranique : montage de base, système amplifié et module Rizq Phi.</p>
+  </div>
+  <div style="margin-top:8mm;">
+    <table class="ref-table">
+      <thead><tr><th style="width:20mm;">Chapitre</th><th>Titre</th><th style="width:20mm;">Page</th></tr></thead>
+      <tbody>
+        <tr><td>Préface</td><td>Principes de la radionique coranique</td><td>3</td></tr>
+        <tr><td>I</td><td>Fondements théoriques</td><td>4</td></tr>
+        <tr><td>II</td><td>Matériaux et outils</td><td>6</td></tr>
+        <tr><td>III</td><td>Montage de base — Spirale cuivre + quartz</td><td>8</td></tr>
+        <tr><td>IV</td><td>Système amplifié 7 couches</td><td>12</td></tr>
+        <tr><td>V</td><td>Module Rizq Phi — 3 noyaux textuels</td><td>16</td></tr>
+        <tr><td>VI</td><td>Codes d'activation et prières</td><td>20</td></tr>
+        <tr><td>VII</td><td>Protocoles d'utilisation</td><td>24</td></tr>
+        <tr><td>VIII</td><td>Entretien, purification, réactivation</td><td>28</td></tr>
+        <tr><td>Annexe</td><td>Tableau récapitulatif des montages</td><td>30</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="box" style="margin-top:10mm;">
+    <h3>Note technique</h3>
+    <p>Les schémas sont représentés en vue de dessus (plan horizontal). Les cotations sont en millimètres. Les matériaux sont listés en ordre de montage. Chaque système peut être exécuté indépendamment. Pour un résultat optimal, suivre l'ordre logique : Base → Amplifié → Module.</p>
+  </div>
+  <div class="page-number">02</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 3 — PRÉFACE -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Préface</div>
+    <h2>Principes de la radionique coranique</h2>
+    <p class="deck">La radionique sacrée utilise des montages physiques — cuivre, quartz, aimants — pour capter, amplifier et diriger des fréquences subtiles issues des textes sacrés.</p>
+  </div>
+  <p class="lede" style="color:#e8eade;">La radionique est un art de l'analogie vibratoire. Chaque montage est un circuit qui traduit des nombres et des noms divins en fréquences exploitables. Le cuivre conduit, le quartz mémoire, l'aimant polarise, le toroïde boucle. L'ensemble forme un corps de résonance où l'intention du praticien est le premier opérateur.</p>
+  <div class="cover-grid" style="margin-top:8mm;">
+    <div class="panel">
+      <h3>Les 4 principes</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;">
+        <li><strong>Résonance :</strong> tout montage est accordé à un champ de nombres (abjad, Fibonacci, φ).</li>
+        <li><strong>Conduction :</strong> le cuivre est le meilleur conducteur non précieux pour les fréquences subtiles.</li>
+        <li><strong>Mémoire :</strong> le quartz garde l'empreinte du code une fois activé.</li>
+        <li><strong>Direction :</strong> l'aimant oriente le flux. Sans lui, le champ rayonne en tous sens.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Ce que cette édition apporte</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:10pt;">
+        <li>Fusion claire des 3 documents originaux.</li>
+        <li>Schémas cotés précis et légendés.</li>
+        <li>Séparation nette entre matériel, montage, activation et pratique.</li>
+        <li>Protocoles complets : 7, 21, 40 et 65 jours.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-note"><span>Préface</span><span>Livre 2 — Radionique Sacrée</span></div>
+  <div class="page-number">03</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 4-5 — CHAPITRE I : FONDEMENTS -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre I</div>
+    <h2>Fondements théoriques</h2>
+    <p class="deck">Cuivre, quartz, résonance, nombres : les bases nécessaires à la compréhension des montages.</p>
+  </div>
+  <div class="split">
+    <div class="box">
+      <h3>Cuivre — Conducteur universel</h3>
+      <p>Le cuivre est utilisé pour sa conductivité électrique et thermique exceptionnelle. En radionique, il sert de capteur et d'émetteur : une spirale de cuivre concentre le flux au centre, tandis qu'un fil droit le dirige. La longueur du fil détermine la fréquence d'accord. La formule de base : <strong>L = c/f × φ</strong> où c = 299 792 458 m/s.</p>
+    </div>
+    <div class="box">
+      <h3>Quartz — Mémoire cristalline</h3>
+      <p>Le quartz piézoélectrique convertit une pression mécanique en électricité et vice-versa. En radionique, il sert de mémoire stable : une fois activé par un code, il le retient et le réémet. Placé au centre d'une spirale de cuivre, il amplifie la fréquence du code. Choisir un quartz clair (cristal de roche) sans inclusion.</p>
+    </div>
+  </div>
+  <div class="split" style="margin-top:6mm;">
+    <div class="box">
+      <h3>Aimants néodyme — Polarisation</h3>
+      <p>Les aimants néodyme (NdFeB) sont les plus puissants aimants permanents disponibles. En radionique, ils servent à polariser le champ : ils donnent une direction au flux. Sans aimant, le champ rayonne isotropiquement. Avec aimant, il s'oriente vers une cible (une photo, un nom, un lieu). Grade recommandé : N52.</p>
+    </div>
+    <div class="box">
+      <h3>Toroïde — Confinement</h3>
+      <p>Le tore (forme d'anneau) est la forme la plus stable pour confiner un champ électromagnétique. En radionique, un bobinage toroïdal entoure le flux, le boucle et l'empêche de se dissiper. Les bobinages primaire et secondaire créent un transformateur vibratoire qui élève la fréquence.</p>
+    </div>
+  </div>
+  <div class="page-number">04</div>
+</section>
+
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre I (suite)</div>
+    <h2>Résonance et codage numérique</h2>
+    <p class="deck">Tout montage radionique est accordé à un champ de nombres. Les codes abjad et φ définissent les longueurs et les proportions.</p>
+  </div>
+  <div class="box">
+    <h3>Accord numérique des montages</h3>
+    <table class="ref-table">
+      <thead><tr><th>Élément</th><th>Code / Valeur</th><th>Application physique</th></tr></thead>
+      <tbody>
+        <tr><td>Basmala</td><td>786</td><td>Longueur totale du fil cuivre (mm)</td></tr>
+        <tr><td>Ya Razzaq</td><td>319</td><td>Diamètre de la spirale primaire (mm)</td></tr>
+        <tr><td>Ya Fattah</td><td>489</td><td>Diamètre du cercle externe (mm)</td></tr>
+        <tr><td>Rahman+Rahim</td><td>618</td><td>Fréquence d'activation (kHz)</td></tr>
+        <tr><td>56 (Al-Waqi'a)</td><td>56</td><td>Nombre de tours de la spirale primaire</td></tr>
+        <tr><td>19 (Code)</td><td>19</td><td>Nombre de tours de la spirale secondaire</td></tr>
+        <tr><td>7 (Jours)</td><td>7</td><td>Rayon du noyau central (cm)</td></tr>
+        <tr><td>φ</td><td>1.618</td><td>Ratio des rayons entre anneaux</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="split" style="margin-top:6mm;">
+    <div class="box">
+      <h3>Proportions φ</h3>
+      <ul style="margin:2mm 0 0;padding-left:18px;">
+        <li>Rayon interne : 29 mm</li>
+        <li>Rayon moyen : 46 mm (= 29×φ)</li>
+        <li>Rayon externe : 75 mm (= 46×φ)</li>
+        <li>Hauteur toroïde : 34 mm (F₉)</li>
+        <li>Écart entre couches : 13 mm (F₇)</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Fréquences de travail</h3>
+      <ul style="margin:2mm 0 0;padding-left:18px;">
+        <li>Activation : 618 kHz (Rahman+Rahim)</li>
+        <li>Résonance : 786 kHz (Basmala)</li>
+        <li>Amplification : 489 kHz (Fattah)</li>
+        <li>Scellement : 319 kHz (Razzaq)</li>
+        <li>Harmonique φ : 1000 kHz</li>
+      </ul>
+    </div>
+  </div>
+  <div class="page-number">05</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 6-7 — CHAPITRE II : MATÉRIAUX -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Chapitre II</div>
+    <h2>Matériaux et outils</h2>
+    <p class="deck">Liste complète de tous les composants nécessaires aux trois systèmes, avec spécifications précises.</p>
+  </div>
+  <div class="cover-grid">
+    <div class="panel">
+      <h3>Montage de base</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+        <li>Fil de cuivre émaillé ∅0.8mm — 7.86 mètres</li>
+        <li>Quartz clair ∅25mm environ</li>
+        <li>Support bois ou PCB ∅120mm</li>
+        <li>Connecteur BNC femelle</li>
+        <li>Câble coaxial 50Ω — 33 cm</li>
+        <li>Fer à souder 40W, étain</li>
+        <li>Pistolet à colle chaude</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Système amplifié 7 couches</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+        <li>Fil cuivre ∅0.8mm — 14.2 mètres (bobinages)</li>
+        <li>Aimants néodyme N52 ∅20×5mm — 7 unités</li>
+        <li>Toroïde ferrite ∅34mm (ext.) — 1 unité</li>
+        <li>Quartz clair ∅12mm, ∅25mm — 2 unités</li>
+        <li>Support bois ∅180mm, ép. 8mm</li>
+        <li>Résine époxy transparente</li>
+        <li>Feuille cuivre adhésive 100×100mm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cover-grid" style="margin-top:5mm;">
+    <div class="panel">
+      <h3>Module Rizq Phi</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+        <li>3 supports bois ∅75mm chacun</li>
+        <li>Fil cuivre ∅0.6mm — 3×2.18 mètres</li>
+        <li>3 quartz clair ∅8mm</li>
+        <li>Feuille cuivre autocollante</li>
+        <li>Marqueur doré ou violet</li>
+        <li>Papier parchemin A5 — 3 feuilles</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Outils communs</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+        <li>Multimètre numérique</li>
+        <li>Pince coupante et pince à dénuder</li>
+        <li>Règle métallique 300mm</li>
+        <li>Compas à pointes sèches</li>
+        <li>Marqueur permanent fin</li>
+        <li>Cutter de précision</li>
+        <li>Gants non poudrés (manipulation quartz)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-note"><span>Chapitre II</span><span>Matériaux et outils</span></div>
+  <div class="page-number">06</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 8-11 — CHAPITRE III : MONTAGE DE BASE -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre III</div>
+    <h2>Montage de base — Spirale cuivre + quartz</h2>
+    <p class="deck">Le premier système : une spirale de cuivre de 786 mm de long avec un quartz au centre. Dimensions et proportions inspirées de la Basmala.</p>
+  </div>
+  <div class="montage-card">
+    <h3>Schéma 1 — Spirale cuivre simple</h3>
+    <svg class="schema-svg" viewBox="0 0 400 400" aria-hidden="true">
+      <circle cx="200" cy="200" r="150" fill="none" stroke="#b87333" stroke-width="3"/>
+      <circle cx="200" cy="200" r="120" fill="none" stroke="#b87333" stroke-width="2.5"/>
+      <circle cx="200" cy="200" r="90" fill="none" stroke="#b87333" stroke-width="2"/>
+      <circle cx="200" cy="200" r="60" fill="none" stroke="#b87333" stroke-width="1.8"/>
+      <circle cx="200" cy="200" r="30" fill="none" stroke="#b87333" stroke-width="1.5"/>
+      <circle cx="200" cy="200" r="12" fill="rgba(255,255,255,0.6)" stroke="#8ab4c8" stroke-width="2.5">
+        <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="200" y="208" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#2d5a4a;">786</text>
+      <line x1="200" y1="212" x2="200" y2="385" stroke="#b87333" stroke-width="2.5"/>
+      <circle cx="200" cy="385" r="5" fill="#b87333"/>
+      <line x1="200" y1="0" x2="200" y2="188" stroke="#b87333" stroke-width="2.5"/>
+      <circle cx="200" cy="0" r="5" fill="#b87333"/>
+      <text x="210" y="20" style="font-size:10px;fill:var(--muted);">entrée signal</text>
+      <text x="210" y="393" style="font-size:10px;fill:var(--muted);">sortie / masse</text>
+      <text x="50" y="200" style="font-size:12px;fill:var(--muted);">∅240</text>
+      <line x1="80" y1="185" x2="80" y2="215" stroke="#999" stroke-width="1"/>
+      <line x1="80" y1="200" x2="195" y2="200" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
+  <div class="split" style="margin-top:5mm;">
+    <div class="box">
+      <h3>Étape 1 — Bobinage</h3>
+      <ul>
+        <li>Couper 786 mm de fil cuivre émaillé ∅0.8mm</li>
+        <li>Dénuder les extrémités sur 8 mm</li>
+        <li>Bobinage : 5 spires concentriques espacées de 2mm</li>
+        <li>Rayon max : 120 mm (∅240 mm total)</li>
+        <li>Laisser les extrémités libres sur 50 mm</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>Étape 2 — Quartz + connexion</h3>
+      <ul>
+        <li>Nettoyer le quartz à l'alcool à 90°</li>
+        <li>Déposer une goutte de colle chaude au centre</li>
+        <li>Positionner le quartz (pointe vers le haut)</li>
+        <li>Connecter l'entrée au BNC central</li>
+        <li>Connecter la sortie à la masse du BNC</li>
+        <li>Tester la continuité au multimètre</li>
+      </ul>
+    </div>
+  </div>
+  <div class="page-number">08</div>
+</section>
+
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre III (suite)</div>
+    <h2>Activation et test du montage de base</h2>
+    <p class="deck">Une fois le montage physique terminé, l'activation est une séquence de récitation, de visualisation et de scellement.</p>
+  </div>
+  <div class="split">
+    <div class="box">
+      <h3>Protocole d'activation</h3>
+      <ol style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Placer le montage sur une surface plane et stable</li>
+        <li>Pointer le quartz vers le nord magnétique</li>
+        <li>Réciter 1× la Basmala (Bismillah al-Rahman al-Rahim)</li>
+        <li>Réciter 7× le code d'activation : 786 489 618</li>
+        <li>Visualiser le quartz qui s'illumine de l'intérieur</li>
+        <li>Fermer par 1× Al-Fatiha</li>
+        <li>Le montage est actif pendant 24h</li>
+      </ol>
+    </div>
+    <div class="box">
+      <h3>Vérification</h3>
+      <ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Multimètre en position résistance : 0.5–2 Ω</li>
+        <li>Pas de court-circuit entre spires</li>
+        <li>Quartz stable sans jeu</li>
+        <li>BNC solidement soudé</li>
+        <li>Test de résonance : approcher une antenne filaire, le signal doit être détectable à 5 cm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box" style="margin-top:6mm;">
+    <h3>Usages du montage de base</h3>
+    <p>Ce montage sert à : capter une demande, poser une intention quotidienne, purifier un espace, amplifier un dhikr. Il est le socle de tous les systèmes suivants. Le recommander comme premier exercice de radionique avant de passer aux systèmes plus complexes.</p>
+  </div>
+  <div class="page-number">09</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 12-15 — CHAPITRE IV : SYSTÈME AMPLIFIÉ -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Chapitre IV</div>
+    <h2>Système amplifié 7 couches</h2>
+    <p class="deck">Le système complet : 7 couches concentriques intégrant cuivre, quartz, aimants néodyme et toroïde porte-bobinage.</p>
+  </div>
+  <div class="cover-grid">
+    <div class="panel">
+      <h3>Architecture des 7 couches</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.8pt;">
+        <li><strong>Couche 1 :</strong> Base bois ∅180 mm, ép. 8 mm (socle)</li>
+        <li><strong>Couche 2 :</strong> Feuille cuivre adhésive carrée 100×100 mm au centre (masse)</li>
+        <li><strong>Couche 3 :</strong> Spirale primaire — 56 tours, fil cuivre ∅0.8mm, ∅ext. 120mm</li>
+        <li><strong>Couche 4 :</strong> 7 aimants néodyme N52 répartis en cercle (∅20×5mm)</li>
+        <li><strong>Couche 5 :</strong> Toroïde ferrite ∅34mm+ bobinage secondaire 19 tours</li>
+        <li><strong>Couche 6 :</strong> Quartz central ∅12mm + quartz secondaire ∅25mm (sur aimants)</li>
+        <li><strong>Couche 7 :</strong> Résine époxy de protection transparente</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Schéma multicouche</h3>
+      <svg viewBox="0 0 400 400" style="width:100%;max-width:120mm;display:block;margin:0 auto;" aria-hidden="true">
+        <rect x="10" y="340" width="380" height="20" rx="3" fill="#8b6f47"/><text x="200" y="355" text-anchor="middle" style="font-size:9px;fill:#fff;">1 — Base bois</text>
+        <rect x="140" y="310" width="120" height="18" rx="2" fill="#b87333"/><text x="200" y="324" text-anchor="middle" style="font-size:9px;fill:#fff;">2 — Feuille cuivre</text>
+        <path d="M 200 290 c 60,-20 120,10 70,50 c -50,40 -140,10 -70,-50 z" fill="none" stroke="#b87333" stroke-width="2.5"/><text x="200" y="302" text-anchor="middle" style="font-size:9px;fill:#b87333;">3 — Spirale primaire</text>
+        <g><circle cx="110" cy="200" r="8" fill="#888"/><circle cx="160" cy="140" r="8" fill="#888"/><circle cx="240" cy="140" r="8" fill="#888"/><circle cx="290" cy="200" r="8" fill="#888"/><circle cx="240" cy="260" r="8" fill="#888"/><circle cx="160" cy="260" r="8" fill="#888"/><circle cx="200" cy="200" r="8" fill="#888"/></g><text x="200" y="184" text-anchor="middle" style="font-size:9px;fill:#888;">4 — 7 aimants néodyme</text>
+        <ellipse cx="200" cy="130" rx="30" ry="12" fill="none" stroke="#8ab4c8" stroke-width="2"/><text x="200" y="136" text-anchor="middle" style="font-size:9px;fill:#8ab4c8;">5 — Toroïde</text>
+        <circle cx="200" cy="180" r="6" fill="#8ab4c8" stroke="#fff" stroke-width="1"/><text x="200" y="170" text-anchor="middle" style="font-size:8px;fill:#8ab4c8;">Q1</text>
+        <circle cx="100" cy="170" r="6" fill="#8ab4c8" stroke="#fff" stroke-width="1"/><text x="82" y="174" style="font-size:8px;fill:#8ab4c8;">Q2</text>
+      </svg>
+    </div>
+  </div>
+  <div class="footer-note"><span>Chapitre IV</span><span>Système amplifié 7 couches</span></div>
+  <div class="page-number">10</div>
+</section>
+
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Chapitre IV (suite)</div>
+    <h2>Instructions de montage — Système amplifié</h2>
+    <p class="deck">Étapes détaillées pour chaque couche. Prévoir 2 à 4 heures de travail pour un montage complet.</p>
+  </div>
+  <div class="cover-grid">
+    <div class="panel">
+      <h3>Couches 1 à 4 — Installation</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Poncer le socle bois, appliquer une couche d'huile de lin</li>
+        <li>Coller la feuille cuivre adhésive au centre (carré 100×100mm)</li>
+        <li>Bobiner la spirale : 56 tours, fil ∅0.8mm, ∅ext. 120mm, ∅int. 30mm</li>
+        <li>Positionner les 7 aimants néodyme : cercle de rayon 60mm, espacés de 51.4°</li>
+        <li>Vérifier la polarité : tous les pôles nord vers le haut</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Couches 5 à 7 — Finition</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Enrouler 19 tours de fil ∅0.6mm autour du toroïde ferrite</li>
+        <li>Placer le toroïde au centre du cercle d'aimants</li>
+        <li>Coller quartz Q1 (∅12mm) au centre du toroïde</li>
+        <li>Coller quartz Q2 (∅25mm) sur un aimant libre (position nord-est)</li>
+        <li>Coulée de résine époxy : 3 mm d'épaisseur maximale</li>
+        <li>Laisser polymériser 24h</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel" style="margin-top:5mm;">
+    <h3>Activation du système amplifié</h3>
+    <p>L'activation est plus longue que pour le montage de base : réciter 7× Basmala, 19× le code 786 489 618, puis 33× Ya Fattah. Visualiser chaque couche qui s'allume progressivement du bas vers le haut. Scellement : 1× Sourate Al-Fatiha + 1× Ayat al-Kursi.</p>
+  </div>
+  <div class="footer-note"><span>Chapitre IV</span><span>Montage amplifié — Instructions</span></div>
+  <div class="page-number">11</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 16-19 — CHAPITRE V : MODULE RIZQ PHI -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre V</div>
+    <h2>Module Rizq Phi — 3 noyaux textuels</h2>
+    <p class="deck">Trois sous-modules indépendants, chacun accordé à l'un des trois versets-sources du Rizq, avec ses propres quartz, bobinage et code.</p>
+  </div>
+  <div class="montage-grid">
+    <div class="montage-card">
+      <h3>Noyau 1 — Source (51:58)</h3>
+      <div class="split">
+        <div>
+          <p><span class="copper-highlight">51:58</span> — Ar-Razzaq, la Source</p>
+          <ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+            <li>Fil cuivre ∅0.6mm — 2.18 m (= 786/φ)</li>
+            <li>Spirale : 19 tours, ∅ext. 75mm</li>
+            <li>Quartz : ∅8mm, pointe vers le haut</li>
+            <li>Code inscrit : 319 58 123</li>
+            <li>Fréquence d'accord : 319 kHz</li>
+          </ul>
+        </div>
+        <div>
+          <svg viewBox="0 0 150 150" style="width:100%;max-width:90mm;display:block;" aria-hidden="true">
+            <circle cx="75" cy="75" r="55" fill="none" stroke="#b87333" stroke-width="2"/>
+            <circle cx="75" cy="75" r="40" fill="none" stroke="#b87333" stroke-width="1.5"/>
+            <circle cx="75" cy="75" r="25" fill="none" stroke="#b87333" stroke-width="1.2"/>
+            <circle cx="75" cy="75" r="8" fill="rgba(255,255,255,0.5)" stroke="#8ab4c8" stroke-width="1.8"/>
+            <text x="75" y="79" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#2d5a4a;">319</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="montage-card">
+      <h3>Noyau 2 — Issue (65:2-3)</h3>
+      <div class="split">
+        <div>
+          <p><span class="copper-highlight">65:2-3</span> — Le passage inattendu</p>
+          <ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+            <li>Fil cuivre ∅0.6mm — 1.46 m (= 123×11.9)</li>
+            <li>Spirale : 13 tours, ∅ext. 62mm</li>
+            <li>Quartz : ∅8mm</li>
+            <li>Code inscrit : 652 653 618</li>
+            <li>Fréquence d'accord : 489 kHz</li>
+          </ul>
+        </div>
+        <div>
+          <svg viewBox="0 0 150 150" style="width:100%;max-width:90mm;display:block;" aria-hidden="true">
+            <circle cx="75" cy="75" r="45" fill="none" stroke="#b87333" stroke-width="2"/>
+            <circle cx="75" cy="75" r="30" fill="none" stroke="#b87333" stroke-width="1.5"/>
+            <circle cx="75" cy="75" r="15" fill="none" stroke="#b87333" stroke-width="1.2"/>
+            <circle cx="75" cy="75" r="7" fill="rgba(255,255,255,0.5)" stroke="#8ab4c8" stroke-width="1.8"/>
+            <text x="75" y="79" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#2d5a4a;">489</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="montage-card">
+      <h3>Noyau 3 — Pluie (71:10-12)</h3>
+      <div class="split">
+        <div>
+          <p><span class="copper-highlight">71:10-12</span> — La descente du flux</p>
+          <ul style="margin:2mm 0 0;padding-left:18px;font-size:9.5pt;">
+            <li>Fil cuivre ∅0.6mm — 1.05 m</li>
+            <li>Spirale : 7 tours, ∅ext. 49mm</li>
+            <li>Quartz : ∅8mm</li>
+            <li>Code inscrit : 7110 7112 55 89</li>
+            <li>Fréquence d'accord : 618 kHz</li>
+          </ul>
+        </div>
+        <div>
+          <svg viewBox="0 0 150 150" style="width:100%;max-width:90mm;display:block;" aria-hidden="true">
+            <circle cx="75" cy="75" r="35" fill="none" stroke="#b87333" stroke-width="2"/>
+            <circle cx="75" cy="75" r="20" fill="none" stroke="#b87333" stroke-width="1.5"/>
+            <circle cx="75" cy="75" r="6" fill="rgba(255,255,255,0.5)" stroke="#8ab4c8" stroke-width="1.8"/>
+            <text x="75" y="79" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#2d5a4a;">618</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="box" style="margin-top:5mm;">
+    <h3>Montage final du Module Rizq Phi</h3>
+    <p>Disposer les 3 noyaux en triangle équilatéral (espacement 85mm). Relier les masses des 3 modules par un fil de cuivre nu ∅0.8mm. Placer une photo ou un nom au centre du triangle. Activer chaque module séparément (ordre : 1→2→3), puis les 3 ensemble par 7× récitation de 319 489 618 786.</p>
+  </div>
+  <div class="page-number">12</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 20-23 — CHAPITRE VI : CODES D'ACTIVATION -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Chapitre VI</div>
+    <h2>Codes d'activation et prières</h2>
+    <p class="deck">Chaque montage possède son propre protocole d'activation. Les codes sont à réciter à voix haute, en arabe de préférence.</p>
+  </div>
+  <div class="cover-grid">
+    <div class="panel">
+      <h3>Code d'activation universel</h3>
+      <p style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16pt;color:#d4883b;">319 — 489 — 618 — 786</p>
+      <p>Ce code enchaîne les 4 piliers : Razzaq (Source) → Fattah (Ouverture) → Rahman+Rahim (Cœur) → Basmala (Sceau). À réciter 7, 19 ou 33 fois selon la puissance désirée.</p>
+    </div>
+    <div class="panel">
+      <h3>Activation montage de base</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>1× Basmala</li>
+        <li>7× code 786 489 618</li>
+        <li>Visualisation : quartz lumineux</li>
+        <li>1× Al-Fatiha</li>
+        <li>Durée : 5 minutes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="cover-grid" style="margin-top:5mm;">
+    <div class="panel">
+      <h3>Activation système amplifié</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>7× Basmala</li>
+        <li>19× code 786 489 618</li>
+        <li>33× Ya Fattah</li>
+        <li>Visualisation : 7 couches allumées progressivement</li>
+        <li>1× Al-Fatiha + 1× Ayat al-Kursi</li>
+        <li>Durée : 20 minutes</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Activation module Rizq Phi</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Activer chaque noyau séparément (ordre 1→2→3)</li>
+        <li>Pour chaque noyau : 1× Basmala + 33× code du noyau</li>
+        <li>Puis activation groupée : 7× code 319 489 618</li>
+        <li>Scellement : 1× Sourate 56 (Al-Waqi'a) + 1× Sourate 55 (Ar-Rahman)</li>
+        <li>Durée : 30 minutes</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-note"><span>Chapitre VI</span><span>Codes d'activation</span></div>
+  <div class="page-number">13</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 24-27 — CHAPITRE VII : PROTOCOLES -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre VII</div>
+    <h2>Protocoles d'utilisation</h2>
+    <p class="deck">Quatre durées de protocole selon l'objectif : 7 jours (lancement), 21 jours (ancrage), 40 jours (intégration), 65 jours (ancrage profond).</p>
+  </div>
+  <div class="protocol-grid">
+    <article class="protocol-card">
+      <h3>⚡ Protocole 7 jours</h3>
+      <p><strong>Objectif :</strong> Lancement rapide et test</p>
+      <ul>
+        <li>Activation unique du montage de base</li>
+        <li>Dhikr quotidien : 319× Yusebbihou</li>
+        <li>Code 786 écrit sous l'oreiller</li>
+        <li>Journal des signes minimal</li>
+        <li>Convient pour : urgence, test, court terme</li>
+      </ul>
+    </article>
+    <article class="protocol-card">
+      <h3>🌱 Protocole 21 jours</h3>
+      <p><strong>Objectif :</strong> Ancrage d'une nouvelle dynamique</p>
+      <ul>
+        <li>Montage de base + Module Rizq Phi</li>
+        <li>Réactivation tous les 7 jours</li>
+        <li>Routine : 51:58 le matin, 56 le soir</li>
+        <li>Code 319 489 618 786 en continu</li>
+        <li>Convient pour : ouverture de flux, projet</li>
+      </ul>
+    </article>
+    <article class="protocol-card">
+      <h3>🔥 Protocole 40 jours</h3>
+      <p><strong>Objectif :</strong> Intégration profonde</p>
+      <ul>
+        <li>Système amplifié 7 couches complet</li>
+        <li>Réactivation tous les 10 jours</li>
+        <li>Dhikr quotidien : 40× les 3 noyaux</li>
+        <li>Jeûne partiel conseillé</li>
+        <li>Convient pour : transformation durable</li>
+      </ul>
+    </article>
+  </div>
+  <div class="box" style="margin-top:5mm;">
+    <h3>🌕 Protocole 65 jours (Ancrage profond)</h3>
+    <p><strong>Objectif :</strong> Ancrage permanent d'une nouvelle réalité économique et spirituelle</p>
+    <ul>
+      <li>Module Rizq Phi actif 24h/24 pendant 65 jours</li>
+      <li>Réactivation tous les 13 jours (21× les 3 codes)</li>
+      <li>Lecture hebdomadaire des sourates 55, 56, 36, 67</li>
+      <li>Action tangible chaque semaine (don, investissement, service)</li>
+      <li>Journal quotidien : signes, blocages, ouvertures</li>
+    </ul>
+  </div>
+  <div class="page-number">14</div>
+</section>
+
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Chapitre VII (suite)</div>
+    <h2>Routine quotidienne type</h2>
+    <p class="deck">Une journée type d'utilisation de la radionique sacrée, compatible avec les obligations quotidiennes.</p>
+  </div>
+  <div class="protocol-grid">
+    <article class="protocol-card">
+      <h3>Matin (5-10 min)</h3>
+      <ul>
+        <li>Activation rapide : 3× code 319 489 618</li>
+        <li>Regard sur le montage (30s, visualisation quartz lumineux)</li>
+        <li>Lecture de 51:58 en arabe</li>
+        <li>Intention claire pour la journée</li>
+      </ul>
+    </article>
+    <article class="protocol-card">
+      <h3>Milieu de journée (2-5 min)</h3>
+      <ul>
+        <li>Rappel du code en mémoire : 618 — 786</li>
+        <li>Respiration consciente 7 cycles</li>
+        <li>Si possible : passage devant le montage</li>
+        <li>Action concrète liée à l'intention</li>
+      </ul>
+    </article>
+    <article class="protocol-card">
+      <h3>Soir (10-15 min)</h3>
+      <ul>
+        <li>Remerciement : 7× gratitude explicite</li>
+        <li>Lecture de 65:2-3 ou 56 (selon protocole)</li>
+        <li>Journal : 1 ouverture, 1 blocage, 1 signe</li>
+        <li>Scellement : 1× code 786 + 1× Al-Fatiha</li>
+      </ul>
+    </article>
+  </div>
+  <div class="box" style="margin-top:7mm;">
+    <h3>Règles d'or</h3>
+    <ul>
+      <li>Ne jamais laisser le montage sans activation plus de 7 jours consécutifs.</li>
+      <li>Purifier le quartz tous les 30 jours (eau distillée + soleil 3h).</li>
+      <li>Ne pas exposer le montage à des ondes électromagnétiques fortes (Wi-Fi, micro-ondes).</li>
+      <li>Tenir à l'écart des animaux domestiques (perturbation du champ).</li>
+      <li>Stocker dans un linge naturel (coton, lin) lorsqu'il n'est pas utilisé.</li>
+    </ul>
+  </div>
+  <div class="page-number">15</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 28-29 — CHAPITRE VIII : ENTRETIEN -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page page-dark">
+  <div class="ornament top"></div>
+  <div class="ornament bottom"></div>
+  <div class="section-head">
+    <div class="eyebrow">Chapitre VIII</div>
+    <h2>Entretien, purification, réactivation</h2>
+    <p class="deck">Un montage radionique est un circuit vivant. Il doit être entretenu, purifié et réactivé régulièrement.</p>
+  </div>
+  <div class="cover-grid">
+    <div class="panel">
+      <h3>Purification mensuelle</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Démonter le quartz du socle</li>
+        <li>Nettoyer à l'eau distillée + sel de mer fin</li>
+        <li>Exposer au soleil levant (6h–9h) pendant 3h</li>
+        <li>Essuyer avec un chiffon en coton non teint</li>
+        <li>Remonter et réactiver immédiatement</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>Réactivation périodique</h3>
+      <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+        <li>Montage de base : réactivation tous les 7 jours</li>
+        <li>Système amplifié : réactivation tous les 10 jours</li>
+        <li>Module Rizq Phi : réactivation tous les 13 jours</li>
+        <li>Après purification : réactivation complète (code 19×)</li>
+        <li>Après déménagement ou choc : réactivation complète</li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel" style="margin-top:5mm;">
+    <h3>Signes de baisse de charge</h3>
+    <ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;">
+      <li>Absence de sensation en approchant la main (normalement : picotements, chaleur)</li>
+      <li>Résistance au multimètre qui augmente (supérieure à 5Ω)</li>
+      <li>Difficulté à se concentrer pendant l'activation</li>
+      <li>Rêves confus ou absents</li>
+      <li>Baisse notable des synchronicités observées autour du projet</li>
+    </ul>
+  </div>
+  <div class="footer-note"><span>Chapitre VIII</span><span>Entretien et purification</span></div>
+  <div class="page-number">16</div>
+</section>
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- PAGE 30 — ANNEXE -->
+<!-- ══════════════════════════════════════════════ -->
+<section class="page">
+  <div class="section-head">
+    <div class="eyebrow">Annexe</div>
+    <h2>Tableau récapitulatif des montages</h2>
+    <p class="deck">Comparatif des 3 systèmes : dimensions, matériaux, usage et activation.</p>
+  </div>
+  <div class="box">
+    <table class="ref-table">
+      <thead><tr><th>Critère</th><th>Montage de base</th><th>Système amplifié</th><th>Module Rizq Phi</th></tr></thead>
+      <tbody>
+        <tr><td>Fil cuivre</td><td>∅0.8mm × 786mm</td><td>∅0.8mm × 14.2m</td><td>∅0.6mm × 4.7m (total 3)</td></tr>
+        <tr><td>Nombre de spires</td><td>5</td><td>56 (primaire) + 19 (secondaire)</td><td>19 + 13 + 7</td></tr>
+        <tr><td>Quartz</td><td>1 × ∅25mm</td><td>2 × ∅12mm + ∅25mm</td><td>3 × ∅8mm</td></tr>
+        <tr><td>Aimants néodyme</td><td>—</td><td>7 × ∅20×5mm (N52)</td><td>—</td></tr>
+        <tr><td>Toroïde</td><td>—</td><td>Ferrite ∅34mm + bobinage 19t</td><td>—</td></tr>
+        <tr><td>Socle</td><td>Bois ∅120mm</td><td>Bois ∅180mm</td><td>3× bois ∅75mm</td></tr>
+        <tr><td>Code d'activation</td><td>786 489 618</td><td>786 489 618 (19×)</td><td>319 489 618 (7× groupé)</td></tr>
+        <tr><td>Temps de montage</td><td>45 min</td><td>2 à 4 h</td><td>1h par noyau</td></tr>
+        <tr><td>Réactivation</td><td>Tous les 7 jours</td><td>Tous les 10 jours</td><td>Tous les 13 jours</td></tr>
+        <tr><td>Difficulté</td><td>★☆☆</td><td>★★★</td><td>★★☆</td></tr>
+        <tr><td>Usage principal</td><td>Débutant, test, urgence</td><td>Ancrage profond</td><td>Rizq spécifique</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="box" style="margin-top:7mm;">
+    <h3>Formules de synthèse</h3>
+    <p style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12pt;color:#b87333;line-height:2;">
+      786 = Basmala = longueur totale du fil de base<br/>
+      56 = tours de la spirale primaire amplifiée<br/>
+      19 = tours de la spirale secondaire + code fondamental<br/>
+      7 = nombre de couches + nombre d'aimants<br/>
+      319 + 489 + 618 + 786 = le quatuor du flux
+    </p>
+  </div>
+  <div class="page-number">17</div>
+</section>
+
+</body>
+</html>

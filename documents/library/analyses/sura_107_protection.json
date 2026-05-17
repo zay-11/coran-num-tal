@@ -1,0 +1,247 @@
+{
+  "source": "107",
+  "domain": {
+    "key": "protection",
+    "label": "Protection / Bouclier / Fermeture des fuites",
+    "intent": "Consolidation du champ, fermeture des portes de dispersion et garde symbolique.",
+    "color": "violet",
+    "geometry": "cercle double + huit sceaux",
+    "references": [
+      "2:255",
+      "113:1-5",
+      "114:1-6",
+      "3:173"
+    ],
+    "divine_names": [
+      {
+        "label": "Hafiz",
+        "arabic": "يا حفيظ",
+        "transliteration": "Ya Hafiz",
+        "abjad": 1009
+      },
+      {
+        "label": "Qahhar",
+        "arabic": "يا قهار",
+        "transliteration": "Ya Qahhar",
+        "abjad": 317
+      },
+      {
+        "label": "Wakil",
+        "arabic": "يا وكيل",
+        "transliteration": "Ya Wakil",
+        "abjad": 77
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "255 113 114",
+      "917 418 619",
+      "4812412"
+    ],
+    "anchor_numbers": [
+      2,
+      3,
+      6,
+      19,
+      113,
+      114,
+      173,
+      255
+    ]
+  },
+  "metrics": {
+    "word_count": 29,
+    "letter_count": 133,
+    "unique_letters": 21,
+    "abjad_total": 9994,
+    "abjad_reduced": 4,
+    "mod_19": 19,
+    "mod_8": 5,
+    "mod_7": 1,
+    "golden_abjad": 6177,
+    "golden_letters": 215,
+    "golden_words": 47,
+    "fib_word": 34,
+    "fib_letter": 144,
+    "fib_abjad": 10946,
+    "fib_word_ratio": 0.8529411764705882,
+    "fib_letter_ratio": 0.9236111111111112,
+    "fib_abjad_ratio": 0.9130275899872099
+  },
+  "signature": {
+    "center": 107,
+    "ring_inner": [
+      107,
+      1,
+      29,
+      133,
+      4,
+      19,
+      1,
+      5
+    ],
+    "ring_outer": [
+      47,
+      215,
+      6177,
+      34,
+      144,
+      10946,
+      2,
+      255
+    ],
+    "reference_number": 107,
+    "ayah_number": 1,
+    "range_number": 7,
+    "golden_bridge": [
+      47,
+      215,
+      6177
+    ]
+  },
+  "grabovoi_bridge": [
+    "255 113 114",
+    "917 418 619",
+    "4812412",
+    "4191",
+    "47 215 5",
+    "1071 34"
+  ],
+  "talisman": {
+    "geometry": "cercle double + huit sceaux",
+    "color": "violet",
+    "center": 107,
+    "inner_ring": [
+      107,
+      1,
+      29,
+      133,
+      4,
+      19,
+      1,
+      5
+    ],
+    "outer_ring": [
+      47,
+      215,
+      6177,
+      34,
+      144,
+      10946,
+      2,
+      255
+    ],
+    "inscriptions": [
+      "يا حفيظ",
+      "يا قهار",
+      "يا وكيل",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=9994"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "hafiz",
+      "formula": "Ya Hafiz",
+      "arabic": "يا حفيظ",
+      "abjad": 1009,
+      "count": 55,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "qahhar",
+      "formula": "Ya Qahhar",
+      "arabic": "يا قهار",
+      "abjad": 317,
+      "count": 76,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "wakil",
+      "formula": "Ya Wakil",
+      "arabic": "يا وكيل",
+      "abjad": 77,
+      "count": 21,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 19,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 3,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 107,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 40.8,
+    "primary_turns": 19,
+    "secondary_turns": 3,
+    "center_code": "107 6177 4",
+    "ring_code": "47 215 34 144",
+    "grabovoi_bridge": [
+      "255 113 114",
+      "917 418 619",
+      "4812412",
+      "4191"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم أرأيت الذي يكذب بالدين فذلك الذي يدع اليتيم ولا يحض على طعام المسكين فويل للمصلين الذين هم عن صلاتهم ساهون الذين هم يراءون ويمنعون الماعون",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ أَرَءَيتَ الَّذى يُكَذِّبُ بِالدّينِ فَذٰلِكَ الَّذى يَدُعُّ اليَتيمَ وَلا يَحُضُّ عَلىٰ طَعامِ المِسكينِ فَوَيلٌ لِلمُصَلّينَ الَّذينَ هُم عَن صَلاتِهِم ساهونَ الَّذينَ هُم يُراءونَ وَيَمنَعونَ الماعونَ",
+    "sura_name_ar": "الماعون",
+    "sura_name_en": "Almsgiving",
+    "sura_translit": "Al-Maa'un",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "source": "74",
+  "domain": {
+    "key": "protection",
+    "label": "Protection / Bouclier / Fermeture des fuites",
+    "intent": "Consolidation du champ, fermeture des portes de dispersion et garde symbolique.",
+    "color": "violet",
+    "geometry": "cercle double + huit sceaux",
+    "references": [
+      "2:255",
+      "113:1-5",
+      "114:1-6",
+      "3:173"
+    ],
+    "divine_names": [
+      {
+        "label": "Hafiz",
+        "arabic": "يا حفيظ",
+        "transliteration": "Ya Hafiz",
+        "abjad": 1009
+      },
+      {
+        "label": "Qahhar",
+        "arabic": "يا قهار",
+        "transliteration": "Ya Qahhar",
+        "abjad": 317
+      },
+      {
+        "label": "Wakil",
+        "arabic": "يا وكيل",
+        "transliteration": "Ya Wakil",
+        "abjad": 77
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "255 113 114",
+      "917 418 619",
+      "4812412"
+    ],
+    "anchor_numbers": [
+      2,
+      3,
+      6,
+      19,
+      113,
+      114,
+      173,
+      255
+    ]
+  },
+  "metrics": {
+    "word_count": 260,
+    "letter_count": 1054,
+    "unique_letters": 29,
+    "abjad_total": 87420,
+    "abjad_reduced": 3,
+    "mod_19": 1,
+    "mod_8": 6,
+    "mod_7": 1,
+    "golden_abjad": 54029,
+    "golden_letters": 1705,
+    "golden_words": 421,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.1158798283261802,
+    "fib_letter_ratio": 1.0678824721377913,
+    "fib_abjad_ratio": 1.1652115961346219
+  },
+  "signature": {
+    "center": 74,
+    "ring_inner": [
+      74,
+      1,
+      260,
+      1054,
+      3,
+      1,
+      1,
+      6
+    ],
+    "ring_outer": [
+      421,
+      1705,
+      54029,
+      233,
+      987,
+      75025,
+      2,
+      255
+    ],
+    "reference_number": 74,
+    "ayah_number": 1,
+    "range_number": 56,
+    "golden_bridge": [
+      421,
+      1705,
+      54029
+    ]
+  },
+  "grabovoi_bridge": [
+    "255 113 114",
+    "917 418 619",
+    "4812412",
+    "311",
+    "421 1705 6",
+    "741 233"
+  ],
+  "talisman": {
+    "geometry": "cercle double + huit sceaux",
+    "color": "violet",
+    "center": 74,
+    "inner_ring": [
+      74,
+      1,
+      260,
+      1054,
+      3,
+      1,
+      1,
+      6
+    ],
+    "outer_ring": [
+      421,
+      1705,
+      54029,
+      233,
+      987,
+      75025,
+      2,
+      255
+    ],
+    "inscriptions": [
+      "يا حفيظ",
+      "يا قهار",
+      "يا وكيل",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=87420"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "hafiz",
+      "formula": "Ya Hafiz",
+      "arabic": "يا حفيظ",
+      "abjad": 1009,
+      "count": 123,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "qahhar",
+      "formula": "Ya Qahhar",
+      "arabic": "يا قهار",
+      "abjad": 317,
+      "count": 123,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "wakil",
+      "formula": "Ya Wakil",
+      "arabic": "يا وكيل",
+      "abjad": 77,
+      "count": 8,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 1,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 3,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 74,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 260.8,
+    "primary_turns": 7,
+    "secondary_turns": 3,
+    "center_code": "74 54029 3",
+    "ring_code": "421 1705 233 987",
+    "grabovoi_bridge": [
+      "255 113 114",
+      "917 418 619",
+      "4812412",
+      "311"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم يا أيها المدثر قم فأنذر وربك فكبر وثيابك فطهر والرجز فاهجر ولا تمنن تستكثر ولربك فاصبر فإذا نقر في الناقور فذلك يومئذ يوم عسير على الكافرين غير يسير ذرني ومن خلقت وحيدا وجعلت له مالا ممدودا وبنين شهودا ومهدت له تمهيدا ثم يطمع أن أزيد كلا إنه كان لآياتنا عنيدا سأرهقه صعودا إنه فكر وقدر فقتل كيف قدر ثم قتل كيف قدر ثم نظر ثم عبس وبسر ثم أدبر واستكبر فقال إن هذا إلا سحر يؤثر إن هذا إلا قول البشر سأصليه سقر وما أدراك ما سقر لا تبقي ولا تذر لواحة للبشر عليها تسعة عشر وما جعلنا أصحاب النار إلا ملائكة وما جعلنا عدتهم إلا فتنة للذين كفروا ليستيقن الذين أوتوا الكتاب ويزداد الذين آمنوا إيمانا ولا يرتاب الذين أوتوا الكتاب والمؤمنون وليقول الذين في قلوبهم مرض والكافرون ماذا أراد الله بهذا مثلا كذلك يضل الله من يشاء ويهدي من يشاء وما يعلم جنود ربك إلا هو وما هي إلا ذكرى للبشر كلا والقمر والليل إذ أدبر والصبح إذا أسفر إنها لإحدى الكبر نذيرا للبشر لمن شاء منكم أن يتقدم أو يتأخر كل نفس بما كسبت رهينة إلا أصحاب اليمين في جنات يتساءلون عن المجرمين ما سلككم في سقر قالوا لم نك من المصلين ولم نك نطعم المسكين وكنا نخوض مع الخائضين وكنا نكذب بيوم الدين حتى أتانا اليقين فما تنفعهم شفاعة الشافعين فما لهم عن التذكرة معرضين كأنهم حمر مستنفرة فرت من قسورة بل يريد كل امرئ منهم أن يؤتى صحفا منشرة كلا بل لا يخافون الآخرة كلا إنه تذكرة فمن شاء ذكره وما يذكرون إلا أن يشاء الله هو أهل التقوى وأهل المغفرة",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ يٰأَيُّهَا المُدَّثِّرُ قُم فَأَنذِر وَرَبَّكَ فَكَبِّر وَثِيابَكَ فَطَهِّر وَالرُّجزَ فَاهجُر وَلا تَمنُن تَستَكثِرُ وَلِرَبِّكَ فَاصبِر فَإِذا نُقِرَ فِى النّاقورِ فَذٰلِكَ يَومَئِذٍ يَومٌ عَسيرٌ عَلَى الكٰفِرينَ غَيرُ يَسيرٍ ذَرنى وَمَن خَلَقتُ وَحيدًا وَجَعَلتُ لَهُ مالًا مَمدودًا وَبَنينَ شُهودًا وَمَهَّدتُ لَهُ تَمهيدًا ثُمَّ يَطمَعُ أَن أَزيدَ كَلّا إِنَّهُ كانَ لِـٔايٰتِنا عَنيدًا سَأُرهِقُهُ صَعودًا إِنَّهُ فَكَّرَ وَقَدَّرَ فَقُتِلَ كَيفَ قَدَّرَ ثُمَّ قُتِلَ كَيفَ قَدَّرَ ثُمَّ نَظَرَ ثُمَّ عَبَسَ وَبَسَرَ ثُمَّ أَدبَرَ وَاستَكبَرَ فَقالَ إِن هٰذا إِلّا سِحرٌ يُؤثَرُ إِن هٰذا إِلّا قَولُ البَشَرِ سَأُصليهِ سَقَرَ وَما أَدرىٰكَ ما سَقَرُ لا تُبقى وَلا تَذَرُ لَوّاحَةٌ لِلبَشَرِ عَلَيها تِسعَةَ عَشَرَ وَما جَعَلنا أَصحٰبَ النّارِ إِلّا مَلٰئِكَةً وَما جَعَلنا عِدَّتَهُم إِلّا فِتنَةً لِلَّذينَ كَفَروا لِيَستَيقِنَ الَّذينَ أوتُوا الكِتٰبَ وَيَزدادَ الَّذينَ ءامَنوا إيمٰنًا وَلا يَرتابَ الَّذينَ أوتُوا الكِتٰبَ وَالمُؤمِنونَ وَلِيَقولَ الَّذينَ فى قُلوبِهِم مَرَضٌ وَالكٰفِرونَ ماذا أَرادَ اللَّهُ بِهٰذا مَثَلًا كَذٰلِكَ يُضِلُّ اللَّهُ مَن يَشاءُ وَيَهدى مَن يَشاءُ وَما يَعلَمُ جُنودَ رَبِّكَ إِلّا هُوَ وَما هِىَ إِلّا ذِكرىٰ لِلبَشَرِ كَلّا وَالقَمَرِ وَالَّيلِ إِذ أَدبَرَ وَالصُّبحِ إِذا أَسفَرَ إِنَّها لَإِحدَى الكُبَرِ نَذيرًا لِلبَشَرِ لِمَن شاءَ مِنكُم أَن يَتَقَدَّمَ أَو يَتَأَخَّرَ كُلُّ نَفسٍ بِما كَسَبَت رَهينَةٌ إِلّا أَصحٰبَ اليَمينِ فى جَنّٰتٍ يَتَساءَلونَ عَنِ المُجرِمينَ ما سَلَكَكُم فى سَقَرَ قالوا لَم نَكُ مِنَ المُصَلّينَ وَلَم نَكُ نُطعِمُ المِسكينَ وَكُنّا نَخوضُ مَعَ الخائِضينَ وَكُنّا نُكَذِّبُ بِيَومِ الدّينِ حَتّىٰ أَتىٰنَا اليَقينُ فَما تَنفَعُهُم شَفٰعَةُ الشّٰفِعينَ فَما لَهُم عَنِ التَّذكِرَةِ مُعرِضينَ كَأَنَّهُم حُمُرٌ مُستَنفِرَةٌ فَرَّت مِن قَسوَرَةٍ بَل يُريدُ كُلُّ امرِئٍ مِنهُم أَن يُؤتىٰ صُحُفًا مُنَشَّرَةً كَلّا بَل لا يَخافونَ الـٔاخِرَةَ كَلّا إِنَّهُ تَذكِرَةٌ فَمَن شاءَ ذَكَرَهُ وَما يَذكُرونَ إِلّا أَن يَشاءَ اللَّهُ هُوَ أَهلُ التَّقوىٰ وَأَهلُ المَغفِرَةِ",
+    "sura_name_ar": "المدثر",
+    "sura_name_en": "The Cloaked One",
+    "sura_translit": "Al-Muddaththir",
+    "revelation_place": "Meccan"
+  }
+}

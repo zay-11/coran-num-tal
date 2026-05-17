@@ -1,0 +1,247 @@
+{
+  "source": "80",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 137,
+    "letter_count": 571,
+    "unique_letters": 29,
+    "abjad_total": 47817,
+    "abjad_reduced": 9,
+    "mod_19": 13,
+    "mod_8": 3,
+    "mod_7": 4,
+    "golden_abjad": 29553,
+    "golden_letters": 924,
+    "golden_words": 222,
+    "fib_word": 144,
+    "fib_letter": 610,
+    "fib_abjad": 46368,
+    "fib_word_ratio": 0.9513888888888888,
+    "fib_letter_ratio": 0.9360655737704918,
+    "fib_abjad_ratio": 1.03125
+  },
+  "signature": {
+    "center": 80,
+    "ring_inner": [
+      80,
+      1,
+      137,
+      571,
+      9,
+      13,
+      4,
+      3
+    ],
+    "ring_outer": [
+      222,
+      924,
+      29553,
+      144,
+      610,
+      46368,
+      2,
+      489
+    ],
+    "reference_number": 80,
+    "ayah_number": 1,
+    "range_number": 42,
+    "golden_bridge": [
+      222,
+      924,
+      29553
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "9134",
+    "222 924 3",
+    "801 144"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 80,
+    "inner_ring": [
+      80,
+      1,
+      137,
+      571,
+      9,
+      13,
+      4,
+      3
+    ],
+    "outer_ring": [
+      222,
+      924,
+      29553,
+      144,
+      610,
+      46368,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=47817"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 19,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 13,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 80,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 145.2,
+    "primary_turns": 13,
+    "secondary_turns": 4,
+    "center_code": "80 29553 9",
+    "ring_code": "222 924 144 610",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "9134"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم عبس وتولى أن جاءه الأعمى وما يدريك لعله يزكى أو يذكر فتنفعه الذكرى أما من استغنى فأنت له تصدى وما عليك ألا يزكى وأما من جاءك يسعى وهو يخشى فأنت عنه تلهى كلا إنها تذكرة فمن شاء ذكره في صحف مكرمة مرفوعة مطهرة بأيدي سفرة كرام بررة قتل الإنسان ما أكفره من أي شيء خلقه من نطفة خلقه فقدره ثم السبيل يسره ثم أماته فأقبره ثم إذا شاء أنشره كلا لما يقض ما أمره فلينظر الإنسان إلى طعامه أنا صببنا الماء صبا ثم شققنا الأرض شقا فأنبتنا فيها حبا وعنبا وقضبا وزيتونا ونخلا وحدائق غلبا وفاكهة وأبا متاعا لكم ولأنعامكم فإذا جاءت الصاخة يوم يفر المرء من أخيه وأمه وأبيه وصاحبته وبنيه لكل امرئ منهم يومئذ شأن يغنيه وجوه يومئذ مسفرة ضاحكة مستبشرة ووجوه يومئذ عليها غبرة ترهقها قترة أولئك هم الكفرة الفجرة",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ عَبَسَ وَتَوَلّىٰ أَن جاءَهُ الأَعمىٰ وَما يُدريكَ لَعَلَّهُ يَزَّكّىٰ أَو يَذَّكَّرُ فَتَنفَعَهُ الذِّكرىٰ أَمّا مَنِ استَغنىٰ فَأَنتَ لَهُ تَصَدّىٰ وَما عَلَيكَ أَلّا يَزَّكّىٰ وَأَمّا مَن جاءَكَ يَسعىٰ وَهُوَ يَخشىٰ فَأَنتَ عَنهُ تَلَهّىٰ كَلّا إِنَّها تَذكِرَةٌ فَمَن شاءَ ذَكَرَهُ فى صُحُفٍ مُكَرَّمَةٍ مَرفوعَةٍ مُطَهَّرَةٍ بِأَيدى سَفَرَةٍ كِرامٍ بَرَرَةٍ قُتِلَ الإِنسٰنُ ما أَكفَرَهُ مِن أَىِّ شَىءٍ خَلَقَهُ مِن نُطفَةٍ خَلَقَهُ فَقَدَّرَهُ ثُمَّ السَّبيلَ يَسَّرَهُ ثُمَّ أَماتَهُ فَأَقبَرَهُ ثُمَّ إِذا شاءَ أَنشَرَهُ كَلّا لَمّا يَقضِ ما أَمَرَهُ فَليَنظُرِ الإِنسٰنُ إِلىٰ طَعامِهِ أَنّا صَبَبنَا الماءَ صَبًّا ثُمَّ شَقَقنَا الأَرضَ شَقًّا فَأَنبَتنا فيها حَبًّا وَعِنَبًا وَقَضبًا وَزَيتونًا وَنَخلًا وَحَدائِقَ غُلبًا وَفٰكِهَةً وَأَبًّا مَتٰعًا لَكُم وَلِأَنعٰمِكُم فَإِذا جاءَتِ الصّاخَّةُ يَومَ يَفِرُّ المَرءُ مِن أَخيهِ وَأُمِّهِ وَأَبيهِ وَصٰحِبَتِهِ وَبَنيهِ لِكُلِّ امرِئٍ مِنهُم يَومَئِذٍ شَأنٌ يُغنيهِ وُجوهٌ يَومَئِذٍ مُسفِرَةٌ ضاحِكَةٌ مُستَبشِرَةٌ وَوُجوهٌ يَومَئِذٍ عَلَيها غَبَرَةٌ تَرهَقُها قَتَرَةٌ أُولٰئِكَ هُمُ الكَفَرَةُ الفَجَرَةُ",
+    "sura_name_ar": "عبس",
+    "sura_name_en": "He frowned",
+    "sura_translit": "Abasa",
+    "revelation_place": "Meccan"
+  }
+}

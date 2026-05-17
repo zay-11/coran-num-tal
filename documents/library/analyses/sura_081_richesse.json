@@ -1,0 +1,252 @@
+{
+  "source": "81",
+  "domain": {
+    "key": "richesse",
+    "label": "Rizq / Richesse / Abondance",
+    "intent": "Ouverture des causes, fluidite materielle, baraka et expansion du rizq.",
+    "color": "gold",
+    "geometry": "etoile a 8 branches avec centre phi",
+    "references": [
+      "51:58",
+      "65:2-3",
+      "71:10-12",
+      "62:10",
+      "34:39"
+    ],
+    "divine_names": [
+      {
+        "label": "Razzaq",
+        "arabic": "يا رزاق",
+        "transliteration": "Ya Razzaq",
+        "abjad": 319
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Ghani",
+        "arabic": "يا غني",
+        "transliteration": "Ya Ghani",
+        "abjad": 1071
+      },
+      {
+        "label": "Mughni",
+        "arabic": "يا مغني",
+        "transliteration": "Ya Mughni",
+        "abjad": 1111
+      }
+    ],
+    "grabovoi_seed": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078"
+    ],
+    "anchor_numbers": [
+      19,
+      55,
+      56,
+      61,
+      76,
+      89,
+      99,
+      123,
+      319,
+      489,
+      618,
+      786
+    ]
+  },
+  "metrics": {
+    "word_count": 108,
+    "letter_count": 454,
+    "unique_letters": 28,
+    "abjad_total": 41107,
+    "abjad_reduced": 4,
+    "mod_19": 10,
+    "mod_8": 6,
+    "mod_7": 3,
+    "golden_abjad": 25406,
+    "golden_letters": 735,
+    "golden_words": 175,
+    "fib_word": 89,
+    "fib_letter": 377,
+    "fib_abjad": 46368,
+    "fib_word_ratio": 1.2134831460674158,
+    "fib_letter_ratio": 1.2042440318302388,
+    "fib_abjad_ratio": 0.8865381297446515
+  },
+  "signature": {
+    "center": 81,
+    "ring_inner": [
+      81,
+      1,
+      108,
+      454,
+      4,
+      10,
+      3,
+      6
+    ],
+    "ring_outer": [
+      175,
+      735,
+      25406,
+      89,
+      377,
+      46368,
+      19,
+      786
+    ],
+    "reference_number": 81,
+    "ayah_number": 1,
+    "range_number": 29,
+    "golden_bridge": [
+      175,
+      735,
+      25406
+    ]
+  },
+  "grabovoi_bridge": [
+    "123 55 89",
+    "786 489 618",
+    "6119 078",
+    "4103",
+    "175 735 6",
+    "811 89"
+  ],
+  "talisman": {
+    "geometry": "etoile a 8 branches avec centre phi",
+    "color": "gold",
+    "center": 81,
+    "inner_ring": [
+      81,
+      1,
+      108,
+      454,
+      4,
+      10,
+      3,
+      6
+    ],
+    "outer_ring": [
+      175,
+      735,
+      25406,
+      89,
+      377,
+      46368,
+      19,
+      786
+    ],
+    "inscriptions": [
+      "يا رزاق",
+      "يا فتاح",
+      "يا غني",
+      "يا مغني",
+      "phi=1.618034",
+      "abjad=41107"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "razzaq",
+      "formula": "Ya Razzaq",
+      "arabic": "يا رزاق",
+      "abjad": 319,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "ghani",
+      "formula": "Ya Ghani",
+      "arabic": "يا غني",
+      "abjad": 1071,
+      "count": 19,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "mughni",
+      "formula": "Ya Mughni",
+      "arabic": "يا مغني",
+      "abjad": 1111,
+      "count": 10,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 7,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 81,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 114.3,
+    "primary_turns": 10,
+    "secondary_turns": 3,
+    "center_code": "81 25406 4",
+    "ring_code": "175 735 89 377",
+    "grabovoi_bridge": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078",
+      "4103"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم إذا الشمس كورت وإذا النجوم انكدرت وإذا الجبال سيرت وإذا العشار عطلت وإذا الوحوش حشرت وإذا البحار سجرت وإذا النفوس زوجت وإذا الموءودة سئلت بأي ذنب قتلت وإذا الصحف نشرت وإذا السماء كشطت وإذا الجحيم سعرت وإذا الجنة أزلفت علمت نفس ما أحضرت فلا أقسم بالخنس الجوار الكنس والليل إذا عسعس والصبح إذا تنفس إنه لقول رسول كريم ذي قوة عند ذي العرش مكين مطاع ثم أمين وما صاحبكم بمجنون ولقد رآه بالأفق المبين وما هو على الغيب بضنين وما هو بقول شيطان رجيم فأين تذهبون إن هو إلا ذكر للعالمين لمن شاء منكم أن يستقيم وما تشاءون إلا أن يشاء الله رب العالمين",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ إِذَا الشَّمسُ كُوِّرَت وَإِذَا النُّجومُ انكَدَرَت وَإِذَا الجِبالُ سُيِّرَت وَإِذَا العِشارُ عُطِّلَت وَإِذَا الوُحوشُ حُشِرَت وَإِذَا البِحارُ سُجِّرَت وَإِذَا النُّفوسُ زُوِّجَت وَإِذَا المَوءۥدَةُ سُئِلَت بِأَىِّ ذَنبٍ قُتِلَت وَإِذَا الصُّحُفُ نُشِرَت وَإِذَا السَّماءُ كُشِطَت وَإِذَا الجَحيمُ سُعِّرَت وَإِذَا الجَنَّةُ أُزلِفَت عَلِمَت نَفسٌ ما أَحضَرَت فَلا أُقسِمُ بِالخُنَّسِ الجَوارِ الكُنَّسِ وَالَّيلِ إِذا عَسعَسَ وَالصُّبحِ إِذا تَنَفَّسَ إِنَّهُ لَقَولُ رَسولٍ كَريمٍ ذى قُوَّةٍ عِندَ ذِى العَرشِ مَكينٍ مُطاعٍ ثَمَّ أَمينٍ وَما صاحِبُكُم بِمَجنونٍ وَلَقَد رَءاهُ بِالأُفُقِ المُبينِ وَما هُوَ عَلَى الغَيبِ بِضَنينٍ وَما هُوَ بِقَولِ شَيطٰنٍ رَجيمٍ فَأَينَ تَذهَبونَ إِن هُوَ إِلّا ذِكرٌ لِلعٰلَمينَ لِمَن شاءَ مِنكُم أَن يَستَقيمَ وَما تَشاءونَ إِلّا أَن يَشاءَ اللَّهُ رَبُّ العٰلَمينَ",
+    "sura_name_ar": "التكوير",
+    "sura_name_en": "The Overthrowing",
+    "sura_translit": "At-Takwir",
+    "revelation_place": "Meccan"
+  }
+}

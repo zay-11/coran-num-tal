@@ -1,0 +1,247 @@
+{
+  "source": "91",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 58,
+    "letter_count": 272,
+    "unique_letters": 27,
+    "abjad_total": 19773,
+    "abjad_reduced": 9,
+    "mod_19": 13,
+    "mod_8": 8,
+    "mod_7": 2,
+    "golden_abjad": 12220,
+    "golden_letters": 440,
+    "golden_words": 94,
+    "fib_word": 55,
+    "fib_letter": 233,
+    "fib_abjad": 17711,
+    "fib_word_ratio": 1.0545454545454545,
+    "fib_letter_ratio": 1.167381974248927,
+    "fib_abjad_ratio": 1.116424820732878
+  },
+  "signature": {
+    "center": 91,
+    "ring_inner": [
+      91,
+      1,
+      58,
+      272,
+      9,
+      13,
+      2,
+      8
+    ],
+    "ring_outer": [
+      94,
+      440,
+      12220,
+      55,
+      233,
+      17711,
+      2,
+      489
+    ],
+    "reference_number": 91,
+    "ayah_number": 1,
+    "range_number": 15,
+    "golden_bridge": [
+      94,
+      440,
+      12220
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "9132",
+    "94 440 8",
+    "911 55"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 91,
+    "inner_ring": [
+      91,
+      1,
+      58,
+      272,
+      9,
+      13,
+      2,
+      8
+    ],
+    "outer_ring": [
+      94,
+      440,
+      12220,
+      55,
+      233,
+      17711,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=19773"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 89,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 21,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 13,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 91,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 66.1,
+    "primary_turns": 13,
+    "secondary_turns": 3,
+    "center_code": "91 12220 9",
+    "ring_code": "94 440 55 233",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "9132"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم والشمس وضحاها والقمر إذا تلاها والنهار إذا جلاها والليل إذا يغشاها والسماء وما بناها والأرض وما طحاها ونفس وما سواها فألهمها فجورها وتقواها قد أفلح من زكاها وقد خاب من دساها كذبت ثمود بطغواها إذ انبعث أشقاها فقال لهم رسول الله ناقة الله وسقياها فكذبوه فعقروها فدمدم عليهم ربهم بذنبهم فسواها ولا يخاف عقباها",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَالشَّمسِ وَضُحىٰها وَالقَمَرِ إِذا تَلىٰها وَالنَّهارِ إِذا جَلّىٰها وَالَّيلِ إِذا يَغشىٰها وَالسَّماءِ وَما بَنىٰها وَالأَرضِ وَما طَحىٰها وَنَفسٍ وَما سَوّىٰها فَأَلهَمَها فُجورَها وَتَقوىٰها قَد أَفلَحَ مَن زَكّىٰها وَقَد خابَ مَن دَسّىٰها كَذَّبَت ثَمودُ بِطَغوىٰها إِذِ انبَعَثَ أَشقىٰها فَقالَ لَهُم رَسولُ اللَّهِ ناقَةَ اللَّهِ وَسُقيٰها فَكَذَّبوهُ فَعَقَروها فَدَمدَمَ عَلَيهِم رَبُّهُم بِذَنبِهِم فَسَوّىٰها وَلا يَخافُ عُقبٰها",
+    "sura_name_ar": "الشمس",
+    "sura_name_en": "The Sun",
+    "sura_translit": "Ash-Shams",
+    "revelation_place": "Meccan"
+  }
+}

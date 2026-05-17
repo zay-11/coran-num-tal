@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.claude/
+*.docx
+archive/cache/
+pdf_analysis.txt

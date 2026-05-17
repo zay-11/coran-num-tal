@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadran Lunaire Divinatoire — Miftah 19</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: #0a0a1a;
+  font-family: 'Segoe UI', 'DejaVu Sans', sans-serif;
+  overflow-x: hidden;
+  color: #d4c8e0;
+  display: flex;
+  min-height: 100vh;
+}
+#stars { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:0; }
+#app { position:relative; z-index:1; display:flex; width:100%; }
+#left { flex:1; display:flex; align-items:center; justify-content:center; padding:20px; }
+#right { width:340px; padding:30px 20px; display:flex; flex-direction:column; gap:16px; background:rgba(12,12,42,0.85); border-left:1px solid rgba(218,165,32,0.3); }
+canvas { border-radius:50%; filter:drop-shadow(0 0 30px rgba(218,165,32,0.2)); }
+h2 { color:#daa520; font-size:18px; text-align:center; letter-spacing:2px; }
+h3 { color:#8a2be2; font-size:13px; text-align:center; }
+.card { background:rgba(40,20,60,0.6); border:1px solid rgba(218,165,32,0.25); border-radius:8px; padding:12px; }
+.card .label { font-size:10px; color:#8a2be2; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px; }
+.card .value { font-size:22px; color:#daa520; font-weight:bold; }
+.card .sub { font-size:11px; color:#a090b0; margin-top:2px; }
+.arab { direction:rtl; font-family:'Arial','Segoe UI',sans-serif; font-size:16px; color:#daa520; text-align:right; }
+.moon-phase { display:flex; align-items:center; gap:10px; }
+.phase-icon { width:36px; height:36px; border-radius:50%; background:radial-gradient(circle at 30% 30%, #f5e6c8, #daa520); }
+.phase-icon.waxing { background:radial-gradient(circle at 70% 50%, #f5e6c8 40%, #0a0a1a 40%); }
+.phase-icon.waning { background:radial-gradient(circle at 30% 50%, #f5e6c8 40%, #0a0a1a 40%); }
+.phase-icon.new { background:radial-gradient(circle at 50% 50%, #0a0a1a, #1a1a3a); border:1px solid #daa520; }
+.phase-icon.full { background:radial-gradient(circle at 50% 50%, #f5e6c8, #daa520); }
+#wealth-badge { display:inline-block; padding:4px 10px; border-radius:4px; font-size:11px; font-weight:bold; }
+#wealth-badge.yes { background:#2d6b2d; color:#9f9; }
+#wealth-badge.no { background:#5a3030; color:#faa; }
+.numbox { display:inline-block; background:rgba(75,0,130,0.5); border:1px solid #daa520; border-radius:4px; padding:4px 8px; margin:2px; font-family:monospace; font-size:13px; color:#daa520; }
+.row { display:flex; gap:8px; align-items:center; }
+.btn { background:linear-gradient(135deg,#4b0082,#8a2be2); color:#daa520; border:1px solid #daa520; padding:6px 14px; border-radius:4px; cursor:pointer; font-size:11px; }
+.btn:hover { background:linear-gradient(135deg,#8a2be2,#4b0082); }
+</style>
+</head>
+<body>
+
+<canvas id="stars" width="100" height="100"></canvas>
+
+<div id="app">
+  <div id="left"><canvas id="wheel"></canvas></div>
+  <div id="right">
+    <h2>M I F T A H  &nbsp; 1 9</h2>
+    <h3>CADRAN LUNAIRE DIVINATOIRE</h3>
+
+    <div class="card">
+      <div class="label">Mansion Actuelle</div>
+      <div class="row">
+        <span class="value" id="mansion-num">—</span>
+        <span id="mansion-name" style="color:#daa520;font-size:14px;">—</span>
+      </div>
+      <div class="arab" id="mansion-arab"></div>
+      <div class="sub" id="mansion-prop"></div>
+    </div>
+
+    <div class="card">
+      <div class="label">Propriété Richesse</div>
+      <span id="wealth-badge">—</span>
+    </div>
+
+    <div class="card">
+      <div class="label">Phase Lunaire</div>
+      <div class="moon-phase">
+        <div class="phase-icon" id="phase-icon"></div>
+        <div>
+          <div style="color:#daa520;font-weight:bold;font-size:14px;" id="phase-name">—</div>
+          <div class="sub" id="phase-day">Jour —</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="label">Nombre Sacré Coranique</div>
+      <div class="value" id="sacred-num">—</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Code Grabovoi</div>
+      <div class="numbox" id="grab-code">—</div>
+      <div class="sub" id="grab-label" style="margin-top:4px;"></div>
+    </div>
+
+    <div class="card">
+      <div class="label">Lucky Number (Loto / Paris)</div>
+      <div class="value" id="lucky-num">—</div>
+      <div class="sub">Formule: (Mansion × 7 + Index) mod 49</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Guematria Hébreu du Jour</div>
+      <div class="sub" dir="rtl" style="font-family:'Arial';font-size:18px;color:#daa520;" id="heb-word">—</div>
+      <div class="sub" id="heb-info" style="font-size:10px;"></div>
+    </div>
+
+    <div class="card">
+      <div class="label">Prochaine Mansion Favorable</div>
+      <div class="sub" id="next-wealth">—</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── STARS BACKGROUND ──
+(function(){var c=document.getElementById('stars'),x=c.getContext('2d'),s=[];
+c.width=window.innerWidth;c.height=window.innerHeight;
+for(var i=0;i<200;i++)s.push({x:Math.random()*c.width,y:Math.random()*c.height,r:Math.random()*1.5+0.5,a:Math.random()});
+function draw(){x.clearRect(0,0,c.width,c.height);
+for(var i=0;i<s.length;i++){var t=s[i];x.globalAlpha=t.a;x.fillStyle='#daa520';x.beginPath();x.arc(t.x,t.y,t.r,0,Math.PI*2);x.fill();t.a=0.3+Math.sin(Date.now()/2000+i)*0.3;}
+requestAnimationFrame(draw);}draw();})();
+
+// ── DATA ──
+const MANSIONS = [
+  {n:1,ar:"\u0627\u0644\u0634\u0631\u0637\u064a\u0646",name:"Al-Sharatain",prop:"Nouveau depart",wealth:!1},
+  {n:2,ar:"\u0627\u0644\u0628\u0637\u064a\u0646",name:"Al-Butayn",prop:"Chance, reconquete",wealth:!1},
+  {n:3,ar:"\u0627\u0644\u062b\u0631\u064a\u0627",name:"Al-Thurayya",prop:"PROFIT, TOUT BIEN",wealth:!0},
+  {n:4,ar:"\u0627\u0644\u062f\u0628\u0631\u0627\u0646",name:"Al-Dabaran",prop:"Investissement",wealth:!1},
+  {n:5,ar:"\u0627\u0644\u0647\u0642\u0639\u0629",name:"Al-Haqa",prop:"Etude, construction",wealth:!1},
+  {n:6,ar:"\u0627\u0644\u0647\u0646\u0639\u0629",name:"Al-Hana",prop:"Justice, chasse",wealth:!1},
+  {n:7,ar:"\u0627\u0644\u0630\u0631\u0627\u0639",name:"Al-Dhira",prop:"PROFIT, BIENS",wealth:!0},
+  {n:8,ar:"\u0627\u0644\u0646\u062b\u0631\u0629",name:"Al-Nathrah",prop:"Amitie, amour",wealth:!1},
+  {n:9,ar:"\u0627\u0644\u0637\u0631\u0641",name:"Al-Tarf",prop:"Ennemis, protection",wealth:!1},
+  {n:10,ar:"\u0627\u0644\u062c\u0628\u0647\u0629",name:"Al-Jabhah",prop:"Amour, guerison",wealth:!1},
+  {n:11,ar:"\u0627\u0644\u0632\u0628\u0631\u0629",name:"Al-Zubrah",prop:"COMMERCE, RICHESSE",wealth:!0},
+  {n:12,ar:"\u0627\u0644\u0635\u0631\u0641\u0629",name:"Al-Sarfah",prop:"Recolte, elevation",wealth:!1},
+  {n:13,ar:"\u0627\u0644\u0639\u0648\u0627\u0621",name:"Al-Awwa",prop:"COMMERCE, VOYAGE",wealth:!0},
+  {n:14,ar:"\u0627\u0644\u0633\u0645\u0627\u0643",name:"Al-Simak",prop:"Guerison, moissons",wealth:!1},
+  {n:15,ar:"\u0627\u0644\u063a\u0641\u0631",name:"Al-Ghafr",prop:"TRESORS CACHES",wealth:!0},
+  {n:16,ar:"\u0627\u0644\u0632\u0628\u0627\u0646\u0649",name:"Al-Zubana",prop:"ARGENT, GAINS \u{1F4B0}",wealth:!0},
+  {n:17,ar:"\u0627\u0644\u0625\u0643\u0644\u064a\u0644",name:"Al-Iklil",prop:"FORTUNE, MARIAGE",wealth:!0},
+  {n:18,ar:"\u0627\u0644\u0642\u0644\u0628",name:"Al-Qalb",prop:"Protection",wealth:!1},
+  {n:19,ar:"\u0627\u0644\u0634\u0648\u0644\u0629",name:"Al-Shaulah",prop:"CHANCE GENERALE",wealth:!0},
+  {n:20,ar:"\u0627\u0644\u0646\u0639\u0627\u0626\u0645",name:"Al-Naaim",prop:"Chasse, batiment",wealth:!1},
+  {n:21,ar:"\u0627\u0644\u0628\u0644\u062f\u0629",name:"Al-Baldah",prop:"GAINS, VOYAGE",wealth:!0},
+  {n:22,ar:"\u0633\u0639\u062f \u0627\u0644\u0630\u0627\u0628\u062d",name:"Sa'd al-Dhabih",prop:"Liberation, soins",wealth:!1},
+  {n:23,ar:"\u0633\u0639\u062f \u0628\u0644\u0639",name:"Sa'd Bula",prop:"Amitie, medecine",wealth:!1},
+  {n:24,ar:"\u0633\u0639\u062f \u0627\u0644\u0633\u0639\u0648\u062f",name:"Sa'd al-Su'ud",prop:"Mariage, victoire",wealth:!1},
+  {n:25,ar:"\u0633\u0639\u062f \u0627\u0644\u0623\u062e\u0628\u064a\u0629",name:"Sa'd al-Akhbiyah",prop:"Protection",wealth:!1},
+  {n:26,ar:"\u0627\u0644\u0641\u0631\u063a \u0627\u0644\u0645\u0642\u062f\u0645",name:"Al-Fargh al-Mukdim",prop:"GAINS, EMPLOI",wealth:!0},
+  {n:27,ar:"\u0627\u0644\u0641\u0631\u063a \u0627\u0644\u062b\u0627\u0646\u064a",name:"Al-Fargh al-Thani",prop:"GAINS, RECOLTE",wealth:!0},
+  {n:28,ar:"\u0628\u0637\u0646 \u0627\u0644\u062d\u0648\u062a",name:"Batn al-Hut",prop:"COMMERCE, ABONDANCE",wealth:!0},
+];
+
+const PHASES = [
+  {name:"Nouvelle Lune", code:"2017133", clabel:"Attirer la Chance", sacred:"1", heb:"\u05d0\u05d4\u05d1\u05d4", hebNm:"Ahavah (Amour)", hebVal:13},
+  {name:"Croissant Croissant", code:"520 741 8", clabel:"Argent Inattendu", sacred:"7", heb:"\u05e2\u05e9\u05e8", hebNm:"Osher (Richesse)", hebVal:570},
+  {name:"Premier Quartier", code:"87467894", clabel:"Confiance Financiere", sacred:"8", heb:"\u05e9\u05e4\u05e2", hebNm:"Shefa (Abondance)", hebVal:450},
+  {name:"Gibbeuse Croissante", code:"318 798", clabel:"Abondance", sacred:"19", heb:"\u05de\u05de\u05d5\u05df", hebNm:"Mamon (Fortune)", hebVal:136},
+  {name:"Pleine Lune", code:"9798733714615", clabel:"Manifester l'Argent", sacred:"15", heb:"\u05d1\u05e8\u05db\u05d4", hebNm:"Berakhah (Benediction)", hebVal:227},
+  {name:"Gibbeuse Decroissante", code:"3657745", clabel:"Independance Financiere", sacred:"33", heb:"\u05e2\u05e9\u05d9\u05e8", hebNm:"Ashir (Riche)", hebVal:580},
+  {name:"Dernier Quartier", code:"9213140", clabel:"Revenu Stable", sacred:"61", heb:"\u05e4\u05e8\u05e0\u05e1\u05d4", hebNm:"Parnassah (Subsistance)", hebVal:395},
+  {name:"Croissant Decroissant", code:"318 612 518 714", clabel:"Cash-Flow", sacred:"56", heb:"\u05d7\u05d5\u05ea\u05dd \u05e9\u05dc\u05de\u05d4", hebNm:"Hotam Shlomo", hebVal:829},
+];
+
+// ── MOON CALCULATION ──
+function moonAge(date) {
+  // Accurate approximation using Conway's algorithm
+  var y = date.getFullYear(), m = date.getMonth() + 1, d = date.getDate();
+  if (m < 3) { y--; m += 12; }
+  var a = Math.floor(y / 100);
+  var b = 2 - a + Math.floor(a / 4);
+  var jd = Math.floor(365.25 * (y + 4716)) + Math.floor(30.6001 * (m + 1)) + d + b - 1524.5;
+  // Days since Jan 6, 2000 new moon
+  var daysSince = jd - 2451550.1;
+  var age = (daysSince % 29.53058867 + 29.53058867) % 29.53058867;
+  return age; // 0 = new moon
+}
+
+function getMoonInfo(date) {
+  var age = moonAge(date);
+  var mansionIdx = Math.floor(age / (29.53058867 / 28)) % 28;
+  var phaseIdx = Math.floor(age / (29.53058867 / 8)) % 8;
+  var phase = PHASES[phaseIdx];
+  var mansion = MANSIONS[mansionIdx];
+  var lucky = ((mansion.n * 7 + mansionIdx + 1) % 49) || 49;
+  return { age, mansion, mansionIdx, phase, phaseIdx, lucky };
+}
+
+// ── FIND NEXT WEALTH MANSION ──
+function nextWealth(fromIdx) {
+  for (var i = 1; i <= 28; i++) {
+    var idx = (fromIdx + i) % 28;
+    if (MANSIONS[idx].wealth) return MANSIONS[idx];
+  }
+  return null;
+}
+
+// ── CANVAS WHEEL ──
+var canvas = document.getElementById('wheel');
+var ctx = canvas.getContext('2d');
+var SIZE = Math.min(window.innerWidth * 0.42, window.innerHeight * 0.85);
+canvas.width = SIZE;
+canvas.height = SIZE;
+var cx = SIZE / 2, cy = SIZE / 2;
+var R_outer = SIZE * 0.48;
+var R_mid = SIZE * 0.36;
+var R_inner = SIZE * 0.24;
+var R_center = SIZE * 0.11;
+
+// Buduh square
+var BUDUH = [
+  [['4','#G'],['9','#G'],['2','#W']],
+  [['3','#W'],['5','#G'],['7','#W']],
+  [['8','#W'],['1','#G'],['6','#W']],
+];
+
+function px(r, deg) { return cx + r * Math.cos(deg * Math.PI / 180); }
+function py(r, deg) { return cy - r * Math.sin(deg * Math.PI / 180); }
+
+function drawWheel() {
+  var now = new Date();
+  var info = getMoonInfo(now);
+
+  var rotation = -info.mansionIdx * (360 / 28);
+  // Smooth continuous rotation based on moon position within current mansion
+  var fracInMansion = (info.age / (29.53058867 / 28)) % 1;
+  rotation -= fracInMansion * (360 / 28);
+
+  ctx.clearRect(0, 0, SIZE, SIZE);
+
+  // ── GLOW ──
+  var glow = ctx.createRadialGradient(cx, cy, R_outer * 0.7, cx, cy, R_outer * 1.05);
+  glow.addColorStop(0, 'rgba(218,165,32,0.05)');
+  glow.addColorStop(1, 'rgba(138,43,226,0)');
+  ctx.fillStyle = glow;
+  ctx.beginPath(); ctx.arc(cx, cy, R_outer * 1.05, 0, Math.PI * 2); ctx.fill();
+
+  ctx.save();
+  ctx.translate(cx, cy);
+  ctx.rotate(rotation * Math.PI / 180);
+
+  // ── OUTER RING: 28 MANSIONS ──
+  var angStep = 360 / 28;
+  for (var i = 0; i < 28; i++) {
+    var ang = -90 + i * angStep;
+    var rad = ang * Math.PI / 180;
+    var m = MANSIONS[i];
+    var isW = m.wealth;
+
+    // Segment background
+    ctx.beginPath();
+    ctx.arc(0, 0, R_outer, rad - angStep * Math.PI / 360, rad + angStep * Math.PI / 360);
+    ctx.arc(0, 0, R_mid + 8, rad + angStep * Math.PI / 360, rad - angStep * Math.PI / 360, true);
+    ctx.closePath();
+    ctx.fillStyle = isW ? 'rgba(218,165,32,0.12)' : 'rgba(75,0,130,0.08)';
+    ctx.fill();
+    ctx.strokeStyle = isW ? 'rgba(218,165,32,0.5)' : 'rgba(138,43,226,0.2)';
+    ctx.lineWidth = 0.5;
+    ctx.stroke();
+
+    // Mansion number
+    var mx = (R_outer + R_mid + 8) / 2 * Math.cos(rad);
+    var my = (R_outer + R_mid + 8) / 2 * Math.sin(rad);
+    ctx.save();
+    ctx.translate(mx, my);
+    ctx.rotate(rad + Math.PI / 2);
+    ctx.fillStyle = isW ? '#daa520' : '#8a2be2';
+    ctx.font = (isW ? 'bold ' : '') + '10px monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText(m.n, 0, 0);
+    // Name
+    ctx.font = (isW ? 'bold ' : '') + '7px sans-serif';
+    ctx.fillStyle = isW ? '#daa520' : '#a090b0';
+    ctx.fillText(m.name, 0, 12);
+    ctx.restore();
+  }
+
+  // ── MIDDLE RING: 8 PHASES ──
+  var phaseStep = 360 / 8;
+  for (var p = 0; p < 8; p++) {
+    var pang = -90 + p * phaseStep;
+    var prad = pang * Math.PI / 180;
+
+    // Segment
+    ctx.beginPath();
+    ctx.arc(0, 0, R_mid, prad - phaseStep * Math.PI / 360, prad + phaseStep * Math.PI / 360);
+    ctx.arc(0, 0, R_inner, prad + phaseStep * Math.PI / 360, prad - phaseStep * Math.PI / 360, true);
+    ctx.closePath();
+    var ph = PHASES[p];
+    var isFull = p === 4;
+    ctx.fillStyle = isFull ? 'rgba(218,165,32,0.18)' : 'rgba(40,20,60,0.15)';
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(218,165,32,0.4)';
+    ctx.lineWidth = 0.6;
+    ctx.stroke();
+
+    // Moon icon
+    var mix = (R_mid + R_inner) / 2 * Math.cos(prad);
+    var miy = (R_mid + R_inner) / 2 * Math.sin(prad);
+    ctx.save();
+    ctx.translate(mix, miy);
+    ctx.fillStyle = isFull ? '#daa520' : '#f5e6c8';
+    ctx.beginPath(); ctx.arc(0, 0, 7, 0, Math.PI * 2); ctx.fill();
+    if (!isFull && p < 4) {
+      ctx.fillStyle = '#0a0a1a';
+      ctx.beginPath(); ctx.arc(3, 0, 5, 0, Math.PI * 2); ctx.fill();
+    } else if (!isFull && p > 4) {
+      ctx.fillStyle = '#0a0a1a';
+      ctx.beginPath(); ctx.arc(-3, 0, 5, 0, Math.PI * 2); ctx.fill();
+    } else if (p === 0) {
+      ctx.fillStyle = '#0a0a1a';
+      ctx.beginPath(); ctx.arc(0, 0, 6, 0, Math.PI * 2); ctx.fill();
+      ctx.strokeStyle = '#daa520'; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.arc(0, 0, 7, 0, Math.PI * 2); ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  // ── INNER RING: SACRED NUMBERS ──
+  var sacredCtx = [{deg:-90, n:'7',l:'Rizq'},{deg:0, n:'19',l:'Code'},{deg:90, n:'8',l:'Directions'},{deg:180, n:'56',l:"Waqi'a"}];
+  for (var s = 0; s < 4; s++) {
+    var sc = sacredCtx[s];
+    var srad = sc.deg * Math.PI / 180;
+    var sx = R_inner * 0.55 * Math.cos(srad);
+    var sy = R_inner * 0.55 * Math.sin(srad);
+    ctx.save();
+    ctx.translate(sx, sy);
+    ctx.fillStyle = '#0c0c2a';
+    ctx.strokeStyle = '#daa520';
+    ctx.lineWidth = 0.8;
+    ctx.beginPath();
+    ctx.roundRect(-13, -13, 26, 26, 4);
+    ctx.fill(); ctx.stroke();
+    ctx.fillStyle = '#daa520';
+    ctx.font = 'bold 12px monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText(sc.n, 0, 2);
+    ctx.font = '6px sans-serif';
+    ctx.fillText(sc.l, 0, 12);
+    ctx.restore();
+  }
+
+  // ── CENTER: BUDUH SQUARE ──
+  var bs = R_center;
+  var cellSize = bs * 2 / 3;
+  for (var bi = 0; bi < 3; bi++) {
+    for (var bj = 0; bj < 3; bj++) {
+      var bx = -bs + bj * cellSize;
+      var by = -bs + bi * cellSize;
+      ctx.fillStyle = '#0c0c2a';
+      ctx.strokeStyle = '#daa520';
+      ctx.lineWidth = 0.5;
+      ctx.beginPath();
+      ctx.rect(bx + 0.5, by + 0.5, cellSize - 1, cellSize - 1);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = '#daa520';
+      ctx.font = 'bold 9px monospace';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(BUDUH[bi][bj][0], bx + cellSize / 2, by + cellSize / 2);
+    }
+  }
+
+  ctx.restore(); // END ROTATION
+
+  // ── FIXED ARROW POINTER (bottom) ──
+  ctx.fillStyle = '#daa520';
+  ctx.beginPath();
+  ctx.moveTo(cx, cy - R_outer + 4);
+  ctx.lineTo(cx - 8, cy - R_outer - 10);
+  ctx.lineTo(cx + 8, cy - R_outer - 10);
+  ctx.closePath();
+  ctx.fill();
+
+  // ── UPDATE PANEL ──
+  updatePanel(info);
+}
+
+function updatePanel(info) {
+  var m = info.mansion, p = info.phase;
+  document.getElementById('mansion-num').textContent = m.n;
+  document.getElementById('mansion-name').textContent = m.name;
+  document.getElementById('mansion-arab').textContent = m.ar;
+  document.getElementById('mansion-prop').textContent = m.prop;
+
+  var badge = document.getElementById('wealth-badge');
+  if (m.wealth) {
+    badge.textContent = '\u2705 MANSION DE RICHESSE';
+    badge.className = 'yes';
+  } else {
+    badge.textContent = '\u274C Non favorable';
+    badge.className = 'no';
+  }
+  document.getElementById('phase-name').textContent = p.name;
+  document.getElementById('phase-day').textContent = 'Jour lunaire: ' + Math.floor(info.age) + ' / 29.5';
+
+  var pi = document.getElementById('phase-icon');
+  pi.className = 'phase-icon';
+  var age = info.age;
+  if (age < 1 || age > 28.5) pi.classList.add('new');
+  else if (age > 13.5 && age < 16) pi.classList.add('full');
+  else if (age < 14) pi.classList.add('waxing');
+  else pi.classList.add('waning');
+
+  document.getElementById('sacred-num').textContent = p.sacred;
+  document.getElementById('grab-code').textContent = p.code;
+  document.getElementById('grab-label').textContent = p.clabel;
+  document.getElementById('lucky-num').textContent = info.lucky;
+  document.getElementById('heb-word').textContent = p.heb;
+  document.getElementById('heb-info').textContent = p.hebNm + ' | Guematria: ' + p.hebVal;
+
+  var nw = nextWealth(info.mansionIdx);
+  if (nw) {
+    var daysUntil = (nw.n - m.n + 28) % 28 || 28;
+    document.getElementById('next-wealth').textContent = '#' + nw.n + ' ' + nw.name + ' | ' + nw.prop + ' | Dans ' + daysUntil + ' jours (mansion)';
+  }
+}
+
+// ── RESPONSIVE ──
+window.addEventListener('resize', function () {
+  SIZE = Math.min(window.innerWidth * 0.42, window.innerHeight * 0.85);
+  canvas.width = SIZE; canvas.height = SIZE;
+  cx = SIZE / 2; cy = SIZE / 2;
+  R_outer = SIZE * 0.48; R_mid = SIZE * 0.36; R_inner = SIZE * 0.24; R_center = SIZE * 0.11;
+  drawWheel();
+});
+
+// ── ANIMATION LOOP ──
+function animate() {
+  drawWheel();
+  requestAnimationFrame(animate);
+}
+animate();
+</script>
+</body>
+</html>

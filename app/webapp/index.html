@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Miftah Phi App</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="eyebrow">CORAN NUM TAL</div>
+          <h1>Miftah Phi App</h1>
+          <p>Analyse coranique, corpus sacrés importés, talismans, pratiques et radionique.</p>
+        </div>
+
+        <nav class="tabs">
+          <button class="tab active" data-tab="quran">Coran</button>
+          <button class="tab" data-tab="generic">Texte sacré</button>
+          <button class="tab" data-tab="import">Import corpus</button>
+          <button class="tab" data-tab="library">Bibliothèque</button>
+          <button class="tab" data-tab="vivant">Talisman Vivant</button>
+        </nav>
+
+        <section id="statusBox" class="status-box">Chargement…</section>
+      </aside>
+
+      <section class="workspace">
+        <section id="tab-quran" class="panel active">
+          <header class="panel-head">
+            <h2>Analyse coranique automatique</h2>
+            <p>Choisis une sourate, un verset ou une plage, puis un domaine.</p>
+          </header>
+
+          <div class="grid two">
+            <label>
+              <span>Sourate</span>
+              <select id="quranSura"></select>
+            </label>
+            <label>
+              <span>Domaine</span>
+              <select id="quranDomain"></select>
+            </label>
+            <label>
+              <span>Verset début</span>
+              <input id="quranAyah" type="number" min="1" placeholder="optionnel" />
+            </label>
+            <label>
+              <span>Verset fin</span>
+              <input id="quranEnd" type="number" min="1" placeholder="optionnel" />
+            </label>
+          </div>
+
+          <div class="actions">
+            <button id="analyzeQuranBtn">Analyser</button>
+            <button id="renderQuranTalismanBtn" class="ghost">Rendre le talisman PNG</button>
+          </div>
+        </section>
+
+        <section id="tab-generic" class="panel">
+          <header class="panel-head">
+            <h2>Analyse texte sacré générique</h2>
+            <p>Pour Torah, Bible, évangiles grecs, psaumes, textes hébreux ou corpus personnalisés.</p>
+          </header>
+
+          <div class="grid two">
+            <label>
+              <span>Système numérique</span>
+              <select id="genericScheme"></select>
+            </label>
+            <label>
+              <span>Domaine</span>
+              <select id="genericDomain"></select>
+            </label>
+            <label class="full">
+              <span>Référence libre</span>
+              <input id="genericRef" type="text" placeholder="Ex: Genèse 1:1 / Bereshit 1:1 / Jean 1:1" />
+            </label>
+            <label class="full">
+              <span>Texte original</span>
+              <textarea id="genericText" rows="8" placeholder="Colle ici le texte original en arabe, hébreu ou grec."></textarea>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button id="analyzeGenericBtn">Analyser le texte</button>
+            <button id="renderGenericTalismanBtn" class="ghost">Rendre le talisman PNG</button>
+          </div>
+        </section>
+
+        <section id="tab-import" class="panel">
+          <header class="panel-head">
+            <h2>Importer un corpus sacré</h2>
+            <p>Format attendu : une ligne par entrée, sous la forme <code>ref|texte</code>, ou JSON avec <code>entries</code>.</p>
+          </header>
+
+          <div class="grid two">
+            <label>
+              <span>Nom du corpus</span>
+              <input id="importName" type="text" placeholder="Ex: Torah Hébreu / Évangile selon Jean grec" />
+            </label>
+            <label>
+              <span>Système numérique</span>
+              <select id="importScheme"></select>
+            </label>
+            <label class="full">
+              <span>Description</span>
+              <input id="importDescription" type="text" placeholder="Description courte du corpus importé" />
+            </label>
+            <label class="full">
+              <span>Données</span>
+              <textarea id="importEntries" rows="10" placeholder="Exemple :&#10;1:1|בראשית ברא אלהים&#10;1:2|..."></textarea>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button id="importCorpusBtn">Importer le corpus</button>
+          </div>
+
+          <div class="grid two top-gap">
+            <label>
+              <span>Corpus importé</span>
+              <select id="corpusSelect"></select>
+            </label>
+            <label>
+              <span>Domaine</span>
+              <select id="corpusDomain"></select>
+            </label>
+            <label>
+              <span>Référence</span>
+              <select id="corpusRef"></select>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button id="analyzeCorpusBtn">Analyser l’entrée importée</button>
+          </div>
+        </section>
+
+        <section id="tab-library" class="panel">
+          <header class="panel-head">
+            <h2>Bibliothèque batch</h2>
+            <p>Index complet des analyses de sourates et talismans canoniques.</p>
+          </header>
+          <div class="actions">
+            <button id="loadLibraryBtn">Charger la bibliothèque</button>
+          </div>
+          <div id="libraryOutput" class="library-output"></div>
+        </section>
+
+        <section id="tab-vivant" class="panel">
+          <header class="panel-head">
+            <h2>Talisman Vivant — Personnalisation</h2>
+            <p>Entre ton nom, ta date et ton domaine pour generer un talisman unique.</p>
+          </header>
+          <div class="grid two">
+            <label>
+              <span>Ton nom (translittere en arabe si possible)</span>
+              <input id="vivantName" type="text" placeholder="Ex: Mohamed / Fatima" />
+            </label>
+            <label>
+              <span>Domaine</span>
+              <select id="vivantDomain"></select>
+            </label>
+            <label>
+              <span>Date (optionnel)</span>
+              <input id="vivantDate" type="date" />
+            </label>
+          </div>
+          <div class="actions">
+            <button id="analyzeVivantBtn">Generer mon Talisman Vivant</button>
+            <button id="renderVivantTalismanBtn" class="ghost">Rendre le talisman PNG</button>
+          </div>
+          <div id="vivantInfo" style="margin-top:12px;font-size:12px;color:#544838;padding:8px;background:#f7f3e8;border-radius:4px;"></div>
+        </section>
+
+        <section class="result-frame">
+          <div class="result-head">
+            <h3>Résultat</h3>
+            <div class="pill" id="resultMode">Aucun</div>
+          </div>
+          <div id="resultSummary" class="summary"></div>
+          <div id="talismanPreview" class="talisman-preview"></div>
+          <pre id="resultJson" class="json-view"></pre>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

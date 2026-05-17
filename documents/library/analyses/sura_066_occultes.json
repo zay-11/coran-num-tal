@@ -1,0 +1,248 @@
+{
+  "source": "66",
+  "domain": {
+    "key": "occultes",
+    "label": "Asrar / Voiles / Perception du cache",
+    "intent": "Travail sur le sens voile, l'intuition, les synchronicites et le discernement invisible.",
+    "color": "midnight",
+    "geometry": "octogone noir + centre lunaire",
+    "references": [
+      "18:65",
+      "27:40",
+      "72:26-27",
+      "20:114"
+    ],
+    "divine_names": [
+      {
+        "label": "Batin",
+        "arabic": "يا باطن",
+        "transliteration": "Ya Batin",
+        "abjad": 73
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186"
+    ],
+    "anchor_numbers": [
+      18,
+      20,
+      27,
+      40,
+      65,
+      72,
+      114,
+      129,
+      186
+    ]
+  },
+  "metrics": {
+    "word_count": 258,
+    "letter_count": 1124,
+    "unique_letters": 29,
+    "abjad_total": 86443,
+    "abjad_reduced": 7,
+    "mod_19": 12,
+    "mod_8": 4,
+    "mod_7": 6,
+    "golden_abjad": 53425,
+    "golden_letters": 1819,
+    "golden_words": 417,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 1.1072961373390557,
+    "fib_letter_ratio": 1.138804457953394,
+    "fib_abjad_ratio": 1.1521892702432524
+  },
+  "signature": {
+    "center": 66,
+    "ring_inner": [
+      66,
+      1,
+      258,
+      1124,
+      7,
+      12,
+      6,
+      4
+    ],
+    "ring_outer": [
+      417,
+      1819,
+      53425,
+      233,
+      987,
+      75025,
+      18,
+      186
+    ],
+    "reference_number": 66,
+    "ayah_number": 1,
+    "range_number": 12,
+    "golden_bridge": [
+      417,
+      1819,
+      53425
+    ]
+  },
+  "grabovoi_bridge": [
+    "1840 7227",
+    "2740 651",
+    "786 129 186",
+    "7126",
+    "417 1819 4",
+    "661 233"
+  ],
+  "talisman": {
+    "geometry": "octogone noir + centre lunaire",
+    "color": "midnight",
+    "center": 66,
+    "inner_ring": [
+      66,
+      1,
+      258,
+      1124,
+      7,
+      12,
+      6,
+      4
+    ],
+    "outer_ring": [
+      417,
+      1819,
+      53425,
+      233,
+      987,
+      75025,
+      18,
+      186
+    ],
+    "inscriptions": [
+      "يا باطن",
+      "يا لطيف",
+      "يا حكيم",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=86443"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "batin",
+      "formula": "Ya Batin",
+      "arabic": "يا باطن",
+      "abjad": 73,
+      "count": 123,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 123,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 21,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 12,
+      "note": "Ancre le domaine occultes dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 66,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 265.1,
+    "primary_turns": 12,
+    "secondary_turns": 6,
+    "center_code": "66 53425 7",
+    "ring_code": "417 1819 233 987",
+    "grabovoi_bridge": [
+      "1840 7227",
+      "2740 651",
+      "786 129 186",
+      "7126"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم يا أيها النبي لم تحرم ما أحل الله لك تبتغي مرضات أزواجك والله غفور رحيم قد فرض الله لكم تحلة أيمانكم والله مولاكم وهو العليم الحكيم وإذ أسر النبي إلى بعض أزواجه حديثا فلما نبأت به وأظهره الله عليه عرف بعضه وأعرض عن بعض فلما نبأها به قالت من أنبأك هذا قال نبأني العليم الخبير إن تتوبا إلى الله فقد صغت قلوبكما وإن تظاهرا عليه فإن الله هو مولاه وجبريل وصالح المؤمنين والملائكة بعد ذلك ظهير عسى ربه إن طلقكن أن يبدله أزواجا خيرا منكن مسلمات مؤمنات قانتات تائبات عابدات سائحات ثيبات وأبكارا يا أيها الذين آمنوا قوا أنفسكم وأهليكم نارا وقودها الناس والحجارة عليها ملائكة غلاظ شداد لا يعصون الله ما أمرهم ويفعلون ما يؤمرون يا أيها الذين كفروا لا تعتذروا اليوم إنما تجزون ما كنتم تعملون يا أيها الذين آمنوا توبوا إلى الله توبة نصوحا عسى ربكم أن يكفر عنكم سيئاتكم ويدخلكم جنات تجري من تحتها الأنهار يوم لا يخزي الله النبي والذين آمنوا معه نورهم يسعى بين أيديهم وبأيمانهم يقولون ربنا أتمم لنا نورنا واغفر لنا إنك على كل شيء قدير يا أيها النبي جاهد الكفار والمنافقين واغلظ عليهم ومأواهم جهنم وبئس المصير ضرب الله مثلا للذين كفروا امرأت نوح وامرأت لوط كانتا تحت عبدين من عبادنا صالحين فخانتاهما فلم يغنيا عنهما من الله شيئا وقيل ادخلا النار مع الداخلين وضرب الله مثلا للذين آمنوا امرأت فرعون إذ قالت رب ابن لي عندك بيتا في الجنة ونجني من فرعون وعمله ونجني من القوم الظالمين ومريم ابنت عمران التي أحصنت فرجها فنفخنا فيه من روحنا وصدقت بكلمات ربها وكتبه وكانت من القانتين",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ يٰأَيُّهَا النَّبِىُّ لِمَ تُحَرِّمُ ما أَحَلَّ اللَّهُ لَكَ تَبتَغى مَرضاتَ أَزوٰجِكَ وَاللَّهُ غَفورٌ رَحيمٌ قَد فَرَضَ اللَّهُ لَكُم تَحِلَّةَ أَيمٰنِكُم وَاللَّهُ مَولىٰكُم وَهُوَ العَليمُ الحَكيمُ وَإِذ أَسَرَّ النَّبِىُّ إِلىٰ بَعضِ أَزوٰجِهِ حَديثًا فَلَمّا نَبَّأَت بِهِ وَأَظهَرَهُ اللَّهُ عَلَيهِ عَرَّفَ بَعضَهُ وَأَعرَضَ عَن بَعضٍ فَلَمّا نَبَّأَها بِهِ قالَت مَن أَنبَأَكَ هٰذا قالَ نَبَّأَنِىَ العَليمُ الخَبيرُ إِن تَتوبا إِلَى اللَّهِ فَقَد صَغَت قُلوبُكُما وَإِن تَظٰهَرا عَلَيهِ فَإِنَّ اللَّهَ هُوَ مَولىٰهُ وَجِبريلُ وَصٰلِحُ المُؤمِنينَ وَالمَلٰئِكَةُ بَعدَ ذٰلِكَ ظَهيرٌ عَسىٰ رَبُّهُ إِن طَلَّقَكُنَّ أَن يُبدِلَهُ أَزوٰجًا خَيرًا مِنكُنَّ مُسلِمٰتٍ مُؤمِنٰتٍ قٰنِتٰتٍ تٰئِبٰتٍ عٰبِدٰتٍ سٰئِحٰتٍ ثَيِّبٰتٍ وَأَبكارًا يٰأَيُّهَا الَّذينَ ءامَنوا قوا أَنفُسَكُم وَأَهليكُم نارًا وَقودُهَا النّاسُ وَالحِجارَةُ عَلَيها مَلٰئِكَةٌ غِلاظٌ شِدادٌ لا يَعصونَ اللَّهَ ما أَمَرَهُم وَيَفعَلونَ ما يُؤمَرونَ يٰأَيُّهَا الَّذينَ كَفَروا لا تَعتَذِرُوا اليَومَ إِنَّما تُجزَونَ ما كُنتُم تَعمَلونَ يٰأَيُّهَا الَّذينَ ءامَنوا توبوا إِلَى اللَّهِ تَوبَةً نَصوحًا عَسىٰ رَبُّكُم أَن يُكَفِّرَ عَنكُم سَيِّـٔاتِكُم وَيُدخِلَكُم جَنّٰتٍ تَجرى مِن تَحتِهَا الأَنهٰرُ يَومَ لا يُخزِى اللَّهُ النَّبِىَّ وَالَّذينَ ءامَنوا مَعَهُ نورُهُم يَسعىٰ بَينَ أَيديهِم وَبِأَيمٰنِهِم يَقولونَ رَبَّنا أَتمِم لَنا نورَنا وَاغفِر لَنا إِنَّكَ عَلىٰ كُلِّ شَىءٍ قَديرٌ يٰأَيُّهَا النَّبِىُّ جٰهِدِ الكُفّارَ وَالمُنٰفِقينَ وَاغلُظ عَلَيهِم وَمَأوىٰهُم جَهَنَّمُ وَبِئسَ المَصيرُ ضَرَبَ اللَّهُ مَثَلًا لِلَّذينَ كَفَرُوا امرَأَتَ نوحٍ وَامرَأَتَ لوطٍ كانَتا تَحتَ عَبدَينِ مِن عِبادِنا صٰلِحَينِ فَخانَتاهُما فَلَم يُغنِيا عَنهُما مِنَ اللَّهِ شَيـًٔا وَقيلَ ادخُلَا النّارَ مَعَ الدّٰخِلينَ وَضَرَبَ اللَّهُ مَثَلًا لِلَّذينَ ءامَنُوا امرَأَتَ فِرعَونَ إِذ قالَت رَبِّ ابنِ لى عِندَكَ بَيتًا فِى الجَنَّةِ وَنَجِّنى مِن فِرعَونَ وَعَمَلِهِ وَنَجِّنى مِنَ القَومِ الظّٰلِمينَ وَمَريَمَ ابنَتَ عِمرٰنَ الَّتى أَحصَنَت فَرجَها فَنَفَخنا فيهِ مِن روحِنا وَصَدَّقَت بِكَلِمٰتِ رَبِّها وَكُتُبِهِ وَكانَت مِنَ القٰنِتينَ",
+    "sura_name_ar": "التحريم",
+    "sura_name_en": "The Prohibition",
+    "sura_translit": "At-Tahrim",
+    "revelation_place": "Medinan"
+  }
+}

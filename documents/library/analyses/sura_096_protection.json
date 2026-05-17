@@ -1,0 +1,247 @@
+{
+  "source": "96",
+  "domain": {
+    "key": "protection",
+    "label": "Protection / Bouclier / Fermeture des fuites",
+    "intent": "Consolidation du champ, fermeture des portes de dispersion et garde symbolique.",
+    "color": "violet",
+    "geometry": "cercle double + huit sceaux",
+    "references": [
+      "2:255",
+      "113:1-5",
+      "114:1-6",
+      "3:173"
+    ],
+    "divine_names": [
+      {
+        "label": "Hafiz",
+        "arabic": "يا حفيظ",
+        "transliteration": "Ya Hafiz",
+        "abjad": 1009
+      },
+      {
+        "label": "Qahhar",
+        "arabic": "يا قهار",
+        "transliteration": "Ya Qahhar",
+        "abjad": 317
+      },
+      {
+        "label": "Wakil",
+        "arabic": "يا وكيل",
+        "transliteration": "Ya Wakil",
+        "abjad": 77
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "255 113 114",
+      "917 418 619",
+      "4812412"
+    ],
+    "anchor_numbers": [
+      2,
+      3,
+      6,
+      19,
+      113,
+      114,
+      173,
+      255
+    ]
+  },
+  "metrics": {
+    "word_count": 76,
+    "letter_count": 307,
+    "unique_letters": 24,
+    "abjad_total": 21350,
+    "abjad_reduced": 2,
+    "mod_19": 13,
+    "mod_8": 3,
+    "mod_7": 6,
+    "golden_abjad": 13195,
+    "golden_letters": 497,
+    "golden_words": 123,
+    "fib_word": 89,
+    "fib_letter": 377,
+    "fib_abjad": 17711,
+    "fib_word_ratio": 0.8539325842696629,
+    "fib_letter_ratio": 0.8143236074270557,
+    "fib_abjad_ratio": 1.2054655298966743
+  },
+  "signature": {
+    "center": 96,
+    "ring_inner": [
+      96,
+      1,
+      76,
+      307,
+      2,
+      13,
+      6,
+      3
+    ],
+    "ring_outer": [
+      123,
+      497,
+      13195,
+      89,
+      377,
+      17711,
+      2,
+      255
+    ],
+    "reference_number": 96,
+    "ayah_number": 1,
+    "range_number": 19,
+    "golden_bridge": [
+      123,
+      497,
+      13195
+    ]
+  },
+  "grabovoi_bridge": [
+    "255 113 114",
+    "917 418 619",
+    "4812412",
+    "2136",
+    "123 497 3",
+    "961 89"
+  ],
+  "talisman": {
+    "geometry": "cercle double + huit sceaux",
+    "color": "violet",
+    "center": 96,
+    "inner_ring": [
+      96,
+      1,
+      76,
+      307,
+      2,
+      13,
+      6,
+      3
+    ],
+    "outer_ring": [
+      123,
+      497,
+      13195,
+      89,
+      377,
+      17711,
+      2,
+      255
+    ],
+    "inscriptions": [
+      "يا حفيظ",
+      "يا قهار",
+      "يا وكيل",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=21350"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "hafiz",
+      "formula": "Ya Hafiz",
+      "arabic": "يا حفيظ",
+      "abjad": 1009,
+      "count": 123,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "qahhar",
+      "formula": "Ya Qahhar",
+      "arabic": "يا قهار",
+      "abjad": 317,
+      "count": 123,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "wakil",
+      "formula": "Ya Wakil",
+      "arabic": "يا وكيل",
+      "abjad": 77,
+      "count": 21,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 13,
+      "note": "Ancre le domaine protection dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 8,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 96,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 84.1,
+    "primary_turns": 13,
+    "secondary_turns": 6,
+    "center_code": "96 13195 2",
+    "ring_code": "123 497 89 377",
+    "grabovoi_bridge": [
+      "255 113 114",
+      "917 418 619",
+      "4812412",
+      "2136"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم اقرأ باسم ربك الذي خلق خلق الإنسان من علق اقرأ وربك الأكرم الذي علم بالقلم علم الإنسان ما لم يعلم كلا إن الإنسان ليطغى أن رآه استغنى إن إلى ربك الرجعى أرأيت الذي ينهى عبدا إذا صلى أرأيت إن كان على الهدى أو أمر بالتقوى أرأيت إن كذب وتولى ألم يعلم بأن الله يرى كلا لئن لم ينته لنسفعا بالناصية ناصية كاذبة خاطئة فليدع ناديه سندع الزبانية كلا لا تطعه واسجد واقترب",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ اقرَأ بِاسمِ رَبِّكَ الَّذى خَلَقَ خَلَقَ الإِنسٰنَ مِن عَلَقٍ اقرَأ وَرَبُّكَ الأَكرَمُ الَّذى عَلَّمَ بِالقَلَمِ عَلَّمَ الإِنسٰنَ ما لَم يَعلَم كَلّا إِنَّ الإِنسٰنَ لَيَطغىٰ أَن رَءاهُ استَغنىٰ إِنَّ إِلىٰ رَبِّكَ الرُّجعىٰ أَرَءَيتَ الَّذى يَنهىٰ عَبدًا إِذا صَلّىٰ أَرَءَيتَ إِن كانَ عَلَى الهُدىٰ أَو أَمَرَ بِالتَّقوىٰ أَرَءَيتَ إِن كَذَّبَ وَتَوَلّىٰ أَلَم يَعلَم بِأَنَّ اللَّهَ يَرىٰ كَلّا لَئِن لَم يَنتَهِ لَنَسفَعًا بِالنّاصِيَةِ ناصِيَةٍ كٰذِبَةٍ خاطِئَةٍ فَليَدعُ نادِيَهُ سَنَدعُ الزَّبانِيَةَ كَلّا لا تُطِعهُ وَاسجُد وَاقتَرِب",
+    "sura_name_ar": "العلق",
+    "sura_name_en": "The Clot",
+    "sura_translit": "Al-Alaq",
+    "revelation_place": "Meccan"
+  }
+}

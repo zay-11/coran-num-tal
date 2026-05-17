@@ -1,0 +1,247 @@
+{
+  "source": "70",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 221,
+    "letter_count": 990,
+    "unique_letters": 29,
+    "abjad_total": 71386,
+    "abjad_reduced": 7,
+    "mod_19": 3,
+    "mod_8": 6,
+    "mod_7": 4,
+    "golden_abjad": 44119,
+    "golden_letters": 1602,
+    "golden_words": 358,
+    "fib_word": 233,
+    "fib_letter": 987,
+    "fib_abjad": 75025,
+    "fib_word_ratio": 0.9484978540772532,
+    "fib_letter_ratio": 1.0030395136778116,
+    "fib_abjad_ratio": 0.9514961679440187
+  },
+  "signature": {
+    "center": 70,
+    "ring_inner": [
+      70,
+      1,
+      221,
+      990,
+      7,
+      3,
+      4,
+      6
+    ],
+    "ring_outer": [
+      358,
+      1602,
+      44119,
+      233,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "reference_number": 70,
+    "ayah_number": 1,
+    "range_number": 44,
+    "golden_bridge": [
+      358,
+      1602,
+      44119
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "734",
+    "358 1602 6",
+    "701 233"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 70,
+    "inner_ring": [
+      70,
+      1,
+      221,
+      990,
+      7,
+      3,
+      4,
+      6
+    ],
+    "outer_ring": [
+      358,
+      1602,
+      44119,
+      233,
+      987,
+      75025,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=71386"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 11,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 3,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 70,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 223.1,
+    "primary_turns": 7,
+    "secondary_turns": 4,
+    "center_code": "70 44119 7",
+    "ring_code": "358 1602 233 987",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "734"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم سأل سائل بعذاب واقع للكافرين ليس له دافع من الله ذي المعارج تعرج الملائكة والروح إليه في يوم كان مقداره خمسين ألف سنة فاصبر صبرا جميلا إنهم يرونه بعيدا ونراه قريبا يوم تكون السماء كالمهل وتكون الجبال كالعهن ولا يسأل حميم حميما يبصرونهم يود المجرم لو يفتدي من عذاب يومئذ ببنيه وصاحبته وأخيه وفصيلته التي تؤويه ومن في الأرض جميعا ثم ينجيه كلا إنها لظى نزاعة للشوى تدعو من أدبر وتولى وجمع فأوعى إن الإنسان خلق هلوعا إذا مسه الشر جزوعا وإذا مسه الخير منوعا إلا المصلين الذين هم على صلاتهم دائمون والذين في أموالهم حق معلوم للسائل والمحروم والذين يصدقون بيوم الدين والذين هم من عذاب ربهم مشفقون إن عذاب ربهم غير مأمون والذين هم لفروجهم حافظون إلا على أزواجهم أو ما ملكت أيمانهم فإنهم غير ملومين فمن ابتغى وراء ذلك فأولئك هم العادون والذين هم لأماناتهم وعهدهم راعون والذين هم بشهاداتهم قائمون والذين هم على صلاتهم يحافظون أولئك في جنات مكرمون فمال الذين كفروا قبلك مهطعين عن اليمين وعن الشمال عزين أيطمع كل امرئ منهم أن يدخل جنة نعيم كلا إنا خلقناهم مما يعلمون فلا أقسم برب المشارق والمغارب إنا لقادرون على أن نبدل خيرا منهم وما نحن بمسبوقين فذرهم يخوضوا ويلعبوا حتى يلاقوا يومهم الذي يوعدون يوم يخرجون من الأجداث سراعا كأنهم إلى نصب يوفضون خاشعة أبصارهم ترهقهم ذلة ذلك اليوم الذي كانوا يوعدون",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ سَأَلَ سائِلٌ بِعَذابٍ واقِعٍ لِلكٰفِرينَ لَيسَ لَهُ دافِعٌ مِنَ اللَّهِ ذِى المَعارِجِ تَعرُجُ المَلٰئِكَةُ وَالرّوحُ إِلَيهِ فى يَومٍ كانَ مِقدارُهُ خَمسينَ أَلفَ سَنَةٍ فَاصبِر صَبرًا جَميلًا إِنَّهُم يَرَونَهُ بَعيدًا وَنَرىٰهُ قَريبًا يَومَ تَكونُ السَّماءُ كَالمُهلِ وَتَكونُ الجِبالُ كَالعِهنِ وَلا يَسـَٔلُ حَميمٌ حَميمًا يُبَصَّرونَهُم يَوَدُّ المُجرِمُ لَو يَفتَدى مِن عَذابِ يَومِئِذٍ بِبَنيهِ وَصٰحِبَتِهِ وَأَخيهِ وَفَصيلَتِهِ الَّتى تُـٔويهِ وَمَن فِى الأَرضِ جَميعًا ثُمَّ يُنجيهِ كَلّا إِنَّها لَظىٰ نَزّاعَةً لِلشَّوىٰ تَدعوا مَن أَدبَرَ وَتَوَلّىٰ وَجَمَعَ فَأَوعىٰ إِنَّ الإِنسٰنَ خُلِقَ هَلوعًا إِذا مَسَّهُ الشَّرُّ جَزوعًا وَإِذا مَسَّهُ الخَيرُ مَنوعًا إِلَّا المُصَلّينَ الَّذينَ هُم عَلىٰ صَلاتِهِم دائِمونَ وَالَّذينَ فى أَموٰلِهِم حَقٌّ مَعلومٌ لِلسّائِلِ وَالمَحرومِ وَالَّذينَ يُصَدِّقونَ بِيَومِ الدّينِ وَالَّذينَ هُم مِن عَذابِ رَبِّهِم مُشفِقونَ إِنَّ عَذابَ رَبِّهِم غَيرُ مَأمونٍ وَالَّذينَ هُم لِفُروجِهِم حٰفِظونَ إِلّا عَلىٰ أَزوٰجِهِم أَو ما مَلَكَت أَيمٰنُهُم فَإِنَّهُم غَيرُ مَلومينَ فَمَنِ ابتَغىٰ وَراءَ ذٰلِكَ فَأُولٰئِكَ هُمُ العادونَ وَالَّذينَ هُم لِأَمٰنٰتِهِم وَعَهدِهِم رٰعونَ وَالَّذينَ هُم بِشَهٰدٰتِهِم قائِمونَ وَالَّذينَ هُم عَلىٰ صَلاتِهِم يُحافِظونَ أُولٰئِكَ فى جَنّٰتٍ مُكرَمونَ فَمالِ الَّذينَ كَفَروا قِبَلَكَ مُهطِعينَ عَنِ اليَمينِ وَعَنِ الشِّمالِ عِزينَ أَيَطمَعُ كُلُّ امرِئٍ مِنهُم أَن يُدخَلَ جَنَّةَ نَعيمٍ كَلّا إِنّا خَلَقنٰهُم مِمّا يَعلَمونَ فَلا أُقسِمُ بِرَبِّ المَشٰرِقِ وَالمَغٰرِبِ إِنّا لَقٰدِرونَ عَلىٰ أَن نُبَدِّلَ خَيرًا مِنهُم وَما نَحنُ بِمَسبوقينَ فَذَرهُم يَخوضوا وَيَلعَبوا حَتّىٰ يُلٰقوا يَومَهُمُ الَّذى يوعَدونَ يَومَ يَخرُجونَ مِنَ الأَجداثِ سِراعًا كَأَنَّهُم إِلىٰ نُصُبٍ يوفِضونَ خٰشِعَةً أَبصٰرُهُم تَرهَقُهُم ذِلَّةٌ ذٰلِكَ اليَومُ الَّذى كانوا يوعَدونَ",
+    "sura_name_ar": "المعارج",
+    "sura_name_en": "The Ascending Stairways",
+    "sura_translit": "Al-Ma'aarij",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "source": "79",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 183,
+    "letter_count": 804,
+    "unique_letters": 29,
+    "abjad_total": 60608,
+    "abjad_reduced": 2,
+    "mod_19": 17,
+    "mod_8": 4,
+    "mod_7": 1,
+    "golden_abjad": 37458,
+    "golden_letters": 1301,
+    "golden_words": 296,
+    "fib_word": 144,
+    "fib_letter": 987,
+    "fib_abjad": 46368,
+    "fib_word_ratio": 1.2708333333333333,
+    "fib_letter_ratio": 0.8145896656534954,
+    "fib_abjad_ratio": 1.3071083505866115
+  },
+  "signature": {
+    "center": 79,
+    "ring_inner": [
+      79,
+      1,
+      183,
+      804,
+      2,
+      17,
+      1,
+      4
+    ],
+    "ring_outer": [
+      296,
+      1301,
+      37458,
+      144,
+      987,
+      46368,
+      2,
+      489
+    ],
+    "reference_number": 79,
+    "ayah_number": 1,
+    "range_number": 46,
+    "golden_bridge": [
+      296,
+      1301,
+      37458
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "2171",
+    "296 1301 4",
+    "791 144"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 79,
+    "inner_ring": [
+      79,
+      1,
+      183,
+      804,
+      2,
+      17,
+      1,
+      4
+    ],
+    "outer_ring": [
+      296,
+      1301,
+      37458,
+      144,
+      987,
+      46368,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=60608"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 123,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 21,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 17,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 3,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 79,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 193.4,
+    "primary_turns": 17,
+    "secondary_turns": 3,
+    "center_code": "79 37458 2",
+    "ring_code": "296 1301 144 987",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "2171"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم والنازعات غرقا والناشطات نشطا والسابحات سبحا فالسابقات سبقا فالمدبرات أمرا يوم ترجف الراجفة تتبعها الرادفة قلوب يومئذ واجفة أبصارها خاشعة يقولون أإنا لمردودون في الحافرة أإذا كنا عظاما نخرة قالوا تلك إذا كرة خاسرة فإنما هي زجرة واحدة فإذا هم بالساهرة هل أتاك حديث موسى إذ ناداه ربه بالواد المقدس طوى اذهب إلى فرعون إنه طغى فقل هل لك إلى أن تزكى وأهديك إلى ربك فتخشى فأراه الآية الكبرى فكذب وعصى ثم أدبر يسعى فحشر فنادى فقال أنا ربكم الأعلى فأخذه الله نكال الآخرة والأولى إن في ذلك لعبرة لمن يخشى أأنتم أشد خلقا أم السماء بناها رفع سمكها فسواها وأغطش ليلها وأخرج ضحاها والأرض بعد ذلك دحاها أخرج منها ماءها ومرعاها والجبال أرساها متاعا لكم ولأنعامكم فإذا جاءت الطامة الكبرى يوم يتذكر الإنسان ما سعى وبرزت الجحيم لمن يرى فأما من طغى وآثر الحياة الدنيا فإن الجحيم هي المأوى وأما من خاف مقام ربه ونهى النفس عن الهوى فإن الجنة هي المأوى يسألونك عن الساعة أيان مرساها فيم أنت من ذكراها إلى ربك منتهاها إنما أنت منذر من يخشاها كأنهم يوم يرونها لم يلبثوا إلا عشية أو ضحاها",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَالنّٰزِعٰتِ غَرقًا وَالنّٰشِطٰتِ نَشطًا وَالسّٰبِحٰتِ سَبحًا فَالسّٰبِقٰتِ سَبقًا فَالمُدَبِّرٰتِ أَمرًا يَومَ تَرجُفُ الرّاجِفَةُ تَتبَعُهَا الرّادِفَةُ قُلوبٌ يَومَئِذٍ واجِفَةٌ أَبصٰرُها خٰشِعَةٌ يَقولونَ أَءِنّا لَمَردودونَ فِى الحافِرَةِ أَءِذا كُنّا عِظٰمًا نَخِرَةً قالوا تِلكَ إِذًا كَرَّةٌ خاسِرَةٌ فَإِنَّما هِىَ زَجرَةٌ وٰحِدَةٌ فَإِذا هُم بِالسّاهِرَةِ هَل أَتىٰكَ حَديثُ موسىٰ إِذ نادىٰهُ رَبُّهُ بِالوادِ المُقَدَّسِ طُوًى اذهَب إِلىٰ فِرعَونَ إِنَّهُ طَغىٰ فَقُل هَل لَكَ إِلىٰ أَن تَزَكّىٰ وَأَهدِيَكَ إِلىٰ رَبِّكَ فَتَخشىٰ فَأَرىٰهُ الـٔايَةَ الكُبرىٰ فَكَذَّبَ وَعَصىٰ ثُمَّ أَدبَرَ يَسعىٰ فَحَشَرَ فَنادىٰ فَقالَ أَنا۠ رَبُّكُمُ الأَعلىٰ فَأَخَذَهُ اللَّهُ نَكالَ الـٔاخِرَةِ وَالأولىٰ إِنَّ فى ذٰلِكَ لَعِبرَةً لِمَن يَخشىٰ ءَأَنتُم أَشَدُّ خَلقًا أَمِ السَّماءُ بَنىٰها رَفَعَ سَمكَها فَسَوّىٰها وَأَغطَشَ لَيلَها وَأَخرَجَ ضُحىٰها وَالأَرضَ بَعدَ ذٰلِكَ دَحىٰها أَخرَجَ مِنها ماءَها وَمَرعىٰها وَالجِبالَ أَرسىٰها مَتٰعًا لَكُم وَلِأَنعٰمِكُم فَإِذا جاءَتِ الطّامَّةُ الكُبرىٰ يَومَ يَتَذَكَّرُ الإِنسٰنُ ما سَعىٰ وَبُرِّزَتِ الجَحيمُ لِمَن يَرىٰ فَأَمّا مَن طَغىٰ وَءاثَرَ الحَيوٰةَ الدُّنيا فَإِنَّ الجَحيمَ هِىَ المَأوىٰ وَأَمّا مَن خافَ مَقامَ رَبِّهِ وَنَهَى النَّفسَ عَنِ الهَوىٰ فَإِنَّ الجَنَّةَ هِىَ المَأوىٰ يَسـَٔلونَكَ عَنِ السّاعَةِ أَيّانَ مُرسىٰها فيمَ أَنتَ مِن ذِكرىٰها إِلىٰ رَبِّكَ مُنتَهىٰها إِنَّما أَنتَ مُنذِرُ مَن يَخشىٰها كَأَنَّهُم يَومَ يَرَونَها لَم يَلبَثوا إِلّا عَشِيَّةً أَو ضُحىٰها",
+    "sura_name_ar": "النازعات",
+    "sura_name_en": "Those who drag forth",
+    "sura_translit": "An-Naazi'aat",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "project": "Gamme Doree — Frequences Phi",
+  "sample_rate": 44100,
+  "bits": 16,
+  "phi": 1.618033988749895,
+  "files": [
+    "schumann_7hz.wav",
+    "rizq_56hz.wav",
+    "waqia_152hz.wav",
+    "basmala_786hz.wav",
+    "mercy_618hz.wav",
+    "code_19hz.wav",
+    "fattah_489hz.wav",
+    "razzaq_319hz.wav",
+    "accord_phi_sacre_90s.wav",
+    "sequence_fibonacci.wav",
+    "gamme_doree_19_notes.wav",
+    "meditation_waqia_3min.wav",
+    "activation_rizq_7_19_8.wav"
+  ]
+}

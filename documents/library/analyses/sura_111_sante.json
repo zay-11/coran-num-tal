@@ -1,0 +1,248 @@
+{
+  "source": "111",
+  "domain": {
+    "key": "sante",
+    "label": "Sante / Guerison / Regeneration",
+    "intent": "Apaisement, restauration, discipline du souffle et regeneration symbolique.",
+    "color": "emerald",
+    "geometry": "hexagone central avec anneau 7-19",
+    "references": [
+      "17:82",
+      "26:80",
+      "10:57",
+      "41:44"
+    ],
+    "divine_names": [
+      {
+        "label": "Shafi",
+        "arabic": "يا شافي",
+        "transliteration": "Ya Shafi",
+        "abjad": 402
+      },
+      {
+        "label": "Salam",
+        "arabic": "يا سلام",
+        "transliteration": "Ya Salam",
+        "abjad": 142
+      },
+      {
+        "label": "Latif",
+        "arabic": "يا لطيف",
+        "transliteration": "Ya Latif",
+        "abjad": 140
+      },
+      {
+        "label": "Hayy",
+        "arabic": "يا حي",
+        "transliteration": "Ya Hayy",
+        "abjad": 29
+      }
+    ],
+    "grabovoi_seed": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131"
+    ],
+    "anchor_numbers": [
+      7,
+      17,
+      19,
+      41,
+      57,
+      82,
+      99,
+      131,
+      391
+    ]
+  },
+  "metrics": {
+    "word_count": 27,
+    "letter_count": 100,
+    "unique_letters": 21,
+    "abjad_total": 6217,
+    "abjad_reduced": 7,
+    "mod_19": 4,
+    "mod_8": 4,
+    "mod_7": 6,
+    "golden_abjad": 3842,
+    "golden_letters": 162,
+    "golden_words": 44,
+    "fib_word": 21,
+    "fib_letter": 89,
+    "fib_abjad": 6765,
+    "fib_word_ratio": 1.2857142857142858,
+    "fib_letter_ratio": 1.1235955056179776,
+    "fib_abjad_ratio": 0.9189948263118994
+  },
+  "signature": {
+    "center": 111,
+    "ring_inner": [
+      111,
+      1,
+      27,
+      100,
+      7,
+      4,
+      6,
+      4
+    ],
+    "ring_outer": [
+      44,
+      162,
+      3842,
+      21,
+      89,
+      6765,
+      7,
+      391
+    ],
+    "reference_number": 111,
+    "ayah_number": 1,
+    "range_number": 5,
+    "golden_bridge": [
+      44,
+      162,
+      3842
+    ]
+  },
+  "grabovoi_bridge": [
+    "918 794 818",
+    "519 714 819",
+    "786 391 131",
+    "746",
+    "44 162 4",
+    "1111 21"
+  ],
+  "talisman": {
+    "geometry": "hexagone central avec anneau 7-19",
+    "color": "emerald",
+    "center": 111,
+    "inner_ring": [
+      111,
+      1,
+      27,
+      100,
+      7,
+      4,
+      6,
+      4
+    ],
+    "outer_ring": [
+      44,
+      162,
+      3842,
+      21,
+      89,
+      6765,
+      7,
+      391
+    ],
+    "inscriptions": [
+      "يا شافي",
+      "يا سلام",
+      "يا لطيف",
+      "يا حي",
+      "phi=1.618034",
+      "abjad=6217"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "shafi",
+      "formula": "Ya Shafi",
+      "arabic": "يا شافي",
+      "abjad": 402,
+      "count": 34,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "salam",
+      "formula": "Ya Salam",
+      "arabic": "يا سلام",
+      "abjad": 142,
+      "count": 61,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "latif",
+      "formula": "Ya Latif",
+      "arabic": "يا لطيف",
+      "abjad": 140,
+      "count": 11,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "hayy",
+      "formula": "Ya Hayy",
+      "arabic": "يا حي",
+      "abjad": 29,
+      "count": 4,
+      "note": "Ancre le domaine sante dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 111,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 29.7,
+    "primary_turns": 7,
+    "secondary_turns": 6,
+    "center_code": "111 3842 7",
+    "ring_code": "44 162 21 89",
+    "grabovoi_bridge": [
+      "918 794 818",
+      "519 714 819",
+      "786 391 131",
+      "746"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم تبت يدا أبي لهب وتب ما أغنى عنه ماله وما كسب سيصلى نارا ذات لهب وامرأته حمالة الحطب في جيدها حبل من مسد",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ تَبَّت يَدا أَبى لَهَبٍ وَتَبَّ ما أَغنىٰ عَنهُ مالُهُ وَما كَسَبَ سَيَصلىٰ نارًا ذاتَ لَهَبٍ وَامرَأَتُهُ حَمّالَةَ الحَطَبِ فى جيدِها حَبلٌ مِن مَسَدٍ",
+    "sura_name_ar": "المسد",
+    "sura_name_en": "The Palm Fibre",
+    "sura_translit": "Al-Masad",
+    "revelation_place": "Meccan"
+  }
+}

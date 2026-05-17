@@ -1,0 +1,247 @@
+{
+  "source": "94",
+  "domain": {
+    "key": "savoir",
+    "label": "Savoir / Science / Fath intellectuel",
+    "intent": "Ouverture du sens, memoire, comprehension et penetration symbolique.",
+    "color": "blue",
+    "geometry": "triangle + cercle de 9 points",
+    "references": [
+      "20:114",
+      "2:269",
+      "58:11",
+      "96:1-5"
+    ],
+    "divine_names": [
+      {
+        "label": "Alim",
+        "arabic": "يا عليم",
+        "transliteration": "Ya Alim",
+        "abjad": 161
+      },
+      {
+        "label": "Hakim",
+        "arabic": "يا حكيم",
+        "transliteration": "Ya Hakim",
+        "abjad": 89
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Nur",
+        "arabic": "يا نور",
+        "transliteration": "Ya Nur",
+        "abjad": 267
+      }
+    ],
+    "grabovoi_seed": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114"
+    ],
+    "anchor_numbers": [
+      2,
+      20,
+      58,
+      96,
+      114,
+      150,
+      186,
+      489
+    ]
+  },
+  "metrics": {
+    "word_count": 31,
+    "letter_count": 121,
+    "unique_letters": 24,
+    "abjad_total": 13202,
+    "abjad_reduced": 8,
+    "mod_19": 16,
+    "mod_8": 1,
+    "mod_7": 3,
+    "golden_abjad": 8159,
+    "golden_letters": 196,
+    "golden_words": 50,
+    "fib_word": 34,
+    "fib_letter": 144,
+    "fib_abjad": 10946,
+    "fib_word_ratio": 0.9117647058823529,
+    "fib_letter_ratio": 0.8402777777777778,
+    "fib_abjad_ratio": 1.2061026859126622
+  },
+  "signature": {
+    "center": 94,
+    "ring_inner": [
+      94,
+      1,
+      31,
+      121,
+      8,
+      16,
+      3,
+      1
+    ],
+    "ring_outer": [
+      50,
+      196,
+      8159,
+      34,
+      144,
+      10946,
+      2,
+      489
+    ],
+    "reference_number": 94,
+    "ayah_number": 1,
+    "range_number": 8,
+    "golden_bridge": [
+      50,
+      196,
+      8159
+    ]
+  },
+  "grabovoi_bridge": [
+    "114 269 5811",
+    "489 150 186",
+    "96 20 114",
+    "8163",
+    "50 196 1",
+    "941 34"
+  ],
+  "talisman": {
+    "geometry": "triangle + cercle de 9 points",
+    "color": "blue",
+    "center": 94,
+    "inner_ring": [
+      94,
+      1,
+      31,
+      121,
+      8,
+      16,
+      3,
+      1
+    ],
+    "outer_ring": [
+      50,
+      196,
+      8159,
+      34,
+      144,
+      10946,
+      2,
+      489
+    ],
+    "inscriptions": [
+      "يا عليم",
+      "يا حكيم",
+      "يا فتاح",
+      "يا نور",
+      "phi=1.618034",
+      "abjad=13202"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "alim",
+      "formula": "Ya Alim",
+      "arabic": "يا عليم",
+      "abjad": 161,
+      "count": 55,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "hakim",
+      "formula": "Ya Hakim",
+      "arabic": "يا حكيم",
+      "abjad": 89,
+      "count": 76,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 19,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "nur",
+      "formula": "Ya Nur",
+      "arabic": "يا نور",
+      "abjad": 267,
+      "count": 16,
+      "note": "Ancre le domaine savoir dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 7,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 94,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 40.8,
+    "primary_turns": 16,
+    "secondary_turns": 3,
+    "center_code": "94 8159 8",
+    "ring_code": "50 196 34 144",
+    "grabovoi_bridge": [
+      "114 269 5811",
+      "489 150 186",
+      "96 20 114",
+      "8163"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم ألم نشرح لك صدرك ووضعنا عنك وزرك الذي أنقض ظهرك ورفعنا لك ذكرك فإن مع العسر يسرا إن مع العسر يسرا فإذا فرغت فانصب وإلى ربك فارغب",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ أَلَم نَشرَح لَكَ صَدرَكَ وَوَضَعنا عَنكَ وِزرَكَ الَّذى أَنقَضَ ظَهرَكَ وَرَفَعنا لَكَ ذِكرَكَ فَإِنَّ مَعَ العُسرِ يُسرًا إِنَّ مَعَ العُسرِ يُسرًا فَإِذا فَرَغتَ فَانصَب وَإِلىٰ رَبِّكَ فَارغَب",
+    "sura_name_ar": "الشرح",
+    "sura_name_en": "The Consolation",
+    "sura_translit": "Ash-Sharh",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "corpus_id": "torah_demo",
+  "name": "Torah Demo",
+  "scheme": "hebrew_gematria",
+  "description": "Mini corpus hebreu de test",
+  "entries": [
+    {
+      "ref": "Gen1:1",
+      "text": "?????? ??? ?????"
+    },
+    {
+      "ref": "Gen1:2",
+      "text": "????? ???? ???"
+    }
+  ]
+}

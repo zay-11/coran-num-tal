@@ -1,0 +1,252 @@
+{
+  "source": "92",
+  "domain": {
+    "key": "richesse",
+    "label": "Rizq / Richesse / Abondance",
+    "intent": "Ouverture des causes, fluidite materielle, baraka et expansion du rizq.",
+    "color": "gold",
+    "geometry": "etoile a 8 branches avec centre phi",
+    "references": [
+      "51:58",
+      "65:2-3",
+      "71:10-12",
+      "62:10",
+      "34:39"
+    ],
+    "divine_names": [
+      {
+        "label": "Razzaq",
+        "arabic": "يا رزاق",
+        "transliteration": "Ya Razzaq",
+        "abjad": 319
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Ghani",
+        "arabic": "يا غني",
+        "transliteration": "Ya Ghani",
+        "abjad": 1071
+      },
+      {
+        "label": "Mughni",
+        "arabic": "يا مغني",
+        "transliteration": "Ya Mughni",
+        "abjad": 1111
+      }
+    ],
+    "grabovoi_seed": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078"
+    ],
+    "anchor_numbers": [
+      19,
+      55,
+      56,
+      61,
+      76,
+      89,
+      99,
+      123,
+      319,
+      489,
+      618,
+      786
+    ]
+  },
+  "metrics": {
+    "word_count": 75,
+    "letter_count": 333,
+    "unique_letters": 29,
+    "abjad_total": 29624,
+    "abjad_reduced": 5,
+    "mod_19": 3,
+    "mod_8": 5,
+    "mod_7": 5,
+    "golden_abjad": 18309,
+    "golden_letters": 539,
+    "golden_words": 121,
+    "fib_word": 89,
+    "fib_letter": 377,
+    "fib_abjad": 28657,
+    "fib_word_ratio": 0.8426966292134831,
+    "fib_letter_ratio": 0.883289124668435,
+    "fib_abjad_ratio": 1.0337439369089576
+  },
+  "signature": {
+    "center": 92,
+    "ring_inner": [
+      92,
+      1,
+      75,
+      333,
+      5,
+      3,
+      5,
+      5
+    ],
+    "ring_outer": [
+      121,
+      539,
+      18309,
+      89,
+      377,
+      28657,
+      19,
+      786
+    ],
+    "reference_number": 92,
+    "ayah_number": 1,
+    "range_number": 21,
+    "golden_bridge": [
+      121,
+      539,
+      18309
+    ]
+  },
+  "grabovoi_bridge": [
+    "123 55 89",
+    "786 489 618",
+    "6119 078",
+    "535",
+    "121 539 5",
+    "921 89"
+  ],
+  "talisman": {
+    "geometry": "etoile a 8 branches avec centre phi",
+    "color": "gold",
+    "center": 92,
+    "inner_ring": [
+      92,
+      1,
+      75,
+      333,
+      5,
+      3,
+      5,
+      5
+    ],
+    "outer_ring": [
+      121,
+      539,
+      18309,
+      89,
+      377,
+      28657,
+      19,
+      786
+    ],
+    "inscriptions": [
+      "يا رزاق",
+      "يا فتاح",
+      "يا غني",
+      "يا مغني",
+      "phi=1.618034",
+      "abjad=29624"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "razzaq",
+      "formula": "Ya Razzaq",
+      "arabic": "يا رزاق",
+      "abjad": 319,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "ghani",
+      "formula": "Ya Ghani",
+      "arabic": "يا غني",
+      "abjad": 1071,
+      "count": 11,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "mughni",
+      "formula": "Ya Mughni",
+      "arabic": "يا مغني",
+      "abjad": 1111,
+      "count": 3,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 92,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 76.6,
+    "primary_turns": 7,
+    "secondary_turns": 5,
+    "center_code": "92 18309 5",
+    "ring_code": "121 539 89 377",
+    "grabovoi_bridge": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078",
+      "535"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم والليل إذا يغشى والنهار إذا تجلى وما خلق الذكر والأنثى إن سعيكم لشتى فأما من أعطى واتقى وصدق بالحسنى فسنيسره لليسرى وأما من بخل واستغنى وكذب بالحسنى فسنيسره للعسرى وما يغني عنه ماله إذا تردى إن علينا للهدى وإن لنا للآخرة والأولى فأنذرتكم نارا تلظى لا يصلاها إلا الأشقى الذي كذب وتولى وسيجنبها الأتقى الذي يؤتي ماله يتزكى وما لأحد عنده من نعمة تجزى إلا ابتغاء وجه ربه الأعلى ولسوف يرضى",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَالَّيلِ إِذا يَغشىٰ وَالنَّهارِ إِذا تَجَلّىٰ وَما خَلَقَ الذَّكَرَ وَالأُنثىٰ إِنَّ سَعيَكُم لَشَتّىٰ فَأَمّا مَن أَعطىٰ وَاتَّقىٰ وَصَدَّقَ بِالحُسنىٰ فَسَنُيَسِّرُهُ لِليُسرىٰ وَأَمّا مَن بَخِلَ وَاستَغنىٰ وَكَذَّبَ بِالحُسنىٰ فَسَنُيَسِّرُهُ لِلعُسرىٰ وَما يُغنى عَنهُ مالُهُ إِذا تَرَدّىٰ إِنَّ عَلَينا لَلهُدىٰ وَإِنَّ لَنا لَلـٔاخِرَةَ وَالأولىٰ فَأَنذَرتُكُم نارًا تَلَظّىٰ لا يَصلىٰها إِلَّا الأَشقَى الَّذى كَذَّبَ وَتَوَلّىٰ وَسَيُجَنَّبُهَا الأَتقَى الَّذى يُؤتى مالَهُ يَتَزَكّىٰ وَما لِأَحَدٍ عِندَهُ مِن نِعمَةٍ تُجزىٰ إِلَّا ابتِغاءَ وَجهِ رَبِّهِ الأَعلىٰ وَلَسَوفَ يَرضىٰ",
+    "sura_name_ar": "الليل",
+    "sura_name_en": "The Night",
+    "sura_translit": "Al-Lail",
+    "revelation_place": "Meccan"
+  }
+}

@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Livre 4 — Atlas des Schémas Radioniques</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+@font-face{font-family:"LuxeDisplay";src:url("file:///C:/Windows/Fonts/BOOKOSB.TTF") format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:"LuxeDisplay";src:url("file:///C:/Windows/Fonts/BOOKOSBI.TTF") format("truetype");font-weight:700;font-style:italic}
+@font-face{font-family:"LuxeText";src:url("file:///C:/Windows/Fonts/georgia.ttf") format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"LuxeText";src:url("file:///C:/Windows/Fonts/georgiab.ttf") format("truetype");font-weight:700;font-style:normal}
+:root{--paper:#e6e5df;--ink:#16140f;--muted:#56544a;--line:rgba(80,75,60,0.15);--gold:#948148;--copper:#9f7b3e;--ink-blue:#1f3347;--night:#0f1110;--night-2:#181b18}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#d0cec6;color:var(--ink);font-family:"LuxeText",Georgia,serif}
+body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{position:relative;width:210mm;min-height:297mm;margin:0 auto;padding:16mm 16mm 14mm;overflow:hidden;page-break-after:always;background:linear-gradient(180deg,rgba(255,255,255,0.5),rgba(255,255,255,0.06)),radial-gradient(circle at 50% 50%,rgba(148,129,72,0.08),transparent 40%),var(--paper)}
+.page::before{content:"";position:absolute;inset:8mm;border:1px solid rgba(80,75,60,0.18)}
+.page::after{content:"";position:absolute;inset:11mm;border:1px solid rgba(80,75,60,0.05)}
+.page-dark{background:radial-gradient(circle at 30% 30%,rgba(148,129,72,0.12),transparent 28%),radial-gradient(circle at 70% 70%,rgba(31,51,71,0.14),transparent 26%),linear-gradient(180deg,var(--night-2),var(--night));color:#e9e7de}
+.page-dark::before{border-color:rgba(148,129,72,0.24)}
+.page-dark::after{border-color:rgba(148,129,72,0.08)}
+.ornament{position:absolute;left:16mm;right:16mm;height:5mm;background:linear-gradient(90deg,transparent,rgba(148,129,72,0.68) 18%,rgba(148,129,72,0.9) 50%,rgba(148,129,72,0.68) 82%,transparent)}
+.ornament.top{top:12mm}
+.ornament.bottom{bottom:11mm}
+.cover{display:grid;grid-template-rows:auto auto 1fr auto;gap:8mm;min-height:100%}
+.cover-kicker{display:flex;justify-content:space-between;font-size:9px;letter-spacing:0.18em;text-transform:uppercase;color:rgba(233,231,222,0.68)}
+.cover h1{margin:0;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:28pt;line-height:0.93;color:#f0e4c8;text-transform:uppercase}
+.cover .subtitle{max-width:140mm;margin:4mm 0 0;font-size:12pt;line-height:1.3;color:rgba(236,232,223,0.9)}
+.section-head{margin-bottom:6mm}
+.eyebrow{font-size:8.5px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-bottom:2mm}
+.section-head h2{margin:0;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:20pt;line-height:1}
+.deck{margin:2.5mm 0 0;max-width:148mm;font-size:10pt;line-height:1.45;color:var(--muted)}
+.page-dark .deck{color:rgba(233,231,222,0.7)}
+.panel,.box{position:relative;border:1px solid rgba(148,129,72,0.26);background:rgba(248,245,234,0.78);padding:5mm}
+.panel::before,.box::before{content:"";position:absolute;inset:3mm;border:1px solid rgba(148,129,72,0.1)}
+.page-dark .panel{background:rgba(255,255,255,0.03);border-color:rgba(148,129,72,0.22)}
+.page-dark .panel::before{border-color:rgba(148,129,72,0.07)}
+.panel h3,.box h3{margin:0 0 2.5mm;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:11pt}
+.panel p,.box p{margin:0;font-size:9.5pt;line-height:1.5}
+.schema-grid{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.schema-block{border:1px solid rgba(80,75,60,0.18);background:rgba(255,255,255,0.5);padding:4.5mm}
+.schema-block h3{margin:0 0 2mm;font-family:"LuxeDisplay","Book Antiqua",serif;font-size:11pt;color:var(--copper)}
+.schema-block .diagram{width:100%;max-width:120mm;display:block;margin:3mm auto}
+.footer-note{position:absolute;left:16mm;right:16mm;bottom:16mm;display:flex;justify-content:space-between;font-size:8.5px;letter-spacing:0.08em;text-transform:uppercase;color:rgba(90,85,68,0.7)}
+.page-dark .footer-note{color:rgba(225,220,208,0.6)}
+.page-number{position:absolute;right:18mm;bottom:16mm;font-size:8pt;color:var(--muted)}
+.page-dark .page-number{color:rgba(225,220,208,0.5)}
+.legend{display:grid;grid-template-columns:repeat(4,1fr);gap:2mm;margin-top:3mm}
+.legend-item{display:flex;align-items:center;gap:2mm;font-size:8pt;color:var(--muted)}
+.legend-dot{width:8px;height:8px;border-radius:999px;display:inline-block}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:8mm}
+.ref-table{width:100%;border-collapse:collapse;font-size:9pt}
+.ref-table th,.ref-table td{border-bottom:1px solid rgba(130,115,60,0.16);padding:2.5mm 2mm;text-align:left;vertical-align:top}
+.ref-table th{font-size:8pt;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 — COUVERTURE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="cover">
+<div class="cover-kicker"><span>Collection radionique sacrée</span><span>Édition intégrale premium</span></div>
+<div>
+<h1>Atlas des Schémas<br/>Radioniques</h1>
+<p class="subtitle">Recueil de tous les schémas de montage, diagrammes, circuits et plans cotés des systèmes radioniques coraniques : de la spirale de base aux dispositifs multicouches.</p>
+</div>
+<div style="display:grid;grid-template-columns:1fr 0.9fr;gap:8mm;align-items:center;">
+<div class="panel">
+<h3>Contenu de l'atlas</h3>
+<ul style="margin:3mm 0 0;padding-left:18px;font-size:9.5pt;line-height:1.55;">
+<li>10 schémas cotés avec légendes</li>
+<li>3 vues : plan, coupe, perspective</li>
+<li>Tableaux de câblage et connexions</li>
+<li>Symboles normalisés de radionique</li>
+<li>Checklist de montage pour chaque système</li>
+</ul>
+</div>
+<div style="border:1px solid rgba(148,129,72,0.18);padding:4mm;background:rgba(255,255,255,0.02);">
+<svg viewBox="0 0 300 300" style="width:100%;display:block;" aria-hidden="true">
+<circle cx="150" cy="150" r="130" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="150" cy="150" r="98" fill="none" stroke="#948148" stroke-width="1.4" stroke-dasharray="3 6"/>
+<circle cx="150" cy="150" r="60" fill="none" stroke="#1f3347" stroke-width="1.6"/>
+<circle cx="150" cy="150" r="24" fill="none" stroke="#948148" stroke-width="2.8"/>
+<polygon points="150,20 280,150 150,280 20,150" fill="none" stroke="#948148" stroke-width="2"/>
+<g stroke="#948148" stroke-width="0.9" opacity="0.5">
+<line x1="150" y1="18" x2="150" y2="282"/><line x1="18" y1="150" x2="282" y2="150"/>
+<line x1="57" y1="57" x2="243" y2="243"/><line x1="243" y1="57" x2="57" y2="243"/>
+</g>
+<text x="150" y="162" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:28px;fill:#e9e7de;">φ</text>
+<text x="150" y="188" text-anchor="middle" style="font-size:11px;letter-spacing:0.08em;text-transform:uppercase;fill:#948148;">atlas / schémas</text>
+</svg>
+</div>
+</div>
+<div class="footer-note"><span>Édition intégrale premium</span><span>Livre 4 — Atlas des Schémas</span></div>
+</div>
+</section>
+
+<!-- PAGE 2 — TABLE DES MATIÈRES -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Sommaire</div>
+<h2>Table des schémas</h2>
+<p class="deck">10 schémas de montage, classés par système, avec leurs cotations, matériaux et légendes.</p>
+</div>
+<div style="margin-top:8mm;">
+<table class="ref-table">
+<thead><tr><th>N°</th><th>Schéma</th><th>Système</th><th>Page</th></tr></thead>
+<tbody>
+<tr><td>S1</td><td>Spirale cuivre simple — plan</td><td>Base</td><td>3</td></tr>
+<tr><td>S2</td><td>Spirale cuivre — coupe et connexions</td><td>Base</td><td>4</td></tr>
+<tr><td>S3</td><td>Montage amplifié 7 couches — plan</td><td>Amplifié</td><td>5</td></tr>
+<tr><td>S4</td><td>Montage amplifié 7 couches — coupe</td><td>Amplifié</td><td>6</td></tr>
+<tr><td>S5</td><td>Toroïde ferrite — bobinage</td><td>Amplifié</td><td>7</td></tr>
+<tr><td>S6</td><td>Module Rizq Phi — 3 noyaux</td><td>Rizq Phi</td><td>8</td></tr>
+<tr><td>S7</td><td>Triangle équilatéral des noyaux</td><td>Rizq Phi</td><td>9</td></tr>
+<tr><td>S8</td><td>Talisman Ultime Miftah 19</td><td>Miftah 19</td><td>10</td></tr>
+<tr><td>S9</td><td>Cadran lunaire des 28 mansions</td><td>Miftah 19</td><td>11</td></tr>
+<tr><td>S10</td><td>Tableau des symboles radioniques</td><td>Tous</td><td>12</td></tr>
+</tbody>
+</table>
+</div>
+<div class="legend" style="margin-top:8mm;">
+<div class="legend-item"><span class="legend-dot" style="background:#948148;"></span> Cuivre / conducteur</div>
+<div class="legend-item"><span class="legend-dot" style="background:#1f3347;"></span> Quartz</div>
+<div class="legend-item"><span class="legend-dot" style="background:#9f7b3e;"></span> Aimant néodyme</div>
+<div class="legend-item"><span class="legend-dot" style="background:#666;"></span> Toroïde / noyau</div>
+</div>
+<div class="page-number">02</div>
+</section>
+
+<!-- PAGE 3 — S1 : SPIRALE CUIVRE SIMPLE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Schéma S1</div>
+<h2>Spirale cuivre simple — Vue de dessus</h2>
+<p class="deck">Montage de base : spirale de 5 spires concentriques. Fil cuivre ∅0.8mm, longueur totale 786 mm.</p>
+</div>
+<svg viewBox="0 0 600 480" style="width:100%;max-width:150mm;display:block;margin:0 auto;" aria-hidden="true">
+<circle cx="300" cy="240" r="200" fill="none" stroke="#948148" stroke-width="3.5"/>
+<circle cx="300" cy="240" r="160" fill="none" stroke="#948148" stroke-width="3"/>
+<circle cx="300" cy="240" r="120" fill="none" stroke="#948148" stroke-width="2.5"/>
+<circle cx="300" cy="240" r="80" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="300" cy="240" r="40" fill="none" stroke="#948148" stroke-width="1.8"/>
+<circle cx="300" cy="240" r="14" fill="rgba(255,255,255,0.1)" stroke="#1f3347" stroke-width="3">
+  <animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="300" y="248" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:24px;fill:#e9e7de;">Q</text>
+<line x1="300" y1="254" x2="300" y2="460" stroke="#948148" stroke-width="3"/>
+<circle cx="300" cy="460" r="7" fill="#948148"/>
+<line x1="300" y1="20" x2="300" y2="226" stroke="#948148" stroke-width="3"/>
+<circle cx="300" cy="20" r="7" fill="#948148"/>
+<text x="316" y="40" style="font-size:11px;fill:#aaa;">ENTRÉE (signal)</text>
+<text x="316" y="465" style="font-size:11px;fill:#aaa;">SORTIE (masse)</text>
+<line x1="100" y1="225" x2="100" y2="255" stroke="#999" stroke-width="1.2"/>
+<line x1="100" y1="240" x2="295" y2="240" stroke="#999" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="60" y="244" style="font-size:11px;fill:#aaa;">∅ 400</text>
+</svg>
+<div class="panel" style="margin-top:5mm;">
+<h3>Cotations</h3>
+<p>Diamètre extérieur max. : 400 mm — Espacement entre spires : 40 mm — Diamètre du quartz : 25 mm — Longueur de fil total : 786 mm (Basmala) — Sortie BNC femelle coaxiale 50Ω.</p>
+</div>
+<div class="footer-note"><span>S1 — Spirale cuivre simple</span><span>Vue de dessus</span></div>
+<div class="page-number">03</div>
+</section>
+
+<!-- PAGE 4 — S2 : SPIRALE CUIVRE — COUPE -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Schéma S2</div>
+<h2>Spirale cuivre — Vue en coupe et connexions</h2>
+<p class="deck">Coupe latérale du montage de base montrant les connexions électriques et la position du quartz.</p>
+</div>
+<svg viewBox="0 0 600 360" style="width:100%;max-width:160mm;display:block;margin:0 auto;" aria-hidden="true">
+<rect x="50" y="280" width="500" height="30" rx="4" fill="#b8956a"/><text x="300" y="300" text-anchor="middle" style="font-size:11px;fill:#fff;">SOCLE BOIS — ∅ 120 mm × ép. 8 mm</text>
+<rect x="190" y="240" width="220" height="25" rx="3" fill="#948148"/><text x="300" y="258" text-anchor="middle" style="font-size:10px;fill:#fff;">MASSE CUIVRE — 100 × 100 mm</text>
+<ellipse cx="300" cy="190" rx="140" ry="12" fill="none" stroke="#948148" stroke-width="3.5"/><text x="300" y="196" text-anchor="middle" style="font-size:10px;fill:#948148;">SPIRALE CUIVRE — 5 spires concentriques</text>
+<ellipse cx="300" cy="90" rx="80" ry="8" fill="none" stroke="#948148" stroke-width="3"/><text x="300" y="96" text-anchor="middle" style="font-size:10px;fill:#948148;">ANNEAU DE GARDE — fil cuivre ∅0.8mm</text>
+<rect x="270" y="152" width="60" height="80" rx="8" fill="rgba(31,51,71,0.2)" stroke="#1f3347" stroke-width="2.5"/>
+<text x="300" y="202" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#1f3347;">Q</text>
+<text x="300" y="220" text-anchor="middle" style="font-size:9px;fill:#1f3347;">QUARTZ</text>
+<line x1="190" y1="275" x2="130" y2="300" stroke="#948148" stroke-width="2"/>
+<line x1="410" y1="275" x2="470" y2="300" stroke="#948148" stroke-width="2"/>
+<text x="60" y="340" style="font-size:10px;fill:#666;">CONNECTEUR BNC (entrée signal)</text>
+<text x="430" y="340" style="font-size:10px;fill:#666;">MASSE / GND</text>
+</svg>
+<div class="split" style="margin-top:6mm;">
+<div class="box"><h3>Connexions</h3><ul><li>Entrée BNC → spire extérieure (premier tour)</li><li>Centre spirale → pointe du quartz</li><li>Base quartz → sortie BNC (masse)</li><li>Continuité : vérifier avec multimètre (0.5–2Ω)</li></ul></div>
+<div class="box"><h3>Matériaux</h3><ul><li>1× connecteur BNC femelle châssis</li><li>1× câble coaxial 50Ω — 33 cm</li><li>Fil cuivre émaillé ∅0.8mm — 786 mm</li><li>Quartz de roche (cristal clair) ∅25mm</li></ul></div>
+</div>
+<div class="page-number">04</div>
+</section>
+
+<!-- PAGE 5 — S3 : MONTAGE AMPLIFIÉ — PLAN -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Schéma S3</div>
+<h2>Montage amplifié 7 couches — Vue de dessus</h2>
+<p class="deck">Système complet : spirale 56 tours, 7 aimants, toroïde, 2 quartz.</p>
+</div>
+<svg viewBox="0 0 600 480" style="width:100%;max-width:150mm;display:block;margin:0 auto;" aria-hidden="true">
+<rect x="50" y="40" width="500" height="400" rx="10" fill="none" stroke="#948148" stroke-width="2.5"/>
+<text x="300" y="30" text-anchor="middle" style="font-size:11px;fill:#aaa;">SOCLE BOIS — ∅ 180 mm</text>
+<circle cx="300" cy="240" r="180" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="300" cy="240" r="130" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="300" cy="240" r="80" fill="none" stroke="#948148" stroke-width="1.2"/>
+<circle cx="300" cy="240" r="35" fill="none" stroke="#948148" stroke-width="1.8"/>
+<circle cx="300" cy="240" r="18" fill="rgba(255,255,255,0.06)" stroke="#1f3347" stroke-width="2.5"/>
+<text x="300" y="246" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#e9e7de;">Q1</text>
+<g>
+<circle cx="180" cy="160" r="11" fill="#9f7b3e"/><text x="180" y="165" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="300" cy="120" r="11" fill="#9f7b3e"/><text x="300" y="125" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="420" cy="160" r="11" fill="#9f7b3e"/><text x="420" y="165" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="450" cy="280" r="11" fill="#9f7b3e"/><text x="450" y="285" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="380" cy="370" r="11" fill="#9f7b3e"/><text x="380" y="375" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="220" cy="370" r="11" fill="#9f7b3e"/><text x="220" y="375" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+<circle cx="150" cy="280" r="11" fill="#9f7b3e"/><text x="150" y="285" text-anchor="middle" style="font-size:9px;fill:#fff;">N</text>
+</g>
+<circle cx="410" cy="400" r="9" fill="rgba(255,255,255,0.06)" stroke="#1f3347" stroke-width="2"/>
+<text x="410" y="404" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#e9e7de;">Q2</text>
+<ellipse cx="300" cy="120" rx="28" ry="12" fill="none" stroke="#666" stroke-width="2"/>
+<text x="420" y="126" style="font-size:10px;fill:#666;">TOROÏDE ferrite</text>
+<text x="170" y="106" style="font-size:10px;fill:#9f7b3e;">7 AIMANTS NdFeB N52</text>
+<text x="500" y="160" style="font-size:10px;fill:#948148;">SPIRALE 56 tours</text>
+</svg>
+<div class="panel" style="margin-top:4mm;">
+<h3>Légende</h3>
+<p>Q1 = Quartz central ∅12mm — Q2 = Quartz secondaire ∅25mm (position nord-est) — 7 aimants néodyme N52 ∅20×5mm — Toroïde ferrite ∅34mm + bobinage secondaire 19 tours — Spirale primaire : 56 tours, fil ∅0.8mm</p>
+</div>
+<div class="footer-note"><span>S3 — Montage amplifié</span><span>Vue de dessus</span></div>
+<div class="page-number">05</div>
+</section>
+
+<!-- PAGE 6 — S4 : MONTAGE AMPLIFIÉ — COUPE -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Schéma S4</div>
+<h2>Montage amplifié 7 couches — Vue en coupe</h2>
+<p class="deck">Empilement vertical des 7 couches montrant l'architecture stratifiée du système.</p>
+</div>
+<svg viewBox="0 0 600 420" style="width:100%;max-width:160mm;display:block;margin:0 auto;" aria-hidden="true">
+<rect x="80" y="370" width="440" height="24" rx="4" fill="#b8956a"/><text x="300" y="387" text-anchor="middle" style="font-size:10px;fill:#fff;">1 — SOCLE BOIS (∅180mm × ép.8mm)</text>
+<rect x="140" y="335" width="320" height="20" rx="3" fill="#948148"/><text x="300" y="350" text-anchor="middle" style="font-size:10px;fill:#fff;">2 — FEUILLE CUIVRE ADHÉSIVE (100×100mm)</text>
+<ellipse cx="300" cy="290" rx="160" ry="12" fill="none" stroke="#948148" stroke-width="3"/><text x="300" y="296" text-anchor="middle" style="font-size:10px;fill:#948148;">3 — SPIRALE PRIMAIRE (56 tours, fil ∅0.8mm)</text>
+<g>
+<circle cx="140" cy="240" r="10" fill="#9f7b3e"/><circle cx="220" cy="240" r="10" fill="#9f7b3e"/>
+<circle cx="300" cy="240" r="10" fill="#9f7b3e"/><circle cx="380" cy="240" r="10" fill="#9f7b3e"/>
+<circle cx="460" cy="240" r="10" fill="#9f7b3e"/>
+</g>
+<text x="300" y="220" text-anchor="middle" style="font-size:10px;fill:#9f7b3e;">4 — 7 AIMANTS NÉODYME N52 (∅20×5mm)</text>
+<ellipse cx="300" cy="175" rx="50" ry="12" fill="none" stroke="#666" stroke-width="2.5"/><text x="300" y="180" text-anchor="middle" style="font-size:10px;fill:#666;">5 — TOROÏDE FERRITE (∅34mm + bobinage 19t)</text>
+<rect x="278" y="130" width="44" height="30" rx="6" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="300" y="152" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#1f3347;">Q1</text>
+<rect x="390" y="120" width="40" height="28" rx="6" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="410" y="141" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#1f3347;">Q2</text>
+<text x="300" y="120" text-anchor="middle" style="font-size:10px;fill:#1f3347;">6 — QUARTZ Q1 (∅12mm) + Q2 (∅25mm)</text>
+<rect x="150" y="90" width="300" height="18" rx="3" fill="rgba(200,200,200,0.25)" stroke="#aaa" stroke-width="1.5"/>
+<text x="300" y="104" text-anchor="middle" style="font-size:10px;fill:#aaa;">7 — RÉSINE ÉPOXY TRANSPARENTE (ép. max 3mm)</text>
+</svg>
+<div class="split" style="margin-top:6mm;">
+<div class="box"><h3>Ordre de montage</h3><ol style="margin:2mm 0 0;padding-left:18px;font-size:9pt;"><li>Base bois → feuille cuivre</li><li>Spirale primaire (56 tours)</li><li>7 aimants en cercle (R=60mm)</li><li>Toroïde central + bobinage 19 tours</li><li>Q1 au centre du toroïde</li><li>Q2 sur aimant nord-est</li><li>Coulée résine époxy (24h polym.)</li></ol></div>
+<div class="box"><h3>Contrôle qualité</h3><ul style="margin:2mm 0 0;padding-left:18px;font-size:9pt;"><li>Résistance spirale : 0.8–1.2Ω</li><li>Polarité aimants : tous N vers haut</li><li>Toroïde : pas de court-circuit</li><li>Quartz : stables, pas de jeu</li></ul></div>
+</div>
+<div class="page-number">06</div>
+</section>
+
+<!-- PAGE 7 — S5 : TOROÏDE BOBINAGE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Schéma S5</div>
+<h2>Toroïde ferrite — Bobinage primaire/secondaire</h2>
+<p class="deck">Schéma détaillé du bobinage toroïdal : primaire 56 tours, secondaire 19 tours.</p>
+</div>
+<svg viewBox="0 0 600 400" style="width:100%;max-width:160mm;display:block;margin:0 auto;" aria-hidden="true">
+<ellipse cx="300" cy="200" rx="150" ry="80" fill="none" stroke="#666" stroke-width="4"/>
+<ellipse cx="300" cy="200" rx="120" ry="60" fill="none" stroke="#666" stroke-width="3"/>
+<ellipse cx="300" cy="200" rx="80" ry="40" fill="none" stroke="#948148" stroke-width="2.5"/>
+<ellipse cx="300" cy="200" rx="45" ry="22" fill="none" stroke="#948148" stroke-width="2"/>
+<text x="300" y="206" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:22px;fill:#e9e7de;">φ</text>
+<g stroke="#948148" stroke-width="1.8" fill="none">
+<path d="M 375 128 Q 450 200 375 272"/><path d="M 385 132 Q 465 200 385 268"/>
+<path d="M 395 136 Q 480 200 395 264"/><path d="M 405 140 Q 490 200 405 260"/>
+<path d="M 415 144 Q 500 200 415 256"/><path d="M 425 148 Q 510 200 425 252"/>
+</g>
+<g stroke="#9f7b3e" stroke-width="1.5" fill="none">
+<path d="M 225 128 Q 150 200 225 272"/><path d="M 215 132 Q 135 200 215 268"/>
+<path d="M 205 136 Q 120 200 205 264"/><path d="M 195 140 Q 110 200 195 260"/>
+</g>
+<text x="490" y="140" style="font-size:10px;fill:#948148;">Primaire 56 tours</text>
+<text x="490" y="270" style="font-size:10px;fill:#948148;">Fil cuivre ∅0.8mm</text>
+<text x="120" y="140" style="font-size:10px;fill:#9f7b3e;">Secondaire 19 tours</text>
+<text x="120" y="270" style="font-size:10px;fill:#9f7b3e;">Fil cuivre ∅0.6mm</text>
+</svg>
+<div class="panel" style="margin-top:4mm;">
+<h3>Spécifications du toroïde</h3>
+<table class="ref-table"><thead><tr><th>Paramètre</th><th>Valeur</th></tr></thead>
+<tbody>
+<tr><td>Diamètre extérieur</td><td>34 mm</td></tr>
+<tr><td>Diamètre intérieur</td><td>18 mm</td></tr>
+<tr><td>Hauteur</td><td>12 mm</td></tr>
+<tr><td>Matériau</td><td>Ferrite N87 (3C90 équivalent)</td></tr>
+<tr><td>Perméabilité µr</td><td>2000</td></tr>
+<tr><td>Primaire</td><td>56 tours, fil ∅0.8mm, L ≈ 1.2 mH</td></tr>
+<tr><td>Secondaire</td><td>19 tours, fil ∅0.6mm, L ≈ 0.14 mH</td></tr>
+</tbody></table>
+</div>
+<div class="footer-note"><span>S5 — Toroïde ferrite</span><span>Bobinage</span></div>
+<div class="page-number">07</div>
+</section>
+
+<!-- PAGE 8 — S6 : MODULE RIZQ PHI -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Schéma S6</div>
+<h2>Module Rizq Phi — 3 noyaux textuels</h2>
+<p class="deck">Les 3 sous-modules indépendants, chacun accordé à un verset-source du Rizq.</p>
+</div>
+<div class="schema-grid">
+<div class="schema-block">
+<h3>Noyau 1 — Source (51:58)</h3>
+<svg viewBox="0 0 180 180" style="width:100%;display:block;" aria-hidden="true">
+<circle cx="90" cy="90" r="68" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="90" cy="90" r="50" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="90" cy="90" r="32" fill="none" stroke="#948148" stroke-width="1.2"/>
+<circle cx="90" cy="90" r="10" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="90" y="95" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#1f3347;">319</text>
+<text x="90" y="175" text-anchor="middle" style="font-size:9px;fill:#666;">19 tours — ∅75mm</text>
+</svg>
+</div>
+<div class="schema-block">
+<h3>Noyau 2 — Issue (65:2-3)</h3>
+<svg viewBox="0 0 180 180" style="width:100%;display:block;" aria-hidden="true">
+<circle cx="90" cy="90" r="56" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="90" cy="90" r="38" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="90" cy="90" r="20" fill="none" stroke="#948148" stroke-width="1.2"/>
+<circle cx="90" cy="90" r="9" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="90" y="95" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#1f3347;">489</text>
+<text x="90" y="175" text-anchor="middle" style="font-size:9px;fill:#666;">13 tours — ∅62mm</text>
+</svg>
+</div>
+<div class="schema-block">
+<h3>Noyau 3 — Pluie (71:10-12)</h3>
+<svg viewBox="0 0 180 180" style="width:100%;display:block;" aria-hidden="true">
+<circle cx="90" cy="90" r="44" fill="none" stroke="#948148" stroke-width="2"/>
+<circle cx="90" cy="90" r="28" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="90" cy="90" r="12" fill="none" stroke="#948148" stroke-width="1.2"/>
+<circle cx="90" cy="90" r="8" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="90" y="95" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#1f3347;">618</text>
+<text x="90" y="175" text-anchor="middle" style="font-size:9px;fill:#666;">7 tours — ∅49mm</text>
+</svg>
+</div>
+</div>
+<div class="box" style="margin-top:5mm;">
+<h3>Caractéristiques communes</h3>
+<ul><li>Fil cuivre ∅0.6mm émaillé</li><li>Quartz ∅8mm cristal de roche clair</li><li>Support bois ∅75mm (un par noyau)</li><li>Code inscrit au marqueur doré sur le socle</li></ul>
+</div>
+<div class="page-number">08</div>
+</section>
+
+<!-- PAGE 9 — S7 : TRIANGLE NOYAUX -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Schéma S7</div>
+<h2>Triangle équilatéral des 3 noyaux Rizq Phi</h2>
+<p class="deck">Disposition finale des 3 sous-modules en triangle équilatéral avec fil de masse commun.</p>
+</div>
+<svg viewBox="0 0 600 480" style="width:100%;max-width:150mm;display:block;margin:0 auto;" aria-hidden="true">
+<circle cx="300" cy="100" r="38" fill="none" stroke="#948148" stroke-width="2.5"/>
+<circle cx="300" cy="100" r="20" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="300" cy="100" r="8" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="300" y="105" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:16px;fill:#e9e7de;">319</text>
+<text x="300" y="68" text-anchor="middle" style="font-size:9px;fill:#aaa;">Noyau 1 — 51:58</text>
+<circle cx="154" cy="370" r="32" fill="none" stroke="#948148" stroke-width="2.5"/>
+<circle cx="154" cy="370" r="18" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="154" cy="370" r="7" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="154" y="374" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:14px;fill:#e9e7de;">489</text>
+<text x="154" y="340" text-anchor="middle" style="font-size:9px;fill:#aaa;">Noyau 2 — 65:2-3</text>
+<circle cx="446" cy="370" r="26" fill="none" stroke="#948148" stroke-width="2.5"/>
+<circle cx="446" cy="370" r="14" fill="none" stroke="#948148" stroke-width="1.5"/>
+<circle cx="446" cy="370" r="6" fill="rgba(31,51,71,0.15)" stroke="#1f3347" stroke-width="2"/>
+<text x="446" y="374" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:12px;fill:#e9e7de;">618</text>
+<text x="446" y="340" text-anchor="middle" style="font-size:9px;fill:#aaa;">Noyau 3 — 71:10-12</text>
+<line x1="300" y1="138" x2="154" y2="338" stroke="#948148" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="300" y1="138" x2="446" y2="338" stroke="#948148" stroke-width="2.5" stroke-dasharray="5 4"/>
+<line x1="154" y1="402" x2="446" y2="402" stroke="#948148" stroke-width="2.5" stroke-dasharray="5 4"/>
+<text x="227" y="248" style="font-size:10px;fill:#948148;">85 mm</text>
+<text x="380" y="248" style="font-size:10px;fill:#948148;">85 mm</text>
+<text x="280" y="410" style="font-size:10px;fill:#948148;">85 mm</text>
+<circle cx="300" cy="220" r="28" fill="rgba(255,255,255,0.04)" stroke="#9f7b3e" stroke-width="2"/>
+<text x="300" y="226" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#9f7b3e;">●</text>
+<text x="300" y="248" text-anchor="middle" style="font-size:9px;fill:#9f7b3e;">PHOTO / NOM</text>
+<text x="300" y="450" text-anchor="middle" style="font-size:10px;fill:#aaa;">FIL DE MASSE COMMUN — cuivre nu ∅0.8mm</text>
+</svg>
+<div class="panel" style="margin-top:5mm;">
+<h3>Instructions de montage</h3>
+<ul><li>Disposer les 3 noyaux aux sommets d'un triangle équilatéral de 85 mm de côté</li><li>Relier les masses des 3 modules par un fil de cuivre nu ∅0.8mm</li><li>Placer une photo ou un nom au centre du triangle</li><li>Activer chaque module séparément (ordre 1→2→3), puis les 3 ensemble</li></ul>
+</div>
+<div class="footer-note"><span>S7 — Triangle des noyaux</span><span>Disposition finale</span></div>
+<div class="page-number">09</div>
+</section>
+
+<!-- PAGE 10 — S8 : TALISMAN ULTIME -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Schéma S8</div>
+<h2>Talisman Ultime Miftah 19</h2>
+<p class="deck">Géométrie complète du talisman : double carré, anneaux concentriques, 8 directions.</p>
+</div>
+<svg viewBox="0 0 500 500" style="width:100%;max-width:140mm;display:block;margin:0 auto;" aria-hidden="true">
+<circle cx="250" cy="250" r="210" fill="none" stroke="#948148" stroke-width="1.8"/>
+<circle cx="250" cy="250" r="170" fill="none" stroke="#948148" stroke-width="1.3" stroke-dasharray="3 7"/>
+<circle cx="250" cy="250" r="120" fill="none" stroke="#1f3347" stroke-width="1.6"/>
+<circle cx="250" cy="250" r="65" fill="none" stroke="#948148" stroke-width="2.2"/>
+<circle cx="250" cy="250" r="28" fill="none" stroke="#948148" stroke-width="2.8"/>
+<polygon points="250,40 460,250 250,460 40,250" fill="none" stroke="#948148" stroke-width="2.5"/>
+<polygon points="250,68 432,250 250,432 68,250" fill="none" stroke="#1f3347" stroke-width="1.8"/>
+<g stroke="#948148" stroke-width="1" opacity="0.5">
+<line x1="250" y1="38" x2="250" y2="462"/><line x1="38" y1="250" x2="462" y2="250"/>
+<line x1="100" y1="100" x2="400" y2="400"/><line x1="400" y1="100" x2="100" y2="400"/>
+</g>
+<text x="250" y="265" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:38px;fill:#1f3347;">19</text>
+<text x="250" y="295" text-anchor="middle" style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;fill:#948148;">miftah / φ</text>
+<text x="250" y="56" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#948148;">61</text>
+<text x="456" y="256" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#948148;">99</text>
+<text x="250" y="460" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#948148;">28</text>
+<text x="44" y="256" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:18px;fill:#948148;">φ</text>
+<text x="250" y="108" text-anchor="middle" style="font-size:13px;fill:#948148;">55</text>
+<text x="395" y="256" text-anchor="middle" style="font-size:13px;fill:#948148;">89</text>
+<text x="250" y="400" text-anchor="middle" style="font-size:13px;fill:#948148;">123</text>
+<text x="105" y="256" text-anchor="middle" style="font-size:13px;fill:#948148;">786</text>
+</svg>
+<div class="panel" style="margin-top:4mm;">
+<h3>Éléments du talisman</h3>
+<table class="ref-table"><thead><tr><th>Élément</th><th>Position</th><th>Nombre</th></tr></thead>
+<tbody>
+<tr><td>Centre</td><td>Centre du cercle intérieur</td><td>19 + φ</td></tr>
+<tr><td>Anneau 1 (piliers)</td><td>4 points cardinaux (R=210mm)</td><td>61, 99, 28, φ</td></tr>
+<tr><td>Anneau 2 (portes)</td><td>4 diagonales (R=170mm)</td><td>55, 89, 123, 786</td></tr>
+<tr><td>Double carré</td><td>Rotation à 45°</td><td>8 branches / directions</td></tr>
+</tbody></table>
+</div>
+<div class="page-number">10</div>
+</section>
+
+<!-- PAGE 11 — S9 : CADRAN LUNAIRE -->
+<section class="page page-dark">
+<div class="ornament top"></div>
+<div class="ornament bottom"></div>
+<div class="section-head">
+<div class="eyebrow">Schéma S9</div>
+<h2>Cadran lunaire des 28 mansions</h2>
+<p class="deck">Représentation circulaire des 28 mansions lunaires avec leurs nombres-clés.</p>
+</div>
+<svg viewBox="0 0 600 500" style="width:100%;max-width:160mm;display:block;margin:0 auto;" aria-hidden="true">
+<circle cx="300" cy="250" r="220" fill="none" stroke="#948148" stroke-width="2.5"/>
+<circle cx="300" cy="250" r="170" fill="none" stroke="#948148" stroke-width="1.5" stroke-dasharray="4 6"/>
+<circle cx="300" cy="250" r="80" fill="none" stroke="#1f3347" stroke-width="1.8"/>
+<circle cx="300" cy="250" r="30" fill="none" stroke="#948148" stroke-width="2.5"/>
+<text x="300" y="262" text-anchor="middle" style="font-family:'LuxeDisplay','Book Antiqua',serif;font-size:32px;fill:#e9e7de;">28</text>
+<g font-family="'LuxeDisplay','Book Antiqua',serif" font-size="11px" fill="#948148" text-anchor="middle">
+<text x="300" y="50" transform="rotate(0,300,250)">1·19</text>
+<text x="395" y="62" transform="rotate(12.9,300,250)">2·7</text>
+<text x="480" y="95" transform="rotate(25.7,300,250)">3·33</text>
+<text x="535" y="145" transform="rotate(38.6,300,250)">4·55</text>
+<text x="555" y="210" transform="rotate(51.4,300,250)">5·89</text>
+<text x="545" y="280" transform="rotate(64.3,300,250)">6·61</text>
+<text x="500" y="340" transform="rotate(77.1,300,250)">7·99</text>
+<text x="435" y="385" transform="rotate(90,300,250)">8·123</text>
+<text x="350" y="410" transform="rotate(102.9,300,250)">9·319</text>
+<text x="250" y="415" transform="rotate(115.7,300,250)">10·489</text>
+<text x="160" y="390" transform="rotate(128.6,300,250)">11·618</text>
+<text x="90" y="340" transform="rotate(141.4,300,250)">12·786</text>
+<text x="50" y="280" transform="rotate(154.3,300,250)">13·8</text>
+<text x="45" y="210" transform="rotate(167.1,300,250)">14·13</text>
+<text x="70" y="145" transform="rotate(180,300,250)">15·21</text>
+<text x="120" y="95" transform="rotate(192.9,300,250)">16·34</text>
+<text x="195" y="62" transform="rotate(205.7,300,250)">17·56</text>
+<text x="285" y="52" transform="rotate(218.6,300,250)">18·144</text>
+</g>
+</svg>
+<div class="panel" style="margin-top:5mm;">
+<h3>Lecture du cadran</h3>
+<p>Chaque mansion est représentée par son numéro (1-28) suivi de son nombre-clé. Le cadran se lit dans le sens horaire. La mansion 1 (Al-Sharatayn, nombre 19) est au nord (0°). La Pleine Lune correspond à la mansion 14 (Al-Simak, nombre 13) au sud-est.</p>
+</div>
+<div class="footer-note"><span>S9 — Cadran lunaire</span><span>28 mansions</span></div>
+<div class="page-number">11</div>
+</section>
+
+<!-- PAGE 12 — S10 : SYMBOLES -->
+<section class="page">
+<div class="section-head">
+<div class="eyebrow">Schéma S10</div>
+<h2>Tableau des symboles radioniques</h2>
+<p class="deck">Symboles normalisés utilisés dans tous les schémas de cet atlas et des livres précédents.</p>
+</div>
+<div class="box">
+<table class="ref-table">
+<thead><tr><th>Symbole</th><th>Signification</th><th>Usage</th></tr></thead>
+<tbody>
+<tr><td>⏺ Cercle concentrique</td><td>Spire de fil conducteur</td><td>Bobinages, spirales</td></tr>
+<tr><td>◆ Carré inscrit</td><td>Structure de masse / plan de base</td><td>Socles, feuilles cuivre</td></tr>
+<tr><td>⬟ Polygone étoilé</td><td>Circuit de directions / activation</td><td>Talismans, antennes</td></tr>
+<tr><td>◉ Cercle plein (N)</td><td>Aimant néodyme (pôle Nord)</td><td>Polarisation du flux</td></tr>
+<tr><td>◇ Cercle vide (Q)</td><td>Quartz / cristal</td><td>Mémoire, amplification</td></tr>
+<tr><td>⊜ Ellipse creuse</td><td>Toroïde ferrite</td><td>Confinement, bouclage</td></tr>
+<tr><td>━━━ Trait plein</td><td>Fil conducteur / connexion</td><td>Liaisons électriques</td></tr>
+<tr><td>┅┅ Trait pointillé</td><td>Cote / dimension / référence</td><td>Mesures, espacements</td></tr>
+<tr><td>▬ Rectangle large</td><td>Socle / support isolant</td><td>Base des montages</td></tr>
+<tr><td>⬡ Hexagone</td><td>Résine époxy / couche de protection</td><td>Enrobage final</td></tr>
+</tbody>
+</table>
+</div>
+<div class="split" style="margin-top:6mm;">
+<div class="box">
+<h3>Code couleur</h3>
+<ul><li><span style="color:#948148;">● Cuivre / or</span> — conducteurs et spirales</li><li><span style="color:#1f3347;">● Bleu nuit</span> — quartz et cristaux</li><li><span style="color:#9f7b3e;">● Cuivre foncé</span> — aimants néodyme</li><li><span style="color:#666;">● Gris</span> — toroïdes et noyaux ferrite</li></ul>
+</div>
+<div class="box">
+<h3>Unités</h3>
+<ul><li>Longueurs en millimètres (mm)</li><li>Diamètres en millimètres (∅mm)</li><li>Résistances en ohms (Ω)</li><li>Fréquences en kilohertz (kHz)</li><li>Nombre de tours : « n tours »</li></ul>
+</div>
+</div>
+<div class="page-number">12</div>
+</section>
+
+</body>
+</html>

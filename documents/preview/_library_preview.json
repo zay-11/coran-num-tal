@@ -1,0 +1,1723 @@
+{
+  "book": "Quran",
+  "surah_count": 114,
+  "domains": [
+    "richesse",
+    "sante",
+    "savoir",
+    "protection",
+    "occultes"
+  ],
+  "entries": [
+    {
+      "sura": 1,
+      "name_ar": "ÿßŸ?ŸÅÿßÿ™ÿ≠ÿ©",
+      "name_en": "The Opening",
+      "tname": "Al-Faatiha",
+      "ayas": 7,
+      "domain_files": {
+        "richesse": "library/analyses/sura_001_richesse.json",
+        "sante": "library/analyses/sura_001_sante.json",
+        "savoir": "library/analyses/sura_001_savoir.json",
+        "protection": "library/analyses/sura_001_protection.json",
+        "occultes": "library/analyses/sura_001_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_001_richesse.png"
+    },
+    {
+      "sura": 2,
+      "name_ar": "ÿßŸ?ÿ®Ÿ?ÿ±ÿ©",
+      "name_en": "The Cow",
+      "tname": "Al-Baqara",
+      "ayas": 286,
+      "domain_files": {
+        "richesse": "library/analyses/sura_002_richesse.json",
+        "sante": "library/analyses/sura_002_sante.json",
+        "savoir": "library/analyses/sura_002_savoir.json",
+        "protection": "library/analyses/sura_002_protection.json",
+        "occultes": "library/analyses/sura_002_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_002_richesse.png"
+    },
+    {
+      "sura": 3,
+      "name_ar": "ÿ¢Ÿ? ÿπŸ?ÿ±ÿßŸ?",
+      "name_en": "The Family of Imraan",
+      "tname": "Aal-i-Imraan",
+      "ayas": 200,
+      "domain_files": {
+        "richesse": "library/analyses/sura_003_richesse.json",
+        "sante": "library/analyses/sura_003_sante.json",
+        "savoir": "library/analyses/sura_003_savoir.json",
+        "protection": "library/analyses/sura_003_protection.json",
+        "occultes": "library/analyses/sura_003_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_003_richesse.png"
+    },
+    {
+      "sura": 4,
+      "name_ar": "ÿßŸ?Ÿ?ÿ≥ÿßÿ°",
+      "name_en": "The Women",
+      "tname": "An-Nisaa",
+      "ayas": 176,
+      "domain_files": {
+        "richesse": "library/analyses/sura_004_richesse.json",
+        "sante": "library/analyses/sura_004_sante.json",
+        "savoir": "library/analyses/sura_004_savoir.json",
+        "protection": "library/analyses/sura_004_protection.json",
+        "occultes": "library/analyses/sura_004_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_004_richesse.png"
+    },
+    {
+      "sura": 5,
+      "name_ar": "ÿßŸ?Ÿ?ÿßÿ¶ÿØÿ©",
+      "name_en": "The Table",
+      "tname": "Al-Maaida",
+      "ayas": 120,
+      "domain_files": {
+        "richesse": "library/analyses/sura_005_richesse.json",
+        "sante": "library/analyses/sura_005_sante.json",
+        "savoir": "library/analyses/sura_005_savoir.json",
+        "protection": "library/analyses/sura_005_protection.json",
+        "occultes": "library/analyses/sura_005_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_005_richesse.png"
+    },
+    {
+      "sura": 6,
+      "name_ar": "ÿßŸ?ÿ£Ÿ?ÿπÿßŸ?",
+      "name_en": "The Cattle",
+      "tname": "Al-An'aam",
+      "ayas": 165,
+      "domain_files": {
+        "richesse": "library/analyses/sura_006_richesse.json",
+        "sante": "library/analyses/sura_006_sante.json",
+        "savoir": "library/analyses/sura_006_savoir.json",
+        "protection": "library/analyses/sura_006_protection.json",
+        "occultes": "library/analyses/sura_006_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_006_richesse.png"
+    },
+    {
+      "sura": 7,
+      "name_ar": "ÿßŸ?ÿ£ÿπÿ±ÿßŸÅ",
+      "name_en": "The Heights",
+      "tname": "Al-A'raaf",
+      "ayas": 206,
+      "domain_files": {
+        "richesse": "library/analyses/sura_007_richesse.json",
+        "sante": "library/analyses/sura_007_sante.json",
+        "savoir": "library/analyses/sura_007_savoir.json",
+        "protection": "library/analyses/sura_007_protection.json",
+        "occultes": "library/analyses/sura_007_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_007_richesse.png"
+    },
+    {
+      "sura": 8,
+      "name_ar": "ÿßŸ?ÿ£Ÿ?ŸÅÿßŸ?",
+      "name_en": "The Spoils of War",
+      "tname": "Al-Anfaal",
+      "ayas": 75,
+      "domain_files": {
+        "richesse": "library/analyses/sura_008_richesse.json",
+        "sante": "library/analyses/sura_008_sante.json",
+        "savoir": "library/analyses/sura_008_savoir.json",
+        "protection": "library/analyses/sura_008_protection.json",
+        "occultes": "library/analyses/sura_008_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_008_richesse.png"
+    },
+    {
+      "sura": 9,
+      "name_ar": "ÿßŸ?ÿ™Ÿ?ÿ®ÿ©",
+      "name_en": "The Repentance",
+      "tname": "At-Tawba",
+      "ayas": 129,
+      "domain_files": {
+        "richesse": "library/analyses/sura_009_richesse.json",
+        "sante": "library/analyses/sura_009_sante.json",
+        "savoir": "library/analyses/sura_009_savoir.json",
+        "protection": "library/analyses/sura_009_protection.json",
+        "occultes": "library/analyses/sura_009_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_009_richesse.png"
+    },
+    {
+      "sura": 10,
+      "name_ar": "Ÿ?Ÿ?Ÿ?ÿ≥",
+      "name_en": "Jonas",
+      "tname": "Yunus",
+      "ayas": 109,
+      "domain_files": {
+        "richesse": "library/analyses/sura_010_richesse.json",
+        "sante": "library/analyses/sura_010_sante.json",
+        "savoir": "library/analyses/sura_010_savoir.json",
+        "protection": "library/analyses/sura_010_protection.json",
+        "occultes": "library/analyses/sura_010_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_010_richesse.png"
+    },
+    {
+      "sura": 11,
+      "name_ar": "Ÿ?Ÿ?ÿØ",
+      "name_en": "Hud",
+      "tname": "Hud",
+      "ayas": 123,
+      "domain_files": {
+        "richesse": "library/analyses/sura_011_richesse.json",
+        "sante": "library/analyses/sura_011_sante.json",
+        "savoir": "library/analyses/sura_011_savoir.json",
+        "protection": "library/analyses/sura_011_protection.json",
+        "occultes": "library/analyses/sura_011_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_011_richesse.png"
+    },
+    {
+      "sura": 12,
+      "name_ar": "Ÿ?Ÿ?ÿ≥ŸÅ",
+      "name_en": "Joseph",
+      "tname": "Yusuf",
+      "ayas": 111,
+      "domain_files": {
+        "richesse": "library/analyses/sura_012_richesse.json",
+        "sante": "library/analyses/sura_012_sante.json",
+        "savoir": "library/analyses/sura_012_savoir.json",
+        "protection": "library/analyses/sura_012_protection.json",
+        "occultes": "library/analyses/sura_012_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_012_richesse.png"
+    },
+    {
+      "sura": 13,
+      "name_ar": "ÿßŸ?ÿ±ÿπÿØ",
+      "name_en": "The Thunder",
+      "tname": "Ar-Ra'd",
+      "ayas": 43,
+      "domain_files": {
+        "richesse": "library/analyses/sura_013_richesse.json",
+        "sante": "library/analyses/sura_013_sante.json",
+        "savoir": "library/analyses/sura_013_savoir.json",
+        "protection": "library/analyses/sura_013_protection.json",
+        "occultes": "library/analyses/sura_013_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_013_richesse.png"
+    },
+    {
+      "sura": 14,
+      "name_ar": "ÿßÿ®ÿ±ÿßŸ?Ÿ?Ÿ?",
+      "name_en": "Abraham",
+      "tname": "Ibrahim",
+      "ayas": 52,
+      "domain_files": {
+        "richesse": "library/analyses/sura_014_richesse.json",
+        "sante": "library/analyses/sura_014_sante.json",
+        "savoir": "library/analyses/sura_014_savoir.json",
+        "protection": "library/analyses/sura_014_protection.json",
+        "occultes": "library/analyses/sura_014_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_014_richesse.png"
+    },
+    {
+      "sura": 15,
+      "name_ar": "ÿßŸ?ÿ≠ÿ¨ÿ±",
+      "name_en": "The Rock",
+      "tname": "Al-Hijr",
+      "ayas": 99,
+      "domain_files": {
+        "richesse": "library/analyses/sura_015_richesse.json",
+        "sante": "library/analyses/sura_015_sante.json",
+        "savoir": "library/analyses/sura_015_savoir.json",
+        "protection": "library/analyses/sura_015_protection.json",
+        "occultes": "library/analyses/sura_015_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_015_richesse.png"
+    },
+    {
+      "sura": 16,
+      "name_ar": "ÿßŸ?Ÿ?ÿ≠Ÿ?",
+      "name_en": "The Bee",
+      "tname": "An-Nahl",
+      "ayas": 128,
+      "domain_files": {
+        "richesse": "library/analyses/sura_016_richesse.json",
+        "sante": "library/analyses/sura_016_sante.json",
+        "savoir": "library/analyses/sura_016_savoir.json",
+        "protection": "library/analyses/sura_016_protection.json",
+        "occultes": "library/analyses/sura_016_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_016_richesse.png"
+    },
+    {
+      "sura": 17,
+      "name_ar": "ÿßŸ?ÿ•ÿ≥ÿ±ÿßÿ°",
+      "name_en": "The Night Journey",
+      "tname": "Al-Israa",
+      "ayas": 111,
+      "domain_files": {
+        "richesse": "library/analyses/sura_017_richesse.json",
+        "sante": "library/analyses/sura_017_sante.json",
+        "savoir": "library/analyses/sura_017_savoir.json",
+        "protection": "library/analyses/sura_017_protection.json",
+        "occultes": "library/analyses/sura_017_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_017_richesse.png"
+    },
+    {
+      "sura": 18,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ŸÅ",
+      "name_en": "The Cave",
+      "tname": "Al-Kahf",
+      "ayas": 110,
+      "domain_files": {
+        "richesse": "library/analyses/sura_018_richesse.json",
+        "sante": "library/analyses/sura_018_sante.json",
+        "savoir": "library/analyses/sura_018_savoir.json",
+        "protection": "library/analyses/sura_018_protection.json",
+        "occultes": "library/analyses/sura_018_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_018_richesse.png"
+    },
+    {
+      "sura": 19,
+      "name_ar": "Ÿ?ÿ±Ÿ?Ÿ?",
+      "name_en": "Mary",
+      "tname": "Maryam",
+      "ayas": 98,
+      "domain_files": {
+        "richesse": "library/analyses/sura_019_richesse.json",
+        "sante": "library/analyses/sura_019_sante.json",
+        "savoir": "library/analyses/sura_019_savoir.json",
+        "protection": "library/analyses/sura_019_protection.json",
+        "occultes": "library/analyses/sura_019_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_019_richesse.png"
+    },
+    {
+      "sura": 20,
+      "name_ar": "ÿ∑Ÿ?",
+      "name_en": "Taa-Haa",
+      "tname": "Taa-Haa",
+      "ayas": 135,
+      "domain_files": {
+        "richesse": "library/analyses/sura_020_richesse.json",
+        "sante": "library/analyses/sura_020_sante.json",
+        "savoir": "library/analyses/sura_020_savoir.json",
+        "protection": "library/analyses/sura_020_protection.json",
+        "occultes": "library/analyses/sura_020_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_020_richesse.png"
+    },
+    {
+      "sura": 21,
+      "name_ar": "ÿßŸ?ÿ£Ÿ?ÿ®Ÿ?ÿßÿ°",
+      "name_en": "The Prophets",
+      "tname": "Al-Anbiyaa",
+      "ayas": 112,
+      "domain_files": {
+        "richesse": "library/analyses/sura_021_richesse.json",
+        "sante": "library/analyses/sura_021_sante.json",
+        "savoir": "library/analyses/sura_021_savoir.json",
+        "protection": "library/analyses/sura_021_protection.json",
+        "occultes": "library/analyses/sura_021_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_021_richesse.png"
+    },
+    {
+      "sura": 22,
+      "name_ar": "ÿßŸ?ÿ≠ÿ¨",
+      "name_en": "The Pilgrimage",
+      "tname": "Al-Hajj",
+      "ayas": 78,
+      "domain_files": {
+        "richesse": "library/analyses/sura_022_richesse.json",
+        "sante": "library/analyses/sura_022_sante.json",
+        "savoir": "library/analyses/sura_022_savoir.json",
+        "protection": "library/analyses/sura_022_protection.json",
+        "occultes": "library/analyses/sura_022_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_022_richesse.png"
+    },
+    {
+      "sura": 23,
+      "name_ar": "ÿßŸ?Ÿ?ÿ§Ÿ?Ÿ?Ÿ?Ÿ?",
+      "name_en": "The Believers",
+      "tname": "Al-Muminoon",
+      "ayas": 118,
+      "domain_files": {
+        "richesse": "library/analyses/sura_023_richesse.json",
+        "sante": "library/analyses/sura_023_sante.json",
+        "savoir": "library/analyses/sura_023_savoir.json",
+        "protection": "library/analyses/sura_023_protection.json",
+        "occultes": "library/analyses/sura_023_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_023_richesse.png"
+    },
+    {
+      "sura": 24,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿ±",
+      "name_en": "The Light",
+      "tname": "An-Noor",
+      "ayas": 64,
+      "domain_files": {
+        "richesse": "library/analyses/sura_024_richesse.json",
+        "sante": "library/analyses/sura_024_sante.json",
+        "savoir": "library/analyses/sura_024_savoir.json",
+        "protection": "library/analyses/sura_024_protection.json",
+        "occultes": "library/analyses/sura_024_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_024_richesse.png"
+    },
+    {
+      "sura": 25,
+      "name_ar": "ÿßŸ?ŸÅÿ±Ÿ?ÿßŸ?",
+      "name_en": "The Criterion",
+      "tname": "Al-Furqaan",
+      "ayas": 77,
+      "domain_files": {
+        "richesse": "library/analyses/sura_025_richesse.json",
+        "sante": "library/analyses/sura_025_sante.json",
+        "savoir": "library/analyses/sura_025_savoir.json",
+        "protection": "library/analyses/sura_025_protection.json",
+        "occultes": "library/analyses/sura_025_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_025_richesse.png"
+    },
+    {
+      "sura": 26,
+      "name_ar": "ÿßŸ?ÿ¥ÿπÿ±ÿßÿ°",
+      "name_en": "The Poets",
+      "tname": "Ash-Shu'araa",
+      "ayas": 227,
+      "domain_files": {
+        "richesse": "library/analyses/sura_026_richesse.json",
+        "sante": "library/analyses/sura_026_sante.json",
+        "savoir": "library/analyses/sura_026_savoir.json",
+        "protection": "library/analyses/sura_026_protection.json",
+        "occultes": "library/analyses/sura_026_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_026_richesse.png"
+    },
+    {
+      "sura": 27,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?Ÿ?",
+      "name_en": "The Ant",
+      "tname": "An-Naml",
+      "ayas": 93,
+      "domain_files": {
+        "richesse": "library/analyses/sura_027_richesse.json",
+        "sante": "library/analyses/sura_027_sante.json",
+        "savoir": "library/analyses/sura_027_savoir.json",
+        "protection": "library/analyses/sura_027_protection.json",
+        "occultes": "library/analyses/sura_027_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_027_richesse.png"
+    },
+    {
+      "sura": 28,
+      "name_ar": "ÿßŸ?Ÿ?ÿµÿµ",
+      "name_en": "The Stories",
+      "tname": "Al-Qasas",
+      "ayas": 88,
+      "domain_files": {
+        "richesse": "library/analyses/sura_028_richesse.json",
+        "sante": "library/analyses/sura_028_sante.json",
+        "savoir": "library/analyses/sura_028_savoir.json",
+        "protection": "library/analyses/sura_028_protection.json",
+        "occultes": "library/analyses/sura_028_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_028_richesse.png"
+    },
+    {
+      "sura": 29,
+      "name_ar": "ÿßŸ?ÿπŸ?Ÿ?ÿ®Ÿ?ÿ™",
+      "name_en": "The Spider",
+      "tname": "Al-Ankaboot",
+      "ayas": 69,
+      "domain_files": {
+        "richesse": "library/analyses/sura_029_richesse.json",
+        "sante": "library/analyses/sura_029_sante.json",
+        "savoir": "library/analyses/sura_029_savoir.json",
+        "protection": "library/analyses/sura_029_protection.json",
+        "occultes": "library/analyses/sura_029_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_029_richesse.png"
+    },
+    {
+      "sura": 30,
+      "name_ar": "ÿßŸ?ÿ±Ÿ?Ÿ?",
+      "name_en": "The Romans",
+      "tname": "Ar-Room",
+      "ayas": 60,
+      "domain_files": {
+        "richesse": "library/analyses/sura_030_richesse.json",
+        "sante": "library/analyses/sura_030_sante.json",
+        "savoir": "library/analyses/sura_030_savoir.json",
+        "protection": "library/analyses/sura_030_protection.json",
+        "occultes": "library/analyses/sura_030_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_030_richesse.png"
+    },
+    {
+      "sura": 31,
+      "name_ar": "Ÿ?Ÿ?Ÿ?ÿßŸ?",
+      "name_en": "Luqman",
+      "tname": "Luqman",
+      "ayas": 34,
+      "domain_files": {
+        "richesse": "library/analyses/sura_031_richesse.json",
+        "sante": "library/analyses/sura_031_sante.json",
+        "savoir": "library/analyses/sura_031_savoir.json",
+        "protection": "library/analyses/sura_031_protection.json",
+        "occultes": "library/analyses/sura_031_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_031_richesse.png"
+    },
+    {
+      "sura": 32,
+      "name_ar": "ÿßŸ?ÿ≥ÿ¨ÿØÿ©",
+      "name_en": "The Prostration",
+      "tname": "As-Sajda",
+      "ayas": 30,
+      "domain_files": {
+        "richesse": "library/analyses/sura_032_richesse.json",
+        "sante": "library/analyses/sura_032_sante.json",
+        "savoir": "library/analyses/sura_032_savoir.json",
+        "protection": "library/analyses/sura_032_protection.json",
+        "occultes": "library/analyses/sura_032_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_032_richesse.png"
+    },
+    {
+      "sura": 33,
+      "name_ar": "ÿßŸ?ÿ£ÿ≠ÿ≤ÿßÿ®",
+      "name_en": "The Clans",
+      "tname": "Al-Ahzaab",
+      "ayas": 73,
+      "domain_files": {
+        "richesse": "library/analyses/sura_033_richesse.json",
+        "sante": "library/analyses/sura_033_sante.json",
+        "savoir": "library/analyses/sura_033_savoir.json",
+        "protection": "library/analyses/sura_033_protection.json",
+        "occultes": "library/analyses/sura_033_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_033_richesse.png"
+    },
+    {
+      "sura": 34,
+      "name_ar": "ÿ≥ÿ®ÿ•",
+      "name_en": "Sheba",
+      "tname": "Saba",
+      "ayas": 54,
+      "domain_files": {
+        "richesse": "library/analyses/sura_034_richesse.json",
+        "sante": "library/analyses/sura_034_sante.json",
+        "savoir": "library/analyses/sura_034_savoir.json",
+        "protection": "library/analyses/sura_034_protection.json",
+        "occultes": "library/analyses/sura_034_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_034_richesse.png"
+    },
+    {
+      "sura": 35,
+      "name_ar": "ŸÅÿßÿ∑ÿ±",
+      "name_en": "The Originator",
+      "tname": "Faatir",
+      "ayas": 45,
+      "domain_files": {
+        "richesse": "library/analyses/sura_035_richesse.json",
+        "sante": "library/analyses/sura_035_sante.json",
+        "savoir": "library/analyses/sura_035_savoir.json",
+        "protection": "library/analyses/sura_035_protection.json",
+        "occultes": "library/analyses/sura_035_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_035_richesse.png"
+    },
+    {
+      "sura": 36,
+      "name_ar": "Ÿ?ÿ≥",
+      "name_en": "Yaseen",
+      "tname": "Yaseen",
+      "ayas": 83,
+      "domain_files": {
+        "richesse": "library/analyses/sura_036_richesse.json",
+        "sante": "library/analyses/sura_036_sante.json",
+        "savoir": "library/analyses/sura_036_savoir.json",
+        "protection": "library/analyses/sura_036_protection.json",
+        "occultes": "library/analyses/sura_036_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_036_richesse.png"
+    },
+    {
+      "sura": 37,
+      "name_ar": "ÿßŸ?ÿµÿßŸÅÿßÿ™",
+      "name_en": "Those drawn up in Ranks",
+      "tname": "As-Saaffaat",
+      "ayas": 182,
+      "domain_files": {
+        "richesse": "library/analyses/sura_037_richesse.json",
+        "sante": "library/analyses/sura_037_sante.json",
+        "savoir": "library/analyses/sura_037_savoir.json",
+        "protection": "library/analyses/sura_037_protection.json",
+        "occultes": "library/analyses/sura_037_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_037_richesse.png"
+    },
+    {
+      "sura": 38,
+      "name_ar": "ÿµ",
+      "name_en": "The letter Saad",
+      "tname": "Saad",
+      "ayas": 88,
+      "domain_files": {
+        "richesse": "library/analyses/sura_038_richesse.json",
+        "sante": "library/analyses/sura_038_sante.json",
+        "savoir": "library/analyses/sura_038_savoir.json",
+        "protection": "library/analyses/sura_038_protection.json",
+        "occultes": "library/analyses/sura_038_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_038_richesse.png"
+    },
+    {
+      "sura": 39,
+      "name_ar": "ÿßŸ?ÿ≤Ÿ?ÿ±",
+      "name_en": "The Groups",
+      "tname": "Az-Zumar",
+      "ayas": 75,
+      "domain_files": {
+        "richesse": "library/analyses/sura_039_richesse.json",
+        "sante": "library/analyses/sura_039_sante.json",
+        "savoir": "library/analyses/sura_039_savoir.json",
+        "protection": "library/analyses/sura_039_protection.json",
+        "occultes": "library/analyses/sura_039_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_039_richesse.png"
+    },
+    {
+      "sura": 40,
+      "name_ar": "ÿ∫ÿßŸÅÿ±",
+      "name_en": "The Forgiver",
+      "tname": "Al-Ghaafir",
+      "ayas": 85,
+      "domain_files": {
+        "richesse": "library/analyses/sura_040_richesse.json",
+        "sante": "library/analyses/sura_040_sante.json",
+        "savoir": "library/analyses/sura_040_savoir.json",
+        "protection": "library/analyses/sura_040_protection.json",
+        "occultes": "library/analyses/sura_040_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_040_richesse.png"
+    },
+    {
+      "sura": 41,
+      "name_ar": "ŸÅÿµŸ?ÿ™",
+      "name_en": "Explained in detail",
+      "tname": "Fussilat",
+      "ayas": 54,
+      "domain_files": {
+        "richesse": "library/analyses/sura_041_richesse.json",
+        "sante": "library/analyses/sura_041_sante.json",
+        "savoir": "library/analyses/sura_041_savoir.json",
+        "protection": "library/analyses/sura_041_protection.json",
+        "occultes": "library/analyses/sura_041_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_041_richesse.png"
+    },
+    {
+      "sura": 42,
+      "name_ar": "ÿßŸ?ÿ¥Ÿ?ÿ±Ÿ?",
+      "name_en": "Consultation",
+      "tname": "Ash-Shura",
+      "ayas": 53,
+      "domain_files": {
+        "richesse": "library/analyses/sura_042_richesse.json",
+        "sante": "library/analyses/sura_042_sante.json",
+        "savoir": "library/analyses/sura_042_savoir.json",
+        "protection": "library/analyses/sura_042_protection.json",
+        "occultes": "library/analyses/sura_042_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_042_richesse.png"
+    },
+    {
+      "sura": 43,
+      "name_ar": "ÿßŸ?ÿ≤ÿÆÿ±ŸÅ",
+      "name_en": "Ornaments of gold",
+      "tname": "Az-Zukhruf",
+      "ayas": 89,
+      "domain_files": {
+        "richesse": "library/analyses/sura_043_richesse.json",
+        "sante": "library/analyses/sura_043_sante.json",
+        "savoir": "library/analyses/sura_043_savoir.json",
+        "protection": "library/analyses/sura_043_protection.json",
+        "occultes": "library/analyses/sura_043_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_043_richesse.png"
+    },
+    {
+      "sura": 44,
+      "name_ar": "ÿßŸ?ÿØÿÆÿßŸ?",
+      "name_en": "The Smoke",
+      "tname": "Ad-Dukhaan",
+      "ayas": 59,
+      "domain_files": {
+        "richesse": "library/analyses/sura_044_richesse.json",
+        "sante": "library/analyses/sura_044_sante.json",
+        "savoir": "library/analyses/sura_044_savoir.json",
+        "protection": "library/analyses/sura_044_protection.json",
+        "occultes": "library/analyses/sura_044_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_044_richesse.png"
+    },
+    {
+      "sura": 45,
+      "name_ar": "ÿßŸ?ÿ¨ÿßÿ´Ÿ?ÿ©",
+      "name_en": "Crouching",
+      "tname": "Al-Jaathiya",
+      "ayas": 37,
+      "domain_files": {
+        "richesse": "library/analyses/sura_045_richesse.json",
+        "sante": "library/analyses/sura_045_sante.json",
+        "savoir": "library/analyses/sura_045_savoir.json",
+        "protection": "library/analyses/sura_045_protection.json",
+        "occultes": "library/analyses/sura_045_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_045_richesse.png"
+    },
+    {
+      "sura": 46,
+      "name_ar": "ÿßŸ?ÿ£ÿ≠Ÿ?ÿßŸÅ",
+      "name_en": "The Dunes",
+      "tname": "Al-Ahqaf",
+      "ayas": 35,
+      "domain_files": {
+        "richesse": "library/analyses/sura_046_richesse.json",
+        "sante": "library/analyses/sura_046_sante.json",
+        "savoir": "library/analyses/sura_046_savoir.json",
+        "protection": "library/analyses/sura_046_protection.json",
+        "occultes": "library/analyses/sura_046_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_046_richesse.png"
+    },
+    {
+      "sura": 47,
+      "name_ar": "Ÿ?ÿ≠Ÿ?ÿØ",
+      "name_en": "Muhammad",
+      "tname": "Muhammad",
+      "ayas": 38,
+      "domain_files": {
+        "richesse": "library/analyses/sura_047_richesse.json",
+        "sante": "library/analyses/sura_047_sante.json",
+        "savoir": "library/analyses/sura_047_savoir.json",
+        "protection": "library/analyses/sura_047_protection.json",
+        "occultes": "library/analyses/sura_047_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_047_richesse.png"
+    },
+    {
+      "sura": 48,
+      "name_ar": "ÿßŸ?ŸÅÿ™ÿ≠",
+      "name_en": "The Victory",
+      "tname": "Al-Fath",
+      "ayas": 29,
+      "domain_files": {
+        "richesse": "library/analyses/sura_048_richesse.json",
+        "sante": "library/analyses/sura_048_sante.json",
+        "savoir": "library/analyses/sura_048_savoir.json",
+        "protection": "library/analyses/sura_048_protection.json",
+        "occultes": "library/analyses/sura_048_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_048_richesse.png"
+    },
+    {
+      "sura": 49,
+      "name_ar": "ÿßŸ?ÿ≠ÿ¨ÿ±ÿßÿ™",
+      "name_en": "The Inner Apartments",
+      "tname": "Al-Hujuraat",
+      "ayas": 18,
+      "domain_files": {
+        "richesse": "library/analyses/sura_049_richesse.json",
+        "sante": "library/analyses/sura_049_sante.json",
+        "savoir": "library/analyses/sura_049_savoir.json",
+        "protection": "library/analyses/sura_049_protection.json",
+        "occultes": "library/analyses/sura_049_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_049_richesse.png"
+    },
+    {
+      "sura": 50,
+      "name_ar": "Ÿ?",
+      "name_en": "The letter Qaaf",
+      "tname": "Qaaf",
+      "ayas": 45,
+      "domain_files": {
+        "richesse": "library/analyses/sura_050_richesse.json",
+        "sante": "library/analyses/sura_050_sante.json",
+        "savoir": "library/analyses/sura_050_savoir.json",
+        "protection": "library/analyses/sura_050_protection.json",
+        "occultes": "library/analyses/sura_050_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_050_richesse.png"
+    },
+    {
+      "sura": 51,
+      "name_ar": "ÿßŸ?ÿ∞ÿßÿ±Ÿ?ÿßÿ™",
+      "name_en": "The Winnowing Winds",
+      "tname": "Adh-Dhaariyat",
+      "ayas": 60,
+      "domain_files": {
+        "richesse": "library/analyses/sura_051_richesse.json",
+        "sante": "library/analyses/sura_051_sante.json",
+        "savoir": "library/analyses/sura_051_savoir.json",
+        "protection": "library/analyses/sura_051_protection.json",
+        "occultes": "library/analyses/sura_051_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_051_richesse.png"
+    },
+    {
+      "sura": 52,
+      "name_ar": "ÿßŸ?ÿ∑Ÿ?ÿ±",
+      "name_en": "The Mount",
+      "tname": "At-Tur",
+      "ayas": 49,
+      "domain_files": {
+        "richesse": "library/analyses/sura_052_richesse.json",
+        "sante": "library/analyses/sura_052_sante.json",
+        "savoir": "library/analyses/sura_052_savoir.json",
+        "protection": "library/analyses/sura_052_protection.json",
+        "occultes": "library/analyses/sura_052_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_052_richesse.png"
+    },
+    {
+      "sura": 53,
+      "name_ar": "ÿßŸ?Ÿ?ÿ¨Ÿ?",
+      "name_en": "The Star",
+      "tname": "An-Najm",
+      "ayas": 62,
+      "domain_files": {
+        "richesse": "library/analyses/sura_053_richesse.json",
+        "sante": "library/analyses/sura_053_sante.json",
+        "savoir": "library/analyses/sura_053_savoir.json",
+        "protection": "library/analyses/sura_053_protection.json",
+        "occultes": "library/analyses/sura_053_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_053_richesse.png"
+    },
+    {
+      "sura": 54,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿ±",
+      "name_en": "The Moon",
+      "tname": "Al-Qamar",
+      "ayas": 55,
+      "domain_files": {
+        "richesse": "library/analyses/sura_054_richesse.json",
+        "sante": "library/analyses/sura_054_sante.json",
+        "savoir": "library/analyses/sura_054_savoir.json",
+        "protection": "library/analyses/sura_054_protection.json",
+        "occultes": "library/analyses/sura_054_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_054_richesse.png"
+    },
+    {
+      "sura": 55,
+      "name_ar": "ÿßŸ?ÿ±ÿ≠Ÿ?Ÿ?",
+      "name_en": "The Beneficent",
+      "tname": "Ar-Rahmaan",
+      "ayas": 78,
+      "domain_files": {
+        "richesse": "library/analyses/sura_055_richesse.json",
+        "sante": "library/analyses/sura_055_sante.json",
+        "savoir": "library/analyses/sura_055_savoir.json",
+        "protection": "library/analyses/sura_055_protection.json",
+        "occultes": "library/analyses/sura_055_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_055_richesse.png"
+    },
+    {
+      "sura": 56,
+      "name_ar": "ÿßŸ?Ÿ?ÿßŸ?ÿπÿ©",
+      "name_en": "The Inevitable",
+      "tname": "Al-Waaqia",
+      "ayas": 96,
+      "domain_files": {
+        "richesse": "library/analyses/sura_056_richesse.json",
+        "sante": "library/analyses/sura_056_sante.json",
+        "savoir": "library/analyses/sura_056_savoir.json",
+        "protection": "library/analyses/sura_056_protection.json",
+        "occultes": "library/analyses/sura_056_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_056_richesse.png"
+    },
+    {
+      "sura": 57,
+      "name_ar": "ÿßŸ?ÿ≠ÿØŸ?ÿØ",
+      "name_en": "The Iron",
+      "tname": "Al-Hadid",
+      "ayas": 29,
+      "domain_files": {
+        "richesse": "library/analyses/sura_057_richesse.json",
+        "sante": "library/analyses/sura_057_sante.json",
+        "savoir": "library/analyses/sura_057_savoir.json",
+        "protection": "library/analyses/sura_057_protection.json",
+        "occultes": "library/analyses/sura_057_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_057_richesse.png"
+    },
+    {
+      "sura": 58,
+      "name_ar": "ÿßŸ?Ÿ?ÿ¨ÿßÿØŸ?ÿ©",
+      "name_en": "The Pleading Woman",
+      "tname": "Al-Mujaadila",
+      "ayas": 22,
+      "domain_files": {
+        "richesse": "library/analyses/sura_058_richesse.json",
+        "sante": "library/analyses/sura_058_sante.json",
+        "savoir": "library/analyses/sura_058_savoir.json",
+        "protection": "library/analyses/sura_058_protection.json",
+        "occultes": "library/analyses/sura_058_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_058_richesse.png"
+    },
+    {
+      "sura": 59,
+      "name_ar": "ÿßŸ?ÿ≠ÿ¥ÿ±",
+      "name_en": "The Exile",
+      "tname": "Al-Hashr",
+      "ayas": 24,
+      "domain_files": {
+        "richesse": "library/analyses/sura_059_richesse.json",
+        "sante": "library/analyses/sura_059_sante.json",
+        "savoir": "library/analyses/sura_059_savoir.json",
+        "protection": "library/analyses/sura_059_protection.json",
+        "occultes": "library/analyses/sura_059_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_059_richesse.png"
+    },
+    {
+      "sura": 60,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿ™ÿ≠Ÿ?ÿ©",
+      "name_en": "She that is to be examined",
+      "tname": "Al-Mumtahana",
+      "ayas": 13,
+      "domain_files": {
+        "richesse": "library/analyses/sura_060_richesse.json",
+        "sante": "library/analyses/sura_060_sante.json",
+        "savoir": "library/analyses/sura_060_savoir.json",
+        "protection": "library/analyses/sura_060_protection.json",
+        "occultes": "library/analyses/sura_060_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_060_richesse.png"
+    },
+    {
+      "sura": 61,
+      "name_ar": "ÿßŸ?ÿµŸÅ",
+      "name_en": "The Ranks",
+      "tname": "As-Saff",
+      "ayas": 14,
+      "domain_files": {
+        "richesse": "library/analyses/sura_061_richesse.json",
+        "sante": "library/analyses/sura_061_sante.json",
+        "savoir": "library/analyses/sura_061_savoir.json",
+        "protection": "library/analyses/sura_061_protection.json",
+        "occultes": "library/analyses/sura_061_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_061_richesse.png"
+    },
+    {
+      "sura": 62,
+      "name_ar": "ÿßŸ?ÿ¨Ÿ?ÿπÿ©",
+      "name_en": "Friday",
+      "tname": "Al-Jumu'a",
+      "ayas": 11,
+      "domain_files": {
+        "richesse": "library/analyses/sura_062_richesse.json",
+        "sante": "library/analyses/sura_062_sante.json",
+        "savoir": "library/analyses/sura_062_savoir.json",
+        "protection": "library/analyses/sura_062_protection.json",
+        "occultes": "library/analyses/sura_062_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_062_richesse.png"
+    },
+    {
+      "sura": 63,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿßŸÅŸ?Ÿ?Ÿ?",
+      "name_en": "The Hypocrites",
+      "tname": "Al-Munaafiqoon",
+      "ayas": 11,
+      "domain_files": {
+        "richesse": "library/analyses/sura_063_richesse.json",
+        "sante": "library/analyses/sura_063_sante.json",
+        "savoir": "library/analyses/sura_063_savoir.json",
+        "protection": "library/analyses/sura_063_protection.json",
+        "occultes": "library/analyses/sura_063_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_063_richesse.png"
+    },
+    {
+      "sura": 64,
+      "name_ar": "ÿßŸ?ÿ™ÿ∫ÿßÿ®Ÿ?",
+      "name_en": "Mutual Disillusion",
+      "tname": "At-Taghaabun",
+      "ayas": 18,
+      "domain_files": {
+        "richesse": "library/analyses/sura_064_richesse.json",
+        "sante": "library/analyses/sura_064_sante.json",
+        "savoir": "library/analyses/sura_064_savoir.json",
+        "protection": "library/analyses/sura_064_protection.json",
+        "occultes": "library/analyses/sura_064_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_064_richesse.png"
+    },
+    {
+      "sura": 65,
+      "name_ar": "ÿßŸ?ÿ∑Ÿ?ÿßŸ?",
+      "name_en": "Divorce",
+      "tname": "At-Talaaq",
+      "ayas": 12,
+      "domain_files": {
+        "richesse": "library/analyses/sura_065_richesse.json",
+        "sante": "library/analyses/sura_065_sante.json",
+        "savoir": "library/analyses/sura_065_savoir.json",
+        "protection": "library/analyses/sura_065_protection.json",
+        "occultes": "library/analyses/sura_065_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_065_richesse.png"
+    },
+    {
+      "sura": 66,
+      "name_ar": "ÿßŸ?ÿ™ÿ≠ÿ±Ÿ?Ÿ?",
+      "name_en": "The Prohibition",
+      "tname": "At-Tahrim",
+      "ayas": 12,
+      "domain_files": {
+        "richesse": "library/analyses/sura_066_richesse.json",
+        "sante": "library/analyses/sura_066_sante.json",
+        "savoir": "library/analyses/sura_066_savoir.json",
+        "protection": "library/analyses/sura_066_protection.json",
+        "occultes": "library/analyses/sura_066_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_066_richesse.png"
+    },
+    {
+      "sura": 67,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?Ÿ?",
+      "name_en": "The Sovereignty",
+      "tname": "Al-Mulk",
+      "ayas": 30,
+      "domain_files": {
+        "richesse": "library/analyses/sura_067_richesse.json",
+        "sante": "library/analyses/sura_067_sante.json",
+        "savoir": "library/analyses/sura_067_savoir.json",
+        "protection": "library/analyses/sura_067_protection.json",
+        "occultes": "library/analyses/sura_067_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_067_richesse.png"
+    },
+    {
+      "sura": 68,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?Ÿ?",
+      "name_en": "The Pen",
+      "tname": "Al-Qalam",
+      "ayas": 52,
+      "domain_files": {
+        "richesse": "library/analyses/sura_068_richesse.json",
+        "sante": "library/analyses/sura_068_sante.json",
+        "savoir": "library/analyses/sura_068_savoir.json",
+        "protection": "library/analyses/sura_068_protection.json",
+        "occultes": "library/analyses/sura_068_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_068_richesse.png"
+    },
+    {
+      "sura": 69,
+      "name_ar": "ÿßŸ?ÿ≠ÿßŸ?ÿ©",
+      "name_en": "The Reality",
+      "tname": "Al-Haaqqa",
+      "ayas": 52,
+      "domain_files": {
+        "richesse": "library/analyses/sura_069_richesse.json",
+        "sante": "library/analyses/sura_069_sante.json",
+        "savoir": "library/analyses/sura_069_savoir.json",
+        "protection": "library/analyses/sura_069_protection.json",
+        "occultes": "library/analyses/sura_069_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_069_richesse.png"
+    },
+    {
+      "sura": 70,
+      "name_ar": "ÿßŸ?Ÿ?ÿπÿßÿ±ÿ¨",
+      "name_en": "The Ascending Stairways",
+      "tname": "Al-Ma'aarij",
+      "ayas": 44,
+      "domain_files": {
+        "richesse": "library/analyses/sura_070_richesse.json",
+        "sante": "library/analyses/sura_070_sante.json",
+        "savoir": "library/analyses/sura_070_savoir.json",
+        "protection": "library/analyses/sura_070_protection.json",
+        "occultes": "library/analyses/sura_070_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_070_richesse.png"
+    },
+    {
+      "sura": 71,
+      "name_ar": "Ÿ?Ÿ?ÿ≠",
+      "name_en": "Noah",
+      "tname": "Nooh",
+      "ayas": 28,
+      "domain_files": {
+        "richesse": "library/analyses/sura_071_richesse.json",
+        "sante": "library/analyses/sura_071_sante.json",
+        "savoir": "library/analyses/sura_071_savoir.json",
+        "protection": "library/analyses/sura_071_protection.json",
+        "occultes": "library/analyses/sura_071_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_071_richesse.png"
+    },
+    {
+      "sura": 72,
+      "name_ar": "ÿßŸ?ÿ¨Ÿ?",
+      "name_en": "The Jinn",
+      "tname": "Al-Jinn",
+      "ayas": 28,
+      "domain_files": {
+        "richesse": "library/analyses/sura_072_richesse.json",
+        "sante": "library/analyses/sura_072_sante.json",
+        "savoir": "library/analyses/sura_072_savoir.json",
+        "protection": "library/analyses/sura_072_protection.json",
+        "occultes": "library/analyses/sura_072_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_072_richesse.png"
+    },
+    {
+      "sura": 73,
+      "name_ar": "ÿßŸ?Ÿ?ÿ≤Ÿ?Ÿ?",
+      "name_en": "The Enshrouded One",
+      "tname": "Al-Muzzammil",
+      "ayas": 20,
+      "domain_files": {
+        "richesse": "library/analyses/sura_073_richesse.json",
+        "sante": "library/analyses/sura_073_sante.json",
+        "savoir": "library/analyses/sura_073_savoir.json",
+        "protection": "library/analyses/sura_073_protection.json",
+        "occultes": "library/analyses/sura_073_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_073_richesse.png"
+    },
+    {
+      "sura": 74,
+      "name_ar": "ÿßŸ?Ÿ?ÿØÿ´ÿ±",
+      "name_en": "The Cloaked One",
+      "tname": "Al-Muddaththir",
+      "ayas": 56,
+      "domain_files": {
+        "richesse": "library/analyses/sura_074_richesse.json",
+        "sante": "library/analyses/sura_074_sante.json",
+        "savoir": "library/analyses/sura_074_savoir.json",
+        "protection": "library/analyses/sura_074_protection.json",
+        "occultes": "library/analyses/sura_074_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_074_richesse.png"
+    },
+    {
+      "sura": 75,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿßŸ?ÿ©",
+      "name_en": "The Resurrection",
+      "tname": "Al-Qiyaama",
+      "ayas": 40,
+      "domain_files": {
+        "richesse": "library/analyses/sura_075_richesse.json",
+        "sante": "library/analyses/sura_075_sante.json",
+        "savoir": "library/analyses/sura_075_savoir.json",
+        "protection": "library/analyses/sura_075_protection.json",
+        "occultes": "library/analyses/sura_075_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_075_richesse.png"
+    },
+    {
+      "sura": 76,
+      "name_ar": "ÿßŸ?ÿßŸ?ÿ≥ÿßŸ?",
+      "name_en": "Man",
+      "tname": "Al-Insaan",
+      "ayas": 31,
+      "domain_files": {
+        "richesse": "library/analyses/sura_076_richesse.json",
+        "sante": "library/analyses/sura_076_sante.json",
+        "savoir": "library/analyses/sura_076_savoir.json",
+        "protection": "library/analyses/sura_076_protection.json",
+        "occultes": "library/analyses/sura_076_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_076_richesse.png"
+    },
+    {
+      "sura": 77,
+      "name_ar": "ÿßŸ?Ÿ?ÿ±ÿ≥Ÿ?ÿßÿ™",
+      "name_en": "The Emissaries",
+      "tname": "Al-Mursalaat",
+      "ayas": 50,
+      "domain_files": {
+        "richesse": "library/analyses/sura_077_richesse.json",
+        "sante": "library/analyses/sura_077_sante.json",
+        "savoir": "library/analyses/sura_077_savoir.json",
+        "protection": "library/analyses/sura_077_protection.json",
+        "occultes": "library/analyses/sura_077_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_077_richesse.png"
+    },
+    {
+      "sura": 78,
+      "name_ar": "ÿßŸ?Ÿ?ÿ®ÿ•",
+      "name_en": "The Announcement",
+      "tname": "An-Naba",
+      "ayas": 40,
+      "domain_files": {
+        "richesse": "library/analyses/sura_078_richesse.json",
+        "sante": "library/analyses/sura_078_sante.json",
+        "savoir": "library/analyses/sura_078_savoir.json",
+        "protection": "library/analyses/sura_078_protection.json",
+        "occultes": "library/analyses/sura_078_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_078_richesse.png"
+    },
+    {
+      "sura": 79,
+      "name_ar": "ÿßŸ?Ÿ?ÿßÿ≤ÿπÿßÿ™",
+      "name_en": "Those who drag forth",
+      "tname": "An-Naazi'aat",
+      "ayas": 46,
+      "domain_files": {
+        "richesse": "library/analyses/sura_079_richesse.json",
+        "sante": "library/analyses/sura_079_sante.json",
+        "savoir": "library/analyses/sura_079_savoir.json",
+        "protection": "library/analyses/sura_079_protection.json",
+        "occultes": "library/analyses/sura_079_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_079_richesse.png"
+    },
+    {
+      "sura": 80,
+      "name_ar": "ÿπÿ®ÿ≥",
+      "name_en": "He frowned",
+      "tname": "Abasa",
+      "ayas": 42,
+      "domain_files": {
+        "richesse": "library/analyses/sura_080_richesse.json",
+        "sante": "library/analyses/sura_080_sante.json",
+        "savoir": "library/analyses/sura_080_savoir.json",
+        "protection": "library/analyses/sura_080_protection.json",
+        "occultes": "library/analyses/sura_080_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_080_richesse.png"
+    },
+    {
+      "sura": 81,
+      "name_ar": "ÿßŸ?ÿ™Ÿ?Ÿ?Ÿ?ÿ±",
+      "name_en": "The Overthrowing",
+      "tname": "At-Takwir",
+      "ayas": 29,
+      "domain_files": {
+        "richesse": "library/analyses/sura_081_richesse.json",
+        "sante": "library/analyses/sura_081_sante.json",
+        "savoir": "library/analyses/sura_081_savoir.json",
+        "protection": "library/analyses/sura_081_protection.json",
+        "occultes": "library/analyses/sura_081_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_081_richesse.png"
+    },
+    {
+      "sura": 82,
+      "name_ar": "ÿßŸ?ÿ•Ÿ?ŸÅÿ∑ÿßÿ±",
+      "name_en": "The Cleaving",
+      "tname": "Al-Infitaar",
+      "ayas": 19,
+      "domain_files": {
+        "richesse": "library/analyses/sura_082_richesse.json",
+        "sante": "library/analyses/sura_082_sante.json",
+        "savoir": "library/analyses/sura_082_savoir.json",
+        "protection": "library/analyses/sura_082_protection.json",
+        "occultes": "library/analyses/sura_082_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_082_richesse.png"
+    },
+    {
+      "sura": 83,
+      "name_ar": "ÿßŸ?Ÿ?ÿ∑ŸÅŸÅŸ?Ÿ?",
+      "name_en": "Defrauding",
+      "tname": "Al-Mutaffifin",
+      "ayas": 36,
+      "domain_files": {
+        "richesse": "library/analyses/sura_083_richesse.json",
+        "sante": "library/analyses/sura_083_sante.json",
+        "savoir": "library/analyses/sura_083_savoir.json",
+        "protection": "library/analyses/sura_083_protection.json",
+        "occultes": "library/analyses/sura_083_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_083_richesse.png"
+    },
+    {
+      "sura": 84,
+      "name_ar": "ÿßŸ?ÿ•Ÿ?ÿ¥Ÿ?ÿßŸ?",
+      "name_en": "The Splitting Open",
+      "tname": "Al-Inshiqaaq",
+      "ayas": 25,
+      "domain_files": {
+        "richesse": "library/analyses/sura_084_richesse.json",
+        "sante": "library/analyses/sura_084_sante.json",
+        "savoir": "library/analyses/sura_084_savoir.json",
+        "protection": "library/analyses/sura_084_protection.json",
+        "occultes": "library/analyses/sura_084_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_084_richesse.png"
+    },
+    {
+      "sura": 85,
+      "name_ar": "ÿßŸ?ÿ®ÿ±Ÿ?ÿ¨",
+      "name_en": "The Constellations",
+      "tname": "Al-Burooj",
+      "ayas": 22,
+      "domain_files": {
+        "richesse": "library/analyses/sura_085_richesse.json",
+        "sante": "library/analyses/sura_085_sante.json",
+        "savoir": "library/analyses/sura_085_savoir.json",
+        "protection": "library/analyses/sura_085_protection.json",
+        "occultes": "library/analyses/sura_085_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_085_richesse.png"
+    },
+    {
+      "sura": 86,
+      "name_ar": "ÿßŸ?ÿ∑ÿßÿ±Ÿ?",
+      "name_en": "The Morning Star",
+      "tname": "At-Taariq",
+      "ayas": 17,
+      "domain_files": {
+        "richesse": "library/analyses/sura_086_richesse.json",
+        "sante": "library/analyses/sura_086_sante.json",
+        "savoir": "library/analyses/sura_086_savoir.json",
+        "protection": "library/analyses/sura_086_protection.json",
+        "occultes": "library/analyses/sura_086_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_086_richesse.png"
+    },
+    {
+      "sura": 87,
+      "name_ar": "ÿßŸ?ÿ£ÿπŸ?Ÿ?",
+      "name_en": "The Most High",
+      "tname": "Al-A'laa",
+      "ayas": 19,
+      "domain_files": {
+        "richesse": "library/analyses/sura_087_richesse.json",
+        "sante": "library/analyses/sura_087_sante.json",
+        "savoir": "library/analyses/sura_087_savoir.json",
+        "protection": "library/analyses/sura_087_protection.json",
+        "occultes": "library/analyses/sura_087_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_087_richesse.png"
+    },
+    {
+      "sura": 88,
+      "name_ar": "ÿßŸ?ÿ∫ÿßÿ¥Ÿ?ÿ©",
+      "name_en": "The Overwhelming",
+      "tname": "Al-Ghaashiya",
+      "ayas": 26,
+      "domain_files": {
+        "richesse": "library/analyses/sura_088_richesse.json",
+        "sante": "library/analyses/sura_088_sante.json",
+        "savoir": "library/analyses/sura_088_savoir.json",
+        "protection": "library/analyses/sura_088_protection.json",
+        "occultes": "library/analyses/sura_088_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_088_richesse.png"
+    },
+    {
+      "sura": 89,
+      "name_ar": "ÿßŸ?ŸÅÿ¨ÿ±",
+      "name_en": "The Dawn",
+      "tname": "Al-Fajr",
+      "ayas": 30,
+      "domain_files": {
+        "richesse": "library/analyses/sura_089_richesse.json",
+        "sante": "library/analyses/sura_089_sante.json",
+        "savoir": "library/analyses/sura_089_savoir.json",
+        "protection": "library/analyses/sura_089_protection.json",
+        "occultes": "library/analyses/sura_089_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_089_richesse.png"
+    },
+    {
+      "sura": 90,
+      "name_ar": "ÿßŸ?ÿ®Ÿ?ÿØ",
+      "name_en": "The City",
+      "tname": "Al-Balad",
+      "ayas": 20,
+      "domain_files": {
+        "richesse": "library/analyses/sura_090_richesse.json",
+        "sante": "library/analyses/sura_090_sante.json",
+        "savoir": "library/analyses/sura_090_savoir.json",
+        "protection": "library/analyses/sura_090_protection.json",
+        "occultes": "library/analyses/sura_090_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_090_richesse.png"
+    },
+    {
+      "sura": 91,
+      "name_ar": "ÿßŸ?ÿ¥Ÿ?ÿ≥",
+      "name_en": "The Sun",
+      "tname": "Ash-Shams",
+      "ayas": 15,
+      "domain_files": {
+        "richesse": "library/analyses/sura_091_richesse.json",
+        "sante": "library/analyses/sura_091_sante.json",
+        "savoir": "library/analyses/sura_091_savoir.json",
+        "protection": "library/analyses/sura_091_protection.json",
+        "occultes": "library/analyses/sura_091_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_091_richesse.png"
+    },
+    {
+      "sura": 92,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?Ÿ?",
+      "name_en": "The Night",
+      "tname": "Al-Lail",
+      "ayas": 21,
+      "domain_files": {
+        "richesse": "library/analyses/sura_092_richesse.json",
+        "sante": "library/analyses/sura_092_sante.json",
+        "savoir": "library/analyses/sura_092_savoir.json",
+        "protection": "library/analyses/sura_092_protection.json",
+        "occultes": "library/analyses/sura_092_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_092_richesse.png"
+    },
+    {
+      "sura": 93,
+      "name_ar": "ÿßŸ?ÿ∂ÿ≠Ÿ?",
+      "name_en": "The Morning Hours",
+      "tname": "Ad-Dhuhaa",
+      "ayas": 11,
+      "domain_files": {
+        "richesse": "library/analyses/sura_093_richesse.json",
+        "sante": "library/analyses/sura_093_sante.json",
+        "savoir": "library/analyses/sura_093_savoir.json",
+        "protection": "library/analyses/sura_093_protection.json",
+        "occultes": "library/analyses/sura_093_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_093_richesse.png"
+    },
+    {
+      "sura": 94,
+      "name_ar": "ÿßŸ?ÿ¥ÿ±ÿ≠",
+      "name_en": "The Consolation",
+      "tname": "Ash-Sharh",
+      "ayas": 8,
+      "domain_files": {
+        "richesse": "library/analyses/sura_094_richesse.json",
+        "sante": "library/analyses/sura_094_sante.json",
+        "savoir": "library/analyses/sura_094_savoir.json",
+        "protection": "library/analyses/sura_094_protection.json",
+        "occultes": "library/analyses/sura_094_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_094_richesse.png"
+    },
+    {
+      "sura": 95,
+      "name_ar": "ÿßŸ?ÿ™Ÿ?Ÿ?",
+      "name_en": "The Fig",
+      "tname": "At-Tin",
+      "ayas": 8,
+      "domain_files": {
+        "richesse": "library/analyses/sura_095_richesse.json",
+        "sante": "library/analyses/sura_095_sante.json",
+        "savoir": "library/analyses/sura_095_savoir.json",
+        "protection": "library/analyses/sura_095_protection.json",
+        "occultes": "library/analyses/sura_095_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_095_richesse.png"
+    },
+    {
+      "sura": 96,
+      "name_ar": "ÿßŸ?ÿπŸ?Ÿ?",
+      "name_en": "The Clot",
+      "tname": "Al-Alaq",
+      "ayas": 19,
+      "domain_files": {
+        "richesse": "library/analyses/sura_096_richesse.json",
+        "sante": "library/analyses/sura_096_sante.json",
+        "savoir": "library/analyses/sura_096_savoir.json",
+        "protection": "library/analyses/sura_096_protection.json",
+        "occultes": "library/analyses/sura_096_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_096_richesse.png"
+    },
+    {
+      "sura": 97,
+      "name_ar": "ÿßŸ?Ÿ?ÿØÿ±",
+      "name_en": "The Power, Fate",
+      "tname": "Al-Qadr",
+      "ayas": 5,
+      "domain_files": {
+        "richesse": "library/analyses/sura_097_richesse.json",
+        "sante": "library/analyses/sura_097_sante.json",
+        "savoir": "library/analyses/sura_097_savoir.json",
+        "protection": "library/analyses/sura_097_protection.json",
+        "occultes": "library/analyses/sura_097_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_097_richesse.png"
+    },
+    {
+      "sura": 98,
+      "name_ar": "ÿßŸ?ÿ®Ÿ?Ÿ?ÿ©",
+      "name_en": "The Evidence",
+      "tname": "Al-Bayyina",
+      "ayas": 8,
+      "domain_files": {
+        "richesse": "library/analyses/sura_098_richesse.json",
+        "sante": "library/analyses/sura_098_sante.json",
+        "savoir": "library/analyses/sura_098_savoir.json",
+        "protection": "library/analyses/sura_098_protection.json",
+        "occultes": "library/analyses/sura_098_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_098_richesse.png"
+    },
+    {
+      "sura": 99,
+      "name_ar": "ÿßŸ?ÿ≤Ÿ?ÿ≤Ÿ?ÿ©",
+      "name_en": "The Earthquake",
+      "tname": "Az-Zalzala",
+      "ayas": 8,
+      "domain_files": {
+        "richesse": "library/analyses/sura_099_richesse.json",
+        "sante": "library/analyses/sura_099_sante.json",
+        "savoir": "library/analyses/sura_099_savoir.json",
+        "protection": "library/analyses/sura_099_protection.json",
+        "occultes": "library/analyses/sura_099_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_099_richesse.png"
+    },
+    {
+      "sura": 100,
+      "name_ar": "ÿßŸ?ÿπÿßÿØŸ?ÿßÿ™",
+      "name_en": "The Chargers",
+      "tname": "Al-Aadiyaat",
+      "ayas": 11,
+      "domain_files": {
+        "richesse": "library/analyses/sura_100_richesse.json",
+        "sante": "library/analyses/sura_100_sante.json",
+        "savoir": "library/analyses/sura_100_savoir.json",
+        "protection": "library/analyses/sura_100_protection.json",
+        "occultes": "library/analyses/sura_100_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_100_richesse.png"
+    },
+    {
+      "sura": 101,
+      "name_ar": "ÿßŸ?Ÿ?ÿßÿ±ÿπÿ©",
+      "name_en": "The Calamity",
+      "tname": "Al-Qaari'a",
+      "ayas": 11,
+      "domain_files": {
+        "richesse": "library/analyses/sura_101_richesse.json",
+        "sante": "library/analyses/sura_101_sante.json",
+        "savoir": "library/analyses/sura_101_savoir.json",
+        "protection": "library/analyses/sura_101_protection.json",
+        "occultes": "library/analyses/sura_101_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_101_richesse.png"
+    },
+    {
+      "sura": 102,
+      "name_ar": "ÿßŸ?ÿ™Ÿ?ÿßÿ´ÿ±",
+      "name_en": "Competition",
+      "tname": "At-Takaathur",
+      "ayas": 8,
+      "domain_files": {
+        "richesse": "library/analyses/sura_102_richesse.json",
+        "sante": "library/analyses/sura_102_sante.json",
+        "savoir": "library/analyses/sura_102_savoir.json",
+        "protection": "library/analyses/sura_102_protection.json",
+        "occultes": "library/analyses/sura_102_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_102_richesse.png"
+    },
+    {
+      "sura": 103,
+      "name_ar": "ÿßŸ?ÿπÿµÿ±",
+      "name_en": "The Declining Day, Epoch",
+      "tname": "Al-Asr",
+      "ayas": 3,
+      "domain_files": {
+        "richesse": "library/analyses/sura_103_richesse.json",
+        "sante": "library/analyses/sura_103_sante.json",
+        "savoir": "library/analyses/sura_103_savoir.json",
+        "protection": "library/analyses/sura_103_protection.json",
+        "occultes": "library/analyses/sura_103_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_103_richesse.png"
+    },
+    {
+      "sura": 104,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿ≤ÿ©",
+      "name_en": "The Traducer",
+      "tname": "Al-Humaza",
+      "ayas": 9,
+      "domain_files": {
+        "richesse": "library/analyses/sura_104_richesse.json",
+        "sante": "library/analyses/sura_104_sante.json",
+        "savoir": "library/analyses/sura_104_savoir.json",
+        "protection": "library/analyses/sura_104_protection.json",
+        "occultes": "library/analyses/sura_104_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_104_richesse.png"
+    },
+    {
+      "sura": 105,
+      "name_ar": "ÿßŸ?ŸÅŸ?Ÿ?",
+      "name_en": "The Elephant",
+      "tname": "Al-Fil",
+      "ayas": 5,
+      "domain_files": {
+        "richesse": "library/analyses/sura_105_richesse.json",
+        "sante": "library/analyses/sura_105_sante.json",
+        "savoir": "library/analyses/sura_105_savoir.json",
+        "protection": "library/analyses/sura_105_protection.json",
+        "occultes": "library/analyses/sura_105_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_105_richesse.png"
+    },
+    {
+      "sura": 106,
+      "name_ar": "Ÿ?ÿ±Ÿ?ÿ¥",
+      "name_en": "Quraysh",
+      "tname": "Quraish",
+      "ayas": 4,
+      "domain_files": {
+        "richesse": "library/analyses/sura_106_richesse.json",
+        "sante": "library/analyses/sura_106_sante.json",
+        "savoir": "library/analyses/sura_106_savoir.json",
+        "protection": "library/analyses/sura_106_protection.json",
+        "occultes": "library/analyses/sura_106_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_106_richesse.png"
+    },
+    {
+      "sura": 107,
+      "name_ar": "ÿßŸ?Ÿ?ÿßÿπŸ?Ÿ?",
+      "name_en": "Almsgiving",
+      "tname": "Al-Maa'un",
+      "ayas": 7,
+      "domain_files": {
+        "richesse": "library/analyses/sura_107_richesse.json",
+        "sante": "library/analyses/sura_107_sante.json",
+        "savoir": "library/analyses/sura_107_savoir.json",
+        "protection": "library/analyses/sura_107_protection.json",
+        "occultes": "library/analyses/sura_107_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_107_richesse.png"
+    },
+    {
+      "sura": 108,
+      "name_ar": "ÿßŸ?Ÿ?Ÿ?ÿ´ÿ±",
+      "name_en": "Abundance",
+      "tname": "Al-Kawthar",
+      "ayas": 3,
+      "domain_files": {
+        "richesse": "library/analyses/sura_108_richesse.json",
+        "sante": "library/analyses/sura_108_sante.json",
+        "savoir": "library/analyses/sura_108_savoir.json",
+        "protection": "library/analyses/sura_108_protection.json",
+        "occultes": "library/analyses/sura_108_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_108_richesse.png"
+    },
+    {
+      "sura": 109,
+      "name_ar": "ÿßŸ?Ÿ?ÿßŸÅÿ±Ÿ?Ÿ?",
+      "name_en": "The Disbelievers",
+      "tname": "Al-Kaafiroon",
+      "ayas": 6,
+      "domain_files": {
+        "richesse": "library/analyses/sura_109_richesse.json",
+        "sante": "library/analyses/sura_109_sante.json",
+        "savoir": "library/analyses/sura_109_savoir.json",
+        "protection": "library/analyses/sura_109_protection.json",
+        "occultes": "library/analyses/sura_109_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_109_richesse.png"
+    },
+    {
+      "sura": 110,
+      "name_ar": "ÿßŸ?Ÿ?ÿµÿ±",
+      "name_en": "Divine Support",
+      "tname": "An-Nasr",
+      "ayas": 3,
+      "domain_files": {
+        "richesse": "library/analyses/sura_110_richesse.json",
+        "sante": "library/analyses/sura_110_sante.json",
+        "savoir": "library/analyses/sura_110_savoir.json",
+        "protection": "library/analyses/sura_110_protection.json",
+        "occultes": "library/analyses/sura_110_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_110_richesse.png"
+    },
+    {
+      "sura": 111,
+      "name_ar": "ÿßŸ?Ÿ?ÿ≥ÿØ",
+      "name_en": "The Palm Fibre",
+      "tname": "Al-Masad",
+      "ayas": 5,
+      "domain_files": {
+        "richesse": "library/analyses/sura_111_richesse.json",
+        "sante": "library/analyses/sura_111_sante.json",
+        "savoir": "library/analyses/sura_111_savoir.json",
+        "protection": "library/analyses/sura_111_protection.json",
+        "occultes": "library/analyses/sura_111_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_111_richesse.png"
+    },
+    {
+      "sura": 112,
+      "name_ar": "ÿßŸ?ÿ•ÿÆŸ?ÿßÿµ",
+      "name_en": "Sincerity",
+      "tname": "Al-Ikhlaas",
+      "ayas": 4,
+      "domain_files": {
+        "richesse": "library/analyses/sura_112_richesse.json",
+        "sante": "library/analyses/sura_112_sante.json",
+        "savoir": "library/analyses/sura_112_savoir.json",
+        "protection": "library/analyses/sura_112_protection.json",
+        "occultes": "library/analyses/sura_112_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_112_richesse.png"
+    },
+    {
+      "sura": 113,
+      "name_ar": "ÿßŸ?ŸÅŸ?Ÿ?",
+      "name_en": "The Dawn",
+      "tname": "Al-Falaq",
+      "ayas": 5,
+      "domain_files": {
+        "richesse": "library/analyses/sura_113_richesse.json",
+        "sante": "library/analyses/sura_113_sante.json",
+        "savoir": "library/analyses/sura_113_savoir.json",
+        "protection": "library/analyses/sura_113_protection.json",
+        "occultes": "library/analyses/sura_113_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_113_richesse.png"
+    },
+    {
+      "sura": 114,
+      "name_ar": "ÿßŸ?Ÿ?ÿßÿ≥",
+      "name_en": "Mankind",
+      "tname": "An-Naas",
+      "ayas": 6,
+      "domain_files": {
+        "richesse": "library/analyses/sura_114_richesse.json",
+        "sante": "library/analyses/sura_114_sante.json",
+        "savoir": "library/analyses/sura_114_savoir.json",
+        "protection": "library/analyses/sura_114_protection.json",
+        "occultes": "library/analyses/sura_114_occultes.json"
+      },
+      "canonical_talisman": "library/talismans/sura_114_richesse.png"
+    }
+  ]
+}

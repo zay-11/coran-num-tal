@@ -1,0 +1,16 @@
+{
+  "corpus_id": "torah_utf8_demo",
+  "name": "Torah UTF8 Demo",
+  "scheme": "hebrew_gematria",
+  "description": "Mini corpus hebreu UTF-8",
+  "entries": [
+    {
+      "ref": "Gen1:1",
+      "text": "?????? ??? ?????"
+    },
+    {
+      "ref": "Gen1:2",
+      "text": "????? ???? ???"
+    }
+  ]
+}

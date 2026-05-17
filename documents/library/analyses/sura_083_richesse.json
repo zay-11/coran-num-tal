@@ -1,0 +1,252 @@
+{
+  "source": "83",
+  "domain": {
+    "key": "richesse",
+    "label": "Rizq / Richesse / Abondance",
+    "intent": "Ouverture des causes, fluidite materielle, baraka et expansion du rizq.",
+    "color": "gold",
+    "geometry": "etoile a 8 branches avec centre phi",
+    "references": [
+      "51:58",
+      "65:2-3",
+      "71:10-12",
+      "62:10",
+      "34:39"
+    ],
+    "divine_names": [
+      {
+        "label": "Razzaq",
+        "arabic": "يا رزاق",
+        "transliteration": "Ya Razzaq",
+        "abjad": 319
+      },
+      {
+        "label": "Fattah",
+        "arabic": "يا فتاح",
+        "transliteration": "Ya Fattah",
+        "abjad": 500
+      },
+      {
+        "label": "Ghani",
+        "arabic": "يا غني",
+        "transliteration": "Ya Ghani",
+        "abjad": 1071
+      },
+      {
+        "label": "Mughni",
+        "arabic": "يا مغني",
+        "transliteration": "Ya Mughni",
+        "abjad": 1111
+      }
+    ],
+    "grabovoi_seed": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078"
+    ],
+    "anchor_numbers": [
+      19,
+      55,
+      56,
+      61,
+      76,
+      89,
+      99,
+      123,
+      319,
+      489,
+      618,
+      786
+    ]
+  },
+  "metrics": {
+    "word_count": 173,
+    "letter_count": 769,
+    "unique_letters": 29,
+    "abjad_total": 57527,
+    "abjad_reduced": 8,
+    "mod_19": 14,
+    "mod_8": 1,
+    "mod_7": 5,
+    "golden_abjad": 35554,
+    "golden_letters": 1244,
+    "golden_words": 280,
+    "fib_word": 144,
+    "fib_letter": 610,
+    "fib_abjad": 46368,
+    "fib_word_ratio": 1.2013888888888888,
+    "fib_letter_ratio": 1.2606557377049181,
+    "fib_abjad_ratio": 1.240661663216011
+  },
+  "signature": {
+    "center": 83,
+    "ring_inner": [
+      83,
+      1,
+      173,
+      769,
+      8,
+      14,
+      5,
+      1
+    ],
+    "ring_outer": [
+      280,
+      1244,
+      35554,
+      144,
+      610,
+      46368,
+      19,
+      786
+    ],
+    "reference_number": 83,
+    "ayah_number": 1,
+    "range_number": 36,
+    "golden_bridge": [
+      280,
+      1244,
+      35554
+    ]
+  },
+  "grabovoi_bridge": [
+    "123 55 89",
+    "786 489 618",
+    "6119 078",
+    "8145",
+    "280 1244 1",
+    "831 144"
+  ],
+  "talisman": {
+    "geometry": "etoile a 8 branches avec centre phi",
+    "color": "gold",
+    "center": 83,
+    "inner_ring": [
+      83,
+      1,
+      173,
+      769,
+      8,
+      14,
+      5,
+      1
+    ],
+    "outer_ring": [
+      280,
+      1244,
+      35554,
+      144,
+      610,
+      46368,
+      19,
+      786
+    ],
+    "inscriptions": [
+      "يا رزاق",
+      "يا فتاح",
+      "يا غني",
+      "يا مغني",
+      "phi=1.618034",
+      "abjad=57527"
+    ],
+    "instructions": [
+      "Tracer le centre puis les 8 directions.",
+      "Placer le nombre central au coeur du sceau.",
+      "Placer l'anneau interne dans le sens horaire a partir de l'Est.",
+      "Placer l'anneau externe dans le sens antihoraire pour creer la tension symbolique.",
+      "Reciter le dhikr associe devant le talisman pendant 7, 14 ou 21 jours."
+    ]
+  },
+  "dhikr": [
+    {
+      "phase": "ouverture",
+      "formula": "Bismillah ir-Rahman ir-Rahim",
+      "count": 1,
+      "note": "Stabilise l'intention et ouvre la porte numerique."
+    },
+    {
+      "phase": "razzaq",
+      "formula": "Ya Razzaq",
+      "arabic": "يا رزاق",
+      "abjad": 319,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "fattah",
+      "formula": "Ya Fattah",
+      "arabic": "يا فتاح",
+      "abjad": 500,
+      "count": 123,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "ghani",
+      "formula": "Ya Ghani",
+      "arabic": "يا غني",
+      "abjad": 1071,
+      "count": 19,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "mughni",
+      "formula": "Ya Mughni",
+      "arabic": "يا مغني",
+      "abjad": 1111,
+      "count": 14,
+      "note": "Ancre le domaine richesse dans la matrice du texte."
+    },
+    {
+      "phase": "sceau",
+      "formula": "Hasbunallahu wa ni'ma al-wakil",
+      "count": 11,
+      "note": "Ferme le circuit et renvoie le travail a la Source."
+    }
+  ],
+  "ritual": {
+    "duration_days": 21,
+    "best_windows": [
+      "avant Fajr",
+      "entre Dhuhr et Asr",
+      "apres Maghrib"
+    ],
+    "protocol": [
+      "Purifier l'intention en une phrase simple.",
+      "Lire ou contempler le verset ou la sourate support.",
+      "Reciter le dhikr calcule avec souffle stable.",
+      "Fixer le regard sur le centre du talisman 3 a 8 minutes.",
+      "Terminer par gratitude, tawakkul et un geste concret dans le monde."
+    ],
+    "talisman_focus": 83,
+    "warning": "Lecture symbolique et experimentale ; ne pas substituer ce travail a une action reelle necessaire."
+  },
+  "radionics": {
+    "copper_length_cm": 181.7,
+    "primary_turns": 14,
+    "secondary_turns": 5,
+    "center_code": "83 35554 8",
+    "ring_code": "280 1244 144 610",
+    "grabovoi_bridge": [
+      "123 55 89",
+      "786 489 618",
+      "6119 078",
+      "8145"
+    ],
+    "activation": [
+      "Ecrire le code central au centre du montage.",
+      "Placer le talisman derive du texte sous la spirale ou sous le quartz.",
+      "Activer avec 1 ouverture, 1 cycle du dhikr et 3 lectures du code pont.",
+      "Maintenir le travail sur 7, 14 ou 21 jours selon l'intensite recherchee."
+    ]
+  },
+  "phi": 1.618033988749895,
+  "inverse_phi": 0.6180339887498948,
+  "text": {
+    "simple": "بسم الله الرحمن الرحيم ويل للمطففين الذين إذا اكتالوا على الناس يستوفون وإذا كالوهم أو وزنوهم يخسرون ألا يظن أولئك أنهم مبعوثون ليوم عظيم يوم يقوم الناس لرب العالمين كلا إن كتاب الفجار لفي سجين وما أدراك ما سجين كتاب مرقوم ويل يومئذ للمكذبين الذين يكذبون بيوم الدين وما يكذب به إلا كل معتد أثيم إذا تتلى عليه آياتنا قال أساطير الأولين كلا بل ران على قلوبهم ما كانوا يكسبون كلا إنهم عن ربهم يومئذ لمحجوبون ثم إنهم لصالو الجحيم ثم يقال هذا الذي كنتم به تكذبون كلا إن كتاب الأبرار لفي عليين وما أدراك ما عليون كتاب مرقوم يشهده المقربون إن الأبرار لفي نعيم على الأرائك ينظرون تعرف في وجوههم نضرة النعيم يسقون من رحيق مختوم ختامه مسك وفي ذلك فليتنافس المتنافسون ومزاجه من تسنيم عينا يشرب بها المقربون إن الذين أجرموا كانوا من الذين آمنوا يضحكون وإذا مروا بهم يتغامزون وإذا انقلبوا إلى أهلهم انقلبوا فكهين وإذا رأوهم قالوا إن هؤلاء لضالون وما أرسلوا عليهم حافظين فاليوم الذين آمنوا من الكفار يضحكون على الأرائك ينظرون هل ثوب الكفار ما كانوا يفعلون",
+    "uthmani": "بِسمِ اللَّهِ الرَّحمٰنِ الرَّحيمِ وَيلٌ لِلمُطَفِّفينَ الَّذينَ إِذَا اكتالوا عَلَى النّاسِ يَستَوفونَ وَإِذا كالوهُم أَو وَزَنوهُم يُخسِرونَ أَلا يَظُنُّ أُولٰئِكَ أَنَّهُم مَبعوثونَ لِيَومٍ عَظيمٍ يَومَ يَقومُ النّاسُ لِرَبِّ العٰلَمينَ كَلّا إِنَّ كِتٰبَ الفُجّارِ لَفى سِجّينٍ وَما أَدرىٰكَ ما سِجّينٌ كِتٰبٌ مَرقومٌ وَيلٌ يَومَئِذٍ لِلمُكَذِّبينَ الَّذينَ يُكَذِّبونَ بِيَومِ الدّينِ وَما يُكَذِّبُ بِهِ إِلّا كُلُّ مُعتَدٍ أَثيمٍ إِذا تُتلىٰ عَلَيهِ ءايٰتُنا قالَ أَسٰطيرُ الأَوَّلينَ كَلّا بَل رانَ عَلىٰ قُلوبِهِم ما كانوا يَكسِبونَ كَلّا إِنَّهُم عَن رَبِّهِم يَومَئِذٍ لَمَحجوبونَ ثُمَّ إِنَّهُم لَصالُوا الجَحيمِ ثُمَّ يُقالُ هٰذَا الَّذى كُنتُم بِهِ تُكَذِّبونَ كَلّا إِنَّ كِتٰبَ الأَبرارِ لَفى عِلِّيّينَ وَما أَدرىٰكَ ما عِلِّيّونَ كِتٰبٌ مَرقومٌ يَشهَدُهُ المُقَرَّبونَ إِنَّ الأَبرارَ لَفى نَعيمٍ عَلَى الأَرائِكِ يَنظُرونَ تَعرِفُ فى وُجوهِهِم نَضرَةَ النَّعيمِ يُسقَونَ مِن رَحيقٍ مَختومٍ خِتٰمُهُ مِسكٌ وَفى ذٰلِكَ فَليَتَنافَسِ المُتَنٰفِسونَ وَمِزاجُهُ مِن تَسنيمٍ عَينًا يَشرَبُ بِهَا المُقَرَّبونَ إِنَّ الَّذينَ أَجرَموا كانوا مِنَ الَّذينَ ءامَنوا يَضحَكونَ وَإِذا مَرّوا بِهِم يَتَغامَزونَ وَإِذَا انقَلَبوا إِلىٰ أَهلِهِمُ انقَلَبوا فَكِهينَ وَإِذا رَأَوهُم قالوا إِنَّ هٰؤُلاءِ لَضالّونَ وَما أُرسِلوا عَلَيهِم حٰفِظينَ فَاليَومَ الَّذينَ ءامَنوا مِنَ الكُفّارِ يَضحَكونَ عَلَى الأَرائِكِ يَنظُرونَ هَل ثُوِّبَ الكُفّارُ ما كانوا يَفعَلونَ",
+    "sura_name_ar": "المطففين",
+    "sura_name_en": "Defrauding",
+    "sura_translit": "Al-Mutaffifin",
+    "revelation_place": "Meccan"
+  }
+}
