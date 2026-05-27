@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "title": "MIFTAH AL-GHAIB — Configuration du Moteur de Prédiction Unifié",
+    "version": "1.0",
+    "date": "2026-05-27",
+    "phi": 1.618033988749895,
+    "nombre_secret": 145,
+    "total_abjad": 23476120
+  },
+  "global": {
+    "method": "agregation_additive",
+    "probability_formula": "score_domaine / somme_scores * 100",
+    "value_grace_threshold": 0.15,
+    "value_grace_confidence_min": 0.55,
+    "decision_thresholds": {
+      "tres_favorable": 65,
+      "favorable": 55,
+      "neutre": 45,
+      "defavorable": 0
+    }
+  },
+  "layers": [
+    {
+      "id": 1,
+      "name": "Horloge Cosmique",
+      "file": "core/unified/cosmic_clock.py",
+      "weight": 1.0,
+      "sub_layers": [
+        {"name": "Manazil Al-Qamar (28)", "source": "Coran Num Tal", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Nakshatras (27)", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Heures Planetaires", "source": "RAG ASTRO", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Phase Lunaire", "source": "RAG ASTRO", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Jour Semaine Planetaire", "source": "Coran Num Tal", "active_in": ["finance", "personnel"]},
+        {"name": "Heure Priere Islamique", "source": "Coran Num Tal", "active_in": ["personnel"]},
+        {"name": "Eclipses", "source": "RAG ASTRO", "active_in": ["finance", "personnel"]}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Signature Numerologique",
+      "file": "core/unified/numeric_signature.py",
+      "weight": 1.5,
+      "sub_layers": [
+        {"name": "Abjad du Nom", "source": "Coran Num Tal", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Racine Digitale", "source": "Coran Num Tal", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Pont Secret (145)", "source": "Coran Num Tal", "active_in": ["finance", "personnel"]},
+        {"name": "Alignement Phi", "source": "Coran Num Tal", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Fibonaccisation", "source": "Coran Num Tal", "active_in": ["finance", "personnel"]},
+        {"name": "Noms Divins Affins", "source": "Coran Num Tal", "active_in": ["sport", "personnel"]},
+        {"name": "Code Grabovoi", "source": "Coran Num Tal", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Seigneurs du Temps",
+      "file": "core/unified/time_lords.py",
+      "weight": 1.0,
+      "sub_layers": [
+        {"name": "Dasha Coranique (9 Noms Divins)", "source": "Nouveau", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Vimshottari Dasha", "source": "RAG ASTRO", "active_in": ["personnel"]},
+        {"name": "Firdaria", "source": "RAG ASTRO", "active_in": ["personnel"]},
+        {"name": "Profections Annuelles", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Atacires", "source": "RAG ASTRO", "active_in": ["finance"]},
+        {"name": "Char Dasha (Jaimini)", "source": "RAG ASTRO", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Parts / Lots Sacres",
+      "file": "core/unified/sacred_parts.py",
+      "weight": 1.0,
+      "sub_layers": [
+        {"name": "Parts Arabes Traditionnelles (34)", "source": "RAG ASTRO", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Parts Coraniques (34)", "source": "Nouveau", "active_in": ["sport", "personnel"]},
+        {"name": "5 Piliers de Valens", "source": "RAG ASTRO", "active_in": ["personnel"]},
+        {"name": "Parts par Domaine de Vie", "source": "Mixte", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dignites / Forces",
+      "file": "core/unified/dignities.py",
+      "weight": 0.8,
+      "sub_layers": [
+        {"name": "Dignites Essentielles", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Dignites Accidentelles", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Shadbala Vedique", "source": "RAG ASTRO", "active_in": ["personnel"]},
+        {"name": "Shadbala Coranique", "source": "Nouveau", "active_in": ["personnel"]},
+        {"name": "Ashtakavarga", "source": "RAG ASTRO", "active_in": ["finance", "personnel"]},
+        {"name": "Ashtakavarga Coranique", "source": "Nouveau", "active_in": ["finance", "personnel"]}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Yogas / Motifs",
+      "file": "core/unified/patterns.py",
+      "weight": 1.2,
+      "sub_layers": [
+        {"name": "Yogas Vediques (30+)", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Yogas Coraniques", "source": "Nouveau", "active_in": ["personnel"]},
+        {"name": "Resonances Phi", "source": "Coran Num Tal", "active_in": ["finance", "personnel"]},
+        {"name": "Paires Miroirs (Antisces Abjad)", "source": "Nouveau", "active_in": ["sport", "personnel"]},
+        {"name": "Chaines Phi", "source": "Coran Num Tal", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Formules d'Evenements",
+      "file": "core/unified/event_formulas.py",
+      "weight": 1.5,
+      "sub_layers": [
+        {"name": "Shestopalov Traditionnel", "source": "RAG ASTRO", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "Shestopalov Coranique", "source": "Nouveau", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Divination / Oracle",
+      "file": "core/unified/oracle_layer.py",
+      "weight": 0.7,
+      "sub_layers": [
+        {"name": "Geomancie Classique", "source": "RAG ASTRO", "active_in": ["sport", "personnel"]},
+        {"name": "Geomancie Coranique", "source": "Nouveau", "active_in": ["personnel"]},
+        {"name": "Oracle Quotidien", "source": "Coran Num Tal", "active_in": ["personnel"]},
+        {"name": "SHA-256 Seed", "source": "Coran Num Tal", "active_in": ["sport", "finance"]},
+        {"name": "Istikhara Numerique", "source": "Nouveau", "active_in": ["personnel"]}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Agregation & Decision",
+      "file": "core/unified/aggregator.py",
+      "weight": 1.0,
+      "sub_layers": [
+        {"name": "ScoreAggregator", "source": "Mixte", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "ProbabilityNormalizer", "source": "Mixte", "active_in": ["sport", "finance", "personnel"]},
+        {"name": "ValueGraceDetector", "source": "Mixte", "active_in": ["sport", "finance"]},
+        {"name": "DecisionThresholds", "source": "Mixte", "active_in": ["sport", "finance", "personnel"]}
+      ]
+    }
+  ],
+  "sports_layers_legacy": {
+    "description": "16 couches A-O heritees du sports_engine.py existant, integrables comme couches 10-25",
+    "layers": [
+      {"id": "A", "name": "Force Regents H1 vs H7", "weight": 2.0},
+      {"id": "B", "name": "Force Seigneurs Victoire H10 vs H4", "weight": 2.0},
+      {"id": "C", "name": "Occupants Maisons I et VII", "weight": 1.5},
+      {"id": "D", "name": "Parts Arabes en Maisons Favorables", "weight": 1.5},
+      {"id": "E", "name": "Lune Ithasala/Eshrapha", "weight": 2.5},
+      {"id": "F", "name": "Tajika H1-H10 / H7-H4", "weight": 2.0},
+      {"id": "G", "name": "Heure Planetaire", "weight": 1.5},
+      {"id": "H", "name": "Antisces Frawley", "weight": 1.5},
+      {"id": "I", "name": "Tara Bala Vedique", "weight": 2.0},
+      {"id": "J", "name": "Axe Nodal Rahu/Ketu", "weight": 3.0},
+      {"id": "K", "name": "Dignites Etendues", "weight": 1.5},
+      {"id": "L", "name": "Etoiles Fixes", "weight": 0.5},
+      {"id": "M", "name": "Vargottama D9", "weight": null},
+      {"id": "N", "name": "Yogas Vediques", "weight": 0.4},
+      {"id": "O", "name": "Phase Lunaire", "weight": 0.5}
+    ]
+  },
+  "horse_race_layers": {
+    "description": "Couches specifiques aux courses hippiques",
+    "layers": [
+      {"id": "HE", "name": "Vibration Directe Heure", "weight": 8.0},
+      {"id": "HB", "name": "Force Planetaire ×1.5", "weight": null},
+      {"id": "HC", "name": "Affinite Nom-Planete (Nama Nakshatra)", "weight": 2.5},
+      {"id": "HD", "name": "Tara Bala Natal", "weight": 3.5},
+      {"id": "HT", "name": "Transits Jupiter/Saturne Natal", "weight": 3.0},
+      {"id": "HF", "name": "Fraction Degre Heure", "weight": 0.1}
+    ]
+  },
+  "coranic_sports_layers": {
+    "description": "Nouvelles couches coraniques pour le sport",
+    "layers": [
+      {"id": "C1", "name": "Signature Abjad Noms Equipe", "weight": 2.0},
+      {"id": "C2", "name": "Affinite Nom Divin Jour × Regents", "weight": 1.5},
+      {"id": "C3", "name": "Parts Coraniques en Maisons Favorables", "weight": 1.0},
+      {"id": "C4", "name": "Dasha Coranique Active", "weight": 1.5},
+      {"id": "C5", "name": "Geomancie Coranique", "weight": 1.0},
+      {"id": "C6", "name": "Resonance Phi entre Noms", "weight": 0.5}
+    ]
+  },
+  "finance_layers": {
+    "description": "Configuration specifique finance",
+    "layers": [
+      {"id": "F1", "name": "Dasha de l'Actif", "weight": 2.0},
+      {"id": "F2", "name": "Parts Richesse/Commerce/Credit/Fortune", "weight": 1.5},
+      {"id": "F3", "name": "Force Jupiter (expansion)", "weight": 1.5},
+      {"id": "F4", "name": "Force Saturne (contraction)", "weight": 1.5},
+      {"id": "F5", "name": "Dhana Yogas", "weight": 2.0},
+      {"id": "F6", "name": "Shestopalov Richesse/Perte", "weight": 2.5},
+      {"id": "F7", "name": "Abjad Ticker + Nom Actif", "weight": 1.0},
+      {"id": "F8", "name": "Phase Lunaire × Volatilite", "weight": 1.0},
+      {"id": "F9", "name": "Eclipses = Points Rupture", "weight": 2.0}
+    ]
+  },
+  "cross_domain_correlations": {
+    "sport_finance": 0.45,
+    "sport_personnel": 0.30,
+    "finance_personnel": 0.55,
+    "meta_score_weights": {
+      "sport": 0.25,
+      "finance": 0.35,
+      "personnel": 0.40
+    }
+  },
+  "implementation_phases": [
+    {
+      "phase": 1,
+      "name": "Fondations",
+      "weeks": "1-2",
+      "files": ["bridge/astro_coranic_bridge.py", "unified/cosmic_clock.py", "unified/numeric_signature.py", "unified/aggregator.py"]
+    },
+    {
+      "phase": 2,
+      "name": "Couches",
+      "weeks": "3-4",
+      "files": ["unified/time_lords.py", "unified/sacred_parts.py", "unified/dignities.py", "unified/patterns.py"]
+    },
+    {
+      "phase": 3,
+      "name": "Domaines",
+      "weeks": "5-6",
+      "files": ["unified/event_formulas.py", "unified/oracle_layer.py", "adapters/sports_adapter.py", "adapters/finance_adapter.py"]
+    },
+    {
+      "phase": 4,
+      "name": "Personnel + API",
+      "weeks": "7-8",
+      "files": ["adapters/personal_adapter.py", "unified/cross_domain.py", "app/miftah_phi_app.py", "app/webapp/predict.html"]
+    }
+  ]
+}
