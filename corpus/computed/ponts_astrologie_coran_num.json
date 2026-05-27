@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "Ponts entre l'Astrologie et Coran Num Tal — Analyse des Techniques Transposables",
+    "date": "2026-05-27",
+    "source": "RAG ASTRO DOCUMENTS (75+ fichiers texte + 18 engines Python)",
+    "version": "1.0",
+    "total_techniques_extracted": 47,
+    "total_ponts_recherche": 10,
+    "phi": 1.618033988749895,
+    "nombre_secret": 145,
+    "total_abjad": 23476120
+  },
+  "inventaire_techniques_astrologiques": {
+    "A_chronocrators_time_lords": [
+      {
+        "nom": "Profections Annuelles",
+        "mecanisme": "Ascendant + 1 signe par an, cycle 12 ans, Seigneur de l'Annee = regent du signe profecte",
+        "origine": "Hellenistique (Valens, Medieval)",
+        "source_fichier": "953115576-Les-profecies-par-Maria-Blaquier.txt"
+      },
+      {
+        "nom": "Triplicite / Leading Light",
+        "mecanisme": "3 periodes de 28 ans selon triplicite du Soleil (diurne) ou Lune (nocturne)",
+        "origine": "Vettius Valens, 2e siecle",
+        "source_fichier": "6956746-Five-Pillars-of-Fate-Fortune-and-Destiny-in-Astrology.txt"
+      },
+      {
+        "nom": "Atacires / Directions Uniformes",
+        "mecanisme": "Cycles: C-12 (1 deg/12 jours), C-25 (Venus, 25 ans), C-60 (1 deg/60 jours), C-72 (sante), C-144 (hospitalisation), C-360 (1 deg/an). Cycles de mort: 13, 45, 96, 156 ans.",
+        "origine": "Ptolemee, Abenragel, Demetrio Santos",
+        "source_fichier": "913750071-Atacires-une-technique-predictive-millenaire.txt"
+      },
+      {
+        "nom": "Firdaria",
+        "mecanisme": "Periodes planetaires 75 ans: Soleil(10), Venus(8), Mercure(13), Lune(9), Saturne(11), Jupiter(12), Mars(7), Rahu(3), Ketu(2). Sequence jour ≠ nuit. Sous-periodes en ordre chaldeen.",
+        "origine": "Persane medievale (Farsi)",
+        "source_fichier": "402225632-Revolutions-Solaires-Medievales-Et-Varshapal.txt"
+      },
+      {
+        "nom": "Vimshottari Dasha",
+        "mecanisme": "Cycle 120 ans base sur le Nakshatra lunaire: Ketu(7)→Venus(20)→Soleil(6)→Lune(10)→Mars(7)→Rahu(18)→Jupiter(16)→Saturne(19)→Mercure(17). Antardasha et Pratyantar.",
+        "origine": "Vedique (Parashara)",
+        "source_fichier": "dasha_engine.py"
+      },
+      {
+        "nom": "Mandook Dasha",
+        "mecanisme": "12 signes × 8 ans = 96 ans. Signes impairs avancent +2, pairs reculent -2.",
+        "origine": "Jaimini",
+        "source_fichier": "dasha_engine.py"
+      },
+      {
+        "nom": "Char Dasha",
+        "mecanisme": "Durees variables selon position du seigneur du signe. Cardinal=compte avant, Fixe=compte arriere, Mutable=regle cardinale puis si >7 alors 12-compte.",
+        "origine": "Jaimini",
+        "source_fichier": "jaimini_engine.py"
+      }
+    ],
+    "B_dignite_force": [
+      {
+        "nom": "Dignites Essentielles",
+        "mecanisme": "Domicile(+5), Exaltation(+4/exact+5), Triplicite(+3), Termes(+2, 3 systemes: Egyptien/Ptolemaique/Chaldeen), Decans(+1, 36 faces suivant ordre chaldeen), Exil(-5), Chute(-4/-5), Peregrin(-5)",
+        "source_fichier": "dignities_v2.py"
+      },
+      {
+        "nom": "Shadbala (6 forces)",
+        "mecanisme": "Sthana(positionnelle) + Dig(directionnelle: 60-10×diff maisons) + Kala(temporelle) + Cheshta(motion) + Naisargika(naturelle: Soleil 60, Lune 51.43, Venus 42.86, Jupiter 34.29, Mercure 25.72, Mars 17.15, Saturne 8.57) + Drik(aspectuelle: benefiques+10, malefiques-10). En Rupas (virupas).",
+        "source_fichier": "vedic_strength_engine.py"
+      },
+      {
+        "nom": "Ashtakavarga",
+        "mecanisme": "7 planetes contribuent 0-1 bindu par signe. Sarva = somme par signe (0-8). Seuils transit: ≥28 excellent, ≥25 bon, ≥20 moyen, ≥15 faible, <15 tres faible.",
+        "source_fichier": "vedic_strength_engine.py"
+      },
+      {
+        "nom": "Almuten Figuris",
+        "mecanisme": "Planete dominante: somme des dignites sur position propre + demi-points sur ASC/MC/DESC/IC. Score le plus eleve = Almuten.",
+        "source_fichier": "dignities_v2.py"
+      },
+      {
+        "nom": "Secte Diurne/Nocturne",
+        "mecanisme": "Jour: Jupiter plus benefique, Mars plus malefique. Nuit: Venus plus benefique, Saturne plus malefique. Mercure neutre. Triplicites assignees aux categories diurne/nocturne.",
+        "source_fichier": "390316389-Annual-Profections-Slides.txt"
+      }
+    ],
+    "C_parts_arabes_lots": [
+      {
+        "nom": "34 Parts Arabes",
+        "mecanisme": "Formule generale: Diurne = ASC+P2-P1, Nocturne (inverse si applicable) = ASC+P1-P2. Parts: Fortune, Esprit, Amour, Vie, Mort, Peril, Chirurgie, Richesse, Possessions, Heritage, Commerce, Credit, Mariage_H, Mariage_F, Mere, Pere, Enfants, Freres, Amis, Serviteurs, Carriere, Honneur, Royaute, Victoire, Foi, Exaltation, Sagesse, Voyage, Exil, Maladie, Catastrophe, Courage, Jeu, Audace, Base.",
+        "source_fichier": "arabic_parts_extended.py"
+      },
+      {
+        "nom": "Les 5 Piliers du Destin (Valens)",
+        "mecanisme": "1) Lot de Fortune: Soleil→Lune+ASC (corps, sante). 2) Lot de l'Esprit: Lune→Soleil+ASC (ame, intellect). 3) Lieu de la Base: Arc le plus court Fortune↔Esprit+ASC. 4) Lieu d'Acquisition: 11 signes depuis Fortune. 5) Lieu d'Exaltation: Signes Soleil→Belier (jour) ou Lune→Taureau (nuit) + ASC.",
+        "source_fichier": "6956746-Five-Pillars-of-Fate-Fortune-and-Destiny-in-Astrology.txt"
+      },
+      {
+        "nom": "10 Regles de la Renommee (Valens)",
+        "mecanisme": "Fortune angulaire ou en Bon Esprit(11/5), Seigneur de Fortune culmine (10e), Seigneur de l'Esprit culmine, Seigneur d'Exaltation culmine (indicateur le plus fort), Seigneurs Fortune/Esprit en echange mutuel, Seigneur de Base sur Fortune/Esprit, Chaine cyclique des 3 seigneurs, Points en domicile/exaltation, Planete exaltee sur un Pilier, Benefique avec le Seigneur de Fortune.",
+        "source_fichier": "6956746-Five-Pillars-of-Fate-Fortune-and-Destiny-in-Astrology.txt"
+      }
+    ],
+    "D_vedique": [
+      {
+        "nom": "16 Vargas (D1-D60)",
+        "mecanisme": "D1(Rasi), D2(Hora, 2×15deg), D3(Drekkana, 3×10deg), D4(4×7.5deg), D7(7×4deg17'), D9(Navamsa, 9×3deg20'), D10(10×3deg), D12(12×2.5deg), D16(16×1deg52'30), D20(20×1.5deg), D24(24×1deg15'), D27(27×1deg6'40), D30(inegal), D40(40×0deg45'), D45(45×0deg40'), D60(60×0.5deg). Vargottama = meme signe D1∩D9.",
+        "source_fichier": "vargas_engine.py"
+      },
+      {
+        "nom": "30+ Yogas Vediques",
+        "mecanisme": "Pancha Mahapurusha (5 grands yogas: Mars/Bhadra/Hamsa/Malavya/Sasa, planete en domicile/exaltation+Kendra, score 2-3). Raja Yogas (Seigneur Kendra+Trikona conjoint=+2.5, echange=+2, double seigneurie=+3.5). Gajakesari (Jupiter en Kendra de la Lune=+2). Kala Sarpa (toutes planetes entre Rahu-Ketu=-1.5). Neecha Bhanga (debiliation annulee=+2, 3 conditions). Viparita Raja (Seigneur 6/8/12 dans un autre dusthana=+1.5). Dhana Yogas (Seigneurs 2/5/9/11 conjoints=+2). Shakata (Jupiter en 6/8/12 de Lune=-1.5). Lunaires (Sunapha/Anapha/Durudhara=1-1.5).",
+        "source_fichier": "yoga_engine.py"
+      },
+      {
+        "nom": "Jaimini Karakas",
+        "mecanisme": "7 ou 8 planetes classees par degres decroissants dans leur signe (0-30): AK(Atmakaraka, ame), AmK(Amatya, carriere), BK(Bhratru, freres), MK(Matru, mere), PiK(Pitru, pere), PuK(Putra, enfants), GK(Gnatika, obstacles), DK(Darakaraka, conjoint).",
+        "source_fichier": "jaimini_engine.py"
+      },
+      {
+        "nom": "Nakshatras (27 mansions lunaires)",
+        "mecanisme": "27 divisions de 13deg20' avec seigneurs planetaires. Tara Bala: ((nak_cible - nak_lune) % 27) % 9 + 1. Scores: Sadhana(6)=+2.5, Sampat(2)=+2, Paramamitra(9)=+2, Kshema(4)=+1.5, Mitra(8)=+1.5.",
+        "source_fichier": "advanced_layers_engine.py"
+      }
+    ],
+    "E_horaire_evenementiel": [
+      {
+        "nom": "Translation de Lumiere",
+        "mecanisme": "Planete C transporte la lumiere de A vers B (C plus rapide, aspects a A et B, A et B sans aspect direct). Score +1.0.",
+        "source_fichier": "horary_extensions.py"
+      },
+      {
+        "nom": "Collection de Lumiere",
+        "mecanisme": "Planete lourde C recoit aspects de A et B qui ne s'aspectent pas. Score +1.5.",
+        "source_fichier": "horary_extensions.py"
+      },
+      {
+        "nom": "Prohibition",
+        "mecanisme": "Planete intervenante I realise un aspect parfait avec la cible AVANT la planete principale M. Score -1.5.",
+        "source_fichier": "horary_extensions.py"
+      },
+      {
+        "nom": "Combustion/Cazimi",
+        "mecanisme": "Cazimi ≤0.2833deg (+2). Combustion ≤8.5deg (-2 severe, -1 moderee). Sous les rayons 8.5-15deg (-0.5).",
+        "source_fichier": "horary_extensions.py"
+      },
+      {
+        "nom": "Shestopalov (11 formules)",
+        "mecanisme": "Danger de mort(I-VIII), Accident(I-VIII+Mars/Uranus), Maladie(I-VI/VIII/XII), Hospitalisation(VI-XII/VIII-XII/I-XII), Richesse(II+V/VIII/XI), Perte argent(II-VIII/XII), Immobilier(II+IV/IV+VIII/XI), Mariage(I+VII/V+VII/VII+X/XI), Divorce(I-VII/VII-VIII/XI), Carriere(I+X/II+X/X+X), Accident voiture(III-VIII/XII). Min 3 indications requises. Includes co-regents trans-saturniens.",
+        "source_fichier": "shestopalov_engine.py"
+      }
+    ],
+    "F_complementaires": [
+      {
+        "nom": "Antisces (Frawley/Lilly)",
+        "mecanisme": "Miroir: (180 - longitude) % 360. Benefique sur point de reference = +1.5. Malefique = +1.5 a l'adversaire.",
+        "source_fichier": "advanced_layers_engine.py"
+      },
+      {
+        "nom": "Etoiles Fixes (50+)",
+        "mecanisme": "Precession: base_lon + 50.29/3600 × annees_depuis_J2000. Poids conjonction = (1-orb/limite) × (0.7+0.3×facteur_magnitude). Royales: Aldebaran, Regulus, Antares, Fomalhaut.",
+        "source_fichier": "fixed_stars_engine.py"
+      },
+      {
+        "nom": "Geomancie (16 figures)",
+        "mecanisme": "Meres (4 figures par points aleatoires pair/impair) → Filles (derivees des rangees des Meres) → Nieces (combinaison Filles) → Temoin → Juge. Copulation: impair=1 point, pair=2 points. Chaque figure correspond a un signe/planete. 12 maisons geomantiques paralleles aux maisons astrologiques.",
+        "source_fichier": "885582318-Geomancieunartdivinatoireenlienavecl-Astrologie-Kartomanta-com-1748189744383.txt"
+      },
+      {
+        "nom": "Tajika (Ithasala/Eshrapha)",
+        "mecanisme": "Ithasala (aspect appliquant) = +2.5 a l'equipe dont le seigneur est approche par la Lune. Eshrapha (separant) = +1.0 a l'adversaire.",
+        "source_fichier": "sports_engine.py"
+      },
+      {
+        "nom": "Heures Planetaires",
+        "mecanisme": "Ordre chaldeen depuis le seigneur du jour. Calcul jour/nuit base sur declinaison solaire et latitude. Seigneur horaire = planete gouvernant l'heure courante.",
+        "source_fichier": "sports_engine.py"
+      },
+      {
+        "nom": "Revolutions Solaires (3 systemes)",
+        "mecanisme": "1) Medievale (Abenragel): 7 couches (Diviseur/Termes Egyptiens, Seigneur An, Firdaria, Retours planetaires, Maitre du Cercle, Ages planetaires, Hebdomades/Chronocrates). 2) Moderne (Volguine): Ascendant annuel superpose au natal, relocation. 3) Varshapal/Tajik (Indien): Muntha=ASC profecte, 5 dashas annuels, Sahams=Parts Arabes, maisons entieres.",
+        "source_fichier": "402225632-Revolutions-Solaires-Medievales-Et-Varshapal.txt"
+      },
+      {
+        "nom": "Nama Nakshatra (lettre→planete)",
+        "mecanisme": "Affinite premiere lettre du nom avec le seigneur horaire: correspondance directe=+2.5, benefique (Jupiter/Venus/Lune)=+1.25.",
+        "source_fichier": "sports_engine.py"
+      },
+      {
+        "nom": "Maitre du Jeu (Maison V)",
+        "mecanisme": "Premiere planete en aspect ptolemaique (0/60/90/120/180) depuis la cuspide de la Maison V. Revele le maitre cache de la competition.",
+        "source_fichier": "advanced_layers_engine.py"
+      },
+      {
+        "nom": "Axe Nodal (Rahu/Ketu)",
+        "mecanisme": "Rahu sur cuspide I/X = +3.0 a l'equipe A. Ketu sur cuspide I/X = +3.0 a l'equipe B. Orbe 2.0 deg.",
+        "source_fichier": "advanced_layers_engine.py"
+      }
+    ]
+  },
+  "ponts_recherche_coran_num": [
+    {
+      "id": 1,
+      "nom": "Parts Coraniques — 34 Lots bases sur l'Abjad",
+      "principe": "La formule ASC+P2-P1 des Parts Arabes devient NOM_ABJAD+NOM_DIVIN_ABJAD-RACINE_DIGITALE. Chaque nom divin (Razzaq=319, Fattah=489, etc.) devient un point sensible calcule comme un Lot Arabe. Creer 34 Parts Coraniques pour des domaines specifiques: rizq, shifa, ilm, hifz, fath, nur, baraka, etc.",
+      "application": "Signature numerologique a 3 couches par domaine. Integration directe dans les anneaux du talisman (interieur/exterieur). Score de resonance qui indique la force d'un domaine pour un individu donne.",
+      "formule_adaptee": "LOT_DOMAIN = (NOM_ABJAD + NOM_DIVIN_ABJAD[domaine] - DIGITAL_ROOT) % 1000",
+      "effort": "moyen",
+      "impact": "moyen",
+      "fichier_cible": "core/miftah_phi_engine.py, nouvelle fonction calculate_coranic_parts()"
+    },
+    {
+      "id": 2,
+      "nom": "Dasha Coranique — Periodes de Vie par Noms Divins",
+      "principe": "Adapter Vimshottari Dasha (120 ans) en remplacant les 9 planetes par les 9 noms divins les plus puissants ou les 9 nombres sacres fondamentaux. Les periods sont calculees proportionnellement a l'Abjad de chaque nom divin. Le point de depart est la mansion lunaire de naissance (deja calculee). Sous-periodes (Antardasha) internes. Adaptation aussi des Firdaria (cycle 75 ans, ordre chaldeen) et des Profections Annuelles (1 signe/an = 1 domaine de vie/an).",
+      "application": "Un systeme complet de chronocrators personnalises qui revele les periodes de vie gouvernees par des noms divins specifiques. Le Seigneur de l'Annee devient le Nom Divin du Domaine actif.",
+      "formule_adaptee": "PERIODE_DIVINE = (ABJAD_NOM_DIVIN / SOMME_ABJAD_9_NOMS) × 120 ans. DEPART = mansion_lunaire_naissance / 28 × 120.",
+      "effort": "moyen",
+      "impact": "tres_eleve",
+      "fichier_cible": "Nouveau fichier core/coranic_dasha_engine.py"
+    },
+    {
+      "id": 3,
+      "nom": "Manazil Al-Qamar Enrichis — Tara Bala Coranique",
+      "principe": "Enrichir le calcul existant des 28 mansions lunaires avec un systeme de Seigneurs (noms divins) associes a chaque mansion. Calculer la Tara Bala entre la mansion natale et la mansion du jour pour obtenir un score quotidien de faveur divine. Les 27 Nakshatras vediques (13deg20' chaque) offrent un modele de subdivision plus fin.",
+      "application": "Score quotidien de faveur divine base sur la mansion lunaire + le nom divin associe. Oracle journalier enrichi deja present dans predictive_oracle.py → ajout d'une couche Tara Bala.",
+      "formule_adaptee": "TARA_BALA_CORANIC = ((manzil_jour - manzil_naissance) % 28) % 9 + 1. Score selon qualite: 2(Sampat)=+2, 4(Kshema)=+1.5, 6(Sadhana)=+2.5, 8(Mitra)=+1.5, 9(Paramamitra)=+2.",
+      "effort": "faible",
+      "impact": "eleve",
+      "fichier_cible": "core/predictive_oracle.py, fonction compute_daily_oracle()"
+    },
+    {
+      "id": 4,
+      "nom": "Geomancie Coranique — Istikhara Numerique",
+      "principe": "Remplacer la generation aleatoire de points pair/impair par le comptage de lettres d'un verset du Coran (pair = 2 points, impair = 1 point). L'ecu geomantique (Meres→Filles→Nieces→Temoin→Juge) devient un processus de divination guide par le Coran. 16 figures coraniques avec correspondances aux 99 Noms.",
+      "application": "Un oracle Istikhara Numerique qui tire un verset, analyse son Abjad pair/impair, genere une figure et l'interprete selon le domaine de vie. Integration dans l'interface oracle existante.",
+      "formule_adaptee": "MERE[i] = comptage_lettres(verset[2×i:2×i+2]) % 2. COPULATION: impair=1point, pair=2points. FIGURE = les 4 rangees resultantes.",
+      "effort": "moyen",
+      "impact": "eleve",
+      "fichier_cible": "Nouveau fichier core/coranic_geomancy_engine.py"
+    },
+    {
+      "id": 5,
+      "nom": "Shadbala Coranique — Force des Noms Divins",
+      "principe": "Adapter les 6 forces (Shadbala) pour evaluer la puissance d'un nom divin ou d'un verset pour un individu: Sthana Bala = position du nombre dans les 99 noms, Dig Bala = alignement avec la qibla (direction sacree), Kala Bala = heure de la journee (liee aux 5 prieres), Naisargika Bala = force intrinseque de l'Abjad, Drik Bala = liens phi avec d'autres nombres sacres, Chesta Bala = variation entre copie simple et uthmani.",
+      "application": "Classement objectif et personnalise de la puissance rituelle de chaque nom divin. Choix optimal du nom divin a invoquer selon le moment et l'individu.",
+      "formule_adaptee": "BALA_TOTAL = Σ(sthana + dig + kala + naisargika + drik + chesta). RATIO = BALA_TOTAL / BALA_REQUISE. Ratio ≥ 1.0 = nom puissant.",
+      "effort": "eleve",
+      "impact": "tres_eleve",
+      "fichier_cible": "Nouveau fichier core/divine_name_strength_engine.py"
+    },
+    {
+      "id": 6,
+      "nom": "Ashtakavarga Coranique — Bindus par Sourate",
+      "principe": "7 noms divins majeurs (planetes) contribuent 0-1 bindu a 12 groupes de sourates (signes) selon leur Abjad modulo 12. La somme Sarva par groupe (0-7) donne la densite sacree. Le transit d'un jour donne est evalue par le score du groupe de sourates correspondant a la mansion lunaire du jour.",
+      "application": "Cartographie de la densite sacree par groupe de sourates. Score de transit quotidien. Selection optimale de la sourate a reciter selon le jour.",
+      "formule_adaptee": "BINDU = 1 si (ABJAD_NOM_DIVIN % 12) ∈ [indices_groupes_favorables] else 0. SARVA = Σ des 7 bindus par groupe. Seuils: ≥5 excellent, ≥4 bon, ≥2 moyen, ≥1 faible.",
+      "effort": "moyen",
+      "impact": "eleve",
+      "fichier_cible": "Nouveau fichier core/coranic_ashtakavarga.py"
+    },
+    {
+      "id": 7,
+      "nom": "Yogas Numeriques — Combinaisons de Nombres Sacres",
+      "principe": "Les 30+ Yogas vediques (combinaisons planetaires detectant des motifs de destinee) deviennent des combinaisons de nombres sacres et d'Abjad: Mahapurusha (5 grands yogas quand un nombre sacre est en position de force), Raja Yoga (combinaison de nombres angulaires 1/4/7/10 + trinaux 1/5/9), Dhana Yoga (combinaison de richesse 2+5+9+11), Shakata (desaccord entre nombre de la Base et nombre Phi).",
+      "application": "Detection automatique de yogas numeriques dans le profil Abjad d'une personne. Score de destin additionnel pour le grimoire personnalise.",
+      "formule_adaptee": "MAHAPURUSHA_CORANIC: si nombre_sacre ∈ {sacre_counts[0:5]} ET position angulaire (mod 12 ∈ {1,4,7,10}) → score +2.5. DHANA_CORANIC: si nombres_sacres[1]+[4]+[8]+[10] ont digital_root identique → score +2.",
+      "effort": "moyen",
+      "impact": "eleve",
+      "fichier_cible": "core/person_engine.py ou nouveau fichier core/numerologic_yoga_engine.py"
+    },
+    {
+      "id": 8,
+      "nom": "Miroirs Numeriques — Antisces Abjad",
+      "principe": "La technique des antisces (180-lon) inspire le miroir Abjad: 1000-ABJAD (ou TOTAL_ABJAD_VERSE-ABJAD). Analyser si le miroir d'un nom divin tombe sur un autre nom divin connu. Rechercher des paires complementaires. Integration dans le calcul de signature a 2 anneaux.",
+      "application": "Reveler des paires de noms divins en miroir comme signatures complementaires. Ajouter les valeurs miroir dans l'anneau exterieur du talisman.",
+      "formule_adaptee": "MIROIR_ABJAD = 1000 - ABJAD_NOM_DIVIN. MIROIR_VERSE = TOTAL_ABJAD_VERSE - ABJAD_VERSE. Detection de paires: si MIROIR_ABJAD(A) = ABJAD(B) avec ecart < 5 → paire miroir.",
+      "effort": "faible",
+      "impact": "moyen",
+      "fichier_cible": "core/miftah_phi_engine.py, nouvelle fonction compute_abjad_antiscia()"
+    },
+    {
+      "id": 9,
+      "nom": "Formules d'Evenements — Shestopalov Coranique",
+      "principe": "Les 11 formules de Shestopalov (paires de maisons avec seuil d'indications) deviennent des paires de domaines de vie evaluees par combinaison de nombres Abjad. Ex: Richesse = Domaines I+IV/VII+X (equivalent Maisons II+V/VIII/XI). Chaque paire de domaines produit une indication favorable ou defavorable selon l'harmonie des nombres. Min 3 indications pour activer une formule.",
+      "application": "Prediction de tendances de vie par analyse combinatoire des 5 domaines existants (richesse, sante, savoir, protection, occultes). Detection de periodes favorables pour chaque domaine.",
+      "formule_adaptee": "EVENEMENT = Σ indications_favorables(domaine_X, domaine_Y) ≥ 3. INDICATION_FAVORABLE: ecart_phi(nombre_X, nombre_Y) < 5%.",
+      "effort": "eleve",
+      "impact": "tres_eleve",
+      "fichier_cible": "Nouveau fichier core/coranic_event_formulas.py"
+    },
+    {
+      "id": 10,
+      "nom": "Score Vibratoire Composite — Aggregation Multi-Couche",
+      "principe": "Le moteur de prediction sportive agrege 16 couches de scoring (A→O) de maniere additive: Forces planetaires + Parts Arabes + Lune + Tajika + Heures + Antisces + Tara Bala + Nodal + Dignites + Etoiles Fixes + Vargas + Yogas + Phase Lunaire. Ce modele d'agregation est transpose en Score Vibratoire Coranique avec ses propres couches: Force Abjad + Alignement Phi + Mansion Lunaire + Heure de Priere + Nom Divin du Jour + Code Grabovoi + Nombre Sacre + Miroir Abjad + Yogas Numeriques + Tara Bala Coranique + Dignite du Nom Divin.",
+      "application": "Un score composite quotidien et personnalise qui synthetise toutes les couches en un indice unique de resonance vibratoire. Probabilite de faveur par domaine = score_domaine / Σ scores.",
+      "formule_adaptee": "SCORE_TOTAL = Σ(couche_i × poids_i) pour i=1..11. PROBA_DOMAINE = score_domaine / score_total × 100. Detection de Value Grace: edge > 10% et proba > 52%.",
+      "effort": "eleve",
+      "impact": "tres_eleve",
+      "fichier_cible": "Nouveau fichier core/vibrational_score_engine.py"
+    }
+  ],
+  "arguments_mathematiques": [
+    {
+      "nom": "Phi comme lien universel",
+      "detail": "TOTAL_ABJAD(23,476,120) / NOMBRE_SECRET(145) = 161,904.28 ≈ φ × 10^5 (161,803.40, ecart 0.0623%). Le Nombre d'Or est la constante qui unit les traditions: 489(Fattah)×φ≈791(≈786 Basmala), 55(Fb10)×φ≈89(Fb11), 302(Basir)×φ≈489(Fattah), 131(Salam)×φ≈212(MalikAlMulk), 114×φ≈184(Al-Muqaddim)×φ≈298(Al-Rahman)."
+    },
+    {
+      "nom": "Structure additive des scores",
+      "detail": "Le modele d'agregation additive (chaque couche contribue ±delta au score total) est mathematiquement identique entre le sports_engine.py (16 couches) et le potentiel vibrational_score_engine.py (11 couches). La somme non ponderee suivie d'une normalisation en probabilite (score_A / (score_A + score_B)) est directement transposable."
+    },
+    {
+      "nom": "Cycles et resonances",
+      "detail": "Le cycle synodique lunaire (29.53059 jours) divise par 28 mansions = 1.054 jours/mansion. Le cycle Vimshottari de 120 ans divise par 9 planetes = 13.33 ans/planete. Parallele: 120 ans × 365.25 jours = 43,830 jours ÷ 29.53059 = 1,484 mois lunaires ÷ 53 = 28 ans (periode de triplicite chez Valens). Les cycles temporels astrologiques et lunaires sont structurellement lies."
+    },
+    {
+      "nom": "Nombres sacres et maisons astrologiques",
+      "detail": "Les 12 maisons astrologiques (Lie, Rizq, Freres, Foyer, Enfants, Sante, Partenaires, Mort, Savoir, Carriere, Amis, Epreuves) correspondent aux 12 domaines de vie. Les nombres sacres [1,3,7,8,11,19,21,33,34,55,61,76,89,99,114,123] peuvent etre distribues dans ces 12 maisons par affinite thematique. Le digital_root du nombre sacre determine son domicile (maison)."
+    }
+  ],
+  "priorites_implementation": [
+    {"rang": 1, "recherche": "Tara Bala sur Manazil", "effort": "faible", "impact": "eleve", "fichier": "core/predictive_oracle.py", "description": "Ajouter une couche Tara Bala coranique dans compute_daily_oracle() — 20 lignes de code"},
+    {"rang": 2, "recherche": "Miroirs Abjad (Antisces)", "effort": "faible", "impact": "moyen", "fichier": "core/miftah_phi_engine.py", "description": "Fonction compute_abjad_antiscia() — 30 lignes"},
+    {"rang": 3, "recherche": "Profections Annuelles Abjad", "effort": "faible", "impact": "eleve", "fichier": "core/predictive_oracle.py", "description": "Seigneur de l'Annee base sur l'Abjad natal — 40 lignes"},
+    {"rang": 4, "recherche": "Dasha Coranique", "effort": "moyen", "impact": "tres_eleve", "fichier": "core/coranic_dasha_engine.py", "description": "Nouveau moteur de periodes de vie par noms divins — 200 lignes"},
+    {"rang": 5, "recherche": "Geomancie Coranique", "effort": "moyen", "impact": "eleve", "fichier": "core/coranic_geomancy_engine.py", "description": "Oracle par versets coraniques — 300 lignes"},
+    {"rang": 6, "recherche": "Yogas Numeriques", "effort": "moyen", "impact": "eleve", "fichier": "core/person_engine.py", "description": "Detection de motifs dans le profil Abjad — 100 lignes"},
+    {"rang": 7, "recherche": "Parts Coraniques", "effort": "moyen", "impact": "moyen", "fichier": "core/miftah_phi_engine.py", "description": "Calcul de 34 lots bases sur l'Abjad — 150 lignes"},
+    {"rang": 8, "recherche": "Ashtakavarga Coranique", "effort": "moyen", "impact": "eleve", "fichier": "core/coranic_ashtakavarga.py", "description": "Bindus par groupe de sourates — 150 lignes"},
+    {"rang": 9, "recherche": "Shadbala Coranique", "effort": "eleve", "impact": "tres_eleve", "fichier": "core/divine_name_strength_engine.py", "description": "Scores de force des noms divins — 300 lignes"},
+    {"rang": 10, "recherche": "Score Vibratoire Composite", "effort": "eleve", "impact": "tres_eleve", "fichier": "core/vibrational_score_engine.py", "description": "Agregation multi-couche — 400 lignes"}
+  ]
+}
